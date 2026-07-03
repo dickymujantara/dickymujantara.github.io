@@ -29,6 +29,7 @@
     <a href="#journey">Journey</a>
     <a href="#portfolio">Showcase</a>
     <a href="#articles">Articles</a>
+    <a href="#playground">Playground</a>
   </nav>
 
   <!-- ─── HERO ─────────────────────────────── -->
@@ -185,6 +186,39 @@
     </div>
     <div style="text-align:center; margin-top:2rem;">
       <a href="https://medium.com/@dickymujantara" target="_blank" class="btn"><i class="fab fa-medium"></i> Read More on Medium</a>
+    </div>
+  </section>
+
+  <!-- ─── PLAYGROUND ─────────────────────────── -->
+  <section id="playground" class="container">
+    <h2 class="section-title anim-el">05. <span>Playground</span></h2>
+    <p class="anim-el" style="color:#666; font-size:0.9rem; letter-spacing:1px; margin-bottom:3rem; font-family:monospace;">// labs — experiments &amp; fundamentals</p>
+    <div class="bento-grid">
+
+      <a href="https://github.com/dickymujantara/spring-lab" target="_blank" class="glass-panel playground-card anim-el">
+        <div class="playground-card-top">
+          <i class="fab fa-github playground-icon"></i>
+          <span class="playground-badge">JAVA / SPRING BOOT</span>
+        </div>
+        <h3 class="playground-title">Spring Lab</h3>
+        <p class="playground-desc">Java fundamentals and algorithm explorations built inside a Spring Boot framework. A personal sandbox for mastering core backend concepts.</p>
+        <div class="playground-footer">
+          <span class="showcase-link"><i class="fas fa-code-branch"></i> View Repo</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/dickymujantara/process-mining-exploration" target="_blank" class="glass-panel playground-card anim-el">
+        <div class="playground-card-top">
+          <i class="fab fa-github playground-icon"></i>
+          <span class="playground-badge">PROCESS MINING</span>
+        </div>
+        <h3 class="playground-title">Process Mining Exploration</h3>
+        <p class="playground-desc">Research-driven exploration of process mining algorithms and techniques. Experiments with event log analysis, discovery, and conformance checking.</p>
+        <div class="playground-footer">
+          <span class="showcase-link"><i class="fas fa-code-branch"></i> View Repo</span>
+        </div>
+      </a>
+
     </div>
   </section>
 
@@ -366,7 +400,7 @@
       });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('#about .anim-el, #journey .anim-el, #portfolio .anim-el, #articles .anim-el')
+    document.querySelectorAll('#about .anim-el, #journey .anim-el, #portfolio .anim-el, #articles .anim-el, #playground .anim-el')
       .forEach(el => revealObserver.observe(el));
 
   });

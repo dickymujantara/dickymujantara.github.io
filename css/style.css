@@ -381,6 +381,55 @@ body {
   gap: 10px;
 }
 
+/* ─── PLAYGROUND CARDS ───────────────────────────── */
+.playground-card {
+  text-decoration: none;
+  display: flex; flex-direction: column;
+  cursor: pointer;
+}
+
+.playground-card-top {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.playground-icon {
+  font-size: 1.5rem; color: #555;
+  transition: color .3s ease;
+}
+
+.playground-card:hover .playground-icon {
+  color: var(--text-accent);
+  text-shadow: 0 0 10px var(--glow-crimson);
+}
+
+.playground-badge {
+  font-family: monospace; font-size: 0.7rem;
+  letter-spacing: 2px; color: var(--text-accent);
+  background: rgba(204,43,79,0.08);
+  border: 1px solid rgba(204,43,79,0.2);
+  padding: 3px 10px; border-radius: 3px;
+}
+
+.playground-title {
+  font-size: 1.3rem !important;
+  text-transform: none !important;
+  color: #fff !important;
+  margin-bottom: 0.8rem !important;
+  letter-spacing: 0 !important;
+}
+
+.playground-desc {
+  flex: 1;
+}
+
+.playground-footer {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(204,43,79,0.1);
+}
+
 /* ─── FOOTER ──────────────────────────────────────── */
 footer {
   text-align: center; padding: 4rem 2rem;
