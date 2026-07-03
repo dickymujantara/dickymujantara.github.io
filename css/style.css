@@ -362,6 +362,25 @@ body {
   line-height: 1.7; font-size: 0.92rem;
 }
 
+/* ─── SHOWCASE LINK ──────────────────────────────── */
+.showcase-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--text-accent); text-decoration: none;
+  font-size: 0.82rem; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  border-bottom: 1px solid rgba(204,43,79,0.3);
+  padding-bottom: 2px;
+  transition: all .3s ease;
+  align-self: flex-start;
+}
+
+.showcase-link:hover {
+  color: #fff;
+  border-color: rgba(204,43,79,0.8);
+  text-shadow: 0 0 10px var(--glow-crimson);
+  gap: 10px;
+}
+
 /* ─── FOOTER ──────────────────────────────────────── */
 footer {
   text-align: center; padding: 4rem 2rem;
