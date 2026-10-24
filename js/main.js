@@ -3,7 +3,7 @@ document.documentElement.classList.add('js');
 const sectionLinks = [...document.querySelectorAll('#site-nav a[href^="#"]')]
     .map(link => ({ link, section: document.getElementById(link.hash.slice(1)) }))
     .filter(item => item.section);
-const mobileNavigation = window.matchMedia('(max-width: 767px)');
+const mobileNavigation = window.matchMedia('(max-width: 767px), (pointer: coarse)');
 let sectionPositions = [];
 let navigationPageHeight = 0;
 let navFrame = 0;
@@ -558,6 +558,7 @@ function initializeScrollMotion({ createTimeline }) {
     });
     if ('ResizeObserver' in window) {
         const observer = new ResizeObserver(scheduleMeasure);
+        observer.observe(header);
         chapters.forEach(chapter => observer.observe(chapter.querySelector('[data-scroll-frame]')));
         document.querySelectorAll('#work, #experience, #writing, #contact').forEach(section => observer.observe(section));
     }

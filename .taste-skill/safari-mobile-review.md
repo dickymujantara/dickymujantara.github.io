@@ -1,5 +1,7 @@
 # Safari and mobile navigation revision
 
+The width-only header condition below is superseded by the [full mobile header revision](mobile-full-header-review.md), which also covers wider touch layouts. Earlier browser and native iOS evidence remains historical.
+
 The user reported inconsistent styles and icons in iOS Safari and requested hidden mobile navigation. The primary agent inspected the source, WebKit/Chromium captures, actual iOS Simulator Safari before/after captures, and recorded QA results below.
 
 Reading this as: the approved illustrated ocean portfolio, energy 3 / rhythm 3 / motion 3. This revision improves rendering consistency while retaining the marine art direction and Anime.js behavior.

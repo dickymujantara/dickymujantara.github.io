@@ -1,0 +1,2175 @@
+{
+  "checks": [
+    {
+      "name": "chromium: full header visibility and zero offsets match coarse devices and fine-pointer boundaries",
+      "passed": true,
+      "details": {
+        "results": [
+          {
+            "label": "portrait",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "coarse": true,
+            "scrollY": 150,
+            "scrollWidth": 390,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": -150,
+              "bottom": 5405.40625,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 5555.40625,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 844,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 844,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "landscape",
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "coarse": true,
+            "scrollY": 4,
+            "scrollWidth": 844,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": -4,
+              "bottom": 2768.984375,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 2772.984375,
+              "boxes": 1
+            },
+            "home": {
+              "top": -4,
+              "bottom": 508,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 512,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "about",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "tablet",
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "coarse": true,
+            "scrollY": 119,
+            "scrollWidth": 1024,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": -119,
+              "bottom": 4408.421875,
+              "left": 0,
+              "right": 1024,
+              "width": 1024,
+              "height": 4527.421875,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 768,
+              "left": 0,
+              "right": 1024,
+              "width": 1024,
+              "height": 768,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "desktop",
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 277,
+            "scrollWidth": 1440,
+            "header": {
+              "top": 0,
+              "bottom": 73,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 73,
+              "boxes": 1,
+              "display": "block",
+              "border": "1px"
+            },
+            "headerSize": "73px",
+            "scrollPadding": "96px",
+            "main": {
+              "top": -204,
+              "bottom": 5811.1875,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 6015.1875,
+              "boxes": 1
+            },
+            "home": {
+              "top": 73,
+              "bottom": 1000,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 927,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 72,
+                "left": 86.40625,
+                "right": 1353.59375,
+                "width": 1267.1875,
+                "height": 72,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-links",
+                "top": 14,
+                "bottom": 58,
+                "left": 86.40625,
+                "right": 435.71875,
+                "width": 349.3125,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-contact",
+                "top": 14,
+                "bottom": 58,
+                "left": 1221.59375,
+                "right": 1353.59375,
+                "width": 132,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 71,
+                "bottom": 73,
+                "left": 0,
+                "right": 73.55338287353516,
+                "width": 73.55338287353516,
+                "height": 2,
+                "boxes": 1
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "fine-boundary-768",
+            "viewport": {
+              "width": 768,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 280,
+            "scrollWidth": 768,
+            "header": {
+              "top": 0,
+              "bottom": 73,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 73,
+              "boxes": 1,
+              "display": "block",
+              "border": "1px"
+            },
+            "headerSize": "73px",
+            "scrollPadding": "96px",
+            "main": {
+              "top": -207,
+              "bottom": 5848.671875,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 6055.671875,
+              "boxes": 1
+            },
+            "home": {
+              "top": 73,
+              "bottom": 1000,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 927,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 72,
+                "left": 42.234375,
+                "right": 725.75,
+                "width": 683.515625,
+                "height": 72,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-links",
+                "top": 14,
+                "bottom": 58,
+                "left": 42.234375,
+                "right": 391.546875,
+                "width": 349.3125,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-contact",
+                "top": 14,
+                "bottom": 58,
+                "left": 593.75,
+                "right": 725.75,
+                "width": 132,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 71,
+                "bottom": 73,
+                "left": 0,
+                "right": 38.222537994384766,
+                "width": 38.222537994384766,
+                "height": 2,
+                "boxes": 1
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "fine-boundary-767",
+            "viewport": {
+              "width": 767,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 224,
+            "scrollWidth": 767,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": -224,
+              "bottom": 5460.671875,
+              "left": 0,
+              "right": 767,
+              "width": 767,
+              "height": 5684.671875,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 1000,
+              "left": 0,
+              "right": 767,
+              "width": 767,
+              "height": 1000,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium: coarse-pointer portrait to landscape to desktop-size resize keeps the whole header hidden",
+      "passed": true,
+      "details": {
+        "results": [
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 390,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5555.40625,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 5555.40625,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 844,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 844,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 844,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 2772.984375,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 2772.984375,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 512,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 512,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "about",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 1440,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5644.1875,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 5644.1875,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 1000,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 1000,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium: JavaScript-disabled coarse landscape hides the header without reserving space",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "coarse": true,
+        "scrollY": 3,
+        "scrollWidth": 844,
+        "header": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0,
+          "boxes": 0,
+          "display": "none",
+          "border": "1px"
+        },
+        "headerSize": "0px",
+        "scrollPadding": "16px",
+        "main": {
+          "top": -3,
+          "bottom": 2669.984375,
+          "left": 0,
+          "right": 844,
+          "width": 844,
+          "height": 2672.984375,
+          "boxes": 1
+        },
+        "home": {
+          "top": -3,
+          "bottom": 577,
+          "left": 0,
+          "right": 844,
+          "width": 844,
+          "height": 580,
+          "boxes": 1
+        },
+        "children": [
+          {
+            "selector": "site-nav",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "nav-links",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "nav-contact",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "scroll-progress",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          }
+        ],
+        "frames": [
+          {
+            "id": "home",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          },
+          {
+            "id": "about",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          },
+          {
+            "id": "explorations",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: full header visibility and zero offsets match coarse devices and fine-pointer boundaries",
+      "passed": true,
+      "details": {
+        "results": [
+          {
+            "label": "portrait",
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 390,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5541.203125,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 5541.203125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 843.984375,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 843.984375,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "landscape",
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 844,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 2754.328125,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 2754.328125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 508.359375,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 508.359375,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "about",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "tablet",
+            "viewport": {
+              "width": 1024,
+              "height": 768
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 1024,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 4519.25,
+              "left": 0,
+              "right": 1024,
+              "width": 1024,
+              "height": 4519.25,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 768,
+              "left": 0,
+              "right": 1024,
+              "width": 1024,
+              "height": 768,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "desktop",
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 0,
+            "scrollWidth": 1440,
+            "header": {
+              "top": 0,
+              "bottom": 73,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 73,
+              "boxes": 1,
+              "display": "block",
+              "border": "1px"
+            },
+            "headerSize": "73px",
+            "scrollPadding": "96px",
+            "main": {
+              "top": 73,
+              "bottom": 6081.84375,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 6008.84375,
+              "boxes": 1
+            },
+            "home": {
+              "top": 73,
+              "bottom": 1000,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 927,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 72,
+                "left": 86.40625,
+                "right": 1353.59375,
+                "width": 1267.1875,
+                "height": 72,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-links",
+                "top": 14,
+                "bottom": 58,
+                "left": 86.40625,
+                "right": 435.875,
+                "width": 349.46875,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-contact",
+                "top": 14,
+                "bottom": 58,
+                "left": 1221.59375,
+                "right": 1353.59375,
+                "width": 132,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 71,
+                "bottom": 73,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 2,
+                "boxes": 1
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "fine-boundary-768",
+            "viewport": {
+              "width": 768,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 0,
+            "scrollWidth": 768,
+            "header": {
+              "top": 0,
+              "bottom": 73,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 73,
+              "boxes": 1,
+              "display": "block",
+              "border": "1px"
+            },
+            "headerSize": "73px",
+            "scrollPadding": "96px",
+            "main": {
+              "top": 73,
+              "bottom": 6118.828125,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 6045.828125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 73,
+              "bottom": 1000,
+              "left": 0,
+              "right": 768,
+              "width": 768,
+              "height": 927,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 72,
+                "left": 42.234375,
+                "right": 725.75,
+                "width": 683.515625,
+                "height": 72,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-links",
+                "top": 14,
+                "bottom": 58,
+                "left": 42.234375,
+                "right": 391.703125,
+                "width": 349.46875,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "nav-contact",
+                "top": 14,
+                "bottom": 58,
+                "left": 593.75,
+                "right": 725.75,
+                "width": 132,
+                "height": 44,
+                "boxes": 1
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 71,
+                "bottom": 73,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 2,
+                "boxes": 1
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "73px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "label": "fine-boundary-767",
+            "viewport": {
+              "width": 767,
+              "height": 1000
+            },
+            "coarse": false,
+            "scrollY": 0,
+            "scrollWidth": 767,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5674.828125,
+              "left": 0,
+              "right": 767,
+              "width": 767,
+              "height": 5674.828125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 1000,
+              "left": 0,
+              "right": 767,
+              "width": 767,
+              "height": 1000,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: coarse-pointer portrait to landscape to desktop-size resize keeps the whole header hidden",
+      "passed": true,
+      "details": {
+        "results": [
+          {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 390,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5541.203125,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 5541.203125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 843.984375,
+              "left": 0,
+              "right": 390,
+              "width": 390,
+              "height": 843.984375,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "viewport": {
+              "width": 844,
+              "height": 390
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 844,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 2754.328125,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 2754.328125,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 508.359375,
+              "left": 0,
+              "right": 844,
+              "width": 844,
+              "height": 508.359375,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "about",
+                "position": "relative",
+                "top": "0px",
+                "static": true
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          },
+          {
+            "viewport": {
+              "width": 1440,
+              "height": 1000
+            },
+            "coarse": true,
+            "scrollY": 0,
+            "scrollWidth": 1440,
+            "header": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0,
+              "boxes": 0,
+              "display": "none",
+              "border": "1px"
+            },
+            "headerSize": "0px",
+            "scrollPadding": "16px",
+            "main": {
+              "top": 0,
+              "bottom": 5637.84375,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 5637.84375,
+              "boxes": 1
+            },
+            "home": {
+              "top": 0,
+              "bottom": 1000,
+              "left": 0,
+              "right": 1440,
+              "width": 1440,
+              "height": 1000,
+              "boxes": 1
+            },
+            "children": [
+              {
+                "selector": "site-nav",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-links",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "nav-contact",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              },
+              {
+                "selector": "scroll-progress",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0,
+                "boxes": 0
+              }
+            ],
+            "frames": [
+              {
+                "id": "home",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "about",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              },
+              {
+                "id": "explorations",
+                "position": "sticky",
+                "top": "0px",
+                "static": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: JavaScript-disabled coarse landscape hides the header without reserving space",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "coarse": true,
+        "scrollY": 0,
+        "scrollWidth": 844,
+        "header": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "width": 0,
+          "height": 0,
+          "boxes": 0,
+          "display": "none",
+          "border": "1px"
+        },
+        "headerSize": "0px",
+        "scrollPadding": "16px",
+        "main": {
+          "top": 0,
+          "bottom": 2659.84375,
+          "left": 0,
+          "right": 844,
+          "width": 844,
+          "height": 2659.84375,
+          "boxes": 1
+        },
+        "home": {
+          "top": 0,
+          "bottom": 580,
+          "left": 0,
+          "right": 844,
+          "width": 844,
+          "height": 580,
+          "boxes": 1
+        },
+        "children": [
+          {
+            "selector": "site-nav",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "nav-links",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "nav-contact",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          },
+          {
+            "selector": "scroll-progress",
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "width": 0,
+            "height": 0,
+            "boxes": 0
+          }
+        ],
+        "frames": [
+          {
+            "id": "home",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          },
+          {
+            "id": "about",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          },
+          {
+            "id": "explorations",
+            "position": "relative",
+            "top": "0px",
+            "static": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "No uncaught JavaScript errors during focused header checks",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "chromium": {
+      "version": "156.0.8078.4"
+    },
+    "webkit": {
+      "version": "26.0"
+    },
+    "captures": [
+      {
+        "engine": "chromium",
+        "label": "portrait",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 0,
+        "coarse": true
+      },
+      {
+        "engine": "chromium",
+        "label": "landscape",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 0,
+        "coarse": true
+      },
+      {
+        "engine": "chromium",
+        "label": "desktop",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 73,
+        "coarse": false
+      },
+      {
+        "engine": "webkit",
+        "label": "portrait",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 0,
+        "coarse": true
+      },
+      {
+        "engine": "webkit",
+        "label": "landscape",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 0,
+        "coarse": true
+      },
+      {
+        "engine": "webkit",
+        "label": "desktop",
+        "reducedMotion": true,
+        "scrollY": 0,
+        "opening": "done",
+        "headerTop": 0,
+        "headerHeight": 73,
+        "coarse": false
+      }
+    ]
+  },
+  "errors": [],
+  "limitations": "Focused actual Chromium and WebKit layout checks with touch/pointer and viewport emulation. No physical device, Simulator, opening, or full-page regression rerun."
+}

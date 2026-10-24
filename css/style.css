@@ -295,7 +295,7 @@ html:not(.js) .motion-toggle, html[data-motion-state="paused"] .explore-cue, htm
   .turtle-detail { width: 33%; top: 11%; }
   .article-link { padding: 1rem 1.1rem; }
 }
-@media (max-width: 767px) {
+@media (max-width: 767px), (pointer: coarse) {
   :root { --header-size: 0px; }
   html { scroll-padding-top: 1rem; }
   .site-header { display: none; }
