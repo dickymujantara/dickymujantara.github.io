@@ -1,5 +1,7 @@
 # Implemented portfolio review
 
+The later [Safari/mobile revision](safari-mobile-review.md) supersedes the mobile-menu and icon/pixel-filter implementation findings below: mobile navigation is now hidden, icons use SVG, and mosaic rendering uses canvas.
+
 The approved ocean mockup is implemented in the existing static site. The primary agent inspected the desktop and mobile screenshots, reviewed the source and retained browser evidence, and completed this original delivery gate. The subsequent [scroll-motion revision](scroll-motion-review.md) adds pinned, reversible Anime.js choreography and direct-file preview support; its current validation supersedes the motion-specific findings below. The latest [footer-creatures revision](footer-creatures-review.md) removes the small fish silhouettes and adds illustrated invertebrates. Earlier mockup reviews remain design history.
 
 ## Result and decisions

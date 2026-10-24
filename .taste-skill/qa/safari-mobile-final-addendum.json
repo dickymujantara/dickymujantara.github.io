@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "engine": "webkit",
+      "width": 320,
+      "passed": true,
+      "scrollWidth": 320,
+      "light": {
+        "left": -56.975990295410156,
+        "right": 375.54195404052734
+      },
+      "headerHeight": 0,
+      "intro": "Building products across different teams and domains."
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "passed": true,
+      "scrollWidth": 390,
+      "light": {
+        "left": -67.48992156982422,
+        "right": 456.0553665161133
+      },
+      "headerHeight": 0,
+      "intro": "Building products across different teams and domains."
+    },
+    {
+      "engine": "chromium",
+      "width": 320,
+      "passed": true,
+      "scrollWidth": 320,
+      "light": {
+        "left": -57.04649353027344,
+        "right": 375.6015167236328
+      },
+      "headerHeight": 0,
+      "intro": "Building products across different teams and domains."
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "passed": true,
+      "scrollWidth": 390,
+      "light": {
+        "left": -67.46876525878906,
+        "right": 456.0395965576172
+      },
+      "headerHeight": 0,
+      "intro": "Building products across different teams and domains."
+    }
+  ],
+  "scope": "Targeted final light layer bounds, hero overflow, hidden mobile header, rendered experience intro and refreshed screenshots; full45-check interaction suite not repeated for these CSS/copy changes."
+}

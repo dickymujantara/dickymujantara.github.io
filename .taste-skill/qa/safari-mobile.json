@@ -1,0 +1,3515 @@
+{
+  "checks": [
+    {
+      "name": "webkit 320px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 320px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.228092193603516,
+              "right": 90.79443740844727,
+              "top": 312.90234375,
+              "bottom": 365.51318359375,
+              "width": 70.56634521484375,
+              "height": 52.61083984375
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 230.4561767578125,
+              "right": 302.9149475097656,
+              "top": 501.1748046875,
+              "bottom": 556.3896484375,
+              "width": 72.45877075195312,
+              "height": 55.21484375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 79,
+          "canvasHeight": 58,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "webkit 390px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 390px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.05191421508789,
+              "right": 108.28509902954102,
+              "top": 312.66943359375,
+              "bottom": 378.47509765625,
+              "width": 88.23318481445312,
+              "height": 65.8056640625
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 280.5068054199219,
+              "right": 371.0702209472656,
+              "top": 487.724609375,
+              "bottom": 556.736328125,
+              "width": 90.56341552734375,
+              "height": 69.01171875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 99,
+          "canvasHeight": 73,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit 600px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 600px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 19.843172073364258,
+              "right": 161.01204109191895,
+              "top": 323.38427734375,
+              "bottom": 428.6708984375,
+              "width": 141.1688690185547,
+              "height": 105.28662109375
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 430.79638671875,
+              "right": 575.6998291015625,
+              "top": 458.5908203125,
+              "bottom": 569.015625,
+              "width": 144.9034423828125,
+              "height": 110.4248046875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 160,
+          "canvasHeight": 118,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 600
+      }
+    },
+    {
+      "name": "webkit 767px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 767px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 376.6669616699219,
+              "right": 490.2270812988281,
+              "top": 233.77783203125,
+              "bottom": 318.46630859375,
+              "width": 113.56011962890625,
+              "height": 84.6884765625
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 620.2361450195312,
+              "right": 736.8030395507812,
+              "top": 555.3720703125,
+              "bottom": 644.19775390625,
+              "width": 116.56689453125,
+              "height": 88.82568359375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 128,
+          "canvasHeight": 94,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 767
+      }
+    },
+    {
+      "name": "webkit 768px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 768px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 377.124755859375,
+              "right": 490.84393310546875,
+              "top": 348.283203125,
+              "bottom": 433.0849609375,
+              "width": 113.71917724609375,
+              "height": 84.8017578125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 621.0344848632812,
+              "right": 737.761962890625,
+              "top": 669.77734375,
+              "bottom": 758.71875,
+              "width": 116.72747802734375,
+              "height": 88.94140625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 129,
+          "canvasHeight": 95,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit 1024px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 1024px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 502.7471008300781,
+              "right": 635.992431640625,
+              "top": 348.2197265625,
+              "bottom": 447.59130859375,
+              "width": 133.24533081054688,
+              "height": 99.37158203125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 843.2667236328125,
+              "right": 980.0393676757812,
+              "top": 649.93798828125,
+              "bottom": 754.1630859375,
+              "width": 136.77264404296875,
+              "height": 104.22509765625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 151,
+          "canvasHeight": 111,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "webkit 1440px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "webkit 1440px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 648.4036865234375,
+              "right": 822.5935668945312,
+              "top": 348.0859375,
+              "bottom": 477.95751953125,
+              "width": 174.18988037109375,
+              "height": 129.87158203125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 1187.8118896484375,
+              "right": 1366.673828125,
+              "top": 618.91943359375,
+              "bottom": 755.21923828125,
+              "width": 178.8619384765625,
+              "height": 136.2998046875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 198,
+          "canvasHeight": 146,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit mobile hero CTA aligns Selected Work without a phantom header gap",
+      "passed": true,
+      "details": {
+        "top": 16,
+        "hash": "#work",
+        "anchorPadding": 16
+      }
+    },
+    {
+      "name": "webkit graph button selection and experience controls remain operable",
+      "passed": true,
+      "details": {
+        "graphDetail": "Receive event in Process A. This step connects the start to the record check."
+      }
+    },
+    {
+      "name": "webkit turtle and complete frame motion still plays, pauses and resumes",
+      "passed": true,
+      "details": {
+        "measuredLayers": 9
+      }
+    },
+    {
+      "name": "webkit mobile sticky scroll and viewport height changes keep a zero top inset",
+      "passed": true,
+      "details": {
+        "header": 0,
+        "offset": "0px",
+        "scrollWidth": 390,
+        "frame": 701
+      }
+    },
+    {
+      "name": "webkit reduced motion starts still and uses inline SVG play icon",
+      "passed": true,
+      "details": {
+        "measuredLayers": 9
+      }
+    },
+    {
+      "name": "webkit canvas-unavailable preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": false,
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/turtle.webp\")",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "webkit pixel-image-failure preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": false,
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/turtle.webp\")",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "webkit direct-file preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": true,
+        "background": "none",
+        "canvasCount": 1
+      }
+    },
+    {
+      "name": "chromium 320px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 320px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.16653060913086,
+              "right": 90.74535751342773,
+              "top": 314.3973083496094,
+              "bottom": 367.0252685546875,
+              "width": 70.57882690429688,
+              "height": 52.627960205078125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 230.4043426513672,
+              "right": 302.8518981933594,
+              "top": 502.8329772949219,
+              "bottom": 558.0323486328125,
+              "width": 72.44755554199219,
+              "height": 55.199371337890625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 79,
+          "canvasHeight": 58,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "chromium 390px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 390px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.0646915435791,
+              "right": 108.29499244689941,
+              "top": 314.35418701171875,
+              "bottom": 380.1560363769531,
+              "width": 88.23030090332031,
+              "height": 65.80184936523438
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 280.51092529296875,
+              "right": 371.07708740234375,
+              "top": 489.3916015625,
+              "bottom": 558.4074096679688,
+              "width": 90.566162109375,
+              "height": 69.01580810546875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 99,
+          "canvasHeight": 73,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium 600px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 600px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 19.896541595458984,
+              "right": 161.04758834838867,
+              "top": 324.834228515625,
+              "bottom": 430.0965881347656,
+              "width": 141.1510467529297,
+              "height": 105.26235961914062
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 430.76702880859375,
+              "right": 575.6593627929688,
+              "top": 460.1661376953125,
+              "bottom": 570.5755004882812,
+              "width": 144.892333984375,
+              "height": 110.40936279296875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 160,
+          "canvasHeight": 118,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 600
+      }
+    },
+    {
+      "name": "chromium 767px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "none",
+          "height": 0,
+          "rootSize": "0px",
+          "scrollPadding": "16px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 767px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 376.6503601074219,
+              "right": 490.2144775390625,
+              "top": 233.81619262695312,
+              "bottom": 318.5103759765625,
+              "width": 113.56411743164062,
+              "height": 84.69418334960938
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 620.2561645507812,
+              "right": 736.8268432617188,
+              "top": 555.3716430664062,
+              "bottom": 644.20263671875,
+              "width": 116.5706787109375,
+              "height": 88.83099365234375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 128,
+          "canvasHeight": 94,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 767
+      }
+    },
+    {
+      "name": "chromium 768px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 768px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 377.1153564453125,
+              "right": 490.83795166015625,
+              "top": 348.3028259277344,
+              "bottom": 433.1094970703125,
+              "width": 113.72259521484375,
+              "height": 84.80667114257812
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 621.03125,
+              "right": 737.761962890625,
+              "top": 669.7608642578125,
+              "bottom": 758.7068481445312,
+              "width": 116.730712890625,
+              "height": 88.94598388671875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 129,
+          "canvasHeight": 95,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium 1024px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 1024px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 502.8036804199219,
+              "right": 636.0306396484375,
+              "top": 348.1440124511719,
+              "bottom": 447.49072265625,
+              "width": 133.22695922851562,
+              "height": 99.34671020507812
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 843.2327880859375,
+              "right": 979.9908447265625,
+              "top": 650.02587890625,
+              "bottom": 754.2305908203125,
+              "width": 136.758056640625,
+              "height": 104.2047119140625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 151,
+          "canvasHeight": 111,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "chromium 1440px header visibility, zero mobile offset and native control reset",
+      "passed": true,
+      "details": {
+        "header": {
+          "display": "block",
+          "height": 73,
+          "rootSize": "73px",
+          "scrollPadding": "96px"
+        },
+        "svgCount": 12,
+        "buttonCount": 19
+      }
+    },
+    {
+      "name": "chromium 1440px turtle scene, mosaic and links render within viewport",
+      "passed": true,
+      "details": {
+        "frames": [
+          {
+            "rect": {
+              "left": 648.2947998046875,
+              "right": 822.5307006835938,
+              "top": 347.9688415527344,
+              "bottom": 477.90289306640625,
+              "width": 174.23590087890625,
+              "height": 129.93405151367188
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 1187.808837890625,
+              "right": 1366.657470703125,
+              "top": 618.8724365234375,
+              "bottom": 755.153564453125,
+              "width": 178.8486328125,
+              "height": 136.2811279296875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 198,
+          "canvasHeight": 146,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium mobile hero CTA aligns Selected Work without a phantom header gap",
+      "passed": true,
+      "details": {
+        "top": 16,
+        "hash": "#work",
+        "anchorPadding": 16
+      }
+    },
+    {
+      "name": "chromium graph button selection and experience controls remain operable",
+      "passed": true,
+      "details": {
+        "graphDetail": "Receive event in Process A. This step connects the start to the record check."
+      }
+    },
+    {
+      "name": "chromium turtle and complete frame motion still plays, pauses and resumes",
+      "passed": true,
+      "details": {
+        "measuredLayers": 9
+      }
+    },
+    {
+      "name": "chromium mobile sticky scroll and viewport height changes keep a zero top inset",
+      "passed": true,
+      "details": {
+        "header": 0,
+        "offset": "0px",
+        "scrollWidth": 390,
+        "frame": 701
+      }
+    },
+    {
+      "name": "chromium reduced motion starts still and uses inline SVG play icon",
+      "passed": true,
+      "details": {
+        "measuredLayers": 9
+      }
+    },
+    {
+      "name": "chromium canvas-unavailable preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": false,
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/turtle.webp\")",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "chromium pixel-image-failure preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": false,
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/turtle.webp\")",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "chromium direct-file preserves a usable decorative fallback and functional motion control",
+      "passed": true,
+      "details": {
+        "hasPixels": true,
+        "background": "none",
+        "canvasCount": 1
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in tested engines",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "webkit": {
+      "version": "26.0"
+    },
+    "webkit-320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "bottom": 843.984375,
+        "width": 320,
+        "height": 843.984375
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.228092193603516,
+              "right": 90.79443740844727,
+              "top": 312.90234375,
+              "bottom": 365.51318359375,
+              "width": 70.56634521484375,
+              "height": 52.61083984375
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 230.4561767578125,
+              "right": 302.9149475097656,
+              "top": 501.1748046875,
+              "bottom": 556.3896484375,
+              "width": 72.45877075195312,
+              "height": 55.21484375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 79,
+          "canvasHeight": 58,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 320
+      }
+    },
+    "webkit-390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "bottom": 843.984375,
+        "width": 390,
+        "height": 843.984375
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.05191421508789,
+              "right": 108.28509902954102,
+              "top": 312.66943359375,
+              "bottom": 378.47509765625,
+              "width": 88.23318481445312,
+              "height": 65.8056640625
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 280.5068054199219,
+              "right": 371.0702209472656,
+              "top": 487.724609375,
+              "bottom": 556.736328125,
+              "width": 90.56341552734375,
+              "height": 69.01171875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 99,
+          "canvasHeight": 73,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 390
+      }
+    },
+    "webkit-600": {
+      "width": 600,
+      "scrollWidth": 600,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 600,
+        "top": 0,
+        "bottom": 843.984375,
+        "width": 600,
+        "height": 843.984375
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 19.843172073364258,
+              "right": 161.01204109191895,
+              "top": 323.38427734375,
+              "bottom": 428.6708984375,
+              "width": 141.1688690185547,
+              "height": 105.28662109375
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 430.79638671875,
+              "right": 575.6998291015625,
+              "top": 458.5908203125,
+              "bottom": 569.015625,
+              "width": 144.9034423828125,
+              "height": 110.4248046875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 160,
+          "canvasHeight": 118,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 600
+      }
+    },
+    "webkit-767": {
+      "width": 767,
+      "scrollWidth": 767,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 767,
+        "top": 0,
+        "bottom": 843.984375,
+        "width": 767,
+        "height": 843.984375
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 376.6669616699219,
+              "right": 490.2270812988281,
+              "top": 233.77783203125,
+              "bottom": 318.46630859375,
+              "width": 113.56011962890625,
+              "height": 84.6884765625
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 620.2361450195312,
+              "right": 736.8030395507812,
+              "top": 555.3720703125,
+              "bottom": 644.19775390625,
+              "width": 116.56689453125,
+              "height": 88.82568359375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 128,
+          "canvasHeight": 94,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 767
+      }
+    },
+    "webkit-768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 768,
+        "top": 73,
+        "bottom": 1000,
+        "width": 768,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 377.124755859375,
+              "right": 490.84393310546875,
+              "top": 348.283203125,
+              "bottom": 433.0849609375,
+              "width": 113.71917724609375,
+              "height": 84.8017578125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 621.0344848632812,
+              "right": 737.761962890625,
+              "top": 669.77734375,
+              "bottom": 758.71875,
+              "width": 116.72747802734375,
+              "height": 88.94140625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 129,
+          "canvasHeight": 95,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 768
+      }
+    },
+    "webkit-1024": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 1024,
+        "top": 73,
+        "bottom": 1000,
+        "width": 1024,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 502.7471008300781,
+              "right": 635.992431640625,
+              "top": 348.2197265625,
+              "bottom": 447.59130859375,
+              "width": 133.24533081054688,
+              "height": 99.37158203125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 843.2667236328125,
+              "right": 980.0393676757812,
+              "top": 649.93798828125,
+              "bottom": 754.1630859375,
+              "width": 136.77264404296875,
+              "height": 104.22509765625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 151,
+          "canvasHeight": 111,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1024
+      }
+    },
+    "webkit-1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 1440,
+        "top": 73,
+        "bottom": 1000,
+        "width": 1440,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 648.4036865234375,
+              "right": 822.5935668945312,
+              "top": 348.0859375,
+              "bottom": 477.95751953125,
+              "width": 174.18988037109375,
+              "height": 129.87158203125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 1187.8118896484375,
+              "right": 1366.673828125,
+              "top": 618.91943359375,
+              "bottom": 755.21923828125,
+              "width": 178.8619384765625,
+              "height": 136.2998046875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 198,
+          "canvasHeight": 146,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1440
+      }
+    },
+    "chromium": {
+      "version": "156.0.8078.4"
+    },
+    "chromium-320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "bottom": 844,
+        "width": 320,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.16653060913086,
+              "right": 90.74535751342773,
+              "top": 314.3973083496094,
+              "bottom": 367.0252685546875,
+              "width": 70.57882690429688,
+              "height": 52.627960205078125
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 230.4043426513672,
+              "right": 302.8518981933594,
+              "top": 502.8329772949219,
+              "bottom": 558.0323486328125,
+              "width": 72.44755554199219,
+              "height": 55.199371337890625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 79,
+          "canvasHeight": 58,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 320
+      }
+    },
+    "chromium-390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "bottom": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 20.0646915435791,
+              "right": 108.29499244689941,
+              "top": 314.35418701171875,
+              "bottom": 380.1560363769531,
+              "width": 88.23030090332031,
+              "height": 65.80184936523438
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 280.51092529296875,
+              "right": 371.07708740234375,
+              "top": 489.3916015625,
+              "bottom": 558.4074096679688,
+              "width": 90.566162109375,
+              "height": 69.01580810546875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 99,
+          "canvasHeight": 73,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 390
+      }
+    },
+    "chromium-600": {
+      "width": 600,
+      "scrollWidth": 600,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 600,
+        "top": 0,
+        "bottom": 844,
+        "width": 600,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 19.896541595458984,
+              "right": 161.04758834838867,
+              "top": 324.834228515625,
+              "bottom": 430.0965881347656,
+              "width": 141.1510467529297,
+              "height": 105.26235961914062
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 430.76702880859375,
+              "right": 575.6593627929688,
+              "top": 460.1661376953125,
+              "bottom": 570.5755004882812,
+              "width": 144.892333984375,
+              "height": 110.40936279296875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 160,
+          "canvasHeight": 118,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 600
+      }
+    },
+    "chromium-767": {
+      "width": 767,
+      "scrollWidth": 767,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "none",
+        "height": 0,
+        "rootSize": "0px",
+        "scrollPadding": "16px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 767,
+        "top": 0,
+        "bottom": 844,
+        "width": 767,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 376.6503601074219,
+              "right": 490.2144775390625,
+              "top": 233.81619262695312,
+              "bottom": 318.5103759765625,
+              "width": 113.56411743164062,
+              "height": 84.69418334960938
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 620.2561645507812,
+              "right": 736.8268432617188,
+              "top": 555.3716430664062,
+              "bottom": 644.20263671875,
+              "width": 116.5706787109375,
+              "height": 88.83099365234375
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 128,
+          "canvasHeight": 94,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 767
+      }
+    },
+    "chromium-768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 768,
+        "top": 73,
+        "bottom": 1000,
+        "width": 768,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 377.1153564453125,
+              "right": 490.83795166015625,
+              "top": 348.3028259277344,
+              "bottom": 433.1094970703125,
+              "width": 113.72259521484375,
+              "height": 84.80667114257812
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 621.03125,
+              "right": 737.761962890625,
+              "top": 669.7608642578125,
+              "bottom": 758.7068481445312,
+              "width": 116.730712890625,
+              "height": 88.94598388671875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 129,
+          "canvasHeight": 95,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 768
+      }
+    },
+    "chromium-1024": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 1024,
+        "top": 73,
+        "bottom": 1000,
+        "width": 1024,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 502.8036804199219,
+              "right": 636.0306396484375,
+              "top": 348.1440124511719,
+              "bottom": 447.49072265625,
+              "width": 133.22695922851562,
+              "height": 99.34671020507812
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 843.2327880859375,
+              "right": 979.9908447265625,
+              "top": 650.02587890625,
+              "bottom": 754.2305908203125,
+              "width": 136.758056640625,
+              "height": 104.2047119140625
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 151,
+          "canvasHeight": 111,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1024
+      }
+    },
+    "chromium-1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "header": {
+        "display": "block",
+        "height": 73,
+        "rootSize": "73px",
+        "scrollPadding": "96px"
+      },
+      "hero": {
+        "left": 0,
+        "right": 1440,
+        "top": 73,
+        "bottom": 1000,
+        "width": 1440,
+        "height": 927
+      },
+      "buttons": [
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "graph-node square",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "none",
+          "webkitAppearance": "none"
+        }
+      ],
+      "oldIconGlyphs": [],
+      "svgCount": 12,
+      "scene": {
+        "frames": [
+          {
+            "rect": {
+              "left": 648.2947998046875,
+              "right": 822.5307006835938,
+              "top": 347.9688415527344,
+              "bottom": 477.90289306640625,
+              "width": 174.23590087890625,
+              "height": 129.93405151367188
+            },
+            "corners": 4
+          },
+          {
+            "rect": {
+              "left": 1187.808837890625,
+              "right": 1366.657470703125,
+              "top": 618.8724365234375,
+              "bottom": 755.153564453125,
+              "width": 178.8486328125,
+              "height": 136.2811279296875
+            },
+            "corners": 4
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "available": true
+          }
+        ],
+        "mosaic": {
+          "filter": "none",
+          "url": "img/ocean/turtle.webp",
+          "width": 1536,
+          "height": 1024,
+          "opacity": "1",
+          "hasPixels": true,
+          "canvasWidth": 198,
+          "canvasHeight": 146,
+          "imageSmoothing": false
+        },
+        "turtle": {
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "opacity": "0.9"
+        },
+        "scrollWidth": 1440
+      }
+    }
+  },
+  "errors": [],
+  "limitations": "This automated harness uses real desktop WebKit26.0 with iPhone touch/mobile emulation and Chromium156.0.8078.4. It does not run on physical iOS or native iOS Simulator Safari. Separate native Mobile Safari18.5/iOS18.5 Simulator visual verification is documented in safari-mobile-ios185-review.md. Native macOS Safari18.6 WebDriver was unavailable because Allow remote automation is disabled; that preference was not changed. No physical iPhone testing was performed. Final light-layer and experience-copy changes were checked separately in safari-mobile-final-addendum.json."
+}

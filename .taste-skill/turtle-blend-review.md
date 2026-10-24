@@ -1,5 +1,7 @@
 # Beneath the surface integration
 
+The subsequent [Safari/mobile revision](safari-mobile-review.md) replaces the SVG mosaic filter with canvas rendering while retaining the turtle tone, crop treatment and Anime.js movement reviewed here.
+
 The user requested that the turtle image blend into its reef background. This revision changes only the Explorations artwork styling in `css/style.css`. Original artwork, section geometry, copy, links and Anime.js timelines remain intact.
 
 Reading this as: the approved editorial marine portfolio, energy 3 / rhythm 3 / motion 3. The turtle remains the illustrated focal point, with lighting closer to the surrounding reef.

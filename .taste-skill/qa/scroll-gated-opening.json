@@ -1,0 +1,449 @@
+{
+  "checks": [
+    {
+      "name": "chromium 1440px opening has no Skip and waits idle after ripples settle",
+      "passed": true,
+      "details": {
+        "idle": {
+          "opening": "playing",
+          "hidden": false,
+          "opacity": "1",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "waves": [
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "0.55"
+          }
+        ],
+        "bounds": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "header": 73,
+          "mainInert": true,
+          "headerInert": true,
+          "motionInert": true,
+          "cue": "Scroll to enterSwipe up to enterYou can also press Enter, Space or Arrow Down."
+        }
+      }
+    },
+    {
+      "name": "chromium 390px opening has no Skip and waits idle after ripples settle",
+      "passed": true,
+      "details": {
+        "idle": {
+          "opening": "playing",
+          "hidden": false,
+          "opacity": "1",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "waves": [
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "0.55"
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "scrollWidth": 390,
+          "header": 0,
+          "mainInert": true,
+          "headerInert": true,
+          "motionInert": true,
+          "cue": "Scroll to enterSwipe up to enterYou can also press Enter, Space or Arrow Down."
+        }
+      }
+    },
+    {
+      "name": "chromium desktop wheel enters hero and subsequent native scrolling works",
+      "passed": true,
+      "details": {
+        "entered": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "ctrlWheelPrevented": false,
+        "nativeScrollBefore": 0,
+        "nativeScrollAfter": 320
+      }
+    },
+    {
+      "name": "chromium mobile tap and downward movement hold; upward swipe enters hero",
+      "passed": true,
+      "details": {
+        "gesture": {
+          "startPrevented": false,
+          "movePrevented": true,
+          "endPrevented": false
+        },
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 250,
+          "motion": "playing"
+        },
+        "method": "Synthetic touch sequence; native swipe not injected by Playwright"
+      }
+    },
+    {
+      "name": "chromium scroll keyboard action enters without trapping focus",
+      "passed": true,
+      "details": {
+        "focus": {
+          "tag": "H1",
+          "id": "hero-title",
+          "inOpening": false
+        },
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        }
+      }
+    },
+    {
+      "name": "chromium reduced still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium paused still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium deep-link still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "chromium initial hidden activation starts a waiting opening then keyboard enters",
+      "passed": true,
+      "details": {
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "method": "Synthetic document.hidden visibility activation"
+      }
+    },
+    {
+      "name": "webkit 1440px opening has no Skip and waits idle after ripples settle",
+      "passed": true,
+      "details": {
+        "idle": {
+          "opening": "playing",
+          "hidden": false,
+          "opacity": "1",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "waves": [
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "0.55"
+          }
+        ],
+        "bounds": {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "header": 73,
+          "mainInert": true,
+          "headerInert": true,
+          "motionInert": true,
+          "cue": "Scroll to enterSwipe up to enterYou can also press Enter, Space or Arrow Down."
+        }
+      }
+    },
+    {
+      "name": "webkit 390px opening has no Skip and waits idle after ripples settle",
+      "passed": true,
+      "details": {
+        "idle": {
+          "opening": "playing",
+          "hidden": false,
+          "opacity": "1",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "waves": [
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "dash": "0px",
+            "transform": "none",
+            "opacity": "0.55"
+          }
+        ],
+        "bounds": {
+          "width": 390,
+          "scrollWidth": 390,
+          "header": 0,
+          "mainInert": true,
+          "headerInert": true,
+          "motionInert": true,
+          "cue": "Scroll to enterSwipe up to enterYou can also press Enter, Space or Arrow Down."
+        }
+      }
+    },
+    {
+      "name": "webkit desktop wheel enters hero and subsequent native scrolling works",
+      "passed": true,
+      "details": {
+        "entered": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "ctrlWheelPrevented": false,
+        "nativeScrollBefore": 0,
+        "nativeScrollAfter": 320
+      }
+    },
+    {
+      "name": "webkit mobile tap and downward movement hold; upward swipe enters hero",
+      "passed": true,
+      "details": {
+        "gesture": {
+          "startPrevented": false,
+          "movePrevented": true,
+          "endPrevented": false
+        },
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 250,
+          "motion": "playing"
+        },
+        "method": "Synthetic touch sequence; native swipe not injected by Playwright"
+      }
+    },
+    {
+      "name": "webkit scroll keyboard action enters without trapping focus",
+      "passed": true,
+      "details": {
+        "focus": {
+          "tag": "H1",
+          "id": "hero-title",
+          "inOpening": false
+        },
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        }
+      }
+    },
+    {
+      "name": "webkit reduced still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit paused still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit deep-link still bypasses opening",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "hidden": true,
+        "opacity": "1",
+        "scrollY": 0,
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "webkit initial hidden activation starts a waiting opening then keyboard enters",
+      "passed": true,
+      "details": {
+        "final": {
+          "opening": "done",
+          "hidden": true,
+          "opacity": "0",
+          "scrollY": 0,
+          "motion": "playing"
+        },
+        "method": "Synthetic document.hidden visibility activation"
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in focused opening visits",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "chromium active waiting opening pauses when hidden, resumes finite entry and keeps waiting",
+      "passed": true,
+      "details": {
+        "hidden": [
+          "1137.1px",
+          "775.13px",
+          "380.125px"
+        ],
+        "resumed": [
+          "741.683px",
+          "590.172px",
+          "331.422px"
+        ],
+        "settled": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "method": "Synthetic document.hidden and visibilitychange"
+      }
+    },
+    {
+      "name": "webkit active waiting opening pauses when hidden, resumes finite entry and keeps waiting",
+      "passed": true,
+      "details": {
+        "hidden": [
+          "1135.619385px",
+          "774.776978px",
+          "380.125214px"
+        ],
+        "resumed": [
+          "762.310303px",
+          "601.941895px",
+          "335.844299px"
+        ],
+        "settled": [
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "method": "Synthetic document.hidden and visibilitychange"
+      }
+    },
+    {
+      "name": "chromium early wheel keeps cue opacity continuous and reveals hero",
+      "passed": true,
+      "details": {
+        "before": 0,
+        "samples": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "input": "Native desktop wheel"
+      }
+    },
+    {
+      "name": "webkit early swipe keeps cue opacity continuous and reveals hero",
+      "passed": true,
+      "details": {
+        "before": 0,
+        "samples": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "input": "Synthetic upward touch sequence"
+      }
+    }
+  ],
+  "observations": {
+    "chromium": {
+      "version": "156.0.8078.4"
+    },
+    "webkit": {
+      "version": "26.0"
+    }
+  },
+  "errors": [],
+  "limitations": "Focused Chromium/WebKit checks only. Mobile touch sequence and initial hidden activation are synthetic event integration; no physical swipe, native Simulator or full scroll suite rerun."
+}

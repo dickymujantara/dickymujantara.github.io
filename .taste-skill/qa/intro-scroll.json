@@ -1,0 +1,525 @@
+{
+  "checks": [
+    {
+      "name": "webkit opening plays once for about two seconds and completes without moving focus",
+      "passed": true,
+      "details": {
+        "elapsedAfterDOMContentLoaded": 2068,
+        "focus": "BODY",
+        "sessionSeen": "true"
+      }
+    },
+    {
+      "name": "webkit unseen home reload plays opening and the next reload skips it",
+      "passed": true,
+      "details": {
+        "firstReload": "playing",
+        "secondReload": "done"
+      }
+    },
+    {
+      "name": "webkit opening skip dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening Escape dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening Tab dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening wheel dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening touch dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done",
+        "intentResult": {
+          "prevented": false
+        }
+      }
+    },
+    {
+      "name": "webkit opening hash dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening pointer dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening visibility dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "webkit opening hash bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "webkit opening reduced bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit opening paused bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit opening no-js bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": null,
+        "motion": null
+      }
+    },
+    {
+      "name": "webkit opening library-failure bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "unavailable"
+      }
+    },
+    {
+      "name": "webkit opening storage-failure bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "webkit 320px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "skip": {
+          "left": 197.21875,
+          "right": 304,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "webkit 390px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "skip": {
+          "left": 263.71875,
+          "right": 370.5,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "webkit 767px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 767,
+        "scrollWidth": 767,
+        "skip": {
+          "left": 614.203125,
+          "right": 720.984375,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "webkit 768px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "skip": {
+          "left": 615.140625,
+          "right": 721.921875,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "webkit 1440px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "skip": {
+          "left": 1246.828125,
+          "right": 1353.609375,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "webkit quick scroll produces intermediate scene transforms then settles",
+      "passed": true,
+      "details": {
+        "first": -22.8969,
+        "early": -9.5321,
+        "middle": 10.8518,
+        "final": 14.9536,
+        "settled": 14.9536,
+        "renderScrollCallbacks": 72,
+        "geometryReads": 0,
+        "laterCallbacks": 72
+      }
+    },
+    {
+      "name": "webkit pause freezes exact in-flight transforms and scrolling; play resumes and saved pause survives reload",
+      "passed": true,
+      "details": {
+        "frozenTransforms": 46
+      }
+    },
+    {
+      "name": "webkit offscreen and hidden-document ambient scenes stop while visible scenes keep motion",
+      "passed": true,
+      "details": {
+        "offscreenLayers": 5,
+        "hiddenLayers": 5
+      }
+    },
+    {
+      "name": "webkit native wheel and anchor navigation remain available",
+      "passed": true,
+      "details": {
+        "top": 96,
+        "padding": 96,
+        "width": 1024
+      }
+    },
+    {
+      "name": "Actual WebKit browser opening and scripted scroll recorded",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/intro-scroll-mobile.webm",
+        "frames": 97,
+        "encodedFPS": 15,
+        "bytes": 548285,
+        "method": "Actual browser screenshots encoded as15fps WebM; capture cadence is not a rendering-performance benchmark."
+      }
+    },
+    {
+      "name": "chromium opening plays once for about two seconds and completes without moving focus",
+      "passed": true,
+      "details": {
+        "elapsedAfterDOMContentLoaded": 2068,
+        "focus": "BODY",
+        "sessionSeen": "true"
+      }
+    },
+    {
+      "name": "chromium unseen home reload plays opening and the next reload skips it",
+      "passed": true,
+      "details": {
+        "firstReload": "playing",
+        "secondReload": "done"
+      }
+    },
+    {
+      "name": "chromium opening skip dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening Escape dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening Tab dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening wheel dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening touch dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done",
+        "intentResult": {
+          "prevented": false
+        }
+      }
+    },
+    {
+      "name": "chromium opening hash dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening pointer dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening visibility dismissal preserves native input and access",
+      "passed": true,
+      "details": {
+        "state": "done"
+      }
+    },
+    {
+      "name": "chromium opening hash bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "chromium opening reduced bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium opening paused bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium opening no-js bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": null,
+        "motion": null
+      }
+    },
+    {
+      "name": "chromium opening library-failure bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "unavailable"
+      }
+    },
+    {
+      "name": "chromium opening storage-failure bypass exposes usable hero/content",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "chromium 320px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "skip": {
+          "left": 197.25,
+          "right": 304,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "chromium 390px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "skip": {
+          "left": 263.75,
+          "right": 370.5,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "chromium 767px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 767,
+        "scrollWidth": 767,
+        "skip": {
+          "left": 614.234375,
+          "right": 720.984375,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "chromium 768px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "skip": {
+          "left": 615.171875,
+          "right": 721.921875,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "chromium 1440px opening and ocean sections keep viewport bounds and accessible controls",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "skip": {
+          "left": 1246.859375,
+          "right": 1353.609375,
+          "height": 44
+        },
+        "bodyOverflow": "visible"
+      }
+    },
+    {
+      "name": "chromium quick scroll produces intermediate scene transforms then settles",
+      "passed": true,
+      "details": {
+        "first": -22.7418,
+        "early": -9.1819,
+        "middle": 11.0069,
+        "final": 15.1086,
+        "settled": 15.1086,
+        "renderScrollCallbacks": 37,
+        "geometryReads": 0,
+        "laterCallbacks": 37
+      }
+    },
+    {
+      "name": "chromium pause freezes exact in-flight transforms and scrolling; play resumes and saved pause survives reload",
+      "passed": true,
+      "details": {
+        "frozenTransforms": 46
+      }
+    },
+    {
+      "name": "chromium offscreen and hidden-document ambient scenes stop while visible scenes keep motion",
+      "passed": true,
+      "details": {
+        "offscreenLayers": 5,
+        "hiddenLayers": 5
+      }
+    },
+    {
+      "name": "chromium native wheel and anchor navigation remain available",
+      "passed": true,
+      "details": {
+        "top": 17,
+        "padding": 16,
+        "width": 390,
+        "hash": "#work"
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in tested views",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "webkit": {
+      "version": "26.0"
+    },
+    "webkitEasing": {
+      "first": -22.8969,
+      "early": -9.5321,
+      "middle": 10.8518,
+      "final": 14.9536,
+      "settled": 14.9536,
+      "renderScrollCallbacks": 72,
+      "geometryReads": 0,
+      "laterCallbacks": 72
+    },
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/intro-scroll-mobile.webm",
+      "frames": 97,
+      "encodedFPS": 15,
+      "bytes": 548285,
+      "method": "Actual browser screenshots encoded as15fps WebM; capture cadence is not a rendering-performance benchmark."
+    },
+    "chromium": {
+      "version": "156.0.8078.4"
+    },
+    "chromiumEasing": {
+      "first": -22.7418,
+      "early": -9.1819,
+      "middle": 11.0069,
+      "final": 15.1086,
+      "settled": 15.1086,
+      "renderScrollCallbacks": 37,
+      "geometryReads": 0,
+      "laterCallbacks": 37
+    }
+  },
+  "errors": [],
+  "limitations": "Real desktop WebKit26 with iPhone emulation and Chromium. Touch dismissal checks non-cancellation of a synthetic touchstart; no physical swipe performance claim. Hidden-document case uses a synthetic visibilitychange. Encoded video FPS is not a rendering FPS measurement.",
+  "anchorRecheck": "Initial fixed400ms assertion sampled a still-running native smooth anchor after pause reload removed the QA auto-scroll override. Targeted recheck waited for native anchor settlement; application code unchanged."
+}

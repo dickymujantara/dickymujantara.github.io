@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Ocean wave</title>
+  <rect width="64" height="64" rx="14" fill="#07121b"/>
+  <path d="M8 40c7 0 9-5 16-5s10 5 17 5c6 0 11-3 15-6v13c-7 5-13 7-20 7-12 0-18-8-28-8Z" fill="#83c8ef"/>
+  <path d="M9 39c6-15 16-25 29-23 9 1 15 8 15 17-4-5-9-7-13-5-5 2-6 7-2 11s11 3 17-1c-5 10-14 14-25 11-9-2-14-8-21-10Z" fill="#f3f0e8"/>
+</svg>

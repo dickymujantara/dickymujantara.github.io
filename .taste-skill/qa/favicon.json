@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "name": "chromium: relative favicon metadata serves valid HTTP images and opaque Apple icon",
+      "passed": true,
+      "details": {
+        "links": [
+          {
+            "rel": "icon",
+            "path": "favicon.ico",
+            "href": "http://127.0.0.1:4173/favicon.ico",
+            "type": "",
+            "sizes": "16x16 32x32 48x48"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon-32.png",
+            "href": "http://127.0.0.1:4173/img/favicon-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon.svg",
+            "href": "http://127.0.0.1:4173/img/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "path": "img/apple-touch-icon.png",
+            "href": "http://127.0.0.1:4173/img/apple-touch-icon.png",
+            "type": "",
+            "sizes": "180x180"
+          }
+        ],
+        "responses": [
+          {
+            "path": "favicon.ico",
+            "status": 200,
+            "contentType": "image/x-icon",
+            "bytes": 3564
+          },
+          {
+            "path": "img/favicon-32.png",
+            "status": 200,
+            "contentType": "image/png",
+            "bytes": 1159
+          },
+          {
+            "path": "img/favicon.svg",
+            "status": 200,
+            "contentType": "image/svg+xml",
+            "bytes": 418
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "status": 200,
+            "contentType": "image/png",
+            "bytes": 4909
+          }
+        ],
+        "images": [
+          {
+            "path": "favicon.ico",
+            "width": 48,
+            "height": 48,
+            "complete": true
+          },
+          {
+            "path": "img/favicon-32.png",
+            "width": 32,
+            "height": 32,
+            "complete": true
+          },
+          {
+            "path": "img/favicon.svg",
+            "width": 64,
+            "height": 64,
+            "complete": true
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "width": 180,
+            "height": 180,
+            "complete": true,
+            "alpha": {
+              "min": 255,
+              "nonOpaquePixels": 0,
+              "totalPixels": 32400
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium: all four favicon resources decode from direct-file preview",
+      "passed": true,
+      "details": {
+        "links": [
+          {
+            "rel": "icon",
+            "path": "favicon.ico",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/favicon.ico",
+            "type": "",
+            "sizes": "16x16 32x32 48x48"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon-32.png",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/favicon-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon.svg",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "path": "img/apple-touch-icon.png",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/apple-touch-icon.png",
+            "type": "",
+            "sizes": "180x180"
+          }
+        ],
+        "images": [
+          {
+            "path": "favicon.ico",
+            "width": 48,
+            "height": 48,
+            "complete": true
+          },
+          {
+            "path": "img/favicon-32.png",
+            "width": 32,
+            "height": 32,
+            "complete": true
+          },
+          {
+            "path": "img/favicon.svg",
+            "width": 64,
+            "height": 64,
+            "complete": true
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "width": 180,
+            "height": 180,
+            "complete": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: relative favicon metadata serves valid HTTP images and opaque Apple icon",
+      "passed": true,
+      "details": {
+        "links": [
+          {
+            "rel": "icon",
+            "path": "favicon.ico",
+            "href": "http://127.0.0.1:4173/favicon.ico",
+            "type": "",
+            "sizes": "16x16 32x32 48x48"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon-32.png",
+            "href": "http://127.0.0.1:4173/img/favicon-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon.svg",
+            "href": "http://127.0.0.1:4173/img/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "path": "img/apple-touch-icon.png",
+            "href": "http://127.0.0.1:4173/img/apple-touch-icon.png",
+            "type": "",
+            "sizes": "180x180"
+          }
+        ],
+        "responses": [
+          {
+            "path": "favicon.ico",
+            "status": 200,
+            "contentType": "image/x-icon",
+            "bytes": 3564
+          },
+          {
+            "path": "img/favicon-32.png",
+            "status": 200,
+            "contentType": "image/png",
+            "bytes": 1159
+          },
+          {
+            "path": "img/favicon.svg",
+            "status": 200,
+            "contentType": "image/svg+xml",
+            "bytes": 418
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "status": 200,
+            "contentType": "image/png",
+            "bytes": 4909
+          }
+        ],
+        "images": [
+          {
+            "path": "favicon.ico",
+            "width": 48,
+            "height": 48,
+            "complete": true
+          },
+          {
+            "path": "img/favicon-32.png",
+            "width": 32,
+            "height": 32,
+            "complete": true
+          },
+          {
+            "path": "img/favicon.svg",
+            "width": 64,
+            "height": 64,
+            "complete": true
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "width": 180,
+            "height": 180,
+            "complete": true,
+            "alpha": {
+              "min": 255,
+              "nonOpaquePixels": 0,
+              "totalPixels": 32400
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: all four favicon resources decode from direct-file preview",
+      "passed": true,
+      "details": {
+        "links": [
+          {
+            "rel": "icon",
+            "path": "favicon.ico",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/favicon.ico",
+            "type": "",
+            "sizes": "16x16 32x32 48x48"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon-32.png",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/favicon-32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+          },
+          {
+            "rel": "icon",
+            "path": "img/favicon.svg",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+          },
+          {
+            "rel": "apple-touch-icon",
+            "path": "img/apple-touch-icon.png",
+            "href": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/apple-touch-icon.png",
+            "type": "",
+            "sizes": "180x180"
+          }
+        ],
+        "images": [
+          {
+            "path": "favicon.ico",
+            "width": 48,
+            "height": 48,
+            "complete": true
+          },
+          {
+            "path": "img/favicon-32.png",
+            "width": 32,
+            "height": 32,
+            "complete": true
+          },
+          {
+            "path": "img/favicon.svg",
+            "width": 64,
+            "height": 64,
+            "complete": true
+          },
+          {
+            "path": "img/apple-touch-icon.png",
+            "width": 180,
+            "height": 180,
+            "complete": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "No uncaught JavaScript or console errors during focused HTTP and local-file visits",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "chromium": {
+      "version": "156.0.8078.4"
+    },
+    "webkit": {
+      "version": "26.0"
+    }
+  },
+  "errors": [],
+  "limitations": "Focused HTTP/static and direct-file image validation in actual Chromium and WebKit. Does not automate browser tab chrome, Safari home-screen installation, or a physical device."
+}

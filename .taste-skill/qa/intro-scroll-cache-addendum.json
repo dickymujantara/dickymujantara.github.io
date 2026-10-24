@@ -1,0 +1,123 @@
+{
+  "checks": [
+    {
+      "engine": "webkit",
+      "width": 390,
+      "passed": true,
+      "toolbarGeometryReads": {
+        "total": 0,
+        "main": 0
+      },
+      "before": [
+        1308,
+        1166,
+        1166
+      ],
+      "after": [
+        1308,
+        1166,
+        1166
+      ],
+      "resized": [
+        1085,
+        967,
+        967
+      ],
+      "workHeightBefore": 1039.71875,
+      "workHeightAfter": 1643.71875,
+      "renderedExplorationProgress": "0.4991"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "passed": true,
+      "toolbarGeometryReads": {
+        "total": 2,
+        "main": 0
+      },
+      "before": [
+        1727,
+        1478,
+        1478
+      ],
+      "after": [
+        1727,
+        1478,
+        1478
+      ],
+      "resized": [
+        1187,
+        1013,
+        1013
+      ],
+      "workHeightBefore": 630.75,
+      "workHeightAfter": 1257.15625,
+      "renderedExplorationProgress": "0.4975"
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "passed": true,
+      "toolbarGeometryReads": {
+        "total": 0,
+        "main": 0
+      },
+      "before": [
+        1308,
+        1166,
+        1166
+      ],
+      "after": [
+        1308,
+        1166,
+        1166
+      ],
+      "resized": [
+        1085,
+        972,
+        967
+      ],
+      "workHeightBefore": 1043.71875,
+      "workHeightAfter": 1647.71875,
+      "renderedExplorationProgress": "0.4988"
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "passed": true,
+      "toolbarGeometryReads": {
+        "total": 2,
+        "main": 0
+      },
+      "before": [
+        1727,
+        1478,
+        1478
+      ],
+      "after": [
+        1727,
+        1478,
+        1478
+      ],
+      "resized": [
+        1187,
+        1013,
+        1013
+      ],
+      "workHeightBefore": 632.09375,
+      "workHeightAfter": 1258.5,
+      "renderedExplorationProgress": "0.4996"
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "type": "native-wheel-and-anchor-recheck",
+      "passed": true,
+      "wheelMoved": true,
+      "top": 17,
+      "padding": 16,
+      "hash": "#work"
+    }
+  ],
+  "scope": "Targeted toolbar-only resize, actual viewport resize, and observed content-height changes; synthetic toolbar test does not claim real physical iOS UI-bar gestures."
+}

@@ -1,0 +1,122 @@
+{
+  "version": "26.0",
+  "observations": [
+    {
+      "width": 390,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "block",
+        "height": 65
+      },
+      "viewport": {
+        "svh": true,
+        "dvh": true
+      },
+      "buttons": [
+        {
+          "className": "graph-node square",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "auto",
+          "background": "rgba(7, 18, 27, 0.96)",
+          "color": "rgb(243, 240, 232)"
+        }
+      ],
+      "mosaic": {
+        "filter": "url(\"#pixelate\")",
+        "clipFilter": "brightness(0.82) saturate(0.72) contrast(0.9)"
+      },
+      "icons": [
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "▶"
+      ]
+    },
+    {
+      "width": 320,
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "header": {
+        "display": "block",
+        "height": 65
+      },
+      "viewport": {
+        "svh": true,
+        "dvh": true
+      },
+      "buttons": [
+        {
+          "className": "graph-node square",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry is-selected",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "experience-entry",
+          "appearance": "auto",
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(243, 240, 232)"
+        },
+        {
+          "className": "motion-toggle",
+          "appearance": "auto",
+          "background": "rgba(7, 18, 27, 0.96)",
+          "color": "rgb(243, 240, 232)"
+        }
+      ],
+      "mosaic": {
+        "filter": "url(\"#pixelate\")",
+        "clipFilter": "brightness(0.82) saturate(0.72) contrast(0.9)"
+      },
+      "icons": [
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "↗",
+        "▶"
+      ]
+    }
+  ],
+  "errors": []
+}

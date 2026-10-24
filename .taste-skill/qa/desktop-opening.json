@@ -1,0 +1,321 @@
+{
+  "checks": [
+    {
+      "name": "chromium baseline fresh desktop plays but same-tab seen reload suppresses opening",
+      "passed": true,
+      "details": {
+        "fresh": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "reload": {
+          "opening": "done",
+          "visible": false,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        }
+      }
+    },
+    {
+      "name": "chromium baseline hidden initial page remains skipped after activation",
+      "passed": true,
+      "details": {
+        "initial": {
+          "opening": "done",
+          "visible": false,
+          "hidden": true,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "done",
+          "visible": false,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "method": "Synthetic initial document.hidden override"
+      }
+    },
+    {
+      "name": "chromium final desktop fresh visit and reload play even with old seen marker",
+      "passed": true,
+      "details": {
+        "fresh": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "reload": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "focusedSkip": "hero-title"
+      }
+    },
+    {
+      "name": "chromium final initially hidden desktop starts when visible and suspends hero until done",
+      "passed": true,
+      "details": {
+        "initial": {
+          "opening": null,
+          "visible": false,
+          "hidden": true,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "method": "Synthetic visibility activation, real event integration"
+      }
+    },
+    {
+      "name": "chromium mobile home and reload play; header remains hidden without overflow",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "header": 0
+      }
+    },
+    {
+      "name": "chromium reduced bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium paused bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "chromium deep-link bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "webkit baseline fresh desktop plays but same-tab seen reload suppresses opening",
+      "passed": true,
+      "details": {
+        "fresh": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "reload": {
+          "opening": "done",
+          "visible": false,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        }
+      }
+    },
+    {
+      "name": "webkit baseline hidden initial page remains skipped after activation",
+      "passed": true,
+      "details": {
+        "initial": {
+          "opening": "done",
+          "visible": false,
+          "hidden": true,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "done",
+          "visible": false,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "method": "Synthetic initial document.hidden override"
+      }
+    },
+    {
+      "name": "webkit final desktop fresh visit and reload play even with old seen marker",
+      "passed": true,
+      "details": {
+        "fresh": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "reload": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": "true",
+          "motion": "playing"
+        },
+        "focusedSkip": "hero-title"
+      }
+    },
+    {
+      "name": "webkit final initially hidden desktop starts when visible and suspends hero until done",
+      "passed": true,
+      "details": {
+        "initial": {
+          "opening": null,
+          "visible": false,
+          "hidden": true,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "method": "Synthetic visibility activation, real event integration"
+      }
+    },
+    {
+      "name": "webkit mobile home and reload play; header remains hidden without overflow",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "header": 0
+      }
+    },
+    {
+      "name": "webkit reduced bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit paused bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "paused"
+      }
+    },
+    {
+      "name": "webkit deep-link bypass remains intact",
+      "passed": true,
+      "details": {
+        "opening": "done",
+        "visible": false,
+        "hidden": false,
+        "marker": null,
+        "motion": "playing"
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in targeted desktop/mobile visits",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "chromium unavailable storage allows opening without an exception",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "webkit unavailable storage allows opening without an exception",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "chromium": {
+      "version": "156.0.8078.4",
+      "nativeBackground": {
+        "initial": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "hiddenStateReproduced": false,
+        "method": "Two headless pages and bringToFront; visibility is not assumed to match a real OS background tab."
+      }
+    },
+    "webkit": {
+      "version": "26.0",
+      "nativeBackground": {
+        "initial": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "activated": {
+          "opening": "playing",
+          "visible": true,
+          "hidden": false,
+          "marker": null,
+          "motion": "playing"
+        },
+        "hiddenStateReproduced": false,
+        "method": "Two headless pages and bringToFront; visibility is not assumed to match a real OS background tab."
+      }
+    }
+  },
+  "errors": [],
+  "limitations": "Focused desktop-opening regression only. Headless background-page visibility is recorded, not assumed. Hidden-start behavior is deterministically tested using a document.hidden override and visibilitychange; no physical OS-tab or native iOS test in this revision."
+}
