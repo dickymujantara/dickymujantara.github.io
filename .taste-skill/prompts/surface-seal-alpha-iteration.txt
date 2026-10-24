@@ -1,0 +1,6 @@
+Tool: built-in image_gen.imagegen
+Input: /Users/dickymujantara/.codex/generated_images/01a16b1f-1be9-7de2-a8d6-2814f83363df/exec-90cf167e-e1ff-4e6f-ba24-3c8f05786aee.png
+Output: /Users/dickymujantara/.codex/generated_images/01a16b1f-1be9-7de2-a8d6-2814f83363df/exec-c03fae0e-db02-445b-880c-95affc0a3bdb.png
+Decision: not shipped. The original's apparent halo in the image viewer was hidden RGB outside its actual alpha. The decoded browser composite has clean transparent edges. The original is the implemented asset; this optional extraction is retained in the generation cache only.
+
+Use case: background-extraction. Production transparent cutout asset. Edit this painted seal on its rock: REMOVE ALL the diffuse pale glow/halo around the head and back and the dark blue ground plane below the rock. Keep only the exact painted seal and its solid low rocky outcrop, their natural crisp edge antialiasing and fine whiskers. Preserve seal/rock pose, proportions, blue/ivory palette, painted texture and composition. Every pixel beyond these solid subjects must be genuinely fully transparent alpha, including the area around the head and below the rock. No backdrop, no fog, no cast shadow, no glow, no blue rectangle, no checkerboard. 5% clear transparent margin around entire cutout. Do not add anything.

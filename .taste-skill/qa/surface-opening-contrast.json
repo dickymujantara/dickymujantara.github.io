@@ -1,0 +1,177 @@
+{
+  "results": [
+    {
+      "config": {
+        "width": 320,
+        "height": 568,
+        "coarse": true
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "39.2px",
+          "rects": [
+            {
+              "left": 42.828125,
+              "right": 277.171875,
+              "top": 136,
+              "bottom": 190
+            }
+          ],
+          "glyphInteriorPixels": 1351,
+          "min": 4.197963625840277,
+          "percentile5": 4.539727557462498,
+          "median": 7.874352107428463
+        },
+        {
+          "selector": ".opening-swipe-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "12.48px",
+          "rects": [
+            {
+              "left": 94.765625,
+              "right": 225.234375,
+              "top": 489.9375,
+              "bottom": 504.9375
+            }
+          ],
+          "glyphInteriorPixels": 143,
+          "min": 13.735806137953714,
+          "percentile5": 15.926169976381425,
+          "median": 16.59548982200764
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 390,
+        "height": 844,
+        "coarse": true
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "39.78px",
+          "rects": [
+            {
+              "left": 76.09375,
+              "right": 313.90625,
+              "top": 206,
+              "bottom": 260
+            }
+          ],
+          "glyphInteriorPixels": 1396,
+          "min": 4.375048221328002,
+          "percentile5": 4.741804553920195,
+          "median": 6.4307513394037334
+        },
+        {
+          "selector": ".opening-swipe-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "12.48px",
+          "rects": [
+            {
+              "left": 129.765625,
+              "right": 260.234375,
+              "top": 765.9375,
+              "bottom": 780.9375
+            }
+          ],
+          "glyphInteriorPixels": 143,
+          "min": 14.92395090309895,
+          "percentile5": 15.189815661690643,
+          "median": 16.22048037538281
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 844,
+        "height": 390,
+        "coarse": true
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "56.548px",
+          "rects": [
+            {
+              "left": 71.734375,
+              "right": 409.734375,
+              "top": 128.5,
+              "bottom": 206.5
+            }
+          ],
+          "glyphInteriorPixels": 2985,
+          "min": 5.382992893056329,
+          "percentile5": 10.686422425053067,
+          "median": 14.685432196811211
+        },
+        {
+          "selector": ".opening-swipe-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "10.88px",
+          "rects": [
+            {
+              "left": 364.265625,
+              "right": 479.734375,
+              "top": 338.203125,
+              "bottom": 351.203125
+            }
+          ],
+          "glyphInteriorPixels": 115,
+          "min": 12.081180442369517,
+          "percentile5": 12.603817620933631,
+          "median": 16.13267565820208
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "coarse": false
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "96.48px",
+          "rects": [
+            {
+              "left": 122.390625,
+              "right": 699.171875,
+              "top": 339,
+              "bottom": 471
+            }
+          ],
+          "glyphInteriorPixels": 9367,
+          "min": 6.8148975568588535,
+          "percentile5": 12.315807750047297,
+          "median": 15.104396292186278
+        },
+        {
+          "selector": ".opening-scroll-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "12.48px",
+          "rects": [
+            {
+              "left": 666.640625,
+              "right": 773.359375,
+              "top": 818.734375,
+              "bottom": 833.734375
+            }
+          ],
+          "glyphInteriorPixels": 124,
+          "min": 16.292293930094786,
+          "percentile5": 16.39632346974142,
+          "median": 16.42994569779064
+        }
+      ]
+    }
+  ],
+  "method": "Local ambient motion paused; normal/background browser screenshots compared to find high-coverage native text glyph interiors. Background pixel luminance sampled beneath those glyphs. Focused image-background check, not full-site contrast."
+}
