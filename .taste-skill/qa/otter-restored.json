@@ -1,0 +1,716 @@
+{
+  "asset": "img/ocean/otter.webp",
+  "engines": {
+    "chromium": "156.0.8078.4",
+    "webkit": "26.0"
+  },
+  "checks": [
+    {
+      "name": "chromium: original otter decode and fit 1440x900",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 747.2470703125,
+          "top": 339.2169189453125,
+          "right": 1425.074462890625,
+          "bottom": 679.673095703125,
+          "width": 677.827392578125,
+          "height": 340.4561767578125
+        },
+        "visible": {
+          "left": 760.4858865737915,
+          "top": 377.11926674842834,
+          "right": 1417.7931139469147,
+          "bottom": 653.0749568939209
+        },
+        "title": {
+          "left": 122.390625,
+          "top": 351,
+          "right": 813.578125,
+          "bottom": 459.0625,
+          "width": 691.1875,
+          "height": 108.0625
+        },
+        "cue": {
+          "left": 72,
+          "top": 817.734375,
+          "right": 1368,
+          "bottom": 868,
+          "width": 1296,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 1376,
+          "top": 836,
+          "right": 1420,
+          "bottom": 880,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 71.70000004768372,
+            "done": true,
+            "finished": 89
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-chromium-1440.png"
+      }
+    },
+    {
+      "name": "chromium: original otter decode and fit 390x844",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 22.5567626953125,
+          "top": 462.7117004394531,
+          "right": 389.5074768066406,
+          "bottom": 646.7235717773438,
+          "width": 366.9507141113281,
+          "height": 184.01187133789062
+        },
+        "visible": {
+          "left": 29.723768830299377,
+          "top": 483.19739705324173,
+          "right": 385.56562343239784,
+          "bottom": 632.347644329071
+        },
+        "title": {
+          "left": 19.5,
+          "top": 211,
+          "right": 370.5,
+          "bottom": 255.546875,
+          "width": 351,
+          "height": 44.546875
+        },
+        "cue": {
+          "left": 19.5,
+          "top": 764.9375,
+          "right": 370.5,
+          "bottom": 815.203125,
+          "width": 351,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 326,
+          "top": 780,
+          "right": 370,
+          "bottom": 824,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 57.300000071525574,
+            "done": true,
+            "finished": 64.80000007152557
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-chromium-390.png"
+      }
+    },
+    {
+      "name": "chromium: original otter decode and fit 320x568",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 18.382125854492188,
+          "top": 310.9727783203125,
+          "right": 319.4731903076172,
+          "bottom": 461.95269775390625,
+          "width": 301.091064453125,
+          "height": 150.97991943359375
+        },
+        "visible": {
+          "left": 24.262810707092285,
+          "top": 327.78108966350555,
+          "right": 316.23881363868713,
+          "bottom": 450.15739154815674
+        },
+        "title": {
+          "left": 16,
+          "top": 142,
+          "right": 304,
+          "bottom": 185.90625,
+          "width": 288,
+          "height": 43.90625
+        },
+        "cue": {
+          "left": 16,
+          "top": 488.9375,
+          "right": 304,
+          "bottom": 539.203125,
+          "width": 288,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 256,
+          "top": 504,
+          "right": 300,
+          "bottom": 548,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 46.59999990463257,
+            "done": true,
+            "finished": 63.299999952316284
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-chromium-320.png"
+      }
+    },
+    {
+      "name": "chromium: original otter decode and fit 844x390",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 463.3675537109375,
+          "top": 138.91224670410156,
+          "right": 826.6287841796875,
+          "bottom": 321.0763244628906,
+          "width": 363.26123046875,
+          "height": 182.16407775878906
+        },
+        "visible": {
+          "left": 470.4624996185303,
+          "top": 159.19223192334175,
+          "right": 822.7265639305115,
+          "bottom": 306.84475588798523
+        },
+        "title": {
+          "left": 71.734375,
+          "top": 136.5,
+          "right": 476.84375,
+          "bottom": 199.828125,
+          "width": 405.109375,
+          "height": 63.328125
+        },
+        "cue": {
+          "left": 42.1875,
+          "top": 337.203125,
+          "right": 801.8125,
+          "bottom": 375.609375,
+          "width": 759.625,
+          "height": 38.40625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 780,
+          "top": 334,
+          "right": 824,
+          "bottom": 378,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 42.200000047683716,
+            "done": true,
+            "finished": 58.700000047683716
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-chromium-844.png"
+      }
+    },
+    {
+      "name": "chromium: original otter decode and fit 768x1024",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 398.5284729003906,
+          "top": 387.639404296875,
+          "right": 759.8330078125,
+          "bottom": 568.8121337890625,
+          "width": 361.3045349121094,
+          "height": 181.1727294921875
+        },
+        "visible": {
+          "left": 405.58520209789276,
+          "top": 407.80902457237244,
+          "right": 755.9518067538738,
+          "bottom": 554.6580142974854
+        },
+        "title": {
+          "left": 65.265625,
+          "top": 399.359375,
+          "right": 433.890625,
+          "bottom": 456.984375,
+          "width": 368.625,
+          "height": 57.625
+        },
+        "cue": {
+          "left": 38.390625,
+          "top": 941.734375,
+          "right": 729.609375,
+          "bottom": 992,
+          "width": 691.21875,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 704,
+          "top": 960,
+          "right": 748,
+          "bottom": 1004,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 44.60000002384186,
+            "done": true,
+            "finished": 62.10000002384186
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-chromium-768.png"
+      }
+    },
+    {
+      "name": "chromium: ambient motion Pause/Play and scroll entry",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999995, -0.00315904, 0.00315904, 0.999995, -1.0858, -1.8096)",
+        "moving": "matrix(0.999997, -0.00234572, 0.00234572, 0.999997, -0.8062, -1.3437)",
+        "frozen": "matrix(0.999997, -0.00227242, 0.00227242, 0.999997, -0.7812, -1.3021)",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceled": 14
+        },
+        "input": "Native wheel entry and scrolling"
+      }
+    },
+    {
+      "name": "webkit: original otter decode and fit 1440x900",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 747.2543334960938,
+          "top": 339.2290344238281,
+          "right": 1425.0775146484375,
+          "bottom": 679.677001953125,
+          "width": 677.8231811523438,
+          "height": 340.4479675292969
+        },
+        "visible": {
+          "left": 760.4930675029755,
+          "top": 377.13046830892563,
+          "right": 1417.7962109446526,
+          "bottom": 653.0795044898987
+        },
+        "title": {
+          "left": 122.390625,
+          "top": 351,
+          "right": 813.578125,
+          "bottom": 459,
+          "width": 691.1875,
+          "height": 108
+        },
+        "cue": {
+          "left": 72,
+          "top": 818.203125,
+          "right": 1368,
+          "bottom": 868,
+          "width": 1296,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 1376,
+          "top": 836,
+          "right": 1420,
+          "bottom": 880,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 66,
+            "done": true,
+            "finished": 93
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-webkit-1440.png"
+      }
+    },
+    {
+      "name": "webkit: original otter decode and fit 390x844",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 22.55649757385254,
+          "top": 462.7110900878906,
+          "right": 389.50754737854004,
+          "bottom": 646.7235717773438,
+          "width": 366.9510498046875,
+          "height": 184.01248168945312
+        },
+        "visible": {
+          "left": 29.723510265350342,
+          "top": 483.1968546509743,
+          "right": 385.56569039821625,
+          "bottom": 632.3475966453552
+        },
+        "title": {
+          "left": 19.5,
+          "top": 211,
+          "right": 370.5,
+          "bottom": 255,
+          "width": 351,
+          "height": 44
+        },
+        "cue": {
+          "left": 19.5,
+          "top": 765.40625,
+          "right": 370.5,
+          "bottom": 815.203125,
+          "width": 351,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 326,
+          "top": 780,
+          "right": 370,
+          "bottom": 824,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 45,
+            "done": true,
+            "finished": 66
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-webkit-390.png"
+      }
+    },
+    {
+      "name": "webkit: original otter decode and fit 320x568",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 18.38344383239746,
+          "top": 310.97454833984375,
+          "right": 319.47423362731934,
+          "bottom": 461.95391845703125,
+          "width": 301.0907897949219,
+          "height": 150.9793701171875
+        },
+        "visible": {
+          "left": 24.26412332057953,
+          "top": 327.78279852867126,
+          "right": 316.2398599088192,
+          "bottom": 450.158655166626
+        },
+        "title": {
+          "left": 16,
+          "top": 142,
+          "right": 304,
+          "bottom": 185,
+          "width": 288,
+          "height": 43
+        },
+        "cue": {
+          "left": 16,
+          "top": 489.40625,
+          "right": 304,
+          "bottom": 539.203125,
+          "width": 288,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 256,
+          "top": 504,
+          "right": 300,
+          "bottom": 548,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 49,
+            "done": true,
+            "finished": 76
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-webkit-320.png"
+      }
+    },
+    {
+      "name": "webkit: original otter decode and fit 844x390",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 463.3709411621094,
+          "top": 138.91751098632812,
+          "right": 826.630859375,
+          "bottom": 321.07904052734375,
+          "width": 363.2599182128906,
+          "height": 182.16152954101562
+        },
+        "visible": {
+          "left": 470.4658614397049,
+          "top": 159.1972125172615,
+          "right": 822.7286532223225,
+          "bottom": 306.8476710319519
+        },
+        "title": {
+          "left": 71.734375,
+          "top": 136.5,
+          "right": 476.84375,
+          "bottom": 199.5,
+          "width": 405.109375,
+          "height": 63
+        },
+        "cue": {
+          "left": 42.1875,
+          "top": 337.421875,
+          "right": 801.8125,
+          "bottom": 375.609375,
+          "width": 759.625,
+          "height": 38.1875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 780,
+          "top": 334,
+          "right": 824,
+          "bottom": 378,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 43,
+            "done": true,
+            "finished": 64
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-webkit-844.png"
+      }
+    },
+    {
+      "name": "webkit: original otter decode and fit 768x1024",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 398.52838134765625,
+          "top": 387.638427734375,
+          "right": 759.833251953125,
+          "bottom": 568.811767578125,
+          "width": 361.30487060546875,
+          "height": 181.17333984375
+        },
+        "visible": {
+          "left": 405.5851171016693,
+          "top": 407.8081159591675,
+          "right": 755.9520472884178,
+          "bottom": 554.657600402832
+        },
+        "title": {
+          "left": 65.265625,
+          "top": 399.359375,
+          "right": 433.890625,
+          "bottom": 456.359375,
+          "width": 368.625,
+          "height": 57
+        },
+        "cue": {
+          "left": 38.390625,
+          "top": 942.203125,
+          "right": 729.609375,
+          "bottom": 992,
+          "width": 691.21875,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 704,
+          "top": 960,
+          "right": 748,
+          "bottom": 1004,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 63,
+            "done": true,
+            "finished": 70
+          }
+        ],
+        "screenshot": ".taste-skill/previews/otter-restored-webkit-768.png"
+      }
+    },
+    {
+      "name": "webkit: ambient motion Pause/Play and scroll entry",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999998, -0.001995, 0.001995, 0.999998, -0.6855, -1.1425)",
+        "moving": "matrix(0.999999, -0.00162, 0.00162, 0.999999, -0.5567, -0.9279)",
+        "frozen": "matrix(0.999999, -0.001593, 0.001593, 0.999999, -0.5479, -0.9131)",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceled": 14
+        },
+        "input": "Synthetic touch entry and programmatic follow-up scroll"
+      }
+    },
+    {
+      "name": "No uncaught exceptions during scoped restoration checks",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "limitations": "Scoped asset/layout restoration. Touch entry uses synthetic events; subsequent mobile scrolling is programmatic. No physical-device, Simulator, assistive-technology, performance or full-site verification."
+}

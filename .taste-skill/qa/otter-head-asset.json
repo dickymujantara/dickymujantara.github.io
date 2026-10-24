@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-24",
+  "tool": "Built-in image_gen.imagegen",
+  "method": "Actual Chromium Image.decode and unscaled canvas RGBA inspection of source PNG and delivered WebP; visual checker/navy composite.",
+  "source": "/Users/dickymujantara/.codex/generated_images/01a16b1f-1be9-7de2-a8d6-2814f83363df/exec-859c8e59-ddeb-4686-97d1-5ef25fbae6a2.png",
+  "delivery": "img/ocean/otter-head-smile.webp",
+  "sourceBytes": 1640845,
+  "deliveryBytes": 128112,
+  "sourceInspection": {
+    "width": 1774,
+    "height": 887,
+    "totalPixels": 1573538,
+    "transparentPixels": 925680,
+    "translucentPixels": 647733,
+    "opaquePixels": 125,
+    "transparentRatio": 0.5882794060264195,
+    "maxAlpha": 255,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupiedEdgePixels": 36,
+    "maxEdgeAlpha": 1,
+    "bounds": {
+      "1": {
+        "left": 0,
+        "top": 17,
+        "right": 1751,
+        "bottom": 886
+      },
+      "16": {
+        "left": 60,
+        "top": 117,
+        "right": 1726,
+        "bottom": 795
+      },
+      "128": {
+        "left": 61,
+        "top": 119,
+        "right": 1725,
+        "bottom": 794
+      }
+    }
+  },
+  "deliveryInspection": {
+    "width": 1024,
+    "height": 512,
+    "totalPixels": 524288,
+    "transparentPixels": 307348,
+    "translucentPixels": 216940,
+    "opaquePixels": 0,
+    "transparentRatio": 0.5862197875976562,
+    "maxAlpha": 254,
+    "cornersAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupiedEdgePixels": 15,
+    "maxEdgeAlpha": 1,
+    "bounds": {
+      "1": {
+        "left": 0,
+        "top": 10,
+        "right": 1008,
+        "bottom": 511
+      },
+      "16": {
+        "left": 34,
+        "top": 67,
+        "right": 996,
+        "bottom": 459
+      },
+      "128": {
+        "left": 35,
+        "top": 69,
+        "right": 996,
+        "bottom": 458
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "Delivery retains proportional source dimensions",
+      "passed": true,
+      "observed": 0
+    },
+    {
+      "name": "Delivery is a true transparent foreground",
+      "passed": true,
+      "observed": {
+        "transparentRatio": 0.5862197875976562,
+        "maxAlpha": 254
+      }
+    },
+    {
+      "name": "All four delivered corners are fully transparent",
+      "passed": true,
+      "observed": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Visible marks are not clipped at outer image edges",
+      "passed": true,
+      "observed": {
+        "edgePixels": 15,
+        "maxEdgeAlpha": 1
+      }
+    }
+  ],
+  "composite": ".taste-skill/previews/otter-head-asset-alpha.png"
+}

@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "Delivered otter has genuine transparent alpha, clear corners and no visibly clipped edges",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "height": 512,
+        "transparentRatio": 0.6426944732666016,
+        "edgeMax": 1,
+        "maxAlpha": 254,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBounds": {
+          "left": 32,
+          "top": 49,
+          "right": 1014,
+          "bottom": 474
+        },
+        "bytes": 80332
+      }
+    },
+    {
+      "name": "chromium: replacement decodes through the existing loader and fits the surface scene",
+      "passed": true,
+      "details": {
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-v3.webp",
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "rect": {
+            "left": 745.5383911132812,
+            "right": 1424.755615234375,
+            "top": 336.12646484375,
+            "bottom": 679.3843994140625
+          }
+        },
+        "phase": "waiting",
+        "loader": {
+          "hidden": true,
+          "display": "none",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter-v3.webp",
+            "called": 79.79999995231628,
+            "done": true,
+            "finished": 87.69999992847443
+          }
+        ],
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "coarse": false
+        }
+      }
+    },
+    {
+      "name": "chromium: otter motion, Pause and scroll entry remain functional without errors",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999977, -0.00684687, 0.00684687, 0.999977, -1.9617, -3.2696)",
+        "after": "matrix(0.999989, -0.00468794, 0.00468794, 0.999989, -1.343, -2.2384)",
+        "paused": "matrix(0.99999, -0.00456227, 0.00456227, 0.99999, -1.3071, -2.1785)",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceledAnimations": 14
+        },
+        "errors": [],
+        "input": "Native desktop wheel"
+      }
+    },
+    {
+      "name": "webkit: replacement decodes through the existing loader and fits the surface scene",
+      "passed": true,
+      "details": {
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-v3.webp",
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "rect": {
+            "left": 21.654191970825195,
+            "right": 389.0946216583252,
+            "top": 461.1231689453125,
+            "bottom": 646.119384765625
+          }
+        },
+        "phase": "waiting",
+        "loader": {
+          "hidden": true,
+          "display": "none",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter-v3.webp",
+            "called": 64,
+            "done": true,
+            "finished": 71.00000000000001
+          }
+        ],
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "coarse": true
+        }
+      }
+    },
+    {
+      "name": "webkit: otter motion, Pause and scroll entry remain functional without errors",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.99999, -0.004571, 0.004571, 0.99999, -1.3097, -2.1829)",
+        "after": "matrix(0.999993, -0.003805, 0.003805, 0.999993, -1.0902, -1.8169)",
+        "paused": "matrix(0.999993, -0.003719, 0.003719, 0.999993, -1.0656, -1.776)",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceledAnimations": 14
+        },
+        "errors": [],
+        "input": "Synthetic upward touch sequence"
+      }
+    }
+  ],
+  "errors": [],
+  "asset": "img/ocean/otter-v3.webp",
+  "limitations": "One-asset replacement checks in actual Chromium/WebKit. Mobile swipe is synthetic. No full opening suite or physical-device performance certification."
+}

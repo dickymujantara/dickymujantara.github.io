@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-24",
+  "method": "Chromium Image.decode + unscaled RGBA canvas pixel inspection. Native decoded alpha is measured for original PNGs and delivered WebP files.",
+  "generationTool": "Built-in image_gen.imagegen",
+  "sourcePromptManifest": ".taste-skill/prompts/surface-style-v2.json",
+  "assets": [
+    {
+      "label": "surface-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-a671ace5-1448-422e-b8a5-7a39e051cd65.png",
+      "delivery": "img/ocean/surface-v2.webp",
+      "transparent": false,
+      "conversion": "cwebp -q 82 -m 6 -metadata none -resize 1536 0 SOURCE -o DELIVERY",
+      "sourceBytes": 1934106,
+      "sourceInspection": {
+        "width": 1672,
+        "height": 941,
+        "totalPixels": 1573352,
+        "transparentPixels": 0,
+        "translucentPixels": 0,
+        "opaquePixels": 1573352,
+        "transparentRatio": 0,
+        "maxAlpha": 255,
+        "cornersAlpha": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "occupiedEdgePixels": 5222,
+        "maxEdgeAlpha": 255,
+        "alphaBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1671,
+          "bottom": 940
+        },
+        "margins": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "alpha16Bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1671,
+          "bottom": 940
+        }
+      },
+      "deliveryBytes": 83722,
+      "deliveryInspection": {
+        "width": 1536,
+        "height": 865,
+        "totalPixels": 1328640,
+        "transparentPixels": 0,
+        "translucentPixels": 0,
+        "opaquePixels": 1328640,
+        "transparentRatio": 0,
+        "maxAlpha": 255,
+        "cornersAlpha": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "occupiedEdgePixels": 4798,
+        "maxEdgeAlpha": 255,
+        "alphaBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1535,
+          "bottom": 864
+        },
+        "margins": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "alpha16Bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1535,
+          "bottom": 864
+        }
+      }
+    },
+    {
+      "label": "surface-mobile-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-099fbd59-36e1-4104-b28d-351d9e0e0cb9.png",
+      "delivery": "img/ocean/surface-mobile-v2.webp",
+      "transparent": false,
+      "conversion": "cwebp -q 82 -m 6 -metadata none -resize 768 0 SOURCE -o DELIVERY",
+      "sourceBytes": 2035523,
+      "sourceInspection": {
+        "width": 1024,
+        "height": 1536,
+        "totalPixels": 1572864,
+        "transparentPixels": 0,
+        "translucentPixels": 0,
+        "opaquePixels": 1572864,
+        "transparentRatio": 0,
+        "maxAlpha": 255,
+        "cornersAlpha": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "occupiedEdgePixels": 5116,
+        "maxEdgeAlpha": 255,
+        "alphaBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1023,
+          "bottom": 1535
+        },
+        "margins": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "alpha16Bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1023,
+          "bottom": 1535
+        }
+      },
+      "deliveryBytes": 60780,
+      "deliveryInspection": {
+        "width": 768,
+        "height": 1152,
+        "totalPixels": 884736,
+        "transparentPixels": 0,
+        "translucentPixels": 0,
+        "opaquePixels": 884736,
+        "transparentRatio": 0,
+        "maxAlpha": 255,
+        "cornersAlpha": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "occupiedEdgePixels": 3836,
+        "maxEdgeAlpha": 255,
+        "alphaBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 767,
+          "bottom": 1151
+        },
+        "margins": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "alpha16Bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 767,
+          "bottom": 1151
+        }
+      }
+    },
+    {
+      "label": "otter-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-ebac6194-3403-4816-b8e7-08235fe42d72.png",
+      "delivery": "img/ocean/otter-v2.webp",
+      "transparent": true,
+      "conversion": "cwebp -q 82 -m 6 -alpha_q 100 -exact -metadata none -resize 1024 0 SOURCE -o DELIVERY",
+      "sourceBytes": 1844495,
+      "sourceInspection": {
+        "width": 1774,
+        "height": 887,
+        "totalPixels": 1573538,
+        "transparentPixels": 921758,
+        "translucentPixels": 651752,
+        "opaquePixels": 28,
+        "transparentRatio": 0.585787,
+        "maxAlpha": 255,
+        "cornersAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "occupiedEdgePixels": 15,
+        "maxEdgeAlpha": 1,
+        "alphaBounds": {
+          "left": 0,
+          "top": 23,
+          "right": 1761,
+          "bottom": 873
+        },
+        "margins": {
+          "left": 0,
+          "top": 23,
+          "right": 12,
+          "bottom": 13
+        },
+        "alpha16Bounds": {
+          "left": 29,
+          "top": 108,
+          "right": 1759,
+          "bottom": 832
+        }
+      },
+      "deliveryBytes": 121490,
+      "deliveryInspection": {
+        "width": 1024,
+        "height": 512,
+        "totalPixels": 524288,
+        "transparentPixels": 306559,
+        "translucentPixels": 217729,
+        "opaquePixels": 0,
+        "transparentRatio": 0.584715,
+        "maxAlpha": 254,
+        "cornersAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "occupiedEdgePixels": 7,
+        "maxEdgeAlpha": 1,
+        "alphaBounds": {
+          "left": 0,
+          "top": 30,
+          "right": 1016,
+          "bottom": 503
+        },
+        "margins": {
+          "left": 0,
+          "top": 30,
+          "right": 7,
+          "bottom": 8
+        },
+        "alpha16Bounds": {
+          "left": 16,
+          "top": 62,
+          "right": 1015,
+          "bottom": 480
+        }
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "img/ocean/surface-v2.webp: preserves source aspect ratio",
+      "pass": true,
+      "observed": 0.5406698564593171
+    },
+    {
+      "name": "img/ocean/surface-v2.webp: opaque scene",
+      "pass": true,
+      "observed": 1
+    },
+    {
+      "name": "img/ocean/surface-mobile-v2.webp: preserves source aspect ratio",
+      "pass": true,
+      "observed": 0
+    },
+    {
+      "name": "img/ocean/surface-mobile-v2.webp: opaque scene",
+      "pass": true,
+      "observed": 1
+    },
+    {
+      "name": "img/ocean/otter-v2.webp: preserves source aspect ratio",
+      "pass": true,
+      "observed": 0
+    },
+    {
+      "name": "img/ocean/otter-v2.webp: actual transparent cutout",
+      "pass": true,
+      "observed": 0.584715
+    },
+    {
+      "name": "img/ocean/otter-v2.webp: transparent corners",
+      "pass": true,
+      "observed": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "img/ocean/otter-v2.webp: no visible clipping at image edge (alpha <16)",
+      "pass": true,
+      "observed": {
+        "occupiedEdgePixels": 7,
+        "maxEdgeAlpha": 1
+      }
+    }
+  ],
+  "totalDeliveryBytes": 265992,
+  "alphaComposite": ".taste-skill/previews/surface-style-v2-alpha-composite.png"
+}

@@ -24,8 +24,12 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div id="ocean-opening" class="ocean-opening" role="dialog" aria-modal="true" aria-labelledby="opening-title" aria-describedby="opening-instructions" tabindex="-1" hidden>
+    <div class="opening-loader" role="status" aria-live="polite">
+      <svg class="opening-loader-mark" viewBox="0 0 80 40" width="80" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path data-loading-wave d="M4 9C16 1 24 17 40 9S64 1 76 9"/><path data-loading-wave d="M4 20C16 12 24 28 40 20S64 12 76 20"/><path data-loading-wave d="M4 31C16 23 24 39 40 31S64 23 76 31"/></svg>
+      <p id="opening-loading-label">Loading the surface</p>
+    </div>
     <div class="opening-scene" data-opening-layer="scene" aria-hidden="true">
-      <div class="opening-environment" data-opening-ambient="water"></div>
+      <div class="opening-environment"><div class="opening-water" data-opening-ambient="water"></div></div>
       <div class="opening-creature opening-seal" data-opening-layer="seal"><img data-opening-src="img/ocean/seal-rock.webp" alt="" width="768" height="512" decoding="async" data-opening-ambient="seal"></div>
       <div class="opening-creature opening-bird-one" data-opening-layer="bird-one"><img data-opening-src="img/ocean/seabird.webp" alt="" width="512" height="256" decoding="async" data-opening-ambient="bird"></div>
       <div class="opening-creature opening-bird-two" data-opening-layer="bird-two"><img data-opening-src="img/ocean/seabird.webp" alt="" width="512" height="256" decoding="async" data-opening-ambient="bird"></div>

@@ -1,0 +1,798 @@
+{
+  "asset": "img/ocean/otter-head-smile.webp",
+  "checks": [
+    {
+      "name": "chromium: smiling head decodes, stays clear of text and fits five responsive profiles",
+      "passed": true,
+      "details": [
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 34.435035705566406,
+            "top": 316.7315368652344,
+            "right": 284.2692337036133,
+            "bottom": 442.0099792480469,
+            "width": 249.83419799804688,
+            "height": 125.2784423828125
+          },
+          "visible": {
+            "left": 42.730311810970306,
+            "top": 333.12539553642273,
+            "right": 277.68180856108665,
+            "bottom": 429.2863874435425
+          },
+          "title": {
+            "left": 16,
+            "top": 142,
+            "right": 304,
+            "bottom": 185.90625,
+            "width": 288,
+            "height": 43.90625
+          },
+          "cue": {
+            "left": 16,
+            "top": 488.9375,
+            "right": 304,
+            "bottom": 539.203125,
+            "width": 288,
+            "height": 50.265625
+          },
+          "button": {
+            "left": 256,
+            "top": 504,
+            "right": 300,
+            "bottom": 548,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 78.89999997615814,
+              "done": true,
+              "finished": 85.80000007152557
+            }
+          ],
+          "viewport": {
+            "width": 320,
+            "height": 568
+          },
+          "scrollWidth": 320,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-chromium-320.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 42.11386489868164,
+            "top": 471.229248046875,
+            "right": 346.59360122680664,
+            "bottom": 623.9083251953125,
+            "width": 304.479736328125,
+            "height": 152.6790771484375
+          },
+          "visible": {
+            "left": 52.223543643951416,
+            "top": 491.2087366580963,
+            "right": 338.5653269290924,
+            "bottom": 608.4018564224243
+          },
+          "title": {
+            "left": 19.5,
+            "top": 211,
+            "right": 370.5,
+            "bottom": 255.546875,
+            "width": 351,
+            "height": 44.546875
+          },
+          "cue": {
+            "left": 19.5,
+            "top": 764.9375,
+            "right": 370.5,
+            "bottom": 815.203125,
+            "width": 351,
+            "height": 50.265625
+          },
+          "button": {
+            "left": 326,
+            "top": 780,
+            "right": 370,
+            "bottom": 824,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 61.39999997615814,
+              "done": true,
+              "finished": 73.69999992847443
+            }
+          ],
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "scrollWidth": 390,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-chromium-390.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 522.4892578125,
+            "top": 135.10488891601562,
+            "right": 826.6092529296875,
+            "bottom": 287.59576416015625,
+            "width": 304.1199951171875,
+            "height": 152.49087524414062
+          },
+          "visible": {
+            "left": 532.5869920253754,
+            "top": 155.05974954366684,
+            "right": 818.5904639959335,
+            "bottom": 272.1084096431732
+          },
+          "title": {
+            "left": 71.734375,
+            "top": 136.5,
+            "right": 476.84375,
+            "bottom": 199.828125,
+            "width": 405.109375,
+            "height": 63.328125
+          },
+          "cue": {
+            "left": 42.1875,
+            "top": 337.203125,
+            "right": 801.8125,
+            "bottom": 375.609375,
+            "width": 759.625,
+            "height": 38.40625
+          },
+          "button": {
+            "left": 780,
+            "top": 334,
+            "right": 824,
+            "bottom": 378,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 48.89999997615814,
+              "done": true,
+              "finished": 67.09999990463257
+            }
+          ],
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "scrollWidth": 844,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-chromium-844.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 475.3780822753906,
+            "top": 469.6636962890625,
+            "right": 752.1121826171875,
+            "bottom": 608.4295654296875,
+            "width": 276.7341003417969,
+            "height": 138.765869140625
+          },
+          "visible": {
+            "left": 484.56651920080185,
+            "top": 487.8225111961365,
+            "right": 744.8154827058315,
+            "bottom": 594.3361568450928
+          },
+          "title": {
+            "left": 65.265625,
+            "top": 399.359375,
+            "right": 433.890625,
+            "bottom": 456.984375,
+            "width": 368.625,
+            "height": 57.625
+          },
+          "cue": {
+            "left": 38.390625,
+            "top": 941.734375,
+            "right": 729.609375,
+            "bottom": 992,
+            "width": 691.21875,
+            "height": 50.265625
+          },
+          "button": {
+            "left": 704,
+            "top": 960,
+            "right": 748,
+            "bottom": 1004,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 45.10000002384186,
+              "done": true,
+              "finished": 63.300000071525574
+            }
+          ],
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "scrollWidth": 768,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-chromium-768.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 891.4026489257812,
+            "top": 411.5201110839844,
+            "right": 1410.5635986328125,
+            "bottom": 672.2518310546875,
+            "width": 519.1609497070312,
+            "height": 260.7317199707031
+          },
+          "visible": {
+            "left": 908.6404148340225,
+            "top": 445.6393010020256,
+            "right": 1396.8747845292091,
+            "bottom": 645.771265745163
+          },
+          "title": {
+            "left": 122.390625,
+            "top": 351,
+            "right": 813.578125,
+            "bottom": 459.0625,
+            "width": 691.1875,
+            "height": 108.0625
+          },
+          "cue": {
+            "left": 72,
+            "top": 817.734375,
+            "right": 1368,
+            "bottom": 868,
+            "width": 1296,
+            "height": 50.265625
+          },
+          "button": {
+            "left": 1376,
+            "top": 836,
+            "right": 1420,
+            "bottom": 880,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 73,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 48.299999952316284,
+              "done": true,
+              "finished": 70.09999990463257
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "scrollWidth": 1440,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-chromium-1440.png"
+        }
+      ]
+    },
+    {
+      "name": "chromium: bobbing, Pause/Play and surface-to-hero handoff retain native content access",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999995, -0.00308225, 0.00308225, 0.999995, -1.0594, -1.7657)",
+        "moving": "matrix(0.999997, -0.00227242, 0.00227242, 0.999997, -0.7812, -1.3021)",
+        "frozen": "matrix(0.999997, -0.00224798, 0.00224798, 0.999997, -0.7727, -1.2878)",
+        "transition": ".taste-skill/previews/smiling-head-transition-chromium-1440.png",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "animationsCanceled": 14
+        },
+        "input": "Native wheel entry and subsequent scroll"
+      }
+    },
+    {
+      "name": "chromium: reduced motion and saved pause bypass both loader and opening artwork",
+      "passed": true,
+      "details": [
+        {
+          "preference": "reduced",
+          "hidden": true,
+          "assets": 0
+        },
+        {
+          "preference": "paused",
+          "hidden": true,
+          "assets": 0
+        }
+      ]
+    },
+    {
+      "name": "chromium: missing or stalled head art cannot trap loading or revive a dismissed opening",
+      "passed": true,
+      "details": [
+        {
+          "behavior": "missing",
+          "loadingDuration": 650.3999999761581,
+          "finalPhase": "done",
+          "animations": 12
+        },
+        {
+          "behavior": "slow",
+          "loadingDuration": 4506.5,
+          "finalPhase": "done",
+          "animations": 12
+        }
+      ]
+    },
+    {
+      "name": "webkit: smiling head decodes, stays clear of text and fits five responsive profiles",
+      "passed": true,
+      "details": [
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 34.43463897705078,
+            "top": 316.73162841796875,
+            "right": 284.26883697509766,
+            "bottom": 442.01007080078125,
+            "width": 249.83419799804688,
+            "height": 125.2784423828125
+          },
+          "visible": {
+            "left": 42.72991508245468,
+            "top": 333.1254870891571,
+            "right": 277.68141183257103,
+            "bottom": 429.28647899627686
+          },
+          "title": {
+            "left": 16,
+            "top": 142,
+            "right": 304,
+            "bottom": 185,
+            "width": 288,
+            "height": 43
+          },
+          "cue": {
+            "left": 16,
+            "top": 489.40625,
+            "right": 304,
+            "bottom": 539.203125,
+            "width": 288,
+            "height": 49.796875
+          },
+          "button": {
+            "left": 256,
+            "top": 504,
+            "right": 300,
+            "bottom": 548,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 68,
+              "done": true,
+              "finished": 75
+            }
+          ],
+          "viewport": {
+            "width": 320,
+            "height": 568
+          },
+          "scrollWidth": 320,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-webkit-320.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 42.11301803588867,
+            "top": 471.2273864746094,
+            "right": 346.5930290222168,
+            "bottom": 623.906982421875,
+            "width": 304.4800109863281,
+            "height": 152.67959594726562
+          },
+          "visible": {
+            "left": 52.2227059006691,
+            "top": 491.2069429755211,
+            "right": 338.5647474825382,
+            "bottom": 608.4004609584808
+          },
+          "title": {
+            "left": 19.5,
+            "top": 211,
+            "right": 370.5,
+            "bottom": 255,
+            "width": 351,
+            "height": 44
+          },
+          "cue": {
+            "left": 19.5,
+            "top": 765.40625,
+            "right": 370.5,
+            "bottom": 815.203125,
+            "width": 351,
+            "height": 49.796875
+          },
+          "button": {
+            "left": 326,
+            "top": 780,
+            "right": 370,
+            "bottom": 824,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 70,
+              "done": true,
+              "finished": 77
+            }
+          ],
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "scrollWidth": 390,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-webkit-390.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 522.4867553710938,
+            "top": 135.10096740722656,
+            "right": 826.6075439453125,
+            "bottom": 287.5934143066406,
+            "width": 304.12078857421875,
+            "height": 152.49244689941406
+          },
+          "visible": {
+            "left": 532.5845159292221,
+            "top": 155.05603370070457,
+            "right": 818.5887340903282,
+            "bottom": 272.1059001684189
+          },
+          "title": {
+            "left": 71.734375,
+            "top": 136.5,
+            "right": 476.84375,
+            "bottom": 199.5,
+            "width": 405.109375,
+            "height": 63
+          },
+          "cue": {
+            "left": 42.1875,
+            "top": 337.421875,
+            "right": 801.8125,
+            "bottom": 375.609375,
+            "width": 759.625,
+            "height": 38.1875
+          },
+          "button": {
+            "left": 780,
+            "top": 334,
+            "right": 824,
+            "bottom": 378,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 49,
+              "done": true,
+              "finished": 71.00000000000001
+            }
+          ],
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "scrollWidth": 844,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-webkit-844.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 475.3766784667969,
+            "top": 469.66046142578125,
+            "right": 752.1112670898438,
+            "bottom": 608.4273071289062,
+            "width": 276.7345886230469,
+            "height": 138.766845703125
+          },
+          "visible": {
+            "left": 484.5651316046715,
+            "top": 487.8194041252136,
+            "right": 744.8145543038845,
+            "bottom": 594.3337993621826
+          },
+          "title": {
+            "left": 65.265625,
+            "top": 399.359375,
+            "right": 433.890625,
+            "bottom": 456.359375,
+            "width": 368.625,
+            "height": 57
+          },
+          "cue": {
+            "left": 38.390625,
+            "top": 942.203125,
+            "right": 729.609375,
+            "bottom": 992,
+            "width": 691.21875,
+            "height": 49.796875
+          },
+          "button": {
+            "left": 704,
+            "top": 960,
+            "right": 748,
+            "bottom": 1004,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 0,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 47,
+              "done": true,
+              "finished": 68
+            }
+          ],
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "scrollWidth": 768,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-webkit-768.png"
+        },
+        {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+          "complete": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "opacity": "1",
+          "box": {
+            "left": 891.4011840820312,
+            "top": 411.5165100097656,
+            "right": 1410.56298828125,
+            "bottom": 672.25,
+            "width": 519.1618041992188,
+            "height": 260.7334899902344
+          },
+          "visible": {
+            "left": 908.6389783620834,
+            "top": 445.63593155145645,
+            "right": 1396.874151647091,
+            "bottom": 645.7692549228668
+          },
+          "title": {
+            "left": 122.390625,
+            "top": 351,
+            "right": 813.578125,
+            "bottom": 459,
+            "width": 691.1875,
+            "height": 108
+          },
+          "cue": {
+            "left": 72,
+            "top": 818.203125,
+            "right": 1368,
+            "bottom": 868,
+            "width": 1296,
+            "height": 49.796875
+          },
+          "button": {
+            "left": 1376,
+            "top": 836,
+            "right": 1420,
+            "bottom": 880,
+            "width": 44,
+            "height": 44
+          },
+          "headerHeight": 73,
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-head-smile.webp",
+              "called": 45,
+              "done": true,
+              "finished": 67
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "scrollWidth": 1440,
+          "phase": "waiting",
+          "loaderHidden": true,
+          "screenshot": ".taste-skill/previews/smiling-head-webkit-1440.png"
+        }
+      ]
+    },
+    {
+      "name": "webkit: bobbing, Pause/Play and surface-to-hero handoff retain native content access",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999998, -0.001963, 0.001963, 0.999998, -0.6753, -1.1255)",
+        "moving": "matrix(0.999999, -0.001588, 0.001588, 0.999999, -0.5458, -0.9096)",
+        "frozen": "matrix(0.999999, -0.001576, 0.001576, 0.999999, -0.542, -0.9034)",
+        "transition": ".taste-skill/previews/smiling-head-transition-webkit-390.png",
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "animationsCanceled": 14
+        },
+        "input": "Synthetic upward touch; programmatic subsequent scroll"
+      }
+    },
+    {
+      "name": "webkit: reduced motion and saved pause bypass both loader and opening artwork",
+      "passed": true,
+      "details": [
+        {
+          "preference": "reduced",
+          "hidden": true,
+          "assets": 0
+        },
+        {
+          "preference": "paused",
+          "hidden": true,
+          "assets": 0
+        }
+      ]
+    },
+    {
+      "name": "webkit: missing or stalled head art cannot trap loading or revive a dismissed opening",
+      "passed": true,
+      "details": [
+        {
+          "behavior": "missing",
+          "loadingDuration": 641,
+          "finalPhase": "done",
+          "animations": 12
+        },
+        {
+          "behavior": "slow",
+          "loadingDuration": 4506,
+          "finalPhase": "done",
+          "animations": 12
+        }
+      ]
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in scoped smiling-head checks",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "errors": [],
+  "engines": {
+    "chromium": "156.0.8078.4",
+    "webkit": "26.0"
+  },
+  "limitations": "Focused smiling-head implementation checks. Mobile swipe is synthetic, and mobile follow-up scroll is programmatic. No physical phone, Simulator, assistive-technology or full-site scroll rerun.",
+  "recordings": [
+    {
+      "engine": "chromium",
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "coarse": false
+      },
+      "path": ".taste-skill/previews/smiling-head-chromium-1440.mp4",
+      "frames": 84,
+      "encodedFPS": 15,
+      "duration": 5.6,
+      "bytes": 2369545,
+      "method": "Actual Chromium rendered frames with native wheel entry",
+      "webkitPlayback": {
+        "width": 1440,
+        "height": 900,
+        "readyState": 4,
+        "error": null
+      },
+      "playbackScreenshot": "/private/tmp/portfolio-browser-qa/smiling-head-playback-chromium.png"
+    },
+    {
+      "engine": "webkit",
+      "config": {
+        "width": 390,
+        "height": 844,
+        "coarse": true
+      },
+      "path": ".taste-skill/previews/smiling-head-webkit-390.mp4",
+      "frames": 85,
+      "encodedFPS": 15,
+      "duration": 5.666666666666667,
+      "bytes": 1484211,
+      "method": "Actual WebKit rendered frames with synthetic upward touch sequence",
+      "webkitPlayback": {
+        "width": 390,
+        "height": 844,
+        "readyState": 4,
+        "error": null
+      },
+      "playbackScreenshot": "/private/tmp/portfolio-browser-qa/smiling-head-playback-webkit.png"
+    }
+  ],
+  "recordingLimits": "Actual rendered browser JPEG frames encoded at15fps using macOS AVFoundation H.264. Encoded FPS is not a device rendering-performance measurement. Mobile touch is synthetic.",
+  "contactSheet": ".taste-skill/previews/smiling-head-contact-sheet.png"
+}

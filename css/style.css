@@ -21,6 +21,7 @@ h2 { font-size: clamp(2.1rem, 3.2vw, 3.35rem); line-height: 1.13; letter-spacing
 p { color: var(--body); }
 ::selection { background: #91c8e5; color: var(--deep); }
 :focus-visible { outline: 2px solid var(--blue); outline-offset: 6px; }
+#hero-title:focus { outline: none; }
 .icon { display: inline-block; width: 1rem; height: 1rem; flex-shrink: 0; vertical-align: -.125em; }
 .wrap { width: min(88%, 1320px); margin-inline: auto; position: relative; }
 .skip-link { position: fixed; top: -100px; left: 1rem; padding: .8rem 1.2rem; background: var(--paper); color: var(--ink); z-index: 100; }

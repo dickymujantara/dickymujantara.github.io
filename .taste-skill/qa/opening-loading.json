@@ -1,0 +1,5081 @@
+{
+  "checks": [
+    {
+      "name": "chromium: loading is visible before the opening, waits decoded art and keeps a finite minimum display",
+      "passed": true,
+      "details": {
+        "early": {
+          "now": 75.39999997615814,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 42.700000047683716
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 71.60000002384186,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 71.60000002384186,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 71.70000004768372,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 71.70000004768372,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 71.70000004768372,
+              "done": false
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 37.10000002384186
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 41
+            }
+          ]
+        },
+        "final": {
+          "now": 1454,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9551"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 42.700000047683716
+            },
+            {
+              "phase": "waiting",
+              "time": 695.3000000715256
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 71.60000002384186,
+              "done": true,
+              "finished": 76.10000002384186
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 71.60000002384186,
+              "done": true,
+              "finished": 81.39999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 71.70000004768372,
+              "done": true,
+              "finished": 90.39999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 71.70000004768372,
+              "done": true,
+              "finished": 90.5
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 71.70000004768372,
+              "done": true,
+              "finished": 90.5
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 37.10000002384186
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 654
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1851
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2450
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1730
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2090
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 8470
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 769
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "chromium: deliberately delayed image decode keeps the opening hidden until all required art settles",
+      "passed": true,
+      "details": {
+        "during": {
+          "now": 849.8999999761581,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 36.699999928474426
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 46.799999952316284,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 46.799999952316284,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 46.799999952316284,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 46.799999952316284,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 46.799999952316284,
+              "done": false
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 32.5
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 812
+            }
+          ]
+        },
+        "final": {
+          "now": 2225,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9515"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 36.699999928474426
+            },
+            {
+              "phase": "waiting",
+              "time": 1470.3999999761581
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 46.799999952316284,
+              "done": true,
+              "finished": 1462.5
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 46.799999952316284,
+              "done": true,
+              "finished": 1463
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 46.799999952316284,
+              "done": true,
+              "finished": 1463
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 46.799999952316284,
+              "done": true,
+              "finished": 1463.0999999046326
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 46.799999952316284,
+              "done": true,
+              "finished": 1465.5999999046326
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 32.5
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1427
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2444
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1844
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2083
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 8463
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1723
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 763
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "chromium: early scroll or a finger started during loading cannot skip the opening",
+      "passed": true,
+      "details": {
+        "final": {
+          "now": 3149.1999999284744,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 38.59999990463257
+            },
+            {
+              "phase": "waiting",
+              "time": 1284.8999999761581
+            },
+            {
+              "phase": "entering",
+              "time": 2088.1999999284744
+            },
+            {
+              "phase": "done",
+              "time": 3141.399999976158
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 1250.5,
+              "done": true,
+              "finished": 1254.8999999761581
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 1250.6999999284744,
+              "done": true,
+              "finished": 1255
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 1251.7999999523163,
+              "done": true,
+              "finished": 1262.7999999523163
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 1251.8999999761581,
+              "done": true,
+              "finished": 1273.5
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 1252,
+              "done": true,
+              "finished": 1282.7999999523163
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 35.199999928474426
+            },
+            {
+              "active": false,
+              "time": 3137.2999999523163
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1241
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2115
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 8495
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1875
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1755
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2475
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 794
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1050
+            }
+          ]
+        },
+        "method": "Native wheel before and after readiness"
+      }
+    },
+    {
+      "name": "chromium: missing art settles and slow art reaches the bounded loading fallback without trapping entry",
+      "passed": true,
+      "details": [
+        {
+          "mode": "missing",
+          "ready": {
+            "now": 1455.6000000238419,
+            "phase": "waiting",
+            "opening": "playing",
+            "hidden": false,
+            "busy": "false",
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0.9585"
+            },
+            "scrollY": 0,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "focus": "ocean-opening",
+            "heroOutline": "none",
+            "inert": [
+              true,
+              true,
+              true
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 37.700000047683716
+              },
+              {
+                "phase": "waiting",
+                "time": 688.8000000715256
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 33.200000047683716
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": false,
+                "currentTime": 660
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 0,
+                "pauseCalls": 0,
+                "paused": false,
+                "completed": false,
+                "currentTime": 775
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              }
+            ]
+          },
+          "final": {
+            "now": 2513.100000023842,
+            "phase": "done",
+            "opening": "done",
+            "hidden": true,
+            "busy": null,
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scrollY": 0,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "focus": "hero-title",
+            "heroOutline": "none",
+            "inert": [
+              false,
+              false,
+              false
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 37.700000047683716
+              },
+              {
+                "phase": "waiting",
+                "time": 688.8000000715256
+              },
+              {
+                "phase": "entering",
+                "time": 1461.5
+              },
+              {
+                "phase": "done",
+                "time": 2505.600000023842
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 33.200000047683716
+              },
+              {
+                "active": false,
+                "time": 2502
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 660
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 775
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 1050
+              }
+            ]
+          },
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 660
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 775
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1050
+            }
+          ]
+        },
+        {
+          "mode": "timeout",
+          "ready": {
+            "now": 5304.199999928474,
+            "phase": "waiting",
+            "opening": "playing",
+            "hidden": false,
+            "busy": "false",
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0.9574"
+            },
+            "scrollY": 0,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "focus": "ocean-opening",
+            "heroOutline": "none",
+            "inert": [
+              true,
+              true,
+              true
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 32.89999997615814
+              },
+              {
+                "phase": "waiting",
+                "time": 4538.699999928474
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 28.899999976158142
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": false,
+                "currentTime": 4514
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 0,
+                "pauseCalls": 0,
+                "paused": false,
+                "completed": false,
+                "currentTime": 773
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              }
+            ]
+          },
+          "final": {
+            "now": 7766,
+            "phase": "done",
+            "opening": "done",
+            "hidden": true,
+            "busy": null,
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scrollY": 0,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "focus": "hero-title",
+            "heroOutline": "none",
+            "inert": [
+              false,
+              false,
+              false
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 32.89999997615814
+              },
+              {
+                "phase": "waiting",
+                "time": 4538.699999928474
+              },
+              {
+                "phase": "entering",
+                "time": 5310.899999976158
+              },
+              {
+                "phase": "done",
+                "time": 6357
+              }
+            ],
+            "decode": [
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+                "called": 5544.5,
+                "done": true,
+                "finished": 5547.599999904633
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+                "called": 5545,
+                "done": true,
+                "finished": 5547.699999928474
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+                "called": 5545,
+                "done": true,
+                "finished": 5556.299999952316
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+                "called": 5545.699999928474,
+                "done": true,
+                "finished": 5566.699999928474
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+                "called": 5546.5,
+                "done": true,
+                "finished": 5575
+              }
+            ],
+            "events": [
+              {
+                "active": true,
+                "time": 28.899999976158142
+              },
+              {
+                "active": false,
+                "time": 6353.299999952316
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 4514
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 773
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 1050
+              }
+            ]
+          },
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 4514
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 773
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1050
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chromium: ambient Pause, keyboard focus, hero outline removal and native scroll handoff all work",
+      "passed": true,
+      "details": {
+        "final": {
+          "now": 3622.600000023842,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.60000002384186
+            },
+            {
+              "phase": "waiting",
+              "time": 688.7999999523163
+            },
+            {
+              "phase": "entering",
+              "time": 2581.2000000476837
+            },
+            {
+              "phase": "done",
+              "time": 3621.2999999523163
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 44.89999997615814,
+              "done": true,
+              "finished": 61.89999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 44.89999997615814,
+              "done": true,
+              "finished": 61.89999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 45,
+              "done": true,
+              "finished": 61.89999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 45,
+              "done": true,
+              "finished": 61.89999997615814
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 45,
+              "done": true,
+              "finished": 63.60000002384186
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 30.899999976158142
+            },
+            {
+              "active": false,
+              "time": 3619
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 646
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2565
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2804
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 9184
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2444
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 3164
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1000
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1050
+            }
+          ]
+        },
+        "focused": {
+          "tag": "A",
+          "outline": "solid"
+        },
+        "animations": [
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": false,
+            "currentTime": 646
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 2565
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 2804
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 9184
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 2444
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 3164
+          },
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 2,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": true,
+            "currentTime": 1000
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 300
+          },
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 1,
+            "pauseCalls": 1,
+            "paused": true,
+            "completed": true,
+            "currentTime": 1050
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium: hidden loading pauses the loader and waits for visibility before exposing decoded art",
+      "passed": true,
+      "details": {
+        "before": {
+          "now": 164.10000002384186,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.199999928474426
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 30.299999952316284
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 131
+            }
+          ]
+        },
+        "hidden": {
+          "now": 1268.5,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.199999928474426
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 747,
+              "done": true,
+              "finished": 750
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 747.7999999523163,
+              "done": true,
+              "finished": 750.1999999284744
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 748,
+              "done": true,
+              "finished": 762.1999999284744
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 748,
+              "done": true,
+              "finished": 773
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 748,
+              "done": true,
+              "finished": 778.5
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 30.299999952316284
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 131
+            }
+          ]
+        },
+        "final": {
+          "now": 2039.1000000238419,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9568"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.199999928474426
+            },
+            {
+              "phase": "waiting",
+              "time": 1275.6000000238419
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 747,
+              "done": true,
+              "finished": 750
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 747.7999999523163,
+              "done": true,
+              "finished": 750.1999999284744
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 748,
+              "done": true,
+              "finished": 762.1999999284744
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+              "called": 748,
+              "done": true,
+              "finished": 773
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 748,
+              "done": true,
+              "finished": 778.5
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 30.299999952316284
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 131
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2093
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 8473
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1733
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2453
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1852
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 772
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        },
+        "method": "Synthetic document.hidden/visibilitychange"
+      }
+    },
+    {
+      "name": "chromium: reduced motion, saved pause, deep links and missing dependencies bypass both loading and opening",
+      "passed": true,
+      "details": [
+        {
+          "mode": "reduced",
+          "assets": 0
+        },
+        {
+          "mode": "paused",
+          "assets": 0
+        },
+        {
+          "mode": "deep",
+          "assets": 0
+        },
+        {
+          "mode": "library",
+          "assets": 0
+        },
+        {
+          "mode": "no-js",
+          "assets": 0
+        }
+      ]
+    },
+    {
+      "name": "chromium: Escape during loading cancels its loops and late image completion cannot reopen it",
+      "passed": true,
+      "details": {
+        "early": {
+          "now": 70.80000007152557,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 35.5
+            },
+            {
+              "phase": "done",
+              "time": 62.5
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 31.700000047683716
+            },
+            {
+              "active": false,
+              "time": 61.5
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 22
+            }
+          ]
+        },
+        "final": {
+          "now": 2375.3000000715256,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 35.5
+            },
+            {
+              "phase": "done",
+              "time": 62.5
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 31.700000047683716
+            },
+            {
+              "active": false,
+              "time": 61.5
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 22
+            }
+          ]
+        },
+        "animations": [
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 1,
+            "pauseCalls": 1,
+            "paused": true,
+            "completed": false,
+            "currentTime": 22
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium: direct-file opening and alternate responsive composition remain usable",
+      "passed": true,
+      "details": {
+        "ready": {
+          "now": 1454.3999999761581,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.958"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.699999928474426
+            },
+            {
+              "phase": "waiting",
+              "time": 687.6999999284744
+            }
+          ],
+          "decode": [
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seal-rock.webp",
+              "called": 44.39999997615814,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/otter-v2.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/surface-mobile-v2.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 31
+            }
+          ],
+          "animations": []
+        },
+        "final": {
+          "now": 1568.0999999046326,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9929"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34.699999928474426
+            },
+            {
+              "phase": "waiting",
+              "time": 687.6999999284744
+            },
+            {
+              "phase": "done",
+              "time": 1565.1999999284744
+            }
+          ],
+          "decode": [
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seal-rock.webp",
+              "called": 44.39999997615814,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/otter-v2.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/surface-mobile-v2.webp",
+              "called": 44.5,
+              "done": true,
+              "finished": 61.09999990463257
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 31
+            },
+            {
+              "active": false,
+              "time": 1564.5
+            }
+          ],
+          "animations": []
+        }
+      }
+    },
+    {
+      "name": "webkit: loading is visible before the opening, waits decoded art and keeps a finite minimum display",
+      "passed": true,
+      "details": {
+        "early": {
+          "now": 62,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 35
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 24
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 35
+            }
+          ]
+        },
+        "final": {
+          "now": 1438,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9557"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 35
+            },
+            {
+              "phase": "waiting",
+              "time": 677
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 63,
+              "done": true,
+              "finished": 71.00000000000001
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 63,
+              "done": true,
+              "finished": 70
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 63,
+              "done": true,
+              "finished": 66
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 63,
+              "done": true,
+              "finished": 66
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 65,
+              "done": true,
+              "finished": 77
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 24
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 645
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 10010
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2354
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2066
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2786
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1922
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 770
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "webkit: deliberately delayed image decode keeps the opening hidden until all required art settles",
+      "passed": true,
+      "details": {
+        "during": {
+          "now": 842,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 29
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 64,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 64,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 64,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 64,
+              "done": false
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 64,
+              "done": false
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 15
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 821
+            }
+          ]
+        },
+        "final": {
+          "now": 2240,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9574"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 29
+            },
+            {
+              "phase": "waiting",
+              "time": 1475
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 64,
+              "done": true,
+              "finished": 1470
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 64,
+              "done": true,
+              "finished": 1469
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 64,
+              "done": true,
+              "finished": 1467
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 64,
+              "done": true,
+              "finished": 1468
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 64,
+              "done": true,
+              "finished": 1471
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 15
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1452
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 10014
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2358
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2070
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2790
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1926
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 773
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "webkit: early scroll or a finger started during loading cannot skip the opening",
+      "passed": true,
+      "details": {
+        "final": {
+          "now": 2956,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 27
+            },
+            {
+              "phase": "waiting",
+              "time": 1253
+            },
+            {
+              "phase": "entering",
+              "time": 2030.0000000000002
+            },
+            {
+              "phase": "done",
+              "time": 2949
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 1238,
+              "done": true,
+              "finished": 1242
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 1238,
+              "done": true,
+              "finished": 1242
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 1238,
+              "done": true,
+              "finished": 1250
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 1238,
+              "done": true,
+              "finished": 1248
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 1238,
+              "done": true,
+              "finished": 1252
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 13.000000000000002
+            },
+            {
+              "active": false,
+              "time": 2934
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1234
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 10013
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2357
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2069
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2788
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 1924
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 772
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 900
+            }
+          ]
+        },
+        "method": "Synthetic touch start before readiness, continued after readiness, then a fresh swipe"
+      }
+    },
+    {
+      "name": "webkit: missing art settles and slow art reaches the bounded loading fallback without trapping entry",
+      "passed": true,
+      "details": [
+        {
+          "mode": "missing",
+          "ready": {
+            "now": 1421,
+            "phase": "waiting",
+            "opening": "playing",
+            "hidden": false,
+            "busy": "false",
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0.9515"
+            },
+            "scrollY": 0,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "focus": "ocean-opening",
+            "heroOutline": "none",
+            "inert": [
+              true,
+              true,
+              true
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 27
+              },
+              {
+                "phase": "waiting",
+                "time": 667
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 13.000000000000002
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": false,
+                "currentTime": 635
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 0,
+                "pauseCalls": 0,
+                "paused": false,
+                "completed": false,
+                "currentTime": 763
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              }
+            ]
+          },
+          "final": {
+            "now": 2348,
+            "phase": "done",
+            "opening": "done",
+            "hidden": true,
+            "busy": null,
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scrollY": 0,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "focus": "hero-title",
+            "heroOutline": "none",
+            "inert": [
+              false,
+              false,
+              false
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 27
+              },
+              {
+                "phase": "waiting",
+                "time": 667
+              },
+              {
+                "phase": "entering",
+                "time": 1433
+              },
+              {
+                "phase": "done",
+                "time": 2343
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 13.000000000000002
+              },
+              {
+                "active": false,
+                "time": 2334
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 635
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 763
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 900
+              }
+            ]
+          },
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 635
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 763
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 900
+            }
+          ]
+        },
+        {
+          "mode": "timeout",
+          "ready": {
+            "now": 5282,
+            "phase": "waiting",
+            "opening": "playing",
+            "hidden": false,
+            "busy": "false",
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0.9545"
+            },
+            "scrollY": 0,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "focus": "ocean-opening",
+            "heroOutline": "none",
+            "inert": [
+              true,
+              true,
+              true
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 17
+              },
+              {
+                "phase": "waiting",
+                "time": 4521
+              }
+            ],
+            "decode": [],
+            "events": [
+              {
+                "active": true,
+                "time": 11
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": false,
+                "currentTime": 4509
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 0,
+                "pauseCalls": 0,
+                "paused": false,
+                "completed": false,
+                "currentTime": 768
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              }
+            ]
+          },
+          "final": {
+            "now": 7618,
+            "phase": "done",
+            "opening": "done",
+            "hidden": true,
+            "busy": null,
+            "loader": {
+              "hidden": true,
+              "display": "none",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scene": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "title": {
+              "hidden": false,
+              "display": "block",
+              "visibility": "visible",
+              "opacity": "1"
+            },
+            "cue": {
+              "hidden": false,
+              "display": "flex",
+              "visibility": "visible",
+              "opacity": "0"
+            },
+            "scrollY": 0,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "focus": "hero-title",
+            "heroOutline": "none",
+            "inert": [
+              false,
+              false,
+              false
+            ],
+            "phases": [
+              {
+                "phase": "loading",
+                "time": 17
+              },
+              {
+                "phase": "waiting",
+                "time": 4521
+              },
+              {
+                "phase": "entering",
+                "time": 5291
+              },
+              {
+                "phase": "done",
+                "time": 6212
+              }
+            ],
+            "decode": [
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+                "called": 5529,
+                "done": true,
+                "finished": 5538
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+                "called": 5529,
+                "done": true,
+                "finished": 5542
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+                "called": 5529,
+                "done": true,
+                "finished": 5534
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+                "called": 5529,
+                "done": true,
+                "finished": 5534
+              },
+              {
+                "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+                "called": 5529,
+                "done": true,
+                "finished": 5544.000000000001
+              }
+            ],
+            "events": [
+              {
+                "active": true,
+                "time": 11
+              },
+              {
+                "active": false,
+                "time": 6197
+              }
+            ],
+            "animations": [
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 4509
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": false,
+                "currentTime": 768
+              },
+              {
+                "kind": "animate",
+                "cancelCalls": 2,
+                "pauseCalls": 2,
+                "paused": true,
+                "completed": true,
+                "currentTime": 300
+              },
+              {
+                "kind": "createTimeline",
+                "cancelCalls": 1,
+                "pauseCalls": 1,
+                "paused": true,
+                "completed": true,
+                "currentTime": 900
+              }
+            ]
+          },
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 4509
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 768
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "webkit: hidden loading pauses the loader and waits for visibility before exposing decoded art",
+      "passed": true,
+      "details": {
+        "before": {
+          "now": 160,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 28
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 13.000000000000002
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 133
+            }
+          ]
+        },
+        "hidden": {
+          "now": 1265.0000000000002,
+          "phase": "loading",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "true",
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "hidden",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 28
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 741,
+              "done": true,
+              "finished": 754
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 741,
+              "done": true,
+              "finished": 752
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 741,
+              "done": true,
+              "finished": 746
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 741,
+              "done": true,
+              "finished": 746
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 741,
+              "done": true,
+              "finished": 756
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 13.000000000000002
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 133
+            }
+          ]
+        },
+        "final": {
+          "now": 2040,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9551"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 28
+            },
+            {
+              "phase": "waiting",
+              "time": 1274
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 741,
+              "done": true,
+              "finished": 754
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 741,
+              "done": true,
+              "finished": 752
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 741,
+              "done": true,
+              "finished": 746
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 741,
+              "done": true,
+              "finished": 746
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 741,
+              "done": true,
+              "finished": 756
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 13.000000000000002
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 133
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 10010
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2354
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2066
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 2786
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 1922
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 0,
+              "pauseCalls": 0,
+              "paused": false,
+              "completed": false,
+              "currentTime": 769
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            }
+          ]
+        },
+        "method": "Synthetic document.hidden/visibilitychange"
+      }
+    },
+    {
+      "name": "webkit: reduced motion, saved pause, deep links and missing dependencies bypass both loading and opening",
+      "passed": true,
+      "details": [
+        {
+          "mode": "reduced",
+          "assets": 0
+        },
+        {
+          "mode": "paused",
+          "assets": 0
+        },
+        {
+          "mode": "deep",
+          "assets": 0
+        },
+        {
+          "mode": "library",
+          "assets": 0
+        },
+        {
+          "mode": "no-js",
+          "assets": 0
+        }
+      ]
+    },
+    {
+      "name": "webkit: Escape during loading cancels its loops and late image completion cannot reopen it",
+      "passed": true,
+      "details": {
+        "early": {
+          "now": 74,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 26.000000000000004
+            },
+            {
+              "phase": "done",
+              "time": 43
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 12
+            },
+            {
+              "active": false,
+              "time": 39
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 20
+            }
+          ]
+        },
+        "final": {
+          "now": 2379,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 26.000000000000004
+            },
+            {
+              "phase": "done",
+              "time": 43
+            }
+          ],
+          "decode": [],
+          "events": [
+            {
+              "active": true,
+              "time": 12
+            },
+            {
+              "active": false,
+              "time": 39
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": false,
+              "currentTime": 20
+            }
+          ]
+        },
+        "animations": [
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 1,
+            "pauseCalls": 1,
+            "paused": true,
+            "completed": false,
+            "currentTime": 20
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit: direct-file opening and alternate responsive composition remain usable",
+      "passed": true,
+      "details": {
+        "ready": {
+          "now": 1421,
+          "phase": "waiting",
+          "opening": "playing",
+          "hidden": false,
+          "busy": "false",
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9521"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "ocean-opening",
+          "heroOutline": "none",
+          "inert": [
+            true,
+            true,
+            true
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 25
+            },
+            {
+              "phase": "waiting",
+              "time": 666
+            }
+          ],
+          "decode": [
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seal-rock.webp",
+              "called": 36.00000000000001,
+              "done": true,
+              "finished": 45
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/surface-v2.webp",
+              "called": 37,
+              "done": true,
+              "finished": 65
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 37,
+              "done": true,
+              "finished": 39
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 37,
+              "done": true,
+              "finished": 39
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/otter-v2.webp",
+              "called": 37,
+              "done": true,
+              "finished": 45
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 12
+            }
+          ],
+          "animations": []
+        },
+        "final": {
+          "now": 1562,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0.9959"
+          },
+          "scrollY": 0,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 25
+            },
+            {
+              "phase": "waiting",
+              "time": 666
+            },
+            {
+              "phase": "done",
+              "time": 1560
+            }
+          ],
+          "decode": [
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seal-rock.webp",
+              "called": 36.00000000000001,
+              "done": true,
+              "finished": 45
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/surface-v2.webp",
+              "called": 37,
+              "done": true,
+              "finished": 65
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 37,
+              "done": true,
+              "finished": 39
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/seabird.webp",
+              "called": 37,
+              "done": true,
+              "finished": 39
+            },
+            {
+              "src": "file:///Users/dickymujantara/Documents/Research/dickymujantara.github.io/img/ocean/otter-v2.webp",
+              "called": 37,
+              "done": true,
+              "finished": 45
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 12
+            },
+            {
+              "active": false,
+              "time": 1556
+            }
+          ],
+          "animations": []
+        }
+      }
+    },
+    {
+      "name": "No uncaught JavaScript errors in focused loading cases",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "webkit: ambient Pause, keyboard focus, hero outline removal and native scroll handoff all work",
+      "passed": true,
+      "details": {
+        "final": {
+          "now": 3498,
+          "phase": "done",
+          "opening": "done",
+          "hidden": true,
+          "busy": null,
+          "loader": {
+            "hidden": true,
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scene": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "title": {
+            "hidden": false,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          },
+          "cue": {
+            "hidden": false,
+            "display": "flex",
+            "visibility": "visible",
+            "opacity": "0"
+          },
+          "scrollY": 0,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "focus": "hero-title",
+          "heroOutline": "none",
+          "inert": [
+            false,
+            false,
+            false
+          ],
+          "phases": [
+            {
+              "phase": "loading",
+              "time": 34
+            },
+            {
+              "phase": "waiting",
+              "time": 680
+            },
+            {
+              "phase": "entering",
+              "time": 2587
+            },
+            {
+              "phase": "done",
+              "time": 3495
+            }
+          ],
+          "decode": [
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+              "called": 50,
+              "done": true,
+              "finished": 78
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+              "called": 50,
+              "done": true,
+              "finished": 57
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 56,
+              "done": true,
+              "finished": 78
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+              "called": 56,
+              "done": true,
+              "finished": 78
+            },
+            {
+              "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+              "called": 56,
+              "done": true,
+              "finished": 78
+            }
+          ],
+          "events": [
+            {
+              "active": true,
+              "time": 26.000000000000004
+            },
+            {
+              "active": false,
+              "time": 3485
+            }
+          ],
+          "animations": [
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": false,
+              "currentTime": 645
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2794
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 3513
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 10737
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 3081
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 700
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 1,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": false,
+              "currentTime": 2649
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 2,
+              "pauseCalls": 3,
+              "paused": true,
+              "completed": true,
+              "currentTime": 1000
+            },
+            {
+              "kind": "animate",
+              "cancelCalls": 2,
+              "pauseCalls": 2,
+              "paused": true,
+              "completed": true,
+              "currentTime": 300
+            },
+            {
+              "kind": "createTimeline",
+              "cancelCalls": 1,
+              "pauseCalls": 1,
+              "paused": true,
+              "completed": true,
+              "currentTime": 900
+            }
+          ]
+        },
+        "focused": {
+          "tag": "A",
+          "outline": "solid"
+        },
+        "animations": [
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": false,
+            "currentTime": 645
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 2794
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 3513
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 10737
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 3081
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 700
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 1,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": false,
+            "currentTime": 2649
+          },
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 2,
+            "pauseCalls": 3,
+            "paused": true,
+            "completed": true,
+            "currentTime": 1000
+          },
+          {
+            "kind": "animate",
+            "cancelCalls": 2,
+            "pauseCalls": 2,
+            "paused": true,
+            "completed": true,
+            "currentTime": 300
+          },
+          {
+            "kind": "createTimeline",
+            "cancelCalls": 1,
+            "pauseCalls": 1,
+            "paused": true,
+            "completed": true,
+            "currentTime": 900
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "engines": {
+    "chromium": "156.0.8078.4",
+    "webkit": "26.0"
+  },
+  "limitations": "Actual Chromium and WebKit browser checks. Mobile swipe and visibility are synthetic integration events. No physical iPhone, native Simulator, VoiceOver or full-page choreography rerun.",
+  "recordings": [
+    {
+      "engine": "chromium",
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "coarse": false
+      },
+      "directory": "/private/tmp/portfolio-browser-qa/loading-video-chromium",
+      "frames": 95,
+      "encodedFPS": 15,
+      "mp4": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/opening-loading-chromium-1440.mp4",
+      "waveBefore": [
+        {
+          "stroke": "75.4651px",
+          "opacity": "0.3041"
+        },
+        {
+          "stroke": "0px",
+          "opacity": "1"
+        },
+        {
+          "stroke": "0px",
+          "opacity": "1"
+        }
+      ],
+      "waveAfter": [
+        {
+          "stroke": "43.5007px",
+          "opacity": "0.5989"
+        },
+        {
+          "stroke": "60.4797px",
+          "opacity": "0.4423"
+        },
+        {
+          "stroke": "72.1859px",
+          "opacity": "0.3344"
+        }
+      ],
+      "final": {
+        "now": 6692.900000095367,
+        "phase": "done",
+        "opening": "done",
+        "hidden": true,
+        "busy": null,
+        "loader": {
+          "hidden": true,
+          "display": "none",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "scene": {
+          "hidden": false,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "title": {
+          "hidden": false,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "cue": {
+          "hidden": false,
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "scrollY": 0,
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "focus": "hero-title",
+        "heroOutline": "none",
+        "inert": [
+          false,
+          false,
+          false
+        ],
+        "phases": [
+          {
+            "phase": "loading",
+            "time": 36.90000009536743
+          },
+          {
+            "phase": "waiting",
+            "time": 686.2000000476837
+          },
+          {
+            "phase": "entering",
+            "time": 3102.5
+          },
+          {
+            "phase": "done",
+            "time": 4152
+          }
+        ],
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+            "called": 46.90000009536743,
+            "done": true,
+            "finished": 60.40000009536743
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+            "called": 46.90000009536743,
+            "done": true,
+            "finished": 60.5
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+            "called": 46.90000009536743,
+            "done": true,
+            "finished": 60.5
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+            "called": 46.90000009536743,
+            "done": true,
+            "finished": 64.20000004768372
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/surface-v2.webp",
+            "called": 46.90000009536743,
+            "done": true,
+            "finished": 66.90000009536743
+          }
+        ],
+        "events": [
+          {
+            "active": true,
+            "time": 33.10000002384186
+          },
+          {
+            "active": false,
+            "time": 4150.300000071526
+          }
+        ],
+        "animations": []
+      },
+      "method": "Actual Chromium screenshots; native wheel entry",
+      "bytes": 3054403,
+      "encoder": "macOS AVFoundation H.264"
+    },
+    {
+      "engine": "webkit",
+      "config": {
+        "width": 390,
+        "height": 844,
+        "coarse": true
+      },
+      "directory": "/private/tmp/portfolio-browser-qa/loading-video-webkit",
+      "frames": 98,
+      "encodedFPS": 15,
+      "mp4": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/opening-loading-webkit-390.mp4",
+      "waveBefore": [
+        {
+          "stroke": "75.542999px",
+          "opacity": "0.3034"
+        },
+        {
+          "stroke": "0px",
+          "opacity": "1"
+        },
+        {
+          "stroke": "0px",
+          "opacity": "1"
+        }
+      ],
+      "waveAfter": [
+        {
+          "stroke": "35.837399px",
+          "opacity": "0.6695"
+        },
+        {
+          "stroke": "53.876999px",
+          "opacity": "0.5032"
+        },
+        {
+          "stroke": "68.1894px",
+          "opacity": "0.3712"
+        }
+      ],
+      "final": {
+        "now": 6718,
+        "phase": "done",
+        "opening": "done",
+        "hidden": true,
+        "busy": null,
+        "loader": {
+          "hidden": true,
+          "display": "none",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "scene": {
+          "hidden": false,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "title": {
+          "hidden": false,
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        "cue": {
+          "hidden": false,
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0"
+        },
+        "scrollY": 0,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "focus": "hero-title",
+        "heroOutline": "none",
+        "inert": [
+          false,
+          false,
+          false
+        ],
+        "phases": [
+          {
+            "phase": "loading",
+            "time": 44
+          },
+          {
+            "phase": "waiting",
+            "time": 676
+          },
+          {
+            "phase": "entering",
+            "time": 3137
+          },
+          {
+            "phase": "done",
+            "time": 4042
+          }
+        ],
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp",
+            "called": 58,
+            "done": true,
+            "finished": 66
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp",
+            "called": 58,
+            "done": true,
+            "finished": 66
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+            "called": 58,
+            "done": true,
+            "finished": 66
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp",
+            "called": 58,
+            "done": true,
+            "finished": 66
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter-v2.webp",
+            "called": 58,
+            "done": true,
+            "finished": 66
+          }
+        ],
+        "events": [
+          {
+            "active": true,
+            "time": 23
+          },
+          {
+            "active": false,
+            "time": 4037
+          }
+        ],
+        "animations": []
+      },
+      "method": "Actual WebKit screenshots; synthetic upward swipe",
+      "bytes": 1818992,
+      "encoder": "macOS AVFoundation H.264"
+    }
+  ],
+  "recordingLimits": "Actual rendered browser JPEG frames encoded at15fps, not a frame-rate benchmark. Mobile gesture is synthetic.",
+  "playback": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "height": 900,
+      "duration": 6.333333333333333,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "height": 844,
+      "duration": 6.533333333333333,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "contactSheet": ".taste-skill/previews/opening-loading-contact-sheet.png"
+}

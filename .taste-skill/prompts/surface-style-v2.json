@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-24",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "Style-match opening to the actual portfolio ocean sections, retaining surface composition",
+  "assets": [
+    {
+      "name": "surface-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-a671ace5-1448-422e-b8a5-7a39e051cd65.png",
+      "transparent": false,
+      "refs": [
+        "img/ocean/water.webp",
+        "img/ocean/about-depth.webp",
+        "img/ocean/whale.webp",
+        "img/ocean/surface.webp"
+      ],
+      "prompt": "Use case: style-transfer. Production 2D illustration for an existing ocean portfolio. Style references are the FIRST THREE images: atmospheric dark-blue water/environment and the natural-painted whale. Use their restrained deep navy, petrol blue, muted slate/cyan light and soft atmospheric depth. The LAST reference is the composition to restyle, NOT its chunky bright paint technique. Refined naturalistic digital painting with subtle brushed texture and selective crisp details, never a photograph, glossy 3D, flat vector or children's cartoon. Avoid cut-paper/gouache polygon patches, thick ink outlines, dense jagged texture, brilliant white accents, warm tan/brown/gold, text, UI, frames, watermarks. Create ONE WIDE 16:9 ABOVE-WATER coastal-ocean BACKDROP matching the last image's geometry: low misty rocky/conifer shore mainly on LEFT, layered distant coast and low cloud sky, horizon at29%height, dark reflective ocean lower71%. Transform all dense white jagged ripples into calm broad soft navy/slate undulations with only a few fine cool reflected streaks, strongest toward right-middle. The sky is a quiet soft slate-blue haze with subtle cloud volumes, not a patchwork of brush shapes. Reserve dark quiet water left-center for the later title and right-lower for a separate otter. Coast fades naturally into haze. Image should feel like looking just above the surface of the FIRST reference's same deep blue ocean, matching its cinematic painterly light and quiet detail. Absolutely NO animals, otter, seal, birds, foreground rock, text, underwater rays or UI. Full-bleed one scene.",
+      "delivery": "img/ocean/surface-v2.webp"
+    },
+    {
+      "name": "surface-mobile-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-099fbd59-36e1-4104-b28d-351d9e0e0cb9.png",
+      "transparent": false,
+      "refs": [
+        "img/ocean/water.webp",
+        "img/ocean/about-depth.webp",
+        "img/ocean/whale.webp",
+        "img/ocean/surface-mobile.webp"
+      ],
+      "prompt": "Use case: style-transfer. Production 2D illustration for an existing ocean portfolio. Style references are the FIRST THREE images: atmospheric dark-blue water/environment and the natural-painted whale. Use their restrained deep navy, petrol blue, muted slate/cyan light and soft atmospheric depth. The LAST reference is the composition to restyle, NOT its chunky bright paint technique. Refined naturalistic digital painting with subtle brushed texture and selective crisp details, never a photograph, glossy 3D, flat vector or children's cartoon. Avoid cut-paper/gouache polygon patches, thick ink outlines, dense jagged texture, brilliant white accents, warm tan/brown/gold, text, UI, frames, watermarks. Create ONE TALL 2:3 ABOVE-WATER coastal-ocean BACKDROP matching last image's mobile geometry: quiet slate-blue sky upper40%, horizon at40%height, misty conifer/rock coast on LEFT, distant low headlands, dark reflective navy water lower60%. Quiet darker cloud/sky behind a later title at25%height; no brilliant cloud band there. Transform dense jagged white ripples into calm broad soft navy/slate undulations and a few thin cool reflected streaks mainly center-right. Soft coastal haze, restrained selective light. Scene must feel like the ABOVE-water continuation of the FIRST reference's same deep blue ocean, refined atmospheric painting, not photo or flat graphic. Reserve lower-water area60–80%height for a separate otter. No animals, otter, seal, birds, foreground rock, people, text, underwater rays, UI, frame or split panels.",
+      "delivery": "img/ocean/surface-mobile-v2.webp"
+    },
+    {
+      "name": "otter-v2",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16cc0-c787-7ad1-94b8-e15fcad73b6b/exec-ebac6194-3403-4816-b8e7-08235fe42d72.png",
+      "transparent": true,
+      "refs": [
+        "img/ocean/whale.webp",
+        "img/ocean/turtle.webp",
+        "img/ocean/water.webp",
+        "img/ocean/otter.webp"
+      ],
+      "prompt": "Use case: style-transfer. Production isolated marine illustration with TRUE TRANSPARENT ALPHA. The FIRST TWO images (whale and turtle) define natural anatomy, cool blue painterly form and selective edge detail; image3 is the atmospheric navy ocean lighting; LAST image is the exact otter pose/composition to preserve. Redraw one whole adult sea otter floating on its BACK diagonally from webbed hind feet lowerLEFT to head upperRIGHT, forepaws folded naturally on chest. Calm natural face, rounded ears and long fine whiskers, all body and feet visible. Match the natural-painted marine animals and cool soft underwater light: dark navy wet fur, muted slate-blue face/muzzle, selectively icy blue edge light, fine controlled brushed fur groups. Reduce the current solid white muzzle/head and dense jagged stripe markings greatly: this is a dark wet otter with understated soft silver-blue muzzle, no white glowing fur or high-contrast woodcut. Maintain believable proportions and adult natural expression, not cute plush or child cartoon. Thin few muted blue ripple marks hug the waterline; no broad water patch. Refined 2D digital painting with soft form and subtle texture, not photo, 3D or vector. Whole isolated cutout wide2:1 with5%clear margin, genuine alpha outside animal and those few small ripple marks; no background/scene, no halo, no castshadow, no floor, no rectangular matte, no checkerboard. No text.",
+      "delivery": "img/ocean/otter-v2.webp"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "config": {
+        "width": 390,
+        "height": 844,
+        "coarse": true
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "39.78px",
+          "rects": [
+            {
+              "left": 76.09375,
+              "right": 313.90625,
+              "top": 206,
+              "bottom": 260
+            }
+          ],
+          "glyphInteriorPixels": 1397,
+          "min": 5.039576071081261,
+          "percentile5": 7.985858290322243,
+          "median": 12.140667949834443
+        },
+        {
+          "selector": ".opening-swipe-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "12.48px",
+          "rects": [
+            {
+              "left": 129.765625,
+              "right": 260.234375,
+              "top": 765.952392578125,
+              "bottom": 780.952392578125
+            }
+          ],
+          "glyphInteriorPixels": 143,
+          "min": 16.758267316009803,
+          "percentile5": 16.758267316009803,
+          "median": 16.886649462675454
+        }
+      ]
+    },
+    {
+      "config": {
+        "width": 1440,
+        "height": 900,
+        "coarse": false
+      },
+      "contrast": [
+        {
+          "selector": "#opening-title",
+          "color": "rgb(243, 240, 232)",
+          "fontSize": "96.48px",
+          "rects": [
+            {
+              "left": 122.390625,
+              "right": 699.171875,
+              "top": 339,
+              "bottom": 471
+            }
+          ],
+          "glyphInteriorPixels": 9368,
+          "min": 12.320439618661961,
+          "percentile5": 14.9286631888563,
+          "median": 15.935766456034527
+        },
+        {
+          "selector": ".opening-scroll-label",
+          "color": "rgb(240, 241, 236)",
+          "fontSize": "12.48px",
+          "rects": [
+            {
+              "left": 666.640625,
+              "right": 773.359375,
+              "top": 818.749755859375,
+              "bottom": 833.749755859375
+            }
+          ],
+          "glyphInteriorPixels": 124,
+          "min": 16.256560548240877,
+          "percentile5": 16.27379581178411,
+          "median": 16.42994569779064
+        }
+      ]
+    }
+  ],
+  "method": "Actual browser text glyph interiors sampled against the paused rendered artwork beneath. Opening title/cue only; not exhaustive site contrast."
+}

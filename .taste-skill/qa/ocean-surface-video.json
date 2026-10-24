@@ -1,0 +1,28 @@
+{
+  "engine": "Chromium",
+  "config": {
+    "width": 1440,
+    "height": 900,
+    "coarse": false
+  },
+  "output": ".taste-skill/previews/ocean-surface-motion.mp4",
+  "frames": 144,
+  "encodedFPS": 15,
+  "method": "Actual browser JPEG captures of the waiting ocean surface for seven seconds, then native-wheel entry into the whale hero. Encoded FPS is not a rendering-performance measurement.",
+  "lastWaterTransform": "matrix(1.04, 0, 0, 1.035, 7.9951, 2.9982)",
+  "final": {
+    "phase": "done",
+    "focus": "hero-title",
+    "errors": []
+  },
+  "initialWaterTransform": "matrix(1.022, 0, 0, 1.0126, -6.3604, -2.3852)",
+  "encoder": "H.264 MP4: 144 browser frames, 1440x900, encoded at 15 fps",
+  "bytes": 4312855,
+  "webkitPlayback": {
+    "width": 1440,
+    "height": 900,
+    "duration": 9.6,
+    "readyState": 4,
+    "error": null
+  }
+}

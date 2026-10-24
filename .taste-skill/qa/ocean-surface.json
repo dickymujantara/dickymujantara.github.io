@@ -1,0 +1,1164 @@
+{
+  "asset": "img/ocean/otter.webp",
+  "engines": {
+    "chromium": "156.0.8078.4",
+    "webkit": "26.0"
+  },
+  "checks": [
+    {
+      "name": "chromium: water composite and original otter fit 1440x900",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 747.2537841796875,
+          "top": 339.2287292480469,
+          "right": 1425.076904296875,
+          "bottom": 679.6766967773438,
+          "width": 677.8231201171875,
+          "height": 340.4479675292969
+        },
+        "visible": {
+          "left": 760.4925169944763,
+          "top": 377.1301631331444,
+          "right": 1417.7956012487411,
+          "bottom": 653.0791993141174
+        },
+        "title": {
+          "left": 122.390625,
+          "top": 351,
+          "right": 813.578125,
+          "bottom": 459.0625,
+          "width": 691.1875,
+          "height": 108.0625
+        },
+        "cue": {
+          "left": 72,
+          "top": 817.734375,
+          "right": 1368,
+          "bottom": 868,
+          "width": 1296,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 1376,
+          "top": 836,
+          "right": 1420,
+          "bottom": 880,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0227, 0, 0, 1.0134, -5.8375, -2.1891)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 81.89999997615814,
+            "done": true,
+            "finished": 97.60000002384186
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-chromium-1440.png"
+      }
+    },
+    {
+      "name": "chromium: water composite and original otter fit 390x844",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 22.5567626953125,
+          "top": 462.7117004394531,
+          "right": 389.5074768066406,
+          "bottom": 646.7235717773438,
+          "width": 366.9507141113281,
+          "height": 184.01187133789062
+        },
+        "visible": {
+          "left": 29.723768830299377,
+          "top": 483.19739705324173,
+          "right": 385.56562343239784,
+          "bottom": 632.347644329071
+        },
+        "title": {
+          "left": 19.5,
+          "top": 211,
+          "right": 370.5,
+          "bottom": 255.546875,
+          "width": 351,
+          "height": 44.546875
+        },
+        "cue": {
+          "left": 19.5,
+          "top": 764.9375,
+          "right": 370.5,
+          "bottom": 815.203125,
+          "width": 351,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 326,
+          "top": 780,
+          "right": 370,
+          "bottom": 824,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7002, -1.3876)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 64.70000004768372,
+            "done": true,
+            "finished": 71.40000009536743
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-chromium-390.png"
+      }
+    },
+    {
+      "name": "chromium: water composite and original otter fit 320x568",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 18.385150909423828,
+          "top": 310.97802734375,
+          "right": 319.47514724731445,
+          "bottom": 461.9558410644531,
+          "width": 301.0899963378906,
+          "height": 150.97781372070312
+        },
+        "visible": {
+          "left": 24.265814900398254,
+          "top": 327.78610426187515,
+          "right": 316.2407820522785,
+          "bottom": 450.1606993675232
+        },
+        "title": {
+          "left": 16,
+          "top": 142,
+          "right": 304,
+          "bottom": 185.90625,
+          "width": 288,
+          "height": 43.90625
+        },
+        "cue": {
+          "left": 16,
+          "top": 488.9375,
+          "right": 304,
+          "bottom": 539.203125,
+          "width": 288,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 256,
+          "top": 504,
+          "right": 300,
+          "bottom": 548,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7029, -1.3886)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 46.699999928474426,
+            "done": true,
+            "finished": 65.09999990463257
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-chromium-320.png"
+      }
+    },
+    {
+      "name": "chromium: water composite and original otter fit 844x390",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 463.3681335449219,
+          "top": 138.91326904296875,
+          "right": 826.6290283203125,
+          "bottom": 321.07672119140625,
+          "width": 363.2608947753906,
+          "height": 182.1634521484375
+        },
+        "visible": {
+          "left": 470.4630728960037,
+          "top": 159.19318461418152,
+          "right": 822.7268116772175,
+          "bottom": 306.84520149230957
+        },
+        "title": {
+          "left": 71.734375,
+          "top": 136.5,
+          "right": 476.84375,
+          "bottom": 199.828125,
+          "width": 405.109375,
+          "height": 63.328125
+        },
+        "cue": {
+          "left": 42.1875,
+          "top": 337.203125,
+          "right": 801.8125,
+          "bottom": 375.609375,
+          "width": 759.625,
+          "height": 38.40625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 780,
+          "top": 334,
+          "right": 824,
+          "bottom": 378,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7109, -1.3916)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 54.199999928474426,
+            "done": true,
+            "finished": 72.79999995231628
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-chromium-844.png"
+      }
+    },
+    {
+      "name": "chromium: water composite and original otter fit 768x1024",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 398.5269470214844,
+          "top": 387.6367492675781,
+          "right": 759.8321533203125,
+          "bottom": 568.8107299804688,
+          "width": 361.3052062988281,
+          "height": 181.17398071289062
+        },
+        "visible": {
+          "left": 405.58368933200836,
+          "top": 407.8065088391304,
+          "right": 755.9509450495243,
+          "bottom": 554.6565127372742
+        },
+        "title": {
+          "left": 65.265625,
+          "top": 399.359375,
+          "right": 433.890625,
+          "bottom": 456.984375,
+          "width": 368.625,
+          "height": 57.625
+        },
+        "cue": {
+          "left": 38.390625,
+          "top": 941.734375,
+          "right": 729.609375,
+          "bottom": 992,
+          "width": 691.21875,
+          "height": 50.265625
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 704,
+          "top": 960,
+          "right": 748,
+          "bottom": 1004,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7056, -1.3896)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 67.19999992847443,
+            "done": true,
+            "finished": 80.10000002384186
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-chromium-768.png"
+      }
+    },
+    {
+      "name": "chromium: water and otter motion Pause/Play visibility and entry lifecycle",
+      "passed": true,
+      "details": {
+        "before": {
+          "water": "matrix(1.0226, 0, 0, 1.0132, -5.9377, -2.2266)",
+          "otter": "matrix(0.999995, -0.00310494, 0.00310494, 0.999995, -1.0673, -1.7788)",
+          "environment": "none"
+        },
+        "moving": {
+          "water": "matrix(1.0267, 0, 0, 1.0184, -2.6388, -0.9896)",
+          "otter": "matrix(1, -0.000989602, 0.000989602, 1, -0.3404, -0.5674)",
+          "environment": "none"
+        },
+        "frozen": {
+          "water": "matrix(1.0276, 0, 0, 1.0196, -1.8811, -0.7054)",
+          "otter": "matrix(1, -0.000513127, 0.000513127, 1, -0.1763, -0.2938)",
+          "environment": "none"
+        },
+        "resumed": {
+          "water": "matrix(1.0289, 0, 0, 1.0211, -0.9056, -0.3396)",
+          "otter": "matrix(1, 9.42478e-05, -9.42478e-05, 1, 0.0324, 0.054)",
+          "environment": "none"
+        },
+        "hidden": {
+          "water": "matrix(1.0289, 0, 0, 1.0211, -0.9056, -0.3396)",
+          "otter": "matrix(1, 9.42478e-05, -9.42478e-05, 1, 0.0324, 0.054)",
+          "environment": "none"
+        },
+        "visible": {
+          "water": "matrix(1.0303, 0, 0, 1.0229, 0.2317, 0.0869)",
+          "otter": "matrix(1, 0.000788889, -0.000788889, 1, 0.2712, 0.452)",
+          "environment": "none"
+        },
+        "frames": [
+          {
+            "phase": "00-ready",
+            "path": ".taste-skill/previews/ocean-surface-chromium-1440-00-ready.png",
+            "elapsed": 1950.6000000238419
+          },
+          {
+            "phase": "01-moving",
+            "path": ".taste-skill/previews/ocean-surface-chromium-1440-01-moving.png",
+            "elapsed": 3379.2999999523163
+          },
+          {
+            "phase": "02-resumed",
+            "path": ".taste-skill/previews/ocean-surface-chromium-1440-02-resumed.png",
+            "elapsed": 5304.899999976158
+          },
+          {
+            "phase": "03-entering",
+            "path": ".taste-skill/previews/ocean-surface-chromium-1440-03-entering.png",
+            "elapsed": 5871.5
+          },
+          {
+            "phase": "04-hero",
+            "path": ".taste-skill/previews/ocean-surface-chromium-1440-04-hero.png",
+            "elapsed": 6045
+          }
+        ],
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceled": 15
+        },
+        "input": "Native wheel entry and scrolling"
+      }
+    },
+    {
+      "name": "chromium: portrait-landscape rotation keeps ready inherited water without duplicate animations",
+      "passed": true,
+      "details": [
+        {
+          "dimensions": {
+            "width": 844,
+            "height": 390
+          },
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "animations": 14
+        },
+        {
+          "dimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "animations": 14
+        }
+      ]
+    },
+    {
+      "name": "chromium: reduced motion and saved pause bypass loader and opening water",
+      "passed": true,
+      "details": [
+        {
+          "preference": "reduced",
+          "hidden": true,
+          "assetRequests": 0
+        },
+        {
+          "preference": "paused",
+          "hidden": true,
+          "assetRequests": 0
+        }
+      ]
+    },
+    {
+      "name": "chromium: failed and stalled coast never reveal unready water or revive completed opening",
+      "passed": true,
+      "details": [
+        {
+          "behavior": "failed",
+          "loadingDuration": 651.7999999523163,
+          "water": {
+            "opacity": "0",
+            "background": "none"
+          },
+          "finalPhase": "done",
+          "animations": 12
+        },
+        {
+          "behavior": "stalled",
+          "loadingDuration": 4505.299999952316,
+          "water": {
+            "opacity": "0",
+            "background": "none"
+          },
+          "finalPhase": "done",
+          "animations": 12
+        }
+      ]
+    },
+    {
+      "name": "webkit: water composite and original otter fit 1440x900",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 747.2543334960938,
+          "top": 339.2290344238281,
+          "right": 1425.0775146484375,
+          "bottom": 679.677001953125,
+          "width": 677.8231811523438,
+          "height": 340.4479675292969
+        },
+        "visible": {
+          "left": 760.4930675029755,
+          "top": 377.13046830892563,
+          "right": 1417.7962109446526,
+          "bottom": 653.0795044898987
+        },
+        "title": {
+          "left": 122.390625,
+          "top": 351,
+          "right": 813.578125,
+          "bottom": 459,
+          "width": 691.1875,
+          "height": 108
+        },
+        "cue": {
+          "left": 72,
+          "top": 818.203125,
+          "right": 1368,
+          "bottom": 868,
+          "width": 1296,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 1376,
+          "top": 836,
+          "right": 1420,
+          "bottom": 880,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0227, 0, 0, 1.0134, -5.8394, -2.1898)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 63,
+            "done": true,
+            "finished": 73
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-webkit-1440.png"
+      }
+    },
+    {
+      "name": "webkit: water composite and original otter fit 390x844",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 22.556299209594727,
+          "top": 462.7107849121094,
+          "right": 389.5073184967041,
+          "bottom": 646.7232666015625,
+          "width": 366.9510192871094,
+          "height": 184.01248168945312
+        },
+        "visible": {
+          "left": 29.72331130504608,
+          "top": 483.196549475193,
+          "right": 385.56546184420586,
+          "bottom": 632.347291469574
+        },
+        "title": {
+          "left": 19.5,
+          "top": 211,
+          "right": 370.5,
+          "bottom": 255,
+          "width": 351,
+          "height": 44
+        },
+        "cue": {
+          "left": 19.5,
+          "top": 765.40625,
+          "right": 370.5,
+          "bottom": 815.203125,
+          "width": 351,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 326,
+          "top": 780,
+          "right": 370,
+          "bottom": 824,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7038, -1.3889)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 45,
+            "done": true,
+            "finished": 67
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-webkit-390.png"
+      }
+    },
+    {
+      "name": "webkit: water composite and original otter fit 320x568",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 18.38533592224121,
+          "top": 310.9779357910156,
+          "right": 319.47533226013184,
+          "bottom": 461.95574951171875,
+          "width": 301.0899963378906,
+          "height": 150.97781372070312
+        },
+        "visible": {
+          "left": 24.265999913215637,
+          "top": 327.7860127091408,
+          "right": 316.2409670650959,
+          "bottom": 450.1606078147888
+        },
+        "title": {
+          "left": 16,
+          "top": 142,
+          "right": 304,
+          "bottom": 185,
+          "width": 288,
+          "height": 43
+        },
+        "cue": {
+          "left": 16,
+          "top": 489.40625,
+          "right": 304,
+          "bottom": 539.203125,
+          "width": 288,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 256,
+          "top": 504,
+          "right": 300,
+          "bottom": 548,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7029, -1.3886)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 49,
+            "done": true,
+            "finished": 71.00000000000001
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-webkit-320.png"
+      }
+    },
+    {
+      "name": "webkit: water composite and original otter fit 844x390",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 463.3709411621094,
+          "top": 138.91751098632812,
+          "right": 826.630859375,
+          "bottom": 321.07904052734375,
+          "width": 363.2599182128906,
+          "height": 182.16152954101562
+        },
+        "visible": {
+          "left": 470.4658614397049,
+          "top": 159.1972125172615,
+          "right": 822.7286532223225,
+          "bottom": 306.8476710319519
+        },
+        "title": {
+          "left": 71.734375,
+          "top": 136.5,
+          "right": 476.84375,
+          "bottom": 199.5,
+          "width": 405.109375,
+          "height": 63
+        },
+        "cue": {
+          "left": 42.1875,
+          "top": 337.421875,
+          "right": 801.8125,
+          "bottom": 375.609375,
+          "width": 759.625,
+          "height": 38.1875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 780,
+          "top": 334,
+          "right": 824,
+          "bottom": 378,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.7038, -1.3889)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 66,
+            "done": true,
+            "finished": 75
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-webkit-844.png"
+      }
+    },
+    {
+      "name": "webkit: water composite and original otter fit 768x1024",
+      "passed": true,
+      "details": {
+        "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 512,
+        "opacity": "1",
+        "box": {
+          "left": 398.52838134765625,
+          "top": 387.638427734375,
+          "right": 759.833251953125,
+          "bottom": 568.811767578125,
+          "width": 361.30487060546875,
+          "height": 181.17333984375
+        },
+        "visible": {
+          "left": 405.5851171016693,
+          "top": 407.8081159591675,
+          "right": 755.9520472884178,
+          "bottom": 554.657600402832
+        },
+        "title": {
+          "left": 65.265625,
+          "top": 399.359375,
+          "right": 433.890625,
+          "bottom": 456.359375,
+          "width": 368.625,
+          "height": 57
+        },
+        "cue": {
+          "left": 38.390625,
+          "top": 942.203125,
+          "right": 729.609375,
+          "bottom": 992,
+          "width": 691.21875,
+          "height": 49.796875
+        },
+        "titlePixels": 0,
+        "cuePixels": 0,
+        "button": {
+          "left": 704,
+          "top": 960,
+          "right": 748,
+          "bottom": 1004,
+          "width": 44,
+          "height": 44
+        },
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "phase": "waiting",
+        "loaderHidden": true,
+        "water": {
+          "transform": "matrix(1.0223, 0, 0, 1.0077, -3.702, -1.3883)",
+          "opacity": "1",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "mask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)",
+          "webkitMask": "linear-gradient(rgba(0, 0, 0, 0) 33%, rgb(0, 0, 0) 49%, rgb(0, 0, 0) 94%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "environment": {
+          "transform": "none",
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")"
+        },
+        "otterTreatment": {
+          "filter": "brightness(0.9) saturate(0.86) contrast(0.96)",
+          "mask": "linear-gradient(rgb(0, 0, 0) 86%, rgba(0, 0, 0, 0) 100%)"
+        },
+        "decode": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+            "called": 47,
+            "done": true,
+            "finished": 69
+          }
+        ],
+        "screenshot": ".taste-skill/previews/ocean-surface-webkit-768.png"
+      }
+    },
+    {
+      "name": "webkit: water and otter motion Pause/Play visibility and entry lifecycle",
+      "passed": true,
+      "details": {
+        "before": {
+          "water": "matrix(1.0222, 0, 0, 1.0076, -3.7504, -1.4064)",
+          "otter": "matrix(0.999998, -0.001983, 0.001983, 0.999998, -0.6819, -1.1365)",
+          "environment": "none"
+        },
+        "moving": {
+          "water": "matrix(1.025, 0, 0, 1.0097, -2.4193, -0.9072)",
+          "otter": "matrix(0.999999, -0.001127, 0.001127, 0.999999, -0.3875, -0.6458)",
+          "environment": "none"
+        },
+        "frozen": {
+          "water": "matrix(1.0252, 0, 0, 1.0099, -2.2965, -0.8612)",
+          "otter": "matrix(0.999999, -0.001049, 0.001049, 0.999999, -0.3604, -0.6007)",
+          "environment": "none"
+        },
+        "resumed": {
+          "water": "matrix(1.0261, 0, 0, 1.0106, -1.8511, -0.6941)",
+          "otter": "matrix(1, -0.000764, 0.000764, 1, -0.2627, -0.4378)",
+          "environment": "none"
+        },
+        "hidden": {
+          "water": "matrix(1.0261, 0, 0, 1.0106, -1.8511, -0.6941)",
+          "otter": "matrix(1, -0.000764, 0.000764, 1, -0.2627, -0.4378)",
+          "environment": "none"
+        },
+        "visible": {
+          "water": "matrix(1.0273, 0, 0, 1.0115, -1.3043, -0.4891)",
+          "otter": "matrix(1, -0.000417, 0.000417, 1, -0.1437, -0.2395)",
+          "environment": "none"
+        },
+        "frames": [
+          {
+            "phase": "00-ready",
+            "path": ".taste-skill/previews/ocean-surface-webkit-390-00-ready.png",
+            "elapsed": 1750
+          },
+          {
+            "phase": "01-moving",
+            "path": ".taste-skill/previews/ocean-surface-webkit-390-01-moving.png",
+            "elapsed": 3009
+          },
+          {
+            "phase": "02-resumed",
+            "path": ".taste-skill/previews/ocean-surface-webkit-390-02-resumed.png",
+            "elapsed": 4782
+          },
+          {
+            "phase": "03-entering",
+            "path": ".taste-skill/previews/ocean-surface-webkit-390-03-entering.png",
+            "elapsed": 5198
+          },
+          {
+            "phase": "04-hero",
+            "path": ".taste-skill/previews/ocean-surface-webkit-390-04-hero.png",
+            "elapsed": 5743
+          }
+        ],
+        "final": {
+          "phase": "done",
+          "focus": "hero-title",
+          "canceled": 15
+        },
+        "input": "Synthetic touch entry and programmatic follow-up scroll"
+      }
+    },
+    {
+      "name": "webkit: portrait-landscape rotation keeps ready inherited water without duplicate animations",
+      "passed": true,
+      "details": [
+        {
+          "dimensions": {
+            "width": 844,
+            "height": 390
+          },
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-v2.webp\")",
+          "animations": 14
+        },
+        {
+          "dimensions": {
+            "width": 390,
+            "height": 844
+          },
+          "background": "url(\"http://127.0.0.1:4173/img/ocean/surface-mobile-v2.webp\")",
+          "animations": 14
+        }
+      ]
+    },
+    {
+      "name": "webkit: reduced motion and saved pause bypass loader and opening water",
+      "passed": true,
+      "details": [
+        {
+          "preference": "reduced",
+          "hidden": true,
+          "assetRequests": 0
+        },
+        {
+          "preference": "paused",
+          "hidden": true,
+          "assetRequests": 0
+        }
+      ]
+    },
+    {
+      "name": "webkit: failed and stalled coast never reveal unready water or revive completed opening",
+      "passed": true,
+      "details": [
+        {
+          "behavior": "failed",
+          "loadingDuration": 643,
+          "water": {
+            "opacity": "0",
+            "background": "none"
+          },
+          "finalPhase": "done",
+          "animations": 12
+        },
+        {
+          "behavior": "stalled",
+          "loadingDuration": 4507,
+          "water": {
+            "opacity": "0",
+            "background": "none"
+          },
+          "finalPhase": "done",
+          "animations": 12
+        }
+      ]
+    },
+    {
+      "name": "No uncaught exceptions during scoped ocean surface checks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Captured coast and sky remain pixel-identical while clear water regions change",
+      "passed": true,
+      "details": [
+        {
+          "engine": "chromium",
+          "width": 1440,
+          "coast": {
+            "bounds": {
+              "x": 20,
+              "y": 25,
+              "w": 830,
+              "h": 255
+            },
+            "total": 211650,
+            "changed": 0,
+            "percentage": 0,
+            "meanAbsoluteRGB": 0
+          },
+          "water": {
+            "bounds": {
+              "x": 50,
+              "y": 490,
+              "w": 650,
+              "h": 230
+            },
+            "total": 149500,
+            "changed": 71909,
+            "percentage": 48.099665551839465,
+            "meanAbsoluteRGB": 0.43146488294314383
+          }
+        },
+        {
+          "engine": "webkit",
+          "width": 390,
+          "coast": {
+            "bounds": {
+              "x": 5,
+              "y": 10,
+              "w": 255,
+              "h": 260
+            },
+            "total": 66300,
+            "changed": 0,
+            "percentage": 0,
+            "meanAbsoluteRGB": 0
+          },
+          "water": {
+            "bounds": {
+              "x": 10,
+              "y": 365,
+              "w": 370,
+              "h": 100
+            },
+            "total": 37000,
+            "changed": 35264,
+            "percentage": 95.3081081081081,
+            "meanAbsoluteRGB": 7.731531531531531
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": "Scoped ocean-water animation and otter compositing checks. Touch entry uses synthetic events; subsequent mobile scrolling is programmatic. No physical-device, Simulator, assistive-technology, performance or full-site verification."
+}

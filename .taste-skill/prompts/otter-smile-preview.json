@@ -1,0 +1,18 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "scope": "Static expression preview only; no application/runtime changes",
+  "editTarget": ".taste-skill/previews/otter-head-only-whale-style-preview.png",
+  "iterations": [
+    {
+      "prompt": "Use case: precise-object-edit. Edit this existing desktop-left/mobile-right ocean website PREVIEW BOARD. Make ONE SMALL CHANGE only to the otter's FACIAL EXPRESSION in BOTH panels: give it a clearly warmer, gently HAPPY SMILE. The mouth stays CLOSED with softly upturned mouth corners, subtly lifted muzzle/cheeks and relaxed cheerful eyes. The smile should be readable at the existing phone scale, not merely an unchanged neutral mouth. Keep real otter anatomy: NO human teeth, no human lips, no tongue, no huge open grin, no cartoon eyebrows, no exaggerated mascot expression. Keep its head size, position, ears, nose, whiskers, gaze direction and proportions as close as possible to the input. Preserve EXACTLY the existing navy/slate/icy ivory painted and inked style inspired by the site's whale, including grouped brush texture. Preserve HEAD ONLY above water: water directly below its jaw, whole body and paws submerged, absolutely NO shell, prop, object, paw/hand/arm, shoulder or chest above water. Do not add anything for the otter to hold or touch. All surrounding water/ripples, background, coast, seal, gulls, type, text, title/cue positioning, panel gutter and circular controls remain unchanged. Exact existing title 'A little deeper.' and scroll/swipe cues remain. This is a static expression preview only, not a website implementation.",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16b1f-1be9-7de2-a8d6-2814f83363df/exec-35b30e67-9ba7-4751-aeda-d4be0e42b71b.png",
+      "decision": "Too subtle; expression still read neutral at phone size."
+    },
+    {
+      "prompt": "Precise expression edit to this two-panel website preview. The otter STILL LOOKS TOO NEUTRAL. Give its face an unmistakably warm HAPPY SMILE in BOTH the desktop and mobile view. Make a visible illustrated closed-mouth smile: lift both cheek/muzzle corners noticeably, curve the dark mouth line upward at its ends into a gentle U-shaped smile, and give the eyes a relaxed cheerful soft squint caused by the lifted cheeks. The expression should clearly read happy at phone size. It is okay for the smile to be slightly expressive/illustrated, while retaining the same natural otter face. NOT just a nearly invisible adjustment. No human teeth/lips, no tongue, no open mouth, no huge grin or comic eyebrows. Keep nose/ears/head silhouette/whiskers, current head scale and placement, cool navy/slate/ivory painted brush style and light direction. ONLY HEAD ABOVE WATER, all paws and body invisible underwater, no shell or props. Every other pixel area should remain as close as possible: background, coast/water/ripples, seal, gulls, exact text, typography, layouts and controls unchanged. Static preview only. The sole requested improvement is a CLEARER GENTLE HAPPY SMILE in BOTH otter faces.",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a16b1f-1be9-7de2-a8d6-2814f83363df/exec-6e316eee-78dc-4a06-b59b-546515b02130.png",
+      "decision": "Selected: visibly lifted cheeks, gentle closed-mouth smile and relaxed happy squint."
+    }
+  ],
+  "selectedPreview": ".taste-skill/previews/otter-smile-preview.png"
+}

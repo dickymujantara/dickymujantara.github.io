@@ -5,6 +5,7 @@
   const scene = opening?.querySelector('.opening-scene');
   const environment = opening?.querySelector('.opening-environment');
   const motionButton = document.getElementById('opening-motion-toggle');
+  const loader = opening?.querySelector('.opening-loader');
   const library = window.anime;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const portrait = window.matchMedia('(max-width: 767px) and (orientation: portrait)');
@@ -13,11 +14,20 @@
   const ambient = new Set();
   const assetListeners = [];
   const backgrounds = new Map();
+  const readyArt = new Map();
+  const startedArt = new Set();
   let timeline;
+  let loadingAnimation;
   let active = false;
+  let ready = false;
   let entering = false;
   let motionPaused = false;
   let fallback;
+  let loadingDeadline;
+  let revealTimer;
+  let loadingStarted;
+  let artSettled = false;
+  let loadingTimedOut = false;
   let wheelDistance = 0;
   let touchOrigin = null;
   let covered = [];
@@ -45,18 +55,23 @@
   }
 
   function syncAmbient() {
-    const playing = active && !entering && !motionPaused && !document.hidden;
+    const playing = active && ready && !entering && !motionPaused && !document.hidden;
     ambient.forEach(animation => playing ? animation.resume() : animation.pause());
   }
 
   function startAmbient(element, index = 0) {
     const profiles = {
-      water: { x: [-3, 3], y: [-1, 1], duration: 14000 },
-      otter: { x: [-3, 3], y: [-5, 5], rotate: [-.6, .6], duration: 8000 },
+      water: {
+        x: [-8, 8], y: [-3, 3], scaleX: [1.02, 1.04],
+        scaleY: compact ? [1.006, 1.021] : [1.01, 1.035], duration: 9000,
+      },
+      otter: { x: [-1.5, 1.5], y: [-2.5, 2.5], rotate: [-.25, .25], duration: 8000 },
       seal: { y: [-.5, .5], scale: [1, 1.008], duration: 9000 },
       bird: { x: [-18, 18], y: [-6, 6], rotate: [-3, 3], duration: index ? 14000 : 11000 },
     };
-    const profile = { ...profiles[element.dataset.openingAmbient] };
+    const settings = profiles[element.dataset.openingAmbient];
+    if (!settings) return;
+    const profile = { ...settings };
     if (compact) {
       for (const property of ['x', 'y', 'rotate']) {
         if (profile[property]) profile[property] = profile[property].map(value => value * .6);
@@ -76,13 +91,40 @@
     own(library.animate(element, { opacity: [0, 1], duration: 700, ease: 'outSine' }));
   }
 
-  function listenForAsset(image, ready) {
-    const load = () => {
-      if (!active || entering || !image.naturalWidth) return;
-      ready();
-    };
-    image.addEventListener('load', load, { once: true });
-    assetListeners.push(() => image.removeEventListener('load', load));
+  function stageArt(element, index = 0) {
+    if (!active || entering) return;
+    readyArt.set(element, index);
+    if (!ready || startedArt.has(element)) return;
+    startedArt.add(element);
+    showArt(element);
+    startAmbient(element, index);
+  }
+
+  function loadImage(image, path, onReady) {
+    return new Promise(resolve => {
+      let settled = false;
+      const settle = () => {
+        if (settled) return;
+        settled = true;
+        image.removeEventListener('load', load);
+        image.removeEventListener('error', settle);
+        resolve();
+      };
+      const load = async () => {
+        try {
+          await image.decode?.();
+          if (!settled && active && !entering && image.naturalWidth) onReady();
+        } catch {
+          // An unavailable image leaves the native title and entry controls usable.
+        } finally {
+          settle();
+        }
+      };
+      image.addEventListener('load', load, { once: true });
+      image.addEventListener('error', settle, { once: true });
+      assetListeners.push(settle);
+      image.src = new URL(path, document.baseURI).href;
+    });
   }
 
   function loadBackground() {
@@ -95,31 +137,78 @@
         // Keep a ready composition visible while a rotated viewport loads the other.
         environment.style.setProperty('--opening-surface', `url("${image.src}")`);
         environment.style.setProperty('--opening-surface-mobile', `url("${image.src}")`);
-        showArt(environment);
-        startAmbient(environment);
+        stageArt(environment);
+        environment.querySelectorAll('[data-opening-ambient]').forEach(layer => stageArt(layer));
       }
     };
     if (backgrounds.has(key)) {
-      const image = backgrounds.get(key);
-      if (image.complete && image.naturalWidth) apply(image);
-      return;
+      const record = backgrounds.get(key);
+      if (record.image.complete && record.image.naturalWidth) apply(record.image);
+      return record.promise;
     }
     const image = new Image();
-    backgrounds.set(key, image);
-    listenForAsset(image, () => apply(image));
-    image.src = new URL(`img/ocean/surface${key === 'mobile' ? '-mobile' : ''}.webp`, document.baseURI).href;
+    const promise = loadImage(image, `img/ocean/surface${key === 'mobile' ? '-mobile' : ''}-v2.webp`, () => apply(image));
+    backgrounds.set(key, { image, promise });
+    return promise;
   }
 
   function loadArt() {
-    loadBackground();
+    const pending = [loadBackground()];
     let bird = 0;
     opening.querySelectorAll('img[data-opening-src]').forEach(image => {
       const index = image.dataset.openingAmbient === 'bird' ? bird++ : 0;
-      listenForAsset(image, () => {
-        showArt(image);
-        startAmbient(image, index);
-      });
-      image.src = new URL(image.dataset.openingSrc, document.baseURI).href;
+      pending.push(loadImage(image, image.dataset.openingSrc, () => stageArt(image, index)));
+    });
+    return Promise.allSettled(pending);
+  }
+
+  function showOpening() {
+    if (!active || ready || entering || document.hidden) return;
+    ready = true;
+    clearTimeout(loadingDeadline);
+    clearTimeout(revealTimer);
+    loadingAnimation?.cancel();
+    opening.dataset.phase = 'waiting';
+    opening.setAttribute('aria-busy', 'false');
+    opening.setAttribute('aria-describedby', 'opening-instructions');
+    readyArt.forEach((index, element) => stageArt(element, index));
+    timeline = own(library.createTimeline({ autoplay: false }));
+    timeline.add('.opening-title', { opacity: [0, 1], y: [12, 0], duration: 650, ease: 'outCubic' }, 80);
+    timeline.add(cue, { opacity: [0, 1], y: [6, 0], duration: 650, ease: 'outCubic' }, 350);
+    timeline.play();
+    if (loader) own(library.animate(loader, {
+      opacity: [1, 0], duration: 300, ease: 'outSine', onComplete: () => { loader.hidden = true; },
+    }));
+  }
+
+  function scheduleOpening() {
+    if (!active || ready || (!artSettled && !loadingTimedOut)) return;
+    clearTimeout(revealTimer);
+    revealTimer = setTimeout(() => {
+      try { showOpening(); } catch { finish(); }
+    }, Math.max(0, 650 - (performance.now() - loadingStarted)));
+  }
+
+  function startLoading() {
+    loadingStarted = performance.now();
+    opening.setAttribute('aria-busy', 'true');
+    opening.setAttribute('aria-describedby', 'opening-loading-label');
+    loadingAnimation = own(library.createTimeline({ loop: true, alternate: true, autoplay: false }));
+    opening.querySelectorAll('[data-loading-wave]').forEach((path, index) => {
+      const length = path.getTotalLength();
+      path.style.strokeDasharray = `${length} ${length}`;
+      loadingAnimation.add(path, {
+        strokeDashoffset: [length, 0], opacity: [.3, 1], duration: 900, ease: 'inOutSine',
+      }, index * 140);
+    });
+    loadingAnimation.play();
+    loadingDeadline = setTimeout(() => {
+      loadingTimedOut = true;
+      scheduleOpening();
+    }, 4500);
+    loadArt().then(() => {
+      artSettled = true;
+      scheduleOpening();
     });
   }
 
@@ -128,12 +217,17 @@
     const restoreFocus = focusHero || opening.contains(document.activeElement);
     active = false;
     clearTimeout(fallback);
+    clearTimeout(loadingDeadline);
+    clearTimeout(revealTimer);
     animations.forEach(animation => animation.cancel());
     animations.clear();
     ambient.clear();
     assetListeners.splice(0).forEach(remove => remove());
     backgrounds.clear();
+    readyArt.clear();
+    startedArt.clear();
     opening.hidden = true;
+    opening.removeAttribute('aria-busy');
     opening.dataset.phase = 'done';
     covered.forEach(({ element, wasInert }) => element.toggleAttribute('inert', wasInert));
     covered = [];
@@ -165,7 +259,7 @@
   }
 
   function enter(focusHero = false) {
-    if (!active || entering) return;
+    if (!active || !ready || entering) return;
     entering = true;
     opening.dataset.phase = 'entering';
     timeline?.pause();
@@ -187,7 +281,7 @@
   }
 
   function onMotionToggle() {
-    if (!active || entering) return;
+    if (!active || !ready || entering) return;
     motionPaused = !motionPaused;
     motionButton.setAttribute('aria-pressed', String(motionPaused));
     motionButton.setAttribute('aria-label', motionPaused ? 'Play opening motion' : 'Pause opening motion');
@@ -201,7 +295,7 @@
   function onWheel(event) {
     if (event.ctrlKey || !event.deltaY) return;
     if (event.cancelable) event.preventDefault();
-    if (entering) return;
+    if (entering || !ready) return;
     if (event.deltaY < 0 || Math.abs(event.deltaX) > Math.abs(event.deltaY)) {
       wheelDistance = 0;
       return;
@@ -211,14 +305,14 @@
     if (wheelDistance >= 24) enter();
   }
   function onTouchStart(event) {
-    touchOrigin = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+    touchOrigin = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY, canEnter: ready } : null;
   }
   function onTouchMove(event) {
     if (!touchOrigin || event.touches.length !== 1) return;
     const x = event.touches[0].clientX - touchOrigin.x;
     const y = touchOrigin.y - event.touches[0].clientY;
     if (Math.abs(y) > Math.abs(x) && event.cancelable) event.preventDefault();
-    if (y >= 40 && y > Math.abs(x) * 1.2) enter();
+    if (touchOrigin.canEnter && y >= 40 && y > Math.abs(x) * 1.2) enter();
   }
   function onTouchEnd() { touchOrigin = null; }
   function onKey(event) {
@@ -229,7 +323,7 @@
     }
     if (event.key === 'Tab') {
       event.preventDefault();
-      motionButton?.focus({ preventScroll: true });
+      (ready ? motionButton : opening)?.focus({ preventScroll: true });
       return;
     }
     if (event.target === motionButton && ['Enter', ' '].includes(event.key)) return;
@@ -243,8 +337,16 @@
   function onVisibility() {
     if (document.hidden) {
       if (entering) finish();
-      else timeline?.pause();
-    } else if (active && !entering && !timeline?.completed) timeline?.resume();
+      else {
+        timeline?.pause();
+        loadingAnimation?.pause();
+      }
+    } else if (active && !entering) {
+      if (!ready) {
+        loadingAnimation?.resume();
+        scheduleOpening();
+      } else if (!timeline?.completed) timeline?.resume();
+    }
     syncAmbient();
   }
   function onPreference() { if (reducedMotion.matches) finish(); }
@@ -267,7 +369,7 @@
 
     active = true;
     opening.hidden = false;
-    opening.dataset.phase = 'waiting';
+    opening.dataset.phase = 'loading';
     covered = [...document.querySelectorAll('.site-header, main, #motion-toggle')]
       .map(element => ({ element, wasInert: element.hasAttribute('inert') }));
     covered.forEach(({ element }) => element.setAttribute('inert', ''));
@@ -289,11 +391,7 @@
     motionButton?.addEventListener('click', onMotionToggle);
 
     try {
-      timeline = own(library.createTimeline({ autoplay: false }));
-      timeline.add('.opening-title', { opacity: [0, 1], y: [12, 0], duration: 650, ease: 'outCubic' }, 80);
-      timeline.add(cue, { opacity: [0, 1], y: [6, 0], duration: 650, ease: 'outCubic' }, 350);
-      timeline.play();
-      loadArt();
+      startLoading();
     } catch {
       finish();
     }
