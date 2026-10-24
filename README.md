@@ -43,6 +43,6 @@ The entire navigation header is hidden at widths of 767 pixels and below, and on
 
 The small fish silhouettes have been removed throughout the site. The footer instead contains illustrated jellyfish, a crab, and a starfish, using the shared motion controls. Smaller scale and muted blue highlights blend the creatures into the canyon, with the crab and sea star near the foreground rocks. On smaller screens the creatures have a compact area below the contact content. Their artwork provenance is in `img/ocean/INVERTEBRATES.md`.
 
-The Graphalyze comparison is an interactive illustration, with a link to the original project screenshot. The external profile, article, and exploration links retain their existing destinations.
+The Graphalyze comparison is an interactive illustration, with a link to the IEEE publication at `https://ieeexplore.ieee.org/document/10276795`. The external profile, article, and exploration links retain their existing destinations.
 
 The site remains compatible with static hosting such as GitHub Pages. Local development does not publish changes.
