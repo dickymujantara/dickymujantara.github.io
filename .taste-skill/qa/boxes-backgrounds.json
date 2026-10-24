@@ -1,0 +1,669 @@
+{
+  "testedAt": "2026-10-24T03:29:05.299Z",
+  "url": "http://127.0.0.1:4173",
+  "checks": [
+    {
+      "name": "Anime.js runtime and three complete moving pixel frames are present",
+      "passed": true,
+      "details": {
+        "frameCount": 3
+      }
+    },
+    {
+      "name": "About complete pixel frames, borders, handles and crops animate automatically at fixed scroll",
+      "passed": true,
+      "details": [
+        {
+          "name": "detail-position orca-detail",
+          "displacementPixels": 14.461315536117441,
+          "corners": 4
+        }
+      ]
+    },
+    {
+      "name": "Explorations complete pixel frames, borders, handles and crops animate automatically at fixed scroll",
+      "passed": true,
+      "details": [
+        {
+          "name": "detail-position turtle-detail",
+          "displacementPixels": 8.362669505741845,
+          "corners": 4
+        },
+        {
+          "name": "detail-position turtle-mosaic",
+          "displacementPixels": 1.8156110766298812,
+          "corners": 4
+        }
+      ]
+    },
+    {
+      "name": "About, Explorations, article thumbnails and footer use new background scenes instead of hero water",
+      "passed": true,
+      "details": {
+        "sceneImages": {
+          "hero": "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+          "about": "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+          "explorations": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+          "articleOne": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")",
+          "articleTwo": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")",
+          "footer": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+        },
+        "sectionColors": [
+          {
+            "id": "work",
+            "color": "rgb(5, 16, 25)",
+            "image": "none"
+          },
+          {
+            "id": "experience",
+            "color": "rgb(10, 27, 39)",
+            "image": "none"
+          },
+          {
+            "id": "writing",
+            "color": "rgb(9, 25, 37)",
+            "image": "none"
+          }
+        ],
+        "imageRequests": [
+          {
+            "url": "http://127.0.0.1:4173/img/ocean/water.webp",
+            "status": 200,
+            "bytes": 88840
+          },
+          {
+            "url": "http://127.0.0.1:4173/img/ocean/about-depth.webp",
+            "status": 200,
+            "bytes": 12248
+          },
+          {
+            "url": "http://127.0.0.1:4173/img/ocean/exploration-reef.webp",
+            "status": 200,
+            "bytes": 61186
+          },
+          {
+            "url": "http://127.0.0.1:4173/img/ocean/abyss.webp",
+            "status": 200,
+            "bytes": 34954
+          }
+        ]
+      }
+    },
+    {
+      "name": "Global pause freezes complete frames, inner crops and scroll layers; play resumes them",
+      "passed": true,
+      "details": {
+        "testedFrames": 2
+      }
+    },
+    {
+      "name": "Pinned scroll motion and graph selection still work after nested frame changes",
+      "passed": true,
+      "details": {
+        "pinnedFrameTop": 73,
+        "graphDetail": "Receive event in Process A. This step connects the start to the record check."
+      }
+    },
+    {
+      "name": "390px mobile has no overflow and complete detail frames stay within their scenes",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "320px mobile has no overflow and complete detail frames stay within their scenes",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "Reduced motion starts still and freezes complete pixel frames, crops and scroll layers",
+      "passed": true,
+      "details": {
+        "framesChecked": 3,
+        "scenePositions": [
+          "relative",
+          "relative",
+          "relative"
+        ]
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in tested views",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "Actual browser frame motion and distinct backgrounds recorded as video",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/effects-backgrounds.webm",
+        "bytes": 1178487,
+        "frameCount": 186,
+        "fps": 15,
+        "viewport": "1440x1000",
+        "encodedSize": "1152x800",
+        "method": "Actual Playwright browser screenshots encoded as VP9 WebM"
+      }
+    }
+  ],
+  "observations": {
+    "aboutFrameMotion": {
+      "before": [
+        {
+          "name": "detail-position orca-detail",
+          "outer": "matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 0, 8.4)",
+          "frame": "matrix(0.999773, -0.0213263, 0.0213263, 0.999773, -4.888, -6.721)",
+          "crop": "matrix(1, 0, 0, 1, -4.4422, -2.7763)",
+          "rect": {
+            "x": 1132.7376708984375,
+            "y": 294.1978759765625,
+            "width": 218.8280029296875,
+            "height": 165.80679321289062,
+            "left": 1132.7376708984375,
+            "right": 1351.565673828125,
+            "top": 294.1978759765625,
+            "bottom": 460.0046691894531
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 1130.66162109375,
+              "y": 300.3365478515625,
+              "width": 5.1900634765625,
+              "height": 5.190093994140625,
+              "left": 1130.66162109375,
+              "right": 1135.8516845703125,
+              "top": 300.3365478515625,
+              "bottom": 305.5266418457031
+            },
+            {
+              "x": 1342.3773193359375,
+              "y": 292.121826171875,
+              "width": 5.1900634765625,
+              "height": 5.190093994140625,
+              "left": 1342.3773193359375,
+              "right": 1347.5673828125,
+              "top": 292.121826171875,
+              "bottom": 297.3119201660156
+            },
+            {
+              "x": 1136.7359619140625,
+              "y": 456.890625,
+              "width": 5.1900634765625,
+              "height": 5.1900634765625,
+              "left": 1136.7359619140625,
+              "right": 1141.926025390625,
+              "top": 456.890625,
+              "bottom": 462.0806884765625
+            },
+            {
+              "x": 1348.45166015625,
+              "y": 448.6759033203125,
+              "width": 5.190185546875,
+              "height": 5.190093994140625,
+              "left": 1348.45166015625,
+              "right": 1353.641845703125,
+              "top": 448.6759033203125,
+              "bottom": 453.8659973144531
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 1947
+        }
+      ],
+      "after": [
+        {
+          "name": "detail-position orca-detail",
+          "outer": "matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 0, 8.4)",
+          "frame": "matrix(0.999979, 0.00654145, -0.00654145, 0.999979, 1.4991, 2.0612)",
+          "crop": "matrix(1, 0, 0, 1, 0.7028, 0.4393)",
+          "rect": {
+            "x": 1141.399658203125,
+            "y": 305.77801513671875,
+            "width": 214.582763671875,
+            "height": 159.98529052734375,
+            "left": 1141.399658203125,
+            "right": 1355.982421875,
+            "top": 305.77801513671875,
+            "bottom": 465.7633056640625
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 1139.3779296875,
+              "y": 306.0682067871094,
+              "width": 5.0543212890625,
+              "height": 5.05426025390625,
+              "left": 1139.3779296875,
+              "right": 1144.4322509765625,
+              "top": 306.0682067871094,
+              "bottom": 311.1224670410156
+            },
+            {
+              "x": 1351.2403564453125,
+              "y": 303.7563171386719,
+              "width": 5.0543212890625,
+              "height": 5.05426025390625,
+              "left": 1351.2403564453125,
+              "right": 1356.294677734375,
+              "top": 303.7563171386719,
+              "bottom": 308.8105773925781
+            },
+            {
+              "x": 1141.0875244140625,
+              "y": 462.73077392578125,
+              "width": 5.0543212890625,
+              "height": 5.054229736328125,
+              "left": 1141.0875244140625,
+              "right": 1146.141845703125,
+              "top": 462.73077392578125,
+              "bottom": 467.7850036621094
+            },
+            {
+              "x": 1352.949951171875,
+              "y": 460.41888427734375,
+              "width": 5.05419921875,
+              "height": 5.054229736328125,
+              "left": 1352.949951171875,
+              "right": 1358.004150390625,
+              "top": 460.41888427734375,
+              "bottom": 465.4731140136719
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 1947
+        }
+      ]
+    },
+    "explorationsFrameMotion": {
+      "before": [
+        {
+          "name": "detail-position turtle-detail",
+          "outer": "matrix(0.999609, -0.027967, 0.027967, 0.999609, -3.6111, 11.4251)",
+          "frame": "matrix(0.999899, 0.01421, -0.01421, 0.999899, 3.2568, 4.4782)",
+          "crop": "matrix(1, 0, 0, 1, -2.3098, -1.4436)",
+          "rect": {
+            "x": 647.4754638671875,
+            "y": 356.1277160644531,
+            "width": 174.54150390625,
+            "height": 130.34988403320312,
+            "left": 647.4754638671875,
+            "right": 822.0169677734375,
+            "top": 356.1277160644531,
+            "bottom": 486.47760009765625
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 645.4481201171875,
+              "y": 356.4642639160156,
+              "width": 5.068359375,
+              "height": 5.068328857421875,
+              "left": 645.4481201171875,
+              "right": 650.5164794921875,
+              "top": 356.4642639160156,
+              "bottom": 361.5325927734375
+            },
+            {
+              "x": 817.228759765625,
+              "y": 354.1003723144531,
+              "width": 5.06829833984375,
+              "height": 5.068328857421875,
+              "left": 817.228759765625,
+              "right": 822.2970581054688,
+              "top": 354.1003723144531,
+              "bottom": 359.168701171875
+            },
+            {
+              "x": 647.1953735351562,
+              "y": 483.4366149902344,
+              "width": 5.068359375,
+              "height": 5.068328857421875,
+              "left": 647.1953735351562,
+              "right": 652.2637329101562,
+              "top": 483.4366149902344,
+              "bottom": 488.50494384765625
+            },
+            {
+              "x": 818.9760131835938,
+              "y": 481.0727233886719,
+              "width": 5.06829833984375,
+              "height": 5.068328857421875,
+              "left": 818.9760131835938,
+              "right": 824.0443115234375,
+              "top": 481.0727233886719,
+              "bottom": 486.14105224609375
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 4485
+        },
+        {
+          "name": "detail-position turtle-mosaic",
+          "outer": "matrix(0.999609, 0.027967, -0.027967, 0.999609, 5.6111, -5.4209)",
+          "frame": "matrix(0.999417, 0.0341407, -0.0341407, 0.999417, 7.8259, 10.7605)",
+          "crop": "matrix(1, 0, 0, 1, 5.7759, 3.6099)",
+          "rect": {
+            "x": 1190.1240234375,
+            "y": 613.829833984375,
+            "width": 180.4085693359375,
+            "height": 138.4644775390625,
+            "left": 1190.1240234375,
+            "right": 1370.5325927734375,
+            "top": 613.829833984375,
+            "bottom": 752.2943115234375
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 1195.88671875,
+              "y": 611.7095947265625,
+              "width": 5.3006591796875,
+              "height": 5.30072021484375,
+              "left": 1195.88671875,
+              "right": 1201.1873779296875,
+              "top": 611.7095947265625,
+              "bottom": 617.0103149414062
+            },
+            {
+              "x": 1367.3521728515625,
+              "y": 622.3743896484375,
+              "width": 5.30078125,
+              "height": 5.30072021484375,
+              "left": 1367.3521728515625,
+              "right": 1372.6529541015625,
+              "top": 622.3743896484375,
+              "bottom": 627.6751098632812
+            },
+            {
+              "x": 1188.003662109375,
+              "y": 738.448974609375,
+              "width": 5.30078125,
+              "height": 5.30078125,
+              "left": 1188.003662109375,
+              "right": 1193.304443359375,
+              "top": 738.448974609375,
+              "bottom": 743.749755859375
+            },
+            {
+              "x": 1359.46923828125,
+              "y": 749.1138305664062,
+              "width": 5.30078125,
+              "height": 5.30072021484375,
+              "left": 1359.46923828125,
+              "right": 1364.77001953125,
+              "top": 749.1138305664062,
+              "bottom": 754.41455078125
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 4485
+        }
+      ],
+      "after": [
+        {
+          "name": "detail-position turtle-detail",
+          "outer": "matrix(0.999609, -0.027967, 0.027967, 0.999609, -3.6111, 11.4251)",
+          "frame": "matrix(0.999442, 0.0333889, -0.0333889, 0.999442, 7.6534, 10.5234)",
+          "crop": "matrix(1, 0, 0, 1, 3.0561, 1.9101)",
+          "rect": {
+            "x": 652.5658569335938,
+            "y": 362.76263427734375,
+            "width": 173.48858642578125,
+            "height": 128.9197998046875,
+            "left": 652.5658569335938,
+            "right": 826.054443359375,
+            "top": 362.76263427734375,
+            "bottom": 491.68243408203125
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 651.243896484375,
+              "y": 360.7518005371094,
+              "width": 5.02703857421875,
+              "height": 5.02703857421875,
+              "left": 651.243896484375,
+              "right": 656.2709350585938,
+              "top": 360.7518005371094,
+              "bottom": 365.7788391113281
+            },
+            {
+              "x": 823.0382080078125,
+              "y": 361.6837158203125,
+              "width": 5.027099609375,
+              "height": 5.02703857421875,
+              "left": 823.0382080078125,
+              "right": 828.0653076171875,
+              "top": 361.6837158203125,
+              "bottom": 366.71075439453125
+            },
+            {
+              "x": 650.5550537109375,
+              "y": 487.73431396484375,
+              "width": 5.02703857421875,
+              "height": 5.02703857421875,
+              "left": 650.5550537109375,
+              "right": 655.5820922851562,
+              "top": 487.73431396484375,
+              "bottom": 492.7613525390625
+            },
+            {
+              "x": 822.3494262695312,
+              "y": 488.66619873046875,
+              "width": 5.02703857421875,
+              "height": 5.02703857421875,
+              "left": 822.3494262695312,
+              "right": 827.37646484375,
+              "top": 488.66619873046875,
+              "bottom": 493.6932373046875
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 4485
+        },
+        {
+          "name": "detail-position turtle-mosaic",
+          "outer": "matrix(0.999609, 0.027967, -0.027967, 0.999609, 5.6111, -5.4209)",
+          "frame": "matrix(0.999612, 0.0278466, -0.0278466, 0.999612, 6.3829, 8.7765)",
+          "crop": "matrix(1, 0, 0, 1, 7.9749, 4.9843)",
+          "rect": {
+            "x": 1189.107177734375,
+            "y": 612.32568359375,
+            "width": 179.668212890625,
+            "height": 137.4256591796875,
+            "left": 1189.107177734375,
+            "right": 1368.775390625,
+            "top": 612.32568359375,
+            "bottom": 749.7513427734375
+          },
+          "scene": {
+            "x": 0,
+            "y": 73,
+            "width": 1440,
+            "height": 928,
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 1001
+          },
+          "corners": [
+            {
+              "x": 1194.08349609375,
+              "y": 610.2171630859375,
+              "width": 5.271240234375,
+              "height": 5.27117919921875,
+              "left": 1194.08349609375,
+              "right": 1199.354736328125,
+              "top": 610.2171630859375,
+              "bottom": 615.4883422851562
+            },
+            {
+              "x": 1365.61279296875,
+              "y": 619.802001953125,
+              "width": 5.2711181640625,
+              "height": 5.271240234375,
+              "left": 1365.61279296875,
+              "right": 1370.8839111328125,
+              "top": 619.802001953125,
+              "bottom": 625.0732421875
+            },
+            {
+              "x": 1186.998779296875,
+              "y": 737.0037841796875,
+              "width": 5.271240234375,
+              "height": 5.2711181640625,
+              "left": 1186.998779296875,
+              "right": 1192.27001953125,
+              "top": 737.0037841796875,
+              "bottom": 742.27490234375
+            },
+            {
+              "x": 1358.528076171875,
+              "y": 746.588623046875,
+              "width": 5.271240234375,
+              "height": 5.27117919921875,
+              "left": 1358.528076171875,
+              "right": 1363.79931640625,
+              "top": 746.588623046875,
+              "bottom": 751.8598022460938
+            }
+          ],
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "scrollY": 4485
+        }
+      ]
+    },
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/effects-backgrounds.webm",
+      "bytes": 1178487,
+      "frameCount": 186,
+      "fps": 15,
+      "viewport": "1440x1000",
+      "encodedSize": "1152x800",
+      "method": "Actual Playwright browser screenshots encoded as VP9 WebM"
+    },
+    "backgrounds": {
+      "sceneImages": {
+        "hero": "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+        "about": "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+        "explorations": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+        "articleOne": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")",
+        "articleTwo": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")",
+        "footer": "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+      },
+      "sectionColors": [
+        {
+          "id": "work",
+          "color": "rgb(5, 16, 25)",
+          "image": "none"
+        },
+        {
+          "id": "experience",
+          "color": "rgb(10, 27, 39)",
+          "image": "none"
+        },
+        {
+          "id": "writing",
+          "color": "rgb(9, 25, 37)",
+          "image": "none"
+        }
+      ],
+      "imageRequests": [
+        {
+          "url": "http://127.0.0.1:4173/img/ocean/water.webp",
+          "status": 200,
+          "bytes": 88840
+        },
+        {
+          "url": "http://127.0.0.1:4173/img/ocean/about-depth.webp",
+          "status": 200,
+          "bytes": 12248
+        },
+        {
+          "url": "http://127.0.0.1:4173/img/ocean/exploration-reef.webp",
+          "status": 200,
+          "bytes": 61186
+        },
+        {
+          "url": "http://127.0.0.1:4173/img/ocean/abyss.webp",
+          "status": 200,
+          "bytes": 34954
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "backgroundRecheckedAt": "2026-10-24T03:29:49.471Z",
+  "qaCorrection": "Background check initially anticipated reef.webp; expectation corrected to the implemented exploration-reef.webp, then the background check was rerun. No implementation change was needed."
+}

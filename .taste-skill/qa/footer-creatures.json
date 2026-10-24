@@ -1,0 +1,1017 @@
+{
+  "testedAt": "2026-10-24T03:47:05.686Z",
+  "url": "http://127.0.0.1:4173",
+  "checks": [
+    {
+      "name": "Small fish silhouettes and their motion nodes are absent throughout the site",
+      "passed": true,
+      "details": {
+        "removedSelectors": "symbol#fish, .fish-school, .hero-fish, .footer-fish, use[href=\"#fish\"], [data-motion=\"fish\"]"
+      }
+    },
+    {
+      "name": "Whale, orca, dolphins and turtle remain in their existing scenes",
+      "passed": true,
+      "details": {
+        "whale": 1,
+        "orca": 1,
+        "dolphin": 2,
+        "turtle": 1
+      }
+    },
+    {
+      "name": "Footer includes two jellyfish, a crab and a starfish with successfully loaded transparent assets",
+      "passed": true,
+      "details": [
+        {
+          "type": "jellyfish",
+          "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+          "complete": true,
+          "width": 512,
+          "height": 768,
+          "clearRatio": 0.6427790323893229,
+          "visibleRatio": 0.2691294352213542,
+          "alt": "",
+          "hidden": true
+        },
+        {
+          "type": "jellyfish",
+          "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+          "complete": true,
+          "width": 512,
+          "height": 768,
+          "clearRatio": 0.6427790323893229,
+          "visibleRatio": 0.2691294352213542,
+          "alt": "",
+          "hidden": true
+        },
+        {
+          "type": "crab",
+          "src": "http://127.0.0.1:4173/img/ocean/crab.webp",
+          "complete": true,
+          "width": 768,
+          "height": 512,
+          "clearRatio": 0.5914026896158854,
+          "visibleRatio": 0.38085683186848956,
+          "alt": "",
+          "hidden": true
+        },
+        {
+          "type": "starfish",
+          "src": "http://127.0.0.1:4173/img/ocean/starfish.webp",
+          "complete": true,
+          "width": 512,
+          "height": 342,
+          "clearRatio": 0.6707499543128655,
+          "visibleRatio": 0.31573807565789475,
+          "alt": "",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "Anime.js animates every footer creature while scroll stays fixed",
+      "passed": true,
+      "details": {
+        "before": [
+          {
+            "type": "jellyfish",
+            "transform": "matrix(0.999581, -0.0289562, 0.0289562, 0.999581, -4.9778, -13.2742)"
+          },
+          {
+            "type": "jellyfish",
+            "transform": "matrix(0.99981, 0.0194871, -0.0194871, 0.99981, 3.3498, 8.9329)"
+          },
+          {
+            "type": "crab",
+            "transform": "matrix(0.999956, -0.00933389, 0.00933389, 0.999956, -6.0162, 0)"
+          },
+          {
+            "type": "starfish",
+            "transform": "matrix(0.999996, -0.00273493, 0.00273493, 0.999996, 0, -0.1567)"
+          }
+        ],
+        "after": [
+          {
+            "type": "jellyfish",
+            "transform": "matrix(0.999997, -0.00240332, 0.00240332, 0.999997, -0.4131, -1.1017)"
+          },
+          {
+            "type": "jellyfish",
+            "transform": "matrix(0.999394, 0.0348175, -0.0348175, 0.999394, 5.9858, 15.962)"
+          },
+          {
+            "type": "crab",
+            "transform": "matrix(1, -0.000619592, 0.000619592, 1, -0.3998, 0)"
+          },
+          {
+            "type": "starfish",
+            "transform": "matrix(0.999982, 0.00607196, -0.00607196, 0.999982, 0, 0.3479)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pause stops every footer creature and play resumes motion",
+      "passed": true,
+      "details": {
+        "pausedCreatures": 4,
+        "resumedCreatures": 4
+      }
+    },
+    {
+      "name": "1440px footer has no horizontal overflow, readable copy and unobstructed links",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "creatureCount": 4,
+        "links": [
+          {
+            "href": "mailto:dickymujantara@gmail.com",
+            "topmost": true
+          },
+          {
+            "href": "https://github.com/dickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://linkedin.com/in/muhammaddickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://medium.com/@dickymujantara",
+            "topmost": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024px footer has no horizontal overflow, readable copy and unobstructed links",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "creatureCount": 4,
+        "links": [
+          {
+            "href": "mailto:dickymujantara@gmail.com",
+            "topmost": true
+          },
+          {
+            "href": "https://github.com/dickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://linkedin.com/in/muhammaddickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://medium.com/@dickymujantara",
+            "topmost": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "768px footer has no horizontal overflow, readable copy and unobstructed links",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "creatureCount": 4,
+        "links": [
+          {
+            "href": "mailto:dickymujantara@gmail.com",
+            "topmost": true
+          },
+          {
+            "href": "https://github.com/dickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://linkedin.com/in/muhammaddickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://medium.com/@dickymujantara",
+            "topmost": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "390px footer has no horizontal overflow, readable copy and unobstructed links",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "creatureCount": 4,
+        "links": [
+          {
+            "href": "mailto:dickymujantara@gmail.com",
+            "topmost": true
+          },
+          {
+            "href": "https://github.com/dickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://linkedin.com/in/muhammaddickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://medium.com/@dickymujantara",
+            "topmost": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "320px footer has no horizontal overflow, readable copy and unobstructed links",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "creatureCount": 4,
+        "links": [
+          {
+            "href": "mailto:dickymujantara@gmail.com",
+            "topmost": true
+          },
+          {
+            "href": "https://github.com/dickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://linkedin.com/in/muhammaddickymujantara",
+            "topmost": true
+          },
+          {
+            "href": "https://medium.com/@dickymujantara",
+            "topmost": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reduced motion starts paused and keeps all footer creatures still",
+      "passed": true,
+      "details": {
+        "stillCreatures": 4
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in tested views",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    },
+    {
+      "name": "Footer animal motion recorded from live browser frames",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/footer-creatures.webm",
+        "frames": 101,
+        "fps": 15,
+        "bytes": 634905,
+        "method": "Live browser screenshots encoded as VP9 WebM"
+      }
+    }
+  ],
+  "observations": {
+    "assets": [
+      {
+        "type": "jellyfish",
+        "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+        "complete": true,
+        "width": 512,
+        "height": 768,
+        "clearRatio": 0.6427790323893229,
+        "visibleRatio": 0.2691294352213542,
+        "alt": "",
+        "hidden": true
+      },
+      {
+        "type": "jellyfish",
+        "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+        "complete": true,
+        "width": 512,
+        "height": 768,
+        "clearRatio": 0.6427790323893229,
+        "visibleRatio": 0.2691294352213542,
+        "alt": "",
+        "hidden": true
+      },
+      {
+        "type": "crab",
+        "src": "http://127.0.0.1:4173/img/ocean/crab.webp",
+        "complete": true,
+        "width": 768,
+        "height": 512,
+        "clearRatio": 0.5914026896158854,
+        "visibleRatio": 0.38085683186848956,
+        "alt": "",
+        "hidden": true
+      },
+      {
+        "type": "starfish",
+        "src": "http://127.0.0.1:4173/img/ocean/starfish.webp",
+        "complete": true,
+        "width": 512,
+        "height": 342,
+        "clearRatio": 0.6707499543128655,
+        "visibleRatio": 0.31573807565789475,
+        "alt": "",
+        "hidden": true
+      }
+    ],
+    "creatureMotion": {
+      "before": [
+        {
+          "type": "jellyfish",
+          "transform": "matrix(0.999581, -0.0289562, 0.0289562, 0.999581, -4.9778, -13.2742)"
+        },
+        {
+          "type": "jellyfish",
+          "transform": "matrix(0.99981, 0.0194871, -0.0194871, 0.99981, 3.3498, 8.9329)"
+        },
+        {
+          "type": "crab",
+          "transform": "matrix(0.999956, -0.00933389, 0.00933389, 0.999956, -6.0162, 0)"
+        },
+        {
+          "type": "starfish",
+          "transform": "matrix(0.999996, -0.00273493, 0.00273493, 0.999996, 0, -0.1567)"
+        }
+      ],
+      "after": [
+        {
+          "type": "jellyfish",
+          "transform": "matrix(0.999997, -0.00240332, 0.00240332, 0.999997, -0.4131, -1.1017)"
+        },
+        {
+          "type": "jellyfish",
+          "transform": "matrix(0.999394, 0.0348175, -0.0348175, 0.999394, 5.9858, 15.962)"
+        },
+        {
+          "type": "crab",
+          "transform": "matrix(1, -0.000619592, 0.000619592, 1, -0.3998, 0)"
+        },
+        {
+          "type": "starfish",
+          "transform": "matrix(0.999982, 0.00607196, -0.00607196, 0.999982, 0, 0.3479)"
+        }
+      ]
+    },
+    "geometry1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "footer": {
+        "x": 0,
+        "y": 665.1875,
+        "top": 665.1875,
+        "left": 0,
+        "right": 1440,
+        "bottom": 1000.1875,
+        "width": 1440,
+        "height": 335
+      },
+      "creatures": [
+        {
+          "type": "jellyfish",
+          "x": 930.9401245117188,
+          "y": 672.8672485351562,
+          "top": 672.8672485351562,
+          "left": 930.9401245117188,
+          "right": 1092.730712890625,
+          "bottom": 909.838134765625,
+          "width": 161.79058837890625,
+          "height": 236.97088623046875
+        },
+        {
+          "type": "jellyfish",
+          "x": 1217.2923583984375,
+          "y": 686.2569580078125,
+          "top": 686.2569580078125,
+          "left": 1217.2923583984375,
+          "right": 1314.9346923828125,
+          "bottom": 830.5046997070312,
+          "width": 97.642333984375,
+          "height": 144.24774169921875
+        },
+        {
+          "type": "crab",
+          "x": 1056.694580078125,
+          "y": 872.6510620117188,
+          "top": 872.6510620117188,
+          "left": 1056.694580078125,
+          "right": 1232.8011474609375,
+          "bottom": 990.9739379882812,
+          "width": 176.1065673828125,
+          "height": 118.3228759765625
+        },
+        {
+          "type": "starfish",
+          "x": 937.9298095703125,
+          "y": 926.3628540039062,
+          "top": 926.3628540039062,
+          "left": 937.9298095703125,
+          "right": 1008.0701904296875,
+          "bottom": 973.3233642578125,
+          "width": 70.140380859375,
+          "height": 46.96051025390625
+        }
+      ],
+      "copy": [
+        {
+          "text": "Let's build something meaningful.",
+          "x": 86.40625,
+          "y": 757.0029907226562,
+          "top": 757.0029907226562,
+          "left": 86.40625,
+          "right": 692.75,
+          "bottom": 816.0029907226562,
+          "width": 606.34375,
+          "height": 59
+        },
+        {
+          "text": "dickymujantara@gmail.com",
+          "x": 86.40625,
+          "y": 798.1856079101562,
+          "top": 798.1856079101562,
+          "left": 86.40625,
+          "right": 277.078125,
+          "bottom": 842.1856079101562,
+          "width": 190.671875,
+          "height": 44
+        },
+        {
+          "text": "GitHub ↗",
+          "x": 86.40625,
+          "y": 842.1856079101562,
+          "top": 842.1856079101562,
+          "left": 86.40625,
+          "right": 150.875,
+          "bottom": 886.1856079101562,
+          "width": 64.46875,
+          "height": 44
+        },
+        {
+          "text": "LinkedIn ↗",
+          "x": 174.875,
+          "y": 842.1856079101562,
+          "top": 842.1856079101562,
+          "left": 174.875,
+          "right": 247.875,
+          "bottom": 886.1856079101562,
+          "width": 73,
+          "height": 44
+        },
+        {
+          "text": "Medium ↗",
+          "x": 271.875,
+          "y": 842.1856079101562,
+          "top": 842.1856079101562,
+          "left": 271.875,
+          "right": 342.5,
+          "bottom": 886.1856079101562,
+          "width": 70.625,
+          "height": 44
+        },
+        {
+          "text": "Dicky Mujantara",
+          "x": 86.40625,
+          "y": 918.1856079101562,
+          "top": 918.1856079101562,
+          "left": 86.40625,
+          "right": 502.40625,
+          "bottom": 955.4200439453125,
+          "width": 416,
+          "height": 37.23443603515625
+        }
+      ]
+    },
+    "geometry1024": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "footer": {
+        "x": 0,
+        "y": 665.421875,
+        "top": 665.421875,
+        "left": 0,
+        "right": 1024,
+        "bottom": 1000.421875,
+        "width": 1024,
+        "height": 335
+      },
+      "creatures": [
+        {
+          "type": "jellyfish",
+          "x": 614.7783813476562,
+          "y": 673.0916137695312,
+          "top": 673.0916137695312,
+          "left": 614.7783813476562,
+          "right": 776.5733642578125,
+          "bottom": 910.0653076171875,
+          "width": 161.79498291015625,
+          "height": 236.97369384765625
+        },
+        {
+          "type": "jellyfish",
+          "x": 838.726806640625,
+          "y": 686.47900390625,
+          "top": 686.47900390625,
+          "left": 838.726806640625,
+          "right": 936.3648681640625,
+          "bottom": 830.7239990234375,
+          "width": 97.6380615234375,
+          "height": 144.2449951171875
+        },
+        {
+          "type": "crab",
+          "x": 698.9234619140625,
+          "y": 872.8847045898438,
+          "top": 872.8847045898438,
+          "left": 698.9234619140625,
+          "right": 875.031005859375,
+          "bottom": 991.2090454101562,
+          "width": 176.1075439453125,
+          "height": 118.3243408203125
+        },
+        {
+          "type": "starfish",
+          "x": 646.7420654296875,
+          "y": 926.5962524414062,
+          "top": 926.5962524414062,
+          "left": 646.7420654296875,
+          "right": 716.8829345703125,
+          "bottom": 973.5575561523438,
+          "width": 70.140869140625,
+          "height": 46.9613037109375
+        }
+      ],
+      "copy": [
+        {
+          "text": "Let's build something meaningful.",
+          "x": 56.3125,
+          "y": 759.2566528320312,
+          "top": 759.2566528320312,
+          "left": 56.3125,
+          "right": 505.453125,
+          "bottom": 803.2566528320312,
+          "width": 449.140625,
+          "height": 44
+        },
+        {
+          "text": "dickymujantara@gmail.com",
+          "x": 56.3125,
+          "y": 785.7731323242188,
+          "top": 785.7731323242188,
+          "left": 56.3125,
+          "right": 246.984375,
+          "bottom": 829.7731323242188,
+          "width": 190.671875,
+          "height": 44
+        },
+        {
+          "text": "GitHub ↗",
+          "x": 56.3125,
+          "y": 829.7731323242188,
+          "top": 829.7731323242188,
+          "left": 56.3125,
+          "right": 120.78125,
+          "bottom": 873.7731323242188,
+          "width": 64.46875,
+          "height": 44
+        },
+        {
+          "text": "LinkedIn ↗",
+          "x": 144.78125,
+          "y": 829.7731323242188,
+          "top": 829.7731323242188,
+          "left": 144.78125,
+          "right": 217.78125,
+          "bottom": 873.7731323242188,
+          "width": 73,
+          "height": 44
+        },
+        {
+          "text": "Medium ↗",
+          "x": 241.78125,
+          "y": 829.7731323242188,
+          "top": 829.7731323242188,
+          "left": 241.78125,
+          "right": 312.40625,
+          "bottom": 873.7731323242188,
+          "width": 70.625,
+          "height": 44
+        },
+        {
+          "text": "Dicky Mujantara",
+          "x": 56.3125,
+          "y": 905.7731323242188,
+          "top": 905.7731323242188,
+          "left": 56.3125,
+          "right": 472.3125,
+          "bottom": 943.007568359375,
+          "width": 416,
+          "height": 37.23443603515625
+        }
+      ]
+    },
+    "geometry768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "footer": {
+        "x": 0,
+        "y": 434.671875,
+        "top": 434.671875,
+        "left": 0,
+        "right": 768,
+        "bottom": 999.640625,
+        "width": 768,
+        "height": 564.96875
+      },
+      "creatures": [
+        {
+          "type": "jellyfish",
+          "x": 160.81031799316406,
+          "y": 722.18310546875,
+          "top": 722.18310546875,
+          "left": 160.81031799316406,
+          "right": 306.94775390625,
+          "bottom": 936.223876953125,
+          "width": 146.13743591308594,
+          "height": 214.040771484375
+        },
+        {
+          "type": "jellyfish",
+          "x": 541.7180786132812,
+          "y": 737.35302734375,
+          "top": 737.35302734375,
+          "left": 541.7180786132812,
+          "right": 634.2173461914062,
+          "bottom": 874.0062255859375,
+          "width": 92.499267578125,
+          "height": 136.6531982421875
+        },
+        {
+          "type": "crab",
+          "x": 494.1265869140625,
+          "y": 865.9628295898438,
+          "top": 865.9628295898438,
+          "left": 494.1265869140625,
+          "right": 670.234130859375,
+          "bottom": 984.2871704101562,
+          "width": 176.1075439453125,
+          "height": 118.3243408203125
+        },
+        {
+          "type": "starfish",
+          "x": 153.52328491210938,
+          "y": 933.7212524414062,
+          "top": 933.7212524414062,
+          "left": 153.52328491210938,
+          "right": 223.66421508789062,
+          "bottom": 980.6825561523438,
+          "width": 70.14093017578125,
+          "height": 46.9613037109375
+        }
+      ],
+      "copy": [
+        {
+          "text": "Let's build something meaningful.",
+          "x": 42.234375,
+          "y": 509.4698791503906,
+          "top": 509.4698791503906,
+          "left": 42.234375,
+          "right": 491.375,
+          "bottom": 553.4698486328125,
+          "width": 449.140625,
+          "height": 43.999969482421875
+        },
+        {
+          "text": "dickymujantara@gmail.com",
+          "x": 42.234375,
+          "y": 545.7931518554688,
+          "top": 545.7931518554688,
+          "left": 42.234375,
+          "right": 232.90625,
+          "bottom": 589.7931518554688,
+          "width": 190.671875,
+          "height": 44
+        },
+        {
+          "text": "GitHub ↗",
+          "x": 42.234375,
+          "y": 589.7931518554688,
+          "top": 589.7931518554688,
+          "left": 42.234375,
+          "right": 106.703125,
+          "bottom": 633.7931518554688,
+          "width": 64.46875,
+          "height": 44
+        },
+        {
+          "text": "LinkedIn ↗",
+          "x": 130.703125,
+          "y": 589.7931518554688,
+          "top": 589.7931518554688,
+          "left": 130.703125,
+          "right": 203.703125,
+          "bottom": 633.7931518554688,
+          "width": 73,
+          "height": 44
+        },
+        {
+          "text": "Medium ↗",
+          "x": 227.703125,
+          "y": 589.7931518554688,
+          "top": 589.7931518554688,
+          "left": 227.703125,
+          "right": 298.328125,
+          "bottom": 633.7931518554688,
+          "width": 70.625,
+          "height": 44
+        },
+        {
+          "text": "Dicky Mujantara",
+          "x": 42.234375,
+          "y": 665.7931518554688,
+          "top": 665.7931518554688,
+          "left": 42.234375,
+          "right": 458.234375,
+          "bottom": 703.0275268554688,
+          "width": 416,
+          "height": 37.234375
+        }
+      ]
+    },
+    "geometry390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "footer": {
+        "x": 0,
+        "y": 258.40625,
+        "top": 258.40625,
+        "left": 0,
+        "right": 390,
+        "bottom": 843.9375,
+        "width": 390,
+        "height": 585.53125
+      },
+      "creatures": [
+        {
+          "type": "jellyfish",
+          "x": 58.597450256347656,
+          "y": 568.6845703125,
+          "top": 568.6845703125,
+          "left": 58.597450256347656,
+          "right": 183.85470581054688,
+          "bottom": 752.1458740234375,
+          "width": 125.25725555419922,
+          "height": 183.4613037109375
+        },
+        {
+          "type": "jellyfish",
+          "x": 286.99072265625,
+          "y": 599.6063842773438,
+          "top": 599.6063842773438,
+          "left": 286.99072265625,
+          "right": 363.04888916015625,
+          "bottom": 711.9677734375,
+          "width": 76.05816650390625,
+          "height": 112.36138916015625
+        },
+        {
+          "type": "crab",
+          "x": 198.6083984375,
+          "y": 735.6866455078125,
+          "top": 735.6866455078125,
+          "left": 198.6083984375,
+          "right": 337.4810485839844,
+          "bottom": 829.0008544921875,
+          "width": 138.87265014648438,
+          "height": 93.314208984375
+        },
+        {
+          "type": "starfish",
+          "x": 31.13333511352539,
+          "y": 784.2306518554688,
+          "top": 784.2306518554688,
+          "left": 31.13333511352539,
+          "right": 85.24166870117188,
+          "bottom": 820.45556640625,
+          "width": 54.108333587646484,
+          "height": 36.22491455078125
+        }
+      ],
+      "copy": [
+        {
+          "text": "Let's build something meaningful.",
+          "x": 20,
+          "y": 313.6026611328125,
+          "top": 313.6026611328125,
+          "left": 20,
+          "right": 332.25,
+          "bottom": 401.3682861328125,
+          "width": 312.25,
+          "height": 87.765625
+        },
+        {
+          "text": "dickymujantara@gmail.com",
+          "x": 20,
+          "y": 399.7623291015625,
+          "top": 399.7623291015625,
+          "left": 20,
+          "right": 201.90625,
+          "bottom": 443.7623291015625,
+          "width": 181.90625,
+          "height": 44
+        },
+        {
+          "text": "GitHub ↗",
+          "x": 20,
+          "y": 443.7623291015625,
+          "top": 443.7623291015625,
+          "left": 20,
+          "right": 84.46875,
+          "bottom": 487.7623291015625,
+          "width": 64.46875,
+          "height": 44
+        },
+        {
+          "text": "LinkedIn ↗",
+          "x": 105.265625,
+          "y": 443.7623291015625,
+          "top": 443.7623291015625,
+          "left": 105.265625,
+          "right": 178.265625,
+          "bottom": 487.7623291015625,
+          "width": 73,
+          "height": 44
+        },
+        {
+          "text": "Medium ↗",
+          "x": 199.0625,
+          "y": 443.7623291015625,
+          "top": 443.7623291015625,
+          "left": 199.0625,
+          "right": 269.6875,
+          "bottom": 487.7623291015625,
+          "width": 70.625,
+          "height": 44
+        },
+        {
+          "text": "Dicky Mujantara",
+          "x": 20,
+          "y": 514.9498291015625,
+          "top": 514.9498291015625,
+          "left": 20,
+          "right": 370,
+          "bottom": 552.1842041015625,
+          "width": 350,
+          "height": 37.234375
+        }
+      ]
+    },
+    "geometry320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "footer": {
+        "x": 0,
+        "y": 218.53125,
+        "top": 218.53125,
+        "left": 0,
+        "right": 320,
+        "bottom": 843.828125,
+        "width": 320,
+        "height": 625.296875
+      },
+      "creatures": [
+        {
+          "type": "jellyfish",
+          "x": 46.68872833251953,
+          "y": 568.5703735351562,
+          "top": 568.5703735351562,
+          "left": 46.68872833251953,
+          "right": 171.947509765625,
+          "bottom": 752.03271484375,
+          "width": 125.25878143310547,
+          "height": 183.46234130859375
+        },
+        {
+          "type": "jellyfish",
+          "x": 222.5827178955078,
+          "y": 599.4906616210938,
+          "top": 599.4906616210938,
+          "left": 222.5827178955078,
+          "right": 298.6391906738281,
+          "bottom": 711.8509521484375,
+          "width": 76.05647277832031,
+          "height": 112.36029052734375
+        },
+        {
+          "type": "crab",
+          "x": 137.01199340820312,
+          "y": 735.5770263671875,
+          "top": 735.5770263671875,
+          "left": 137.01199340820312,
+          "right": 275.88494873046875,
+          "bottom": 828.8917236328125,
+          "width": 138.87295532226562,
+          "height": 93.314697265625
+        },
+        {
+          "type": "starfish",
+          "x": 25.539491653442383,
+          "y": 784.120849609375,
+          "top": 784.120849609375,
+          "left": 25.539491653442383,
+          "right": 79.64801216125488,
+          "bottom": 820.3460693359375,
+          "width": 54.1085205078125,
+          "height": 36.2252197265625
+        }
+      ],
+      "copy": [
+        {
+          "text": "Let's build something meaningful.",
+          "x": 20,
+          "y": 269.829833984375,
+          "top": 269.829833984375,
+          "left": 20,
+          "right": 193.265625,
+          "bottom": 397.361083984375,
+          "width": 173.265625,
+          "height": 127.53125
+        },
+        {
+          "text": "dickymujantara@gmail.com",
+          "x": 20,
+          "y": 397.7631530761719,
+          "top": 397.7631530761719,
+          "left": 20,
+          "right": 201.90625,
+          "bottom": 441.7631530761719,
+          "width": 181.90625,
+          "height": 44
+        },
+        {
+          "text": "GitHub ↗",
+          "x": 20,
+          "y": 441.7631530761719,
+          "top": 441.7631530761719,
+          "left": 20,
+          "right": 84.46875,
+          "bottom": 485.7631530761719,
+          "width": 64.46875,
+          "height": 44
+        },
+        {
+          "text": "LinkedIn ↗",
+          "x": 105.265625,
+          "y": 441.7631530761719,
+          "top": 441.7631530761719,
+          "left": 105.265625,
+          "right": 178.265625,
+          "bottom": 485.7631530761719,
+          "width": 73,
+          "height": 44
+        },
+        {
+          "text": "Medium ↗",
+          "x": 199.0625,
+          "y": 441.7631530761719,
+          "top": 441.7631530761719,
+          "left": 199.0625,
+          "right": 269.6875,
+          "bottom": 485.7631530761719,
+          "width": 70.625,
+          "height": 44
+        },
+        {
+          "text": "Dicky Mujantara",
+          "x": 20,
+          "y": 512.95068359375,
+          "top": 512.95068359375,
+          "left": 20,
+          "right": 300,
+          "bottom": 550.18505859375,
+          "width": 280,
+          "height": 37.234375
+        }
+      ]
+    },
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/footer-creatures.webm",
+      "frames": 101,
+      "fps": 15,
+      "bytes": 634905,
+      "method": "Live browser screenshots encoded as VP9 WebM"
+    }
+  },
+  "errors": []
+}

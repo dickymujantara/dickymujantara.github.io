@@ -1,0 +1,440 @@
+[
+  {
+    "viewport": "desktop",
+    "requestedWidth": 1440,
+    "status": 200,
+    "errors": [],
+    "failedRequests": [],
+    "title": "Dicky Mujantara | Software Engineer",
+    "width": 1440,
+    "clientWidth": 1440,
+    "scrollWidth": 1440,
+    "scrollHeight": 3342,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Building systems.Exploring deeper."
+      },
+      {
+        "tag": "H2",
+        "text": "Software with purpose."
+      },
+      {
+        "tag": "H2",
+        "text": "A system I've built."
+      },
+      {
+        "tag": "H3",
+        "text": "Process A"
+      },
+      {
+        "tag": "H3",
+        "text": "Process B"
+      },
+      {
+        "tag": "H3",
+        "text": "Graphalyze"
+      },
+      {
+        "tag": "H2",
+        "text": "Work Experience"
+      },
+      {
+        "tag": "H2",
+        "text": "Beneath the surface."
+      },
+      {
+        "tag": "H2",
+        "text": "Field notes."
+      },
+      {
+        "tag": "H2",
+        "text": "Let's build something meaningful."
+      }
+    ],
+    "missingImages": [],
+    "brokenAnchors": [],
+    "unnamedControls": [],
+    "buttons": [
+      {
+        "text": "Menu ☰",
+        "label": null,
+        "pressed": null,
+        "expanded": "false",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "",
+        "label": "Process A: Start",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Receive event",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Check record",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Review",
+        "pressed": "true",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Complete",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Alternative route",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Additional check",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Start",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Receive event",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Check record",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Extra step",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Review",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Alternative route",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Additional check",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Complete",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "Dewtouch InnovationsSoftware EngineerNext.js applications and Java systems.",
+        "label": null,
+        "pressed": "true",
+        "expanded": null,
+        "width": 587.4375,
+        "height": 98.984375
+      },
+      {
+        "text": "SIMBA TelecomFront-end DeveloperReact and Angular portals for telecom services.",
+        "label": null,
+        "pressed": "false",
+        "expanded": null,
+        "width": 587.4375,
+        "height": 114.984375
+      },
+      {
+        "text": "Rastek.idFront-end DeveloperWeb applications for monitoring and logistics.",
+        "label": null,
+        "pressed": "false",
+        "expanded": null,
+        "width": 587.4375,
+        "height": 97.984375
+      },
+      {
+        "text": "ⅡPause motion",
+        "label": "Pause all ocean motion",
+        "pressed": "false",
+        "expanded": null,
+        "width": 131.796875,
+        "height": 44
+      }
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "requestedWidth": 390,
+    "status": 200,
+    "errors": [],
+    "failedRequests": [],
+    "title": "Dicky Mujantara | Software Engineer",
+    "width": 390,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "scrollHeight": 4300,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Building systems.Exploring deeper."
+      },
+      {
+        "tag": "H2",
+        "text": "Software with purpose."
+      },
+      {
+        "tag": "H2",
+        "text": "A system I've built."
+      },
+      {
+        "tag": "H3",
+        "text": "Process A"
+      },
+      {
+        "tag": "H3",
+        "text": "Process B"
+      },
+      {
+        "tag": "H3",
+        "text": "Graphalyze"
+      },
+      {
+        "tag": "H2",
+        "text": "Work Experience"
+      },
+      {
+        "tag": "H2",
+        "text": "Beneath the surface."
+      },
+      {
+        "tag": "H2",
+        "text": "Field notes."
+      },
+      {
+        "tag": "H2",
+        "text": "Let's build something meaningful."
+      }
+    ],
+    "missingImages": [],
+    "brokenAnchors": [],
+    "unnamedControls": [],
+    "buttons": [
+      {
+        "text": "Menu ☰",
+        "label": null,
+        "pressed": null,
+        "expanded": "false",
+        "width": 62.359375,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Start",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Receive event",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Check record",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Review",
+        "pressed": "true",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Complete",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Alternative route",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process A: Additional check",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Start",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Receive event",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Check record",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Extra step",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Review",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Alternative route",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Additional check",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "",
+        "label": "Process B: Complete",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "text": "Dewtouch InnovationsSoftware EngineerNext.js applications and Java systems.",
+        "label": null,
+        "pressed": "true",
+        "expanded": null,
+        "width": 316.40625,
+        "height": 95.515625
+      },
+      {
+        "text": "SIMBA TelecomFront-end DeveloperReact and Angular portals for telecom services.",
+        "label": null,
+        "pressed": "false",
+        "expanded": null,
+        "width": 316.40625,
+        "height": 111.515625
+      },
+      {
+        "text": "Rastek.idFront-end DeveloperWeb applications for monitoring and logistics.",
+        "label": null,
+        "pressed": "false",
+        "expanded": null,
+        "width": 316.40625,
+        "height": 94.515625
+      },
+      {
+        "text": "ⅡPause motion",
+        "label": "Pause all ocean motion",
+        "pressed": "false",
+        "expanded": null,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  }
+]

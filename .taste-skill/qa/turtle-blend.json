@@ -1,0 +1,3302 @@
+{
+  "checks": [
+    {
+      "name": "1440px turtle, complete frames and inner crops animate automatically at fixed scroll",
+      "passed": true,
+      "details": {
+        "before": [
+          {
+            "className": "water-layer",
+            "type": "water",
+            "transform": "matrix(1.0319, 0, 0, 1.0319, -1.6739, -0.8369)"
+          },
+          {
+            "className": "animal-position exploration-turtle",
+            "type": "scroll",
+            "transform": "matrix(0.9949, -5.90386e-05, 5.90386e-05, 0.9949, -5.0511, -4.9659)"
+          },
+          {
+            "className": "",
+            "type": "turtle",
+            "transform": "matrix(0.9998, -0.0199757, 0.0199757, 0.9998, -13.7355, -6.8678)"
+          },
+          {
+            "className": "detail-position turtle-detail",
+            "type": "scroll",
+            "transform": "matrix(0.999847, -0.0174978, 0.0174978, 0.999847, -1.0111, 5.5251)"
+          },
+          {
+            "className": "detail-window halftone",
+            "type": "frame",
+            "transform": "matrix(0.999944, 0.0105852, -0.0105852, 0.999944, 2.4261, 3.3359)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, -2.9809, -1.8631)"
+          },
+          {
+            "className": "detail-position turtle-mosaic",
+            "type": "scroll",
+            "transform": "matrix(0.999847, 0.0174978, -0.0174978, 0.999847, 3.0111, -0.5209)"
+          },
+          {
+            "className": "detail-window mosaic",
+            "type": "frame",
+            "transform": "matrix(0.999451, 0.0331255, -0.0331255, 0.999451, 7.5934, 10.4409)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 5.2614, 3.2884)"
+          }
+        ],
+        "after": [
+          {
+            "className": "water-layer",
+            "type": "water",
+            "transform": "matrix(1.0361, 0, 0, 1.0361, 0.6107, 0.3053)"
+          },
+          {
+            "className": "animal-position exploration-turtle",
+            "type": "scroll",
+            "transform": "matrix(0.9949, -5.90386e-05, 5.90386e-05, 0.9949, -5.0511, -4.9659)"
+          },
+          {
+            "className": "",
+            "type": "turtle",
+            "transform": "matrix(0.999948, -0.0101821, 0.0101821, 0.999948, -7.0009, -3.5004)"
+          },
+          {
+            "className": "detail-position turtle-detail",
+            "type": "scroll",
+            "transform": "matrix(0.999847, -0.0174978, 0.0174978, 0.999847, -1.0111, 5.5251)"
+          },
+          {
+            "className": "detail-window halftone",
+            "type": "frame",
+            "transform": "matrix(0.999486, 0.0320545, -0.0320545, 0.999486, 7.3478, 10.1032)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 2.3874, 1.4921)"
+          },
+          {
+            "className": "detail-position turtle-mosaic",
+            "type": "scroll",
+            "transform": "matrix(0.999847, 0.0174978, -0.0174978, 0.999847, 3.0111, -0.5209)"
+          },
+          {
+            "className": "detail-window mosaic",
+            "type": "frame",
+            "transform": "matrix(0.99955, 0.0300082, -0.0300082, 0.99955, 6.8785, 9.458)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 7.8871, 4.9294)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440px global pause freezes turtle, frame, crop and scroll transforms; play resumes",
+      "passed": true,
+      "details": {
+        "pausedLayers": 9
+      }
+    },
+    {
+      "name": "1440px pinned scroll changes turtle and frame outer transforms",
+      "passed": true,
+      "details": {
+        "first": [
+          "matrix(0.948469, -0.0463232, 0.0463232, 0.948469, -46.942, 22.9614)",
+          "matrix(0.998539, -0.0540283, 0.0540283, 0.998539, -10.0874, 26.1215)",
+          "matrix(0.998539, 0.0540283, -0.0540283, 0.998539, 12.0874, -17.6263)"
+        ],
+        "after": [
+          "matrix(1.02697, 0.0359326, -0.0359326, 1.02697, 25.058, -25.0386)",
+          "matrix(0.999961, 0.00877715, -0.00877715, 0.999961, 5.5126, -9.2785)",
+          "matrix(0.999961, -0.00877715, 0.00877715, 0.999961, -3.5126, 11.7737)"
+        ],
+        "pinnedTop": 73
+      }
+    },
+    {
+      "name": "390px turtle, complete frames and inner crops animate automatically at fixed scroll",
+      "passed": true,
+      "details": {
+        "before": [
+          {
+            "className": "water-layer",
+            "type": "water",
+            "transform": "matrix(1.0318, 0, 0, 1.0318, -1.704, -0.852)"
+          },
+          {
+            "className": "animal-position exploration-turtle",
+            "type": "scroll",
+            "transform": "matrix(0.9949, -9.37671e-05, 9.37671e-05, 0.9949, -2.7945, -4.9461)"
+          },
+          {
+            "className": "",
+            "type": "turtle",
+            "transform": "matrix(0.999798, -0.0200822, 0.0200822, 0.999798, -13.8083, -6.9042)"
+          },
+          {
+            "className": "detail-position turtle-detail",
+            "type": "scroll",
+            "transform": "matrix(0.999846, -0.0175222, 0.0175222, 0.999846, -1.0175, 5.5397)"
+          },
+          {
+            "className": "detail-window halftone",
+            "type": "frame",
+            "transform": "matrix(0.999948, 0.010203, -0.010203, 0.999948, 2.3385, 3.2154)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, -3.049, -1.9056)"
+          },
+          {
+            "className": "detail-position turtle-mosaic",
+            "type": "scroll",
+            "transform": "matrix(0.999846, 0.0175222, -0.0175222, 0.999846, 3.0175, -0.533)"
+          },
+          {
+            "className": "detail-window mosaic",
+            "type": "frame",
+            "transform": "matrix(0.999455, 0.0329982, -0.0329982, 0.999455, 7.564, 10.4005)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 5.2059, 3.2537)"
+          }
+        ],
+        "after": [
+          {
+            "className": "water-layer",
+            "type": "water",
+            "transform": "matrix(1.0361, 0, 0, 1.0361, 0.58, 0.29)"
+          },
+          {
+            "className": "animal-position exploration-turtle",
+            "type": "scroll",
+            "transform": "matrix(0.9949, -9.37671e-05, 9.37671e-05, 0.9949, -2.7945, -4.9461)"
+          },
+          {
+            "className": "",
+            "type": "turtle",
+            "transform": "matrix(0.999947, -0.0103339, 0.0103339, 0.999947, -7.1049, -3.5525)"
+          },
+          {
+            "className": "detail-position turtle-detail",
+            "type": "scroll",
+            "transform": "matrix(0.999846, -0.0175222, 0.0175222, 0.999846, -1.0175, 5.5397)"
+          },
+          {
+            "className": "detail-window halftone",
+            "type": "frame",
+            "transform": "matrix(0.999491, 0.031894, -0.031894, 0.999491, 7.311, 10.0526)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 2.3172, 1.4482)"
+          },
+          {
+            "className": "detail-position turtle-mosaic",
+            "type": "scroll",
+            "transform": "matrix(0.999846, 0.0175222, -0.0175222, 0.999846, 3.0175, -0.533)"
+          },
+          {
+            "className": "detail-window mosaic",
+            "type": "frame",
+            "transform": "matrix(0.999544, 0.0302105, -0.0302105, 0.999544, 6.925, 9.5218)"
+          },
+          {
+            "className": "detail-image",
+            "type": "detail",
+            "transform": "matrix(1, 0, 0, 1, 7.8745, 4.9215)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "390px global pause freezes turtle, frame, crop and scroll transforms; play resumes",
+      "passed": true,
+      "details": {
+        "pausedLayers": 9
+      }
+    },
+    {
+      "name": "390px pinned scroll changes turtle and frame outer transforms",
+      "passed": true,
+      "details": {
+        "first": [
+          "matrix(0.948368, -0.046358, 0.046358, 0.948368, -25.8376, 22.9849)",
+          "matrix(0.998538, -0.0540596, 0.0540596, 0.998538, -10.0951, 26.1389)",
+          "matrix(0.998538, 0.0540596, -0.0540596, 0.998538, 12.0951, -17.6408)"
+        ],
+        "after": [
+          "matrix(1.02678, 0.035759, -0.035759, 1.02678, 13.7055, -24.9461)",
+          "matrix(0.999963, 0.00865672, -0.00865672, 0.999963, 5.4825, -9.2103)",
+          "matrix(0.999963, -0.00865672, 0.00865672, 0.999963, -3.4825, 11.717)"
+        ],
+        "pinnedTop": 65
+      }
+    },
+    {
+      "name": "1440px mid-scroll has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 86.40625,
+              "right": 294.59375,
+              "top": 577.953125,
+              "bottom": 621.953125,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 86.40625,
+              "right": 182.953125,
+              "top": 621.953125,
+              "bottom": 665.953125,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440px reduced still has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 86.40625,
+              "right": 294.59375,
+              "top": 300.15625,
+              "bottom": 344.15625,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 86.40625,
+              "right": 182.953125,
+              "top": 344.15625,
+              "bottom": 388.15625,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024px mid-scroll has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 56.3125,
+              "right": 264.5,
+              "top": 570.90625,
+              "bottom": 614.90625,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 56.3125,
+              "right": 152.859375,
+              "top": 614.90625,
+              "bottom": 658.90625,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024px reduced still has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 56.3125,
+              "right": 264.5,
+              "top": 285.796875,
+              "bottom": 329.796875,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 56.3125,
+              "right": 152.859375,
+              "top": 329.796875,
+              "bottom": 373.796875,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "768px mid-scroll has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 42.234375,
+              "right": 250.421875,
+              "top": 589.875,
+              "bottom": 633.875,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 42.234375,
+              "right": 138.78125,
+              "top": 633.875,
+              "bottom": 677.875,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "768px reduced still has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 42.234375,
+              "right": 250.421875,
+              "top": 313,
+              "bottom": 357,
+              "width": 208.1875,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 42.234375,
+              "right": 138.78125,
+              "top": 357,
+              "bottom": 401,
+              "width": 96.546875,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "390px mid-scroll has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 20,
+              "right": 221,
+              "top": 248.453125,
+              "bottom": 292.453125,
+              "width": 201,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 20,
+              "right": 113.390625,
+              "top": 292.453125,
+              "bottom": 336.453125,
+              "width": 93.390625,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "390px reduced still has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 20,
+              "right": 221,
+              "top": 248.015625,
+              "bottom": 292.015625,
+              "width": 201,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 20,
+              "right": 113.390625,
+              "top": 292.015625,
+              "bottom": 336.015625,
+              "width": 93.390625,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "320px mid-scroll has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 20,
+              "right": 221,
+              "top": 248.453125,
+              "bottom": 292.453125,
+              "width": 201,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 20,
+              "right": 113.390625,
+              "top": 292.453125,
+              "bottom": 336.453125,
+              "width": 93.390625,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "320px reduced still has no overflow, complete frames and available exploration links",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "turtleStyle": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "frameStyles": [
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(7, 49, 89)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          },
+          {
+            "frame": {
+              "opacity": "1",
+              "filter": "none",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgb(9, 29, 42)"
+            },
+            "image": {
+              "opacity": "1",
+              "filter": "url(\"#pixelate\")",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "clip": {
+              "opacity": "1",
+              "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+              "mixBlendMode": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          }
+        ],
+        "links": [
+          {
+            "href": "https://github.com/dickymujantara/process-mining-exploration",
+            "rect": {
+              "left": 20,
+              "right": 221,
+              "top": 248.75,
+              "bottom": 292.75,
+              "width": 201,
+              "height": 44
+            },
+            "available": true
+          },
+          {
+            "href": "https://github.com/dickymujantara/spring-lab",
+            "rect": {
+              "left": 20,
+              "right": 113.390625,
+              "top": 292.75,
+              "bottom": 336.75,
+              "width": 93.390625,
+              "height": 44
+            },
+            "available": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Live browser turtle and both moving frames recorded together",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/turtle-blend.webm",
+        "frames": 72,
+        "fps": 15,
+        "bytes": 577011,
+        "method": "Actual browser section screenshots encoded as VP9 WebM"
+      }
+    },
+    {
+      "name": "No uncaught JavaScript exceptions in tested turtle scenes",
+      "passed": true,
+      "details": {
+        "errors": []
+      }
+    }
+  ],
+  "observations": {
+    "motion1440": {
+      "before": [
+        {
+          "className": "water-layer",
+          "type": "water",
+          "transform": "matrix(1.0319, 0, 0, 1.0319, -1.6739, -0.8369)"
+        },
+        {
+          "className": "animal-position exploration-turtle",
+          "type": "scroll",
+          "transform": "matrix(0.9949, -5.90386e-05, 5.90386e-05, 0.9949, -5.0511, -4.9659)"
+        },
+        {
+          "className": "",
+          "type": "turtle",
+          "transform": "matrix(0.9998, -0.0199757, 0.0199757, 0.9998, -13.7355, -6.8678)"
+        },
+        {
+          "className": "detail-position turtle-detail",
+          "type": "scroll",
+          "transform": "matrix(0.999847, -0.0174978, 0.0174978, 0.999847, -1.0111, 5.5251)"
+        },
+        {
+          "className": "detail-window halftone",
+          "type": "frame",
+          "transform": "matrix(0.999944, 0.0105852, -0.0105852, 0.999944, 2.4261, 3.3359)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, -2.9809, -1.8631)"
+        },
+        {
+          "className": "detail-position turtle-mosaic",
+          "type": "scroll",
+          "transform": "matrix(0.999847, 0.0174978, -0.0174978, 0.999847, 3.0111, -0.5209)"
+        },
+        {
+          "className": "detail-window mosaic",
+          "type": "frame",
+          "transform": "matrix(0.999451, 0.0331255, -0.0331255, 0.999451, 7.5934, 10.4409)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 5.2614, 3.2884)"
+        }
+      ],
+      "after": [
+        {
+          "className": "water-layer",
+          "type": "water",
+          "transform": "matrix(1.0361, 0, 0, 1.0361, 0.6107, 0.3053)"
+        },
+        {
+          "className": "animal-position exploration-turtle",
+          "type": "scroll",
+          "transform": "matrix(0.9949, -5.90386e-05, 5.90386e-05, 0.9949, -5.0511, -4.9659)"
+        },
+        {
+          "className": "",
+          "type": "turtle",
+          "transform": "matrix(0.999948, -0.0101821, 0.0101821, 0.999948, -7.0009, -3.5004)"
+        },
+        {
+          "className": "detail-position turtle-detail",
+          "type": "scroll",
+          "transform": "matrix(0.999847, -0.0174978, 0.0174978, 0.999847, -1.0111, 5.5251)"
+        },
+        {
+          "className": "detail-window halftone",
+          "type": "frame",
+          "transform": "matrix(0.999486, 0.0320545, -0.0320545, 0.999486, 7.3478, 10.1032)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 2.3874, 1.4921)"
+        },
+        {
+          "className": "detail-position turtle-mosaic",
+          "type": "scroll",
+          "transform": "matrix(0.999847, 0.0174978, -0.0174978, 0.999847, 3.0111, -0.5209)"
+        },
+        {
+          "className": "detail-window mosaic",
+          "type": "frame",
+          "transform": "matrix(0.99955, 0.0300082, -0.0300082, 0.99955, 6.8785, 9.458)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 7.8871, 4.9294)"
+        }
+      ]
+    },
+    "motion390": {
+      "before": [
+        {
+          "className": "water-layer",
+          "type": "water",
+          "transform": "matrix(1.0318, 0, 0, 1.0318, -1.704, -0.852)"
+        },
+        {
+          "className": "animal-position exploration-turtle",
+          "type": "scroll",
+          "transform": "matrix(0.9949, -9.37671e-05, 9.37671e-05, 0.9949, -2.7945, -4.9461)"
+        },
+        {
+          "className": "",
+          "type": "turtle",
+          "transform": "matrix(0.999798, -0.0200822, 0.0200822, 0.999798, -13.8083, -6.9042)"
+        },
+        {
+          "className": "detail-position turtle-detail",
+          "type": "scroll",
+          "transform": "matrix(0.999846, -0.0175222, 0.0175222, 0.999846, -1.0175, 5.5397)"
+        },
+        {
+          "className": "detail-window halftone",
+          "type": "frame",
+          "transform": "matrix(0.999948, 0.010203, -0.010203, 0.999948, 2.3385, 3.2154)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, -3.049, -1.9056)"
+        },
+        {
+          "className": "detail-position turtle-mosaic",
+          "type": "scroll",
+          "transform": "matrix(0.999846, 0.0175222, -0.0175222, 0.999846, 3.0175, -0.533)"
+        },
+        {
+          "className": "detail-window mosaic",
+          "type": "frame",
+          "transform": "matrix(0.999455, 0.0329982, -0.0329982, 0.999455, 7.564, 10.4005)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 5.2059, 3.2537)"
+        }
+      ],
+      "after": [
+        {
+          "className": "water-layer",
+          "type": "water",
+          "transform": "matrix(1.0361, 0, 0, 1.0361, 0.58, 0.29)"
+        },
+        {
+          "className": "animal-position exploration-turtle",
+          "type": "scroll",
+          "transform": "matrix(0.9949, -9.37671e-05, 9.37671e-05, 0.9949, -2.7945, -4.9461)"
+        },
+        {
+          "className": "",
+          "type": "turtle",
+          "transform": "matrix(0.999947, -0.0103339, 0.0103339, 0.999947, -7.1049, -3.5525)"
+        },
+        {
+          "className": "detail-position turtle-detail",
+          "type": "scroll",
+          "transform": "matrix(0.999846, -0.0175222, 0.0175222, 0.999846, -1.0175, 5.5397)"
+        },
+        {
+          "className": "detail-window halftone",
+          "type": "frame",
+          "transform": "matrix(0.999491, 0.031894, -0.031894, 0.999491, 7.311, 10.0526)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 2.3172, 1.4482)"
+        },
+        {
+          "className": "detail-position turtle-mosaic",
+          "type": "scroll",
+          "transform": "matrix(0.999846, 0.0175222, -0.0175222, 0.999846, 3.0175, -0.533)"
+        },
+        {
+          "className": "detail-window mosaic",
+          "type": "frame",
+          "transform": "matrix(0.999544, 0.0302105, -0.0302105, 0.999544, 6.925, 9.5218)"
+        },
+        {
+          "className": "detail-image",
+          "type": "detail",
+          "transform": "matrix(1, 0, 0, 1, 7.8745, 4.9215)"
+        }
+      ]
+    },
+    "mid1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 4540,
+      "section": {
+        "left": 0,
+        "right": 1440,
+        "top": 73,
+        "bottom": 1001,
+        "width": 1440,
+        "height": 928
+      },
+      "turtle": {
+        "rect": {
+          "left": 654.7103881835938,
+          "right": 1337.53857421875,
+          "top": 259.08349609375,
+          "bottom": 721.834228515625,
+          "width": 682.8281860351562,
+          "height": 462.750732421875
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 649.5088500976562,
+            "right": 823.229736328125,
+            "top": 349.58648681640625,
+            "bottom": 478.8211669921875,
+            "width": 173.72088623046875,
+            "height": 129.23468017578125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 647.494384765625,
+              "right": 652.530517578125,
+              "top": 348.8184509277344,
+              "bottom": 353.8545837402344,
+              "width": 5.0361328125,
+              "height": 5.0361328125
+            },
+            {
+              "left": 819.2867431640625,
+              "right": 824.3228759765625,
+              "top": 347.572021484375,
+              "bottom": 352.608154296875,
+              "width": 5.0361328125,
+              "height": 5.0361328125
+            },
+            {
+              "left": 648.4157104492188,
+              "right": 653.4518432617188,
+              "top": 475.79949951171875,
+              "bottom": 480.83563232421875,
+              "width": 5.0361328125,
+              "height": 5.0361328125
+            },
+            {
+              "left": 820.2080078125,
+              "right": 825.2442016601562,
+              "top": 474.55303955078125,
+              "bottom": 479.58917236328125,
+              "width": 5.03619384765625,
+              "height": 5.0361328125
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 1188.07080078125,
+            "right": 1367.10986328125,
+            "top": 619.249267578125,
+            "bottom": 755.7957763671875,
+            "width": 179.0390625,
+            "height": 136.5465087890625
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 1192.384521484375,
+              "right": 1197.630615234375,
+              "top": 617.1508178710938,
+              "bottom": 622.3969116210938,
+              "width": 5.24609375,
+              "height": 5.24609375
+            },
+            {
+              "left": 1363.962158203125,
+              "right": 1369.208251953125,
+              "top": 625.8257446289062,
+              "bottom": 631.0718994140625,
+              "width": 5.24609375,
+              "height": 5.24615478515625
+            },
+            {
+              "left": 1185.972412109375,
+              "right": 1191.218505859375,
+              "top": 743.9732055664062,
+              "bottom": 749.2192993164062,
+              "width": 5.24609375,
+              "height": 5.24609375
+            },
+            {
+              "left": 1357.550048828125,
+              "right": 1362.796142578125,
+              "top": 752.6481323242188,
+              "bottom": 757.8942260742188,
+              "width": 5.24609375,
+              "height": 5.24609375
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 86.40625,
+            "right": 294.59375,
+            "top": 577.953125,
+            "bottom": 621.953125,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 86.40625,
+            "right": 182.953125,
+            "top": 621.953125,
+            "bottom": 665.953125,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "still1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 2241,
+      "section": {
+        "left": 0,
+        "right": 1440,
+        "top": 73.234375,
+        "bottom": 494.234375,
+        "width": 1440,
+        "height": 421
+      },
+      "turtle": {
+        "rect": {
+          "left": 655.7238159179688,
+          "right": 1343.101806640625,
+          "top": 49.523048400878906,
+          "bottom": 516.249153137207,
+          "width": 687.3779907226562,
+          "height": 466.7261047363281
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 648.578125,
+            "right": 821.375,
+            "top": 119.421875,
+            "bottom": 247.40625,
+            "width": 172.796875,
+            "height": 127.984375
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 646.578125,
+              "right": 651.578125,
+              "top": 117.421875,
+              "bottom": 122.421875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 818.375,
+              "right": 823.375,
+              "top": 117.421875,
+              "bottom": 122.421875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 646.578125,
+              "right": 651.578125,
+              "top": 244.40625,
+              "bottom": 249.40625,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 818.375,
+              "right": 823.375,
+              "top": 244.40625,
+              "bottom": 249.40625,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 1185.49658203125,
+            "right": 1361.8382568359375,
+            "top": 333.9383239746094,
+            "bottom": 466.7507019042969,
+            "width": 176.3416748046875,
+            "height": 132.8123779296875
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 1187.0263671875,
+              "right": 1192.16552734375,
+              "top": 331.8826599121094,
+              "bottom": 337.0218200683594,
+              "width": 5.13916015625,
+              "height": 5.13916015625
+            },
+            {
+              "left": 1358.7547607421875,
+              "right": 1363.8939208984375,
+              "top": 336.73345947265625,
+              "bottom": 341.87261962890625,
+              "width": 5.13916015625,
+              "height": 5.13916015625
+            },
+            {
+              "left": 1183.44091796875,
+              "right": 1188.580078125,
+              "top": 458.81640625,
+              "bottom": 463.95556640625,
+              "width": 5.13916015625,
+              "height": 5.13916015625
+            },
+            {
+              "left": 1355.1693115234375,
+              "right": 1360.3084716796875,
+              "top": 463.66717529296875,
+              "bottom": 468.806396484375,
+              "width": 5.13916015625,
+              "height": 5.13922119140625
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 86.40625,
+            "right": 294.59375,
+            "top": 300.15625,
+            "bottom": 344.15625,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 86.40625,
+            "right": 182.953125,
+            "top": 344.15625,
+            "bottom": 388.15625,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "mid1024": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 4438,
+      "section": {
+        "left": 0,
+        "right": 1024,
+        "top": 73,
+        "bottom": 1001,
+        "width": 1024,
+        "height": 928
+      },
+      "turtle": {
+        "rect": {
+          "left": 422.56695556640625,
+          "right": 1019.7854614257812,
+          "top": 319.689208984375,
+          "bottom": 724.3699951171875,
+          "width": 597.218505859375,
+          "height": 404.6807861328125
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 503.9454650878906,
+            "right": 636.7824096679688,
+            "top": 349.66412353515625,
+            "bottom": 448.48126220703125,
+            "width": 132.83694458007812,
+            "height": 98.817138671875
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 501.93121337890625,
+              "right": 506.9668273925781,
+              "top": 348.58740234375,
+              "bottom": 353.62298583984375,
+              "width": 5.035614013671875,
+              "height": 5.03558349609375
+            },
+            {
+              "left": 633.0684814453125,
+              "right": 638.1041259765625,
+              "top": 347.64990234375,
+              "bottom": 352.68548583984375,
+              "width": 5.03564453125,
+              "height": 5.03558349609375
+            },
+            {
+              "left": 502.6237487792969,
+              "right": 507.65936279296875,
+              "top": 445.45989990234375,
+              "bottom": 450.49554443359375,
+              "width": 5.035614013671875,
+              "height": 5.03564453125
+            },
+            {
+              "left": 633.7610473632812,
+              "right": 638.796630859375,
+              "top": 444.52239990234375,
+              "bottom": 449.55804443359375,
+              "width": 5.03558349609375,
+              "height": 5.03564453125
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 843.5142211914062,
+            "right": 980.4163818359375,
+            "top": 650.4296875,
+            "bottom": 754.83544921875,
+            "width": 136.90216064453125,
+            "height": 104.40576171875
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 846.294921875,
+              "right": 851.5404052734375,
+              "top": 648.3314819335938,
+              "bottom": 653.5769653320312,
+              "width": 5.2454833984375,
+              "height": 5.2454833984375
+            },
+            {
+              "left": 977.2691650390625,
+              "right": 982.5145874023438,
+              "top": 654.9360961914062,
+              "bottom": 660.1815795898438,
+              "width": 5.24542236328125,
+              "height": 5.2454833984375
+            },
+            {
+              "left": 841.416015625,
+              "right": 846.6614990234375,
+              "top": 745.0835571289062,
+              "bottom": 750.3289794921875,
+              "width": 5.2454833984375,
+              "height": 5.24542236328125
+            },
+            {
+              "left": 972.3902587890625,
+              "right": 977.6356811523438,
+              "top": 751.6881713867188,
+              "bottom": 756.93359375,
+              "width": 5.24542236328125,
+              "height": 5.24542236328125
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 56.3125,
+            "right": 264.5,
+            "top": 570.90625,
+            "bottom": 614.90625,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 56.3125,
+            "right": 152.859375,
+            "top": 614.90625,
+            "bottom": 658.90625,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "still1024": {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "scrollY": 2032,
+      "section": {
+        "left": 0,
+        "right": 1024,
+        "top": 72.984375,
+        "bottom": 443.984375,
+        "width": 1024,
+        "height": 371
+      },
+      "turtle": {
+        "rect": {
+          "left": 423.7575988769531,
+          "right": 1024.8962707519531,
+          "top": 95.6139144897461,
+          "bottom": 503.78328704833984,
+          "width": 601.138671875,
+          "height": 408.16937255859375
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 502.875,
+            "right": 635.015625,
+            "top": 113.671875,
+            "bottom": 211.546875,
+            "width": 132.140625,
+            "height": 97.875
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 500.875,
+              "right": 505.875,
+              "top": 111.671875,
+              "bottom": 116.671875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 632.015625,
+              "right": 637.015625,
+              "top": 111.671875,
+              "bottom": 116.671875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 500.875,
+              "right": 505.875,
+              "top": 208.546875,
+              "bottom": 213.546875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 632.015625,
+              "right": 637.015625,
+              "top": 208.546875,
+              "bottom": 213.546875,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 840.6478881835938,
+            "right": 975.4993896484375,
+            "top": 318.86566162109375,
+            "bottom": 420.4327392578125,
+            "width": 134.85150146484375,
+            "height": 101.56707763671875
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 841.3275756835938,
+              "right": 846.4667358398438,
+              "top": 316.80999755859375,
+              "bottom": 321.9491882324219,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 972.4158935546875,
+              "right": 977.5550537109375,
+              "top": 320.5128479003906,
+              "bottom": 325.65203857421875,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 838.5922241210938,
+              "right": 843.7314453125,
+              "top": 413.6463623046875,
+              "bottom": 418.7855529785156,
+              "width": 5.13922119140625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 969.6805419921875,
+              "right": 974.8197631835938,
+              "top": 417.3492126464844,
+              "bottom": 422.4884033203125,
+              "width": 5.13922119140625,
+              "height": 5.139190673828125
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 56.3125,
+            "right": 264.5,
+            "top": 285.796875,
+            "bottom": 329.796875,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 56.3125,
+            "right": 152.859375,
+            "top": 329.796875,
+            "bottom": 373.796875,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "mid768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 4592,
+      "section": {
+        "left": 0,
+        "right": 768,
+        "top": 73,
+        "bottom": 1001,
+        "width": 768,
+        "height": 928
+      },
+      "turtle": {
+        "rect": {
+          "left": 322.4547119140625,
+          "right": 753.1007690429688,
+          "top": 371.1463623046875,
+          "bottom": 662.995361328125,
+          "width": 430.64605712890625,
+          "height": 291.8489990234375
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 378.240234375,
+            "right": 491.6265869140625,
+            "top": 349.7992858886719,
+            "bottom": 434.14935302734375,
+            "width": 113.3863525390625,
+            "height": 84.35006713867188
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 376.2257385253906,
+              "right": 381.2619934082031,
+              "top": 348.5985107421875,
+              "bottom": 353.6347961425781,
+              "width": 5.0362548828125,
+              "height": 5.036285400390625
+            },
+            {
+              "left": 488.0040283203125,
+              "right": 493.040283203125,
+              "top": 347.7847900390625,
+              "bottom": 352.821044921875,
+              "width": 5.0362548828125,
+              "height": 5.0362548828125
+            },
+            {
+              "left": 376.8265380859375,
+              "right": 381.86279296875,
+              "top": 431.1275634765625,
+              "bottom": 436.1638488769531,
+              "width": 5.0362548828125,
+              "height": 5.036285400390625
+            },
+            {
+              "left": 488.6048278808594,
+              "right": 493.6410827636719,
+              "top": 430.3138427734375,
+              "bottom": 435.35009765625,
+              "width": 5.0362548828125,
+              "height": 5.0362548828125
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 621.32666015625,
+            "right": 738.1818237304688,
+            "top": 670.1843872070312,
+            "bottom": 759.3038330078125,
+            "width": 116.85516357421875,
+            "height": 89.11944580078125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 623.3955078125,
+              "right": 628.6416015625,
+              "top": 668.0859375,
+              "bottom": 673.33203125,
+              "width": 5.24609375,
+              "height": 5.24609375
+            },
+            {
+              "left": 735.0341796875,
+              "right": 740.2802734375,
+              "top": 673.730224609375,
+              "bottom": 678.976318359375,
+              "width": 5.24609375,
+              "height": 5.24609375
+            },
+            {
+              "left": 619.2282104492188,
+              "right": 624.4743041992188,
+              "top": 750.511962890625,
+              "bottom": 755.758056640625,
+              "width": 5.24609375,
+              "height": 5.24609375
+            },
+            {
+              "left": 730.8668823242188,
+              "right": 736.1129760742188,
+              "top": 756.1561279296875,
+              "bottom": 761.4022216796875,
+              "width": 5.24609375,
+              "height": 5.24609375
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 42.234375,
+            "right": 250.421875,
+            "top": 589.875,
+            "bottom": 633.875,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 42.234375,
+            "right": 138.78125,
+            "top": 633.875,
+            "bottom": 677.875,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "still768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 2257,
+      "section": {
+        "left": 0,
+        "right": 768,
+        "top": 73.4375,
+        "bottom": 446.796875,
+        "width": 768,
+        "height": 373.359375
+      },
+      "turtle": {
+        "rect": {
+          "left": 324.321044921875,
+          "right": 757.832763671875,
+          "top": 135.3828125,
+          "bottom": 429.733154296875,
+          "width": 433.51171875,
+          "height": 294.350341796875
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 377.15625,
+            "right": 489.9375,
+            "top": 114.390625,
+            "bottom": 197.921875,
+            "width": 112.78125,
+            "height": 83.53125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 375.15625,
+              "right": 380.15625,
+              "top": 112.390625,
+              "bottom": 117.390625,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 486.9375,
+              "right": 491.9375,
+              "top": 112.390625,
+              "bottom": 117.390625,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 375.15625,
+              "right": 380.15625,
+              "top": 194.921875,
+              "bottom": 199.921875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 486.9375,
+              "right": 491.9375,
+              "top": 194.921875,
+              "bottom": 199.921875,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 618.2840576171875,
+            "right": 733.37890625,
+            "top": 339.8080139160156,
+            "bottom": 426.49041748046875,
+            "width": 115.0948486328125,
+            "height": 86.68240356445312
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 618.5587158203125,
+              "right": 623.6978759765625,
+              "top": 337.7523193359375,
+              "bottom": 342.8915100097656,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 730.29541015625,
+              "right": 735.4345703125,
+              "top": 340.9085388183594,
+              "bottom": 346.0477294921875,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 616.2283935546875,
+              "right": 621.3675537109375,
+              "top": 420.25067138671875,
+              "bottom": 425.3898620605469,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            },
+            {
+              "left": 727.965087890625,
+              "right": 733.104248046875,
+              "top": 423.4068908691406,
+              "bottom": 428.54608154296875,
+              "width": 5.13916015625,
+              "height": 5.139190673828125
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 42.234375,
+            "right": 250.421875,
+            "top": 313,
+            "bottom": 357,
+            "width": 208.1875,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 42.234375,
+            "right": 138.78125,
+            "top": 357,
+            "bottom": 401,
+            "width": 96.546875,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "mid390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 4394,
+      "section": {
+        "left": 0,
+        "right": 390,
+        "top": 65,
+        "bottom": 845,
+        "width": 390,
+        "height": 780
+      },
+      "turtle": {
+        "rect": {
+          "left": -8.479238510131836,
+          "right": 372.5503330230713,
+          "top": 331.879150390625,
+          "bottom": 590.0931396484375,
+          "width": 381.0295715332031,
+          "height": 258.2139892578125
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 21.23758316040039,
+            "right": 109.18635940551758,
+            "top": 380.9134216308594,
+            "bottom": 446.33306884765625,
+            "width": 87.94877624511719,
+            "height": 65.41964721679688
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 19.223718643188477,
+              "right": 24.258380889892578,
+              "top": 379.5013122558594,
+              "bottom": 384.5359802246094,
+              "width": 5.034662246704102,
+              "height": 5.03466796875
+            },
+            {
+              "left": 105.72161865234375,
+              "right": 110.75628662109375,
+              "top": 378.8995361328125,
+              "bottom": 383.9342041015625,
+              "width": 5.03466796875,
+              "height": 5.03466796875
+            },
+            {
+              "left": 19.66765022277832,
+              "right": 24.702314376831055,
+              "top": 443.312255859375,
+              "bottom": 448.346923828125,
+              "width": 5.034664154052734,
+              "height": 5.03466796875
+            },
+            {
+              "left": 106.16555786132812,
+              "right": 111.20022583007812,
+              "top": 442.71051025390625,
+              "bottom": 447.74517822265625,
+              "width": 5.03466796875,
+              "height": 5.03466796875
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 280.84075927734375,
+            "right": 371.5098876953125,
+            "top": 554.8638305664062,
+            "bottom": 624.0231323242188,
+            "width": 90.66912841796875,
+            "height": 69.1593017578125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 281.9727783203125,
+              "right": 287.219482421875,
+              "top": 552.76513671875,
+              "bottom": 558.0118408203125,
+              "width": 5.2467041015625,
+              "height": 5.2467041015625
+            },
+            {
+              "left": 368.3618469238281,
+              "right": 373.60858154296875,
+              "top": 557.1444091796875,
+              "bottom": 562.3911743164062,
+              "width": 5.246734619140625,
+              "height": 5.24676513671875
+            },
+            {
+              "left": 278.7420959472656,
+              "right": 283.9888000488281,
+              "top": 616.4957885742188,
+              "bottom": 621.7425537109375,
+              "width": 5.2467041015625,
+              "height": 5.24676513671875
+            },
+            {
+              "left": 365.13116455078125,
+              "right": 370.37786865234375,
+              "top": 620.8751220703125,
+              "bottom": 626.121826171875,
+              "width": 5.2467041015625,
+              "height": 5.2467041015625
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 20,
+            "right": 221,
+            "top": 248.453125,
+            "bottom": 292.453125,
+            "width": 201,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 20,
+            "right": 113.390625,
+            "top": 292.453125,
+            "bottom": 336.453125,
+            "width": 93.390625,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "still390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 2936,
+      "section": {
+        "left": 0,
+        "right": 390,
+        "top": 64.5625,
+        "bottom": 638.015625,
+        "width": 390,
+        "height": 573.453125
+      },
+      "turtle": {
+        "rect": {
+          "left": -8.784446716308594,
+          "right": 374.7976760864258,
+          "top": 334.3548583984375,
+          "bottom": 594.8079833984375,
+          "width": 383.5821228027344,
+          "height": 260.453125
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 20,
+            "right": 107.5,
+            "top": 371.953125,
+            "bottom": 436.765625,
+            "width": 87.5,
+            "height": 64.8125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 18,
+              "right": 23,
+              "top": 369.953125,
+              "bottom": 374.953125,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 104.5,
+              "right": 109.5,
+              "top": 369.953125,
+              "bottom": 374.953125,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 18,
+              "right": 23,
+              "top": 433.765625,
+              "bottom": 438.765625,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 104.5,
+              "right": 109.5,
+              "top": 433.765625,
+              "bottom": 438.765625,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 277.57452392578125,
+            "right": 366.8696594238281,
+            "top": 554.2393188476562,
+            "bottom": 621.49658203125,
+            "width": 89.29513549804688,
+            "height": 67.25726318359375
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 277.3206481933594,
+              "right": 282.4598388671875,
+              "top": 552.1836547851562,
+              "bottom": 557.3228149414062,
+              "width": 5.139190673828125,
+              "height": 5.13916015625
+            },
+            {
+              "left": 363.7861633300781,
+              "right": 368.92535400390625,
+              "top": 554.6260375976562,
+              "bottom": 559.7651977539062,
+              "width": 5.139190673828125,
+              "height": 5.13916015625
+            },
+            {
+              "left": 275.51885986328125,
+              "right": 280.6580505371094,
+              "top": 615.970703125,
+              "bottom": 621.10986328125,
+              "width": 5.139190673828125,
+              "height": 5.13916015625
+            },
+            {
+              "left": 361.984375,
+              "right": 367.12353515625,
+              "top": 618.4130859375,
+              "bottom": 623.55224609375,
+              "width": 5.13916015625,
+              "height": 5.13916015625
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 20,
+            "right": 221,
+            "top": 248.015625,
+            "bottom": 292.015625,
+            "width": 201,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 20,
+            "right": 113.390625,
+            "top": 292.015625,
+            "bottom": 336.015625,
+            "width": 93.390625,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "mid320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "scrollY": 4473,
+      "section": {
+        "left": 0,
+        "right": 320,
+        "top": 65,
+        "bottom": 845,
+        "width": 320,
+        "height": 780
+      },
+      "turtle": {
+        "rect": {
+          "left": -6.076272964477539,
+          "right": 298.7597255706787,
+          "top": 332.3811340332031,
+          "bottom": 538.9531860351562,
+          "width": 304.83599853515625,
+          "height": 206.57205200195312
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 21.22208023071289,
+            "right": 91.59323501586914,
+            "top": 380.79998779296875,
+            "bottom": 433.14599609375,
+            "width": 70.37115478515625,
+            "height": 52.34600830078125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 19.20774269104004,
+              "right": 24.24358367919922,
+              "top": 379.2820739746094,
+              "bottom": 384.3179016113281,
+              "width": 5.03584098815918,
+              "height": 5.03582763671875
+            },
+            {
+              "left": 88.2059555053711,
+              "right": 93.2417984008789,
+              "top": 378.7856750488281,
+              "bottom": 383.8215026855469,
+              "width": 5.0358428955078125,
+              "height": 5.03582763671875
+            },
+            {
+              "left": 19.573522567749023,
+              "right": 24.609363555908203,
+              "top": 430.12451171875,
+              "bottom": 435.16033935546875,
+              "width": 5.03584098815918,
+              "height": 5.03582763671875
+            },
+            {
+              "left": 88.57173919677734,
+              "right": 93.60757446289062,
+              "top": 429.62811279296875,
+              "bottom": 434.6639404296875,
+              "width": 5.035835266113281,
+              "height": 5.03582763671875
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 230.7215576171875,
+            "right": 303.24591064453125,
+            "top": 568.2867431640625,
+            "bottom": 623.5931396484375,
+            "width": 72.52435302734375,
+            "height": 55.306396484375
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 231.18621826171875,
+              "right": 236.43191528320312,
+              "top": 566.1884155273438,
+              "bottom": 571.4341430664062,
+              "width": 5.245697021484375,
+              "height": 5.2457275390625
+            },
+            {
+              "left": 300.0985107421875,
+              "right": 305.34417724609375,
+              "top": 569.6666259765625,
+              "bottom": 574.9122924804688,
+              "width": 5.24566650390625,
+              "height": 5.24566650390625
+            },
+            {
+              "left": 228.623291015625,
+              "right": 233.8689727783203,
+              "top": 616.967529296875,
+              "bottom": 622.2132568359375,
+              "width": 5.2456817626953125,
+              "height": 5.2457275390625
+            },
+            {
+              "left": 297.5355529785156,
+              "right": 302.78125,
+              "top": 620.4456787109375,
+              "bottom": 625.69140625,
+              "width": 5.245697021484375,
+              "height": 5.2457275390625
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 20,
+            "right": 221,
+            "top": 248.453125,
+            "bottom": 292.453125,
+            "width": 201,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 20,
+            "right": 113.390625,
+            "top": 292.453125,
+            "bottom": 336.453125,
+            "width": 93.390625,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "still320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "scrollY": 3179,
+      "section": {
+        "left": 0,
+        "right": 320,
+        "top": 65.296875,
+        "bottom": 638.75,
+        "width": 320,
+        "height": 573.453125
+      },
+      "turtle": {
+        "rect": {
+          "left": -6.116792678833008,
+          "right": 300.73937797546387,
+          "top": 335.9346618652344,
+          "bottom": 544.2907104492188,
+          "width": 306.8561706542969,
+          "height": 208.35604858398438
+        },
+        "style": {
+          "opacity": "1",
+          "filter": "brightness(0.78) saturate(0.72) contrast(0.88)",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "container": {
+          "opacity": "0.9",
+          "filter": "none",
+          "mixBlendMode": "normal",
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "complete": true,
+        "naturalWidth": 1536
+      },
+      "frames": [
+        {
+          "rect": {
+            "left": 20,
+            "right": 90,
+            "top": 372.6875,
+            "bottom": 424.53125,
+            "width": 70,
+            "height": 51.84375
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "grayscale(1) sepia(1) hue-rotate(158deg) saturate(3) contrast(1.15)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(7, 49, 89)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 18,
+              "right": 23,
+              "top": 370.6875,
+              "bottom": 375.6875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 87,
+              "right": 92,
+              "top": 370.6875,
+              "bottom": 375.6875,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 18,
+              "right": 23,
+              "top": 421.53125,
+              "bottom": 426.53125,
+              "width": 5,
+              "height": 5
+            },
+            {
+              "left": 87,
+              "right": 92,
+              "top": 421.53125,
+              "bottom": 426.53125,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        {
+          "rect": {
+            "left": 227.36351013183594,
+            "right": 298.7994384765625,
+            "top": 568.1868896484375,
+            "bottom": 621.9865112304688,
+            "width": 71.43592834472656,
+            "height": 53.79962158203125
+          },
+          "style": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgb(9, 29, 42)"
+          },
+          "parent": {
+            "opacity": "1",
+            "filter": "none",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "imageStyle": {
+            "opacity": "1",
+            "filter": "url(\"#pixelate\")",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "clipStyle": {
+            "opacity": "1",
+            "filter": "brightness(0.82) saturate(0.72) contrast(0.9)",
+            "mixBlendMode": "normal",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "handles": [
+            {
+              "left": 226.74343872070312,
+              "right": 231.88262939453125,
+              "top": 566.1312255859375,
+              "bottom": 571.2704467773438,
+              "width": 5.139190673828125,
+              "height": 5.13922119140625
+            },
+            {
+              "left": 295.7159423828125,
+              "right": 300.8551025390625,
+              "top": 568.0795288085938,
+              "bottom": 573.2186889648438,
+              "width": 5.13916015625,
+              "height": 5.13916015625
+            },
+            {
+              "left": 225.30783081054688,
+              "right": 230.447021484375,
+              "top": 616.9547119140625,
+              "bottom": 622.0938720703125,
+              "width": 5.139190673828125,
+              "height": 5.13916015625
+            },
+            {
+              "left": 294.28033447265625,
+              "right": 299.41949462890625,
+              "top": 618.9029541015625,
+              "bottom": 624.0421752929688,
+              "width": 5.13916015625,
+              "height": 5.13922119140625
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://github.com/dickymujantara/process-mining-exploration",
+          "rect": {
+            "left": 20,
+            "right": 221,
+            "top": 248.75,
+            "bottom": 292.75,
+            "width": 201,
+            "height": 44
+          },
+          "available": true
+        },
+        {
+          "href": "https://github.com/dickymujantara/spring-lab",
+          "rect": {
+            "left": 20,
+            "right": 113.390625,
+            "top": 292.75,
+            "bottom": 336.75,
+            "width": 93.390625,
+            "height": 44
+          },
+          "available": true
+        }
+      ]
+    },
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/turtle-blend.webm",
+      "frames": 72,
+      "fps": 15,
+      "bytes": 577011,
+      "method": "Actual browser section screenshots encoded as VP9 WebM"
+    }
+  },
+  "errors": []
+}

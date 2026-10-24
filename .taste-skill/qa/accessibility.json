@@ -1,0 +1,423 @@
+{
+  "destinations": [
+    {
+      "text": "Skip to content",
+      "href": "#main",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "Work",
+      "href": "#work",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "Experience",
+      "href": "#experience",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "About",
+      "href": "#about",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "Explorations",
+      "href": "#explorations",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "Contact",
+      "href": "#contact",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "View selected work ↗",
+      "href": "#work",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "Get in touch",
+      "href": "#contact",
+      "target": null,
+      "rel": null,
+      "exists": true,
+      "sourceMatch": null
+    },
+    {
+      "text": "View project screenshot ↗",
+      "href": "img/graphlyze.jpg",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": null
+    },
+    {
+      "text": "Process Mining Exploration ↗",
+      "href": "https://github.com/dickymujantara/process-mining-exploration",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "Spring Lab ↗",
+      "href": "https://github.com/dickymujantara/spring-lab",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "Medium ↗",
+      "href": "https://medium.com/@dickymujantara",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "Process Mining: Introduction ↗",
+      "href": "https://medium.com/@dickymujantara/process-mining-introduction-seeing-what-really-happens-in-your-business-3a01b2944d88",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "From event logs to process insights ↗",
+      "href": "https://medium.com/@dickymujantara/process-mining-turning-data-into-process-insights-from-discovery-to-improvement-ba4a9bd6a1a3",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "dickymujantara@gmail.com",
+      "href": "mailto:dickymujantara@gmail.com",
+      "target": null,
+      "rel": null,
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "GitHub ↗",
+      "href": "https://github.com/dickymujantara",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "LinkedIn ↗",
+      "href": "https://linkedin.com/in/muhammaddickymujantara",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    },
+    {
+      "text": "Medium ↗",
+      "href": "https://medium.com/@dickymujantara",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "exists": null,
+      "sourceMatch": true
+    }
+  ],
+  "buttons": [
+    {
+      "name": "Menu ☰",
+      "width": 62.359375,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Start",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Receive event",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Check record",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Review",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Complete",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Alternative route",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process A: Additional check",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Start",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Receive event",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Check record",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Extra step",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Review",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Alternative route",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Additional check",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Process B: Complete",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    },
+    {
+      "name": "Dewtouch InnovationsSoftware EngineerNext.js applications and Java systems.",
+      "width": 316.40625,
+      "height": 95.515625,
+      "meets44": true
+    },
+    {
+      "name": "SIMBA TelecomFront-end DeveloperReact and Angular portals for telecom services.",
+      "width": 316.40625,
+      "height": 111.515625,
+      "meets44": true
+    },
+    {
+      "name": "Rastek.idFront-end DeveloperWeb applications for monitoring and logistics.",
+      "width": 316.40625,
+      "height": 94.515625,
+      "meets44": true
+    },
+    {
+      "name": "Pause all ocean motion",
+      "width": 44,
+      "height": 44,
+      "meets44": true
+    }
+  ],
+  "text200": {
+    "viewport": 390,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "scrollHeight": 9487,
+    "rootFont": "32px",
+    "textOutsideViewport": []
+  },
+  "nojs": {
+    "viewport": 390,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "headings": [
+      "Building systems.Exploring deeper.",
+      "Software with purpose.",
+      "A system I've built.",
+      "Process A",
+      "Process B",
+      "Graphalyze",
+      "Work Experience",
+      "Beneath the surface.",
+      "Field notes.",
+      "Let's build something meaningful."
+    ],
+    "navLinks": [
+      {
+        "text": "Work",
+        "visible": true
+      },
+      {
+        "text": "Experience",
+        "visible": true
+      },
+      {
+        "text": "About",
+        "visible": true
+      },
+      {
+        "text": "Explorations",
+        "visible": true
+      }
+    ],
+    "missingImages": [],
+    "invisibleMainSections": [],
+    "motionControlVisible": false
+  },
+  "contrast": [
+    {
+      "role": "Heading / page",
+      "foreground": "#f3f0e8",
+      "background": "#07121b",
+      "contrast": 16.59,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Body / page",
+      "foreground": "#d5dee5",
+      "background": "#07121b",
+      "contrast": 13.86,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Secondary / page",
+      "foreground": "#adbfce",
+      "background": "#07121b",
+      "contrast": 10.01,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Section label / page",
+      "foreground": "#c2d4e1",
+      "background": "#07121b",
+      "contrast": 12.42,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Accent / page",
+      "foreground": "#83c8ef",
+      "background": "#07121b",
+      "contrast": 10.32,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Body / graph",
+      "foreground": "#d5dee5",
+      "background": "#081923",
+      "contrast": 13.13,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Secondary / graph",
+      "foreground": "#adbfce",
+      "background": "#081923",
+      "contrast": 9.48,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Role / page",
+      "foreground": "#bed1de",
+      "background": "#07121b",
+      "contrast": 12.03,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Control border / page",
+      "foreground": "#8296a2",
+      "background": "#07121b",
+      "contrast": 6.15,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "role": "Button border / page",
+      "foreground": "#a6b2b8",
+      "background": "#07121b",
+      "contrast": 8.71,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "role": "Graph links / graph",
+      "foreground": "#9baeb8",
+      "background": "#081923",
+      "contrast": 7.79,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "role": "Graph node border / graph",
+      "foreground": "#d5e4ed",
+      "background": "#081923",
+      "contrast": 13.76,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "role": "Focus outline / page",
+      "foreground": "#83c8ef",
+      "background": "#07121b",
+      "contrast": 10.32,
+      "threshold": 3,
+      "pass": true
+    }
+  ],
+  "linkValidationScope": "All internal anchors resolve; external URLs and email match the pre-change repository source literally. External endpoint availability was not tested. Local project screenshot file exists and its HTTP response was checked."
+}

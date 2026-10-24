@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "name": "Hero motion runs",
+      "passed": true
+    },
+    {
+      "name": "Hero responds to pointer",
+      "passed": true
+    },
+    {
+      "name": "Global pause freezes layers and persists after reload",
+      "passed": true
+    },
+    {
+      "name": "Ambient motion runs in #about",
+      "passed": true
+    },
+    {
+      "name": "Ambient motion runs in #explorations",
+      "passed": true
+    },
+    {
+      "name": "Ambient motion runs in #writing",
+      "passed": true
+    },
+    {
+      "name": "Ambient motion runs in #contact",
+      "passed": true
+    },
+    {
+      "name": "Graph keyboard focus and selection update detail",
+      "passed": true
+    },
+    {
+      "name": "Experience selection works",
+      "passed": true
+    },
+    {
+      "name": "Footer navigation highlights Contact",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens, closes on Escape and navigation, restores keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Graph supports touch selection",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion preference starts in still state",
+      "passed": true
+    },
+    {
+      "name": "Unavailable animation library leaves menu and graph functional",
+      "passed": true
+    },
+    {
+      "name": "No uncaught page exceptions in all interaction contexts",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

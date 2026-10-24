@@ -1,0 +1,958 @@
+[
+  {
+    "width": 1440,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "contact": {
+        "minimumHeading": 15.84,
+        "minimumOtherText": 10.02,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 43.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3052.375,
+          "width": 606.34375,
+          "height": 59
+        },
+        "minimumContrast": 15.84,
+        "background": [
+          6,
+          24,
+          36
+        ],
+        "location": {
+          "x": 691,
+          "y": 3087
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 1,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3129.796875,
+          "width": 190.671875,
+          "height": 18
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 231,
+          "y": 3131
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 2,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3175.28125,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.72,
+        "background": [
+          6,
+          17,
+          26
+        ],
+        "location": {
+          "x": 91,
+          "y": 3185
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 174.875,
+          "y": 3175.28125,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 215,
+          "y": 3189
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 271.875,
+          "y": 3175.28125,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.61,
+        "background": [
+          6,
+          18,
+          27
+        ],
+        "location": {
+          "x": 309,
+          "y": 3185
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3258.96875,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 10.02,
+        "background": [
+          6,
+          18,
+          27
+        ],
+        "location": {
+          "x": 155,
+          "y": 3259
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "contact": {
+        "minimumHeading": 16.49,
+        "minimumOtherText": 10.08,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.3125,
+          "y": 2781.015625,
+          "width": 449.140625,
+          "height": 44
+        },
+        "minimumContrast": 16.49,
+        "background": [
+          5,
+          19,
+          30
+        ],
+        "location": {
+          "x": 495,
+          "y": 2785
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 1,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.3125,
+          "y": 2843.78125,
+          "width": 190.671875,
+          "height": 18
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 59,
+          "y": 2845
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 2,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.3125,
+          "y": 2889.265625,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 59,
+          "y": 2893
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 144.78125,
+          "y": 2889.265625,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 167,
+          "y": 2891
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 241.78125,
+          "y": 2889.265625,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 283,
+          "y": 2897
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.3125,
+          "y": 2972.953125,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 10.08,
+        "background": [
+          6,
+          17,
+          27
+        ],
+        "location": {
+          "x": 133,
+          "y": 2977
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "contact": {
+        "minimumHeading": 15.96,
+        "minimumOtherText": 10.1,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.234375,
+          "y": 3011.390625,
+          "width": 449.140625,
+          "height": 44
+        },
+        "minimumContrast": 15.96,
+        "background": [
+          5,
+          23,
+          37
+        ],
+        "location": {
+          "x": 487,
+          "y": 3013
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 1,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.234375,
+          "y": 3074.15625,
+          "width": 190.671875,
+          "height": 18
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 125,
+          "y": 3075
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 2,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.234375,
+          "y": 3119.640625,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 43,
+          "y": 3121
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 130.703125,
+          "y": 3119.640625,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 131,
+          "y": 3121
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 227.703125,
+          "y": 3119.640625,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 251,
+          "y": 3121
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.234375,
+          "y": 3203.328125,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 10.1,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 43,
+          "y": 3205
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "contact": {
+        "minimumHeading": 16.37,
+        "minimumOtherText": 10.02,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3948.296875,
+          "width": 312.25,
+          "height": 48
+        },
+        "minimumContrast": 16.37,
+        "background": [
+          5,
+          20,
+          31
+        ],
+        "location": {
+          "x": 327,
+          "y": 3961
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3988.0625,
+          "width": 173.265625,
+          "height": 48
+        },
+        "minimumContrast": 16.62,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 159,
+          "y": 3989
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 1,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4056.046875,
+          "width": 181.90625,
+          "height": 17
+        },
+        "minimumContrast": 16.62,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 153,
+          "y": 4057
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 2,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4100.921875,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 43,
+          "y": 4101
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 105.265625,
+          "y": 4100.921875,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.62,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 153,
+          "y": 4101
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 199.0625,
+          "y": 4100.921875,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.49,
+        "background": [
+          5,
+          19,
+          30
+        ],
+        "location": {
+          "x": 241,
+          "y": 4101
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4179.796875,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 10.02,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 103,
+          "y": 4189
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "contact": {
+        "minimumHeading": 16.5,
+        "minimumOtherText": 9.95,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4195.625,
+          "width": 149.203125,
+          "height": 48
+        },
+        "minimumContrast": 16.62,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 147,
+          "y": 4196
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4235.390625,
+          "width": 154.5,
+          "height": 48
+        },
+        "minimumContrast": 16.62,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 169,
+          "y": 4236
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 0,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4275.15625,
+          "width": 173.265625,
+          "height": 48
+        },
+        "minimumContrast": 16.5,
+        "background": [
+          5,
+          19,
+          29
+        ],
+        "location": {
+          "x": 189,
+          "y": 4317
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 1,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4343.140625,
+          "width": 181.90625,
+          "height": 17
+        },
+        "minimumContrast": 16.5,
+        "background": [
+          5,
+          19,
+          29
+        ],
+        "location": {
+          "x": 189,
+          "y": 4345
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 2,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4388.015625,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 23,
+          "y": 4389
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 105.265625,
+          "y": 4388.015625,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.5,
+        "background": [
+          5,
+          19,
+          29
+        ],
+        "location": {
+          "x": 147,
+          "y": 4401
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 199.0625,
+          "y": 4388.015625,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.24,
+        "background": [
+          5,
+          21,
+          33
+        ],
+        "location": {
+          "x": 247,
+          "y": 4401
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4466.890625,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 9.95,
+        "background": [
+          5,
+          19,
+          29
+        ],
+        "location": {
+          "x": 91,
+          "y": 4469
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  }
+]

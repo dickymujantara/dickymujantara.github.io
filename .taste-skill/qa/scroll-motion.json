@@ -1,0 +1,657 @@
+{
+  "testedAt": "2026-10-24T01:23:52.169Z",
+  "url": "http://127.0.0.1:4173",
+  "checks": [
+    {
+      "name": "Self-hosted Anime.js runtime loads and enables scroll motion",
+      "passed": true
+    },
+    {
+      "name": "Desktop chapters have finite travel and no horizontal overflow",
+      "passed": true,
+      "details": {
+        "chapterCount": 3,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 6423,
+        "viewportHeight": 1000
+      }
+    },
+    {
+      "name": "#home pins its frame and scrubs reversible Anime.js transforms from scroll",
+      "passed": true,
+      "details": {
+        "fixedFrameTop": 73,
+        "layerCount": 2
+      }
+    },
+    {
+      "name": "#about pins its frame and scrubs reversible Anime.js transforms from scroll",
+      "passed": true,
+      "details": {
+        "fixedFrameTop": 73,
+        "layerCount": 4
+      }
+    },
+    {
+      "name": "#explorations pins its frame and scrubs reversible Anime.js transforms from scroll",
+      "passed": true,
+      "details": {
+        "fixedFrameTop": 73,
+        "layerCount": 3
+      }
+    },
+    {
+      "name": "Native wheel scrolling drives chapter animation without a custom scroll surface",
+      "passed": true
+    },
+    {
+      "name": "Hero retains pointer interaction alongside scroll animation",
+      "passed": true
+    },
+    {
+      "name": "Global pause freezes scroll and ambient transforms and persists after reload",
+      "passed": true
+    },
+    {
+      "name": "Playing motion restores scroll animation",
+      "passed": true
+    },
+    {
+      "name": "Work anchor reaches the content and graph keyboard selection remains functional",
+      "passed": true
+    },
+    {
+      "name": "About anchor reaches its pinned scene",
+      "passed": true,
+      "details": {
+        "top": 73,
+        "h": 928
+      }
+    },
+    {
+      "name": "Current navigation follows the pinned Explorations chapter",
+      "passed": true
+    },
+    {
+      "name": "Mobile native touch gesture scrolls and the compact pinned hero releases",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation, Escape focus restoration, and touch graph selection remain functional",
+      "passed": true
+    },
+    {
+      "name": "390px mobile keeps bounded compact chapter travel and no overflow",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 6197,
+        "frames": [
+          {
+            "position": "sticky",
+            "height": 779,
+            "parentHeight": 1339
+          },
+          {
+            "position": "sticky",
+            "height": 780,
+            "parentHeight": 1244
+          },
+          {
+            "position": "sticky",
+            "height": 780,
+            "parentHeight": 1244
+          }
+        ]
+      }
+    },
+    {
+      "name": "320px mobile keeps bounded compact chapter travel and no overflow",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "height": 6295,
+        "frames": [
+          {
+            "position": "sticky",
+            "height": 793.046875,
+            "parentHeight": 1353
+          },
+          {
+            "position": "sticky",
+            "height": 780,
+            "parentHeight": 1244
+          },
+          {
+            "position": "sticky",
+            "height": 780,
+            "parentHeight": 1244
+          }
+        ]
+      }
+    },
+    {
+      "name": "200% mobile text remains within the viewport and tall chapters bypass pinning",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "headerHeight": 65.828125,
+        "frames": [
+          {
+            "id": "home",
+            "position": "relative",
+            "height": 1688.34375,
+            "parentHeight": 1688.34375,
+            "static": true
+          },
+          {
+            "id": "about",
+            "position": "relative",
+            "height": 1484.390625,
+            "parentHeight": 1484.390625,
+            "static": true
+          },
+          {
+            "id": "explorations",
+            "position": "relative",
+            "height": 1032.96875,
+            "parentHeight": 1032.96875,
+            "static": true
+          }
+        ],
+        "textOverflow": []
+      }
+    },
+    {
+      "name": "Reduced motion starts still, removes sticky travel, and preserves visible content",
+      "passed": true,
+      "details": {
+        "height": 3342,
+        "frames": [
+          {
+            "position": "relative",
+            "height": 650,
+            "parentHeight": 650
+          },
+          {
+            "position": "relative",
+            "height": 531,
+            "parentHeight": 531
+          },
+          {
+            "position": "relative",
+            "height": 421,
+            "parentHeight": 421
+          }
+        ],
+        "hiddenText": []
+      }
+    },
+    {
+      "name": "Manual playback respects the reduced-motion preference for scroll travel",
+      "passed": true
+    },
+    {
+      "name": "Unavailable Anime.js leaves readable native flow and functional graph controls",
+      "passed": true,
+      "details": [
+        {
+          "position": "relative",
+          "height": 650,
+          "parentHeight": 650
+        },
+        {
+          "position": "relative",
+          "height": 531,
+          "parentHeight": 531
+        },
+        {
+          "position": "relative",
+          "height": 421,
+          "parentHeight": 421
+        }
+      ]
+    },
+    {
+      "name": "Direct file preview loads Anime.js motion and the hero image",
+      "passed": true
+    },
+    {
+      "name": "No-JavaScript fallback preserves readable native flow without blank chapter travel",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "hiddenText": [],
+        "frames": [
+          {
+            "position": "relative",
+            "height": 650,
+            "parentHeight": 650
+          },
+          {
+            "position": "relative",
+            "height": 531,
+            "parentHeight": 531
+          },
+          {
+            "position": "relative",
+            "height": 421,
+            "parentHeight": 421
+          }
+        ]
+      }
+    },
+    {
+      "name": "No uncaught browser exceptions in tested motion, mobile, and reduced-motion states",
+      "passed": true
+    },
+    {
+      "name": "Recorded actual browser scroll animation as a WebM preview",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/scroll-animation.webm",
+        "bytes": 1399204,
+        "viewport": "1440x1000",
+        "encodedSize": "1152x800",
+        "fps": 15,
+        "frameCount": 160,
+        "method": "Playwright full-viewport runtime capture encoded as VP9 WebM"
+      }
+    }
+  ],
+  "observations": {
+    "desktopMetrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6423,
+      "viewportHeight": 1000
+    },
+    "home": {
+      "first": {
+        "scrollY": 120,
+        "frameTop": 73,
+        "frameHeight": 927,
+        "layers": [
+          {
+            "name": "scroll-water",
+            "transform": "matrix(1.021, 0, 0, 1.021, 0, -8.25)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position hero-whale",
+            "transform": "matrix(1.00688, -0.0158173, 0.0158173, 1.00688, 1.75, 4.05)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "idle": {
+        "scrollY": 120,
+        "frameTop": 73,
+        "frameHeight": 927,
+        "layers": [
+          {
+            "name": "scroll-water",
+            "transform": "matrix(1.021, 0, 0, 1.021, 0, -8.25)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position hero-whale",
+            "transform": "matrix(1.00688, -0.0158173, 0.0158173, 1.00688, 1.75, 4.05)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "last": {
+        "scrollY": 600,
+        "frameTop": 73,
+        "frameHeight": 927,
+        "layers": [
+          {
+            "name": "scroll-water",
+            "transform": "matrix(1.105, 0, 0, 1.105, 0, -41.25)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position hero-whale",
+            "transform": "matrix(1.11462, 0.0291873, -0.0291873, 1.11462, 88.75, -51.75)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "reversed": {
+        "scrollY": 120,
+        "frameTop": 73,
+        "frameHeight": 927,
+        "layers": [
+          {
+            "name": "scroll-water",
+            "transform": "matrix(1.021, 0, 0, 1.021, 0, -8.25)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position hero-whale",
+            "transform": "matrix(1.00688, -0.0158173, 0.0158173, 1.00688, 1.75, 4.05)",
+            "opacity": "1"
+          }
+        ]
+      }
+    },
+    "about": {
+      "first": {
+        "scrollY": 1810,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position dolphin-one",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, -60.8545, 19.7382)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position dolphin-two",
+            "transform": "matrix(0.9551, 0, 0, 0.9551, -18.1182, 11.5109)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position about-orca",
+            "transform": "matrix(0.964813, -0.0235189, 0.0235189, 0.964813, -50.6836, 16.3982)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window orca-detail halftone",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, 0, 21.8509)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "idle": {
+        "scrollY": 1810,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position dolphin-one",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, -60.8545, 19.7382)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position dolphin-two",
+            "transform": "matrix(0.9551, 0, 0, 0.9551, -18.1182, 11.5109)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position about-orca",
+            "transform": "matrix(0.964813, -0.0235189, 0.0235189, 0.964813, -50.6836, 16.3982)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window orca-detail halftone",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, 0, 21.8509)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "last": {
+        "scrollY": 2140,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position dolphin-one",
+            "transform": "matrix(0.999913, 0.0131681, -0.0131681, 0.999913, 35.1455, -21.0618)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position dolphin-two",
+            "transform": "matrix(1.0151, 0, 0, 1.0151, 68.8818, -14.2891)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position about-orca",
+            "transform": "matrix(1.02494, 0.0179549, -0.0179549, 1.02494, 26.1164, -17.8018)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window orca-detail halftone",
+            "transform": "matrix(0.999913, 0.0131681, -0.0131681, 0.999913, 0, -10.5491)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "reversed": {
+        "scrollY": 1810,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position dolphin-one",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, -60.8545, 19.7382)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position dolphin-two",
+            "transform": "matrix(0.9551, 0, 0, 0.9551, -18.1182, 11.5109)",
+            "opacity": "1"
+          },
+          {
+            "name": "animal-position about-orca",
+            "transform": "matrix(0.964813, -0.0235189, 0.0235189, 0.964813, -50.6836, 16.3982)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window orca-detail halftone",
+            "transform": "matrix(0.999232, -0.0391813, 0.0391813, 0.999232, 0, 21.8509)",
+            "opacity": "1"
+          }
+        ]
+      }
+    },
+    "explorations": {
+      "first": {
+        "scrollY": 4348,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position exploration-turtle",
+            "transform": "matrix(0.948469, -0.0463232, 0.0463232, 0.948469, -46.942, 22.9614)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-detail halftone",
+            "transform": "matrix(0.998539, -0.0540283, 0.0540283, 0.998539, -10.0874, 26.1215)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-mosaic mosaic",
+            "transform": "matrix(0.998539, 0.0540283, -0.0540283, 0.998539, 12.0874, -17.6263)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "idle": {
+        "scrollY": 4348,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position exploration-turtle",
+            "transform": "matrix(0.948469, -0.0463232, 0.0463232, 0.948469, -46.942, 22.9614)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-detail halftone",
+            "transform": "matrix(0.998539, -0.0540283, 0.0540283, 0.998539, -10.0874, 26.1215)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-mosaic mosaic",
+            "transform": "matrix(0.998539, 0.0540283, -0.0540283, 0.998539, 12.0874, -17.6263)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "last": {
+        "scrollY": 4678,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position exploration-turtle",
+            "transform": "matrix(1.02697, 0.0359326, -0.0359326, 1.02697, 25.058, -25.0386)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-detail halftone",
+            "transform": "matrix(0.999961, 0.00877715, -0.00877715, 0.999961, 5.5126, -9.2785)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-mosaic mosaic",
+            "transform": "matrix(0.999961, -0.00877715, 0.00877715, 0.999961, -3.5126, 11.7737)",
+            "opacity": "1"
+          }
+        ]
+      },
+      "reversed": {
+        "scrollY": 4348,
+        "frameTop": 73,
+        "frameHeight": 928,
+        "layers": [
+          {
+            "name": "animal-position exploration-turtle",
+            "transform": "matrix(0.948469, -0.0463232, 0.0463232, 0.948469, -46.942, 22.9614)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-detail halftone",
+            "transform": "matrix(0.998539, -0.0540283, 0.0540283, 0.998539, -10.0874, 26.1215)",
+            "opacity": "1"
+          },
+          {
+            "name": "detail-window turtle-mosaic mosaic",
+            "transform": "matrix(0.998539, 0.0540283, -0.0540283, 0.998539, 12.0874, -17.6263)",
+            "opacity": "1"
+          }
+        ]
+      }
+    },
+    "mobile390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 6197,
+      "frames": [
+        {
+          "position": "sticky",
+          "height": 779,
+          "parentHeight": 1339
+        },
+        {
+          "position": "sticky",
+          "height": 780,
+          "parentHeight": 1244
+        },
+        {
+          "position": "sticky",
+          "height": 780,
+          "parentHeight": 1244
+        }
+      ]
+    },
+    "mobile320": {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 6295,
+      "frames": [
+        {
+          "position": "sticky",
+          "height": 793.046875,
+          "parentHeight": 1353
+        },
+        {
+          "position": "sticky",
+          "height": 780,
+          "parentHeight": 1244
+        },
+        {
+          "position": "sticky",
+          "height": 780,
+          "parentHeight": 1244
+        }
+      ]
+    },
+    "largeText": {
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 65.828125,
+      "frames": [
+        {
+          "id": "home",
+          "position": "relative",
+          "height": 1688.34375,
+          "parentHeight": 1688.34375,
+          "static": true
+        },
+        {
+          "id": "about",
+          "position": "relative",
+          "height": 1484.390625,
+          "parentHeight": 1484.390625,
+          "static": true
+        },
+        {
+          "id": "explorations",
+          "position": "relative",
+          "height": 1032.96875,
+          "parentHeight": 1032.96875,
+          "static": true
+        }
+      ],
+      "textOverflow": []
+    },
+    "reducedMotion": {
+      "height": 3342,
+      "frames": [
+        {
+          "position": "relative",
+          "height": 650,
+          "parentHeight": 650
+        },
+        {
+          "position": "relative",
+          "height": 531,
+          "parentHeight": 531
+        },
+        {
+          "position": "relative",
+          "height": 421,
+          "parentHeight": 421
+        }
+      ],
+      "hiddenText": []
+    },
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/scroll-animation.webm",
+      "bytes": 1399204,
+      "viewport": "1440x1000",
+      "encodedSize": "1152x800",
+      "fps": 15,
+      "frameCount": 160,
+      "method": "Playwright full-viewport runtime capture encoded as VP9 WebM"
+    }
+  },
+  "errors": [],
+  "recordingTestedAt": "2026-10-24T01:26:22.415Z",
+  "environmentNotes": [
+    "Initial Playwright recording failed because the installed encoder cache revision differed from the older QA library. The cached encoder supports VP9 while that library requests VP8. The final recording uses Playwright full-viewport JPEG runtime frames and the existing VP9 encoder, avoiding that dependency mismatch and a screencast padding issue. Website behavior checks passed before the recording-only adjustment; website source was unchanged by QA."
+  ],
+  "summary": {
+    "passed": 24,
+    "failed": 0
+  }
+}

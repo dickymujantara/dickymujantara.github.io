@@ -1,0 +1,31 @@
+{
+  "testedAt": "2026-10-24T01:26:22.415Z",
+  "url": "http://127.0.0.1:4173",
+  "checks": [
+    {
+      "name": "Recorded actual browser scroll animation as a WebM preview",
+      "passed": true,
+      "details": {
+        "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/scroll-animation.webm",
+        "bytes": 1399204,
+        "viewport": "1440x1000",
+        "encodedSize": "1152x800",
+        "fps": 15,
+        "frameCount": 160,
+        "method": "Playwright full-viewport runtime capture encoded as VP9 WebM"
+      }
+    }
+  ],
+  "observations": {
+    "recording": {
+      "path": "/Users/dickymujantara/Documents/Research/dickymujantara.github.io/.taste-skill/previews/scroll-animation.webm",
+      "bytes": 1399204,
+      "viewport": "1440x1000",
+      "encodedSize": "1152x800",
+      "fps": 15,
+      "frameCount": 160,
+      "method": "Playwright full-viewport runtime capture encoded as VP9 WebM"
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,2109 @@
+[
+  {
+    "width": 1440,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "home": {
+        "minimumHeading": 7.67,
+        "minimumOtherText": 12.52,
+        "failingLines": []
+      },
+      "about": {
+        "minimumHeading": 16.74,
+        "minimumOtherText": 10.16,
+        "failingLines": []
+      },
+      "explorations": {
+        "minimumHeading": 16.71,
+        "minimumOtherText": 12.6,
+        "failingLines": []
+      },
+      "contact": {
+        "minimumHeading": 15.81,
+        "minimumOtherText": 10.16,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "01 / About",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 11.04,
+        "fontWeight": 550,
+        "rect": {
+          "x": 86.40625,
+          "y": 781,
+          "width": 78.546875,
+          "height": 13
+        },
+        "minimumContrast": 12.61,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 781
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "H2",
+        "elementIndex": 6,
+        "text": "Software with purpose.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 46.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 806.109375,
+          "width": 440.8125,
+          "height": 63
+        },
+        "minimumContrast": 16.74,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 499,
+          "y": 807
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 7,
+        "text": "I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16.64,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 882.171875,
+          "width": 391.96875,
+          "height": 20
+        },
+        "minimumContrast": 14.07,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 376,
+          "y": 883
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 7,
+        "text": "I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16.64,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 907.953125,
+          "width": 365.65625,
+          "height": 20
+        },
+        "minimumContrast": 14.07,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 377,
+          "y": 908
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 8,
+        "text": "Engineering",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 968.921875,
+          "width": 81.359375,
+          "height": 18
+        },
+        "minimumContrast": 14.08,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 969
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 9,
+        "text": "React · Next.js · Java · Spring Boot",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 992.234375,
+          "width": 235.375,
+          "height": 18
+        },
+        "minimumContrast": 10.16,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 993
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 10,
+        "text": "Machine learning & data",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 1038.921875,
+          "width": 166.03125,
+          "height": 18
+        },
+        "minimumContrast": 14.08,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 1039
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 11,
+        "text": "Python · Flask · Process mining",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 1062.234375,
+          "width": 213.25,
+          "height": 18
+        },
+        "minimumContrast": 10.16,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 1063
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 12,
+        "text": "Databases",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 1108.921875,
+          "width": 72.734375,
+          "height": 18
+        },
+        "minimumContrast": 14.08,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 1109
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 13,
+        "text": "PostgreSQL · MySQL · MongoDB",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 1132.234375,
+          "width": 224.28125,
+          "height": 18
+        },
+        "minimumContrast": 10.16,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 1133
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 14,
+        "text": "04 / Explorations",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 11.04,
+        "fontWeight": 550,
+        "rect": {
+          "x": 86.40625,
+          "y": 2372.234375,
+          "width": 138.65625,
+          "height": 13
+        },
+        "minimumContrast": 12.6,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 201,
+          "y": 2373
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "H2",
+        "elementIndex": 15,
+        "text": "Beneath the surface.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 46.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 2397.34375,
+          "width": 383.9375,
+          "height": 63
+        },
+        "minimumContrast": 16.71,
+        "background": [
+          6,
+          17,
+          27
+        ],
+        "location": {
+          "x": 469,
+          "y": 2453
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 16,
+        "text": "Machine learning, process mining,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16.32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 2474.40625,
+          "width": 250.890625,
+          "height": 19
+        },
+        "minimumContrast": 13.99,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 334,
+          "y": 2475
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 16,
+        "text": "and oceanography as a personal interest.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16.32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 2499.6875,
+          "width": 303.03125,
+          "height": 19
+        },
+        "minimumContrast": 13.99,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 335,
+          "y": 2500
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "A",
+        "elementIndex": 17,
+        "text": "Process Mining Exploration",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 2553.5,
+          "width": 185.734375,
+          "height": 18
+        },
+        "minimumContrast": 16.83,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 201,
+          "y": 2554
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "A",
+        "elementIndex": 18,
+        "text": "Spring Lab",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 2597.5,
+          "width": 74.09375,
+          "height": 18
+        },
+        "minimumContrast": 16.85,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 2598
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 19,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 43.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3052.375,
+          "width": 606.34375,
+          "height": 59
+        },
+        "minimumContrast": 15.81,
+        "background": [
+          5,
+          24,
+          39
+        ],
+        "location": {
+          "x": 678,
+          "y": 3053
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 20,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3129.796875,
+          "width": 190.671875,
+          "height": 18
+        },
+        "minimumContrast": 16.83,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 251,
+          "y": 3130
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 21,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3175.28125,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.85,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 3176
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 22,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 174.875,
+          "y": 3175.28125,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.85,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 175,
+          "y": 3176
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 23,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 271.875,
+          "y": 3175.28125,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 16.83,
+        "background": [
+          5,
+          16,
+          26
+        ],
+        "location": {
+          "x": 272,
+          "y": 3177
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 24,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 3258.96875,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 10.16,
+        "background": [
+          5,
+          16,
+          25
+        ],
+        "location": {
+          "x": 87,
+          "y": 3259
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 0,
+        "text": "Software engineer / Bandung, Indonesia",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 11.04,
+        "fontWeight": 550,
+        "rect": {
+          "x": 86.40625,
+          "y": 208.140625,
+          "width": 319.890625,
+          "height": 13
+        },
+        "minimumContrast": 12.52,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 403,
+          "y": 209
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Building systems.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 75.6,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 239.046875,
+          "width": 536.046875,
+          "height": 103
+        },
+        "minimumContrast": 7.67,
+        "background": [
+          62,
+          77,
+          87
+        ],
+        "location": {
+          "x": 618,
+          "y": 275
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Exploring deeper.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 75.6,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 316.140625,
+          "width": 532.09375,
+          "height": 103
+        },
+        "minimumContrast": 11.76,
+        "background": [
+          30,
+          49,
+          64
+        ],
+        "location": {
+          "x": 617,
+          "y": 317
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "Full-stack software, machine learning exploration,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 18.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 433.234375,
+          "width": 406.5625,
+          "height": 22
+        },
+        "minimumContrast": 13.89,
+        "background": [
+          5,
+          18,
+          28
+        ],
+        "location": {
+          "x": 491,
+          "y": 437
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "and a curiosity for the ocean.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 18.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 86.40625,
+          "y": 461.75,
+          "width": 237.296875,
+          "height": 22
+        },
+        "minimumContrast": 13.99,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 87,
+          "y": 463
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "View selected work",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16.8,
+        "fontWeight": 400,
+        "rect": {
+          "x": 111.40625,
+          "y": 535.640625,
+          "width": 144.734375,
+          "height": 23
+        },
+        "minimumContrast": 16.72,
+        "background": [
+          6,
+          17,
+          26
+        ],
+        "location": {
+          "x": 113,
+          "y": 536
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Get in touch",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 355.53125,
+          "y": 538.25,
+          "width": 88.296875,
+          "height": 18
+        },
+        "minimumContrast": 16.73,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 407,
+          "y": 539
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "home": {
+        "minimumHeading": 14.39,
+        "minimumOtherText": 10.75,
+        "failingLines": []
+      },
+      "about": {
+        "minimumHeading": 16.58,
+        "minimumOtherText": 9.94,
+        "failingLines": []
+      },
+      "explorations": {
+        "minimumHeading": 15.3,
+        "minimumOtherText": 12.02,
+        "failingLines": []
+      },
+      "contact": {
+        "minimumHeading": 7.66,
+        "minimumOtherText": 9.8,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 0,
+        "text": "Software engineer / Bandung, Indonesia",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 9.12,
+        "fontWeight": 550,
+        "rect": {
+          "x": 20,
+          "y": 114,
+          "width": 251.125,
+          "height": 11
+        },
+        "minimumContrast": 10.75,
+        "background": [
+          22,
+          33,
+          41
+        ],
+        "location": {
+          "x": 253,
+          "y": 115
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Building systems.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 40,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 140.9375,
+          "width": 283.625,
+          "height": 54
+        },
+        "minimumContrast": 14.39,
+        "background": [
+          21,
+          33,
+          41
+        ],
+        "location": {
+          "x": 291,
+          "y": 141
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Exploring deeper.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 40,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 181.734375,
+          "width": 281.53125,
+          "height": 54
+        },
+        "minimumContrast": 15.21,
+        "background": [
+          13,
+          28,
+          39
+        ],
+        "location": {
+          "x": 281,
+          "y": 183
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "Full-stack software, machine learning exploration,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 249.125,
+          "width": 341.359375,
+          "height": 18
+        },
+        "minimumContrast": 13.21,
+        "background": [
+          9,
+          24,
+          35
+        ],
+        "location": {
+          "x": 283,
+          "y": 251
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "and a curiosity for the ocean.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 272.4375,
+          "width": 199.453125,
+          "height": 18
+        },
+        "minimumContrast": 13.55,
+        "background": [
+          7,
+          21,
+          32
+        ],
+        "location": {
+          "x": 213,
+          "y": 273
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "View selected work",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 15.04,
+        "fontWeight": 400,
+        "rect": {
+          "x": 37,
+          "y": 331.09375,
+          "width": 129.65625,
+          "height": 21
+        },
+        "minimumContrast": 15.64,
+        "background": [
+          10,
+          25,
+          37
+        ],
+        "location": {
+          "x": 105,
+          "y": 351
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Get in touch",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 237.09375,
+          "y": 332.84375,
+          "width": 79.125,
+          "height": 17
+        },
+        "minimumContrast": 14.3,
+        "background": [
+          11,
+          34,
+          50
+        ],
+        "location": {
+          "x": 311,
+          "y": 347
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 5,
+        "text": "01 / About",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 9.92,
+        "fontWeight": 550,
+        "rect": {
+          "x": 20,
+          "y": 756,
+          "width": 71.234375,
+          "height": 12
+        },
+        "minimumContrast": 12.51,
+        "background": [
+          6,
+          17,
+          26
+        ],
+        "location": {
+          "x": 39,
+          "y": 762
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "H2",
+        "elementIndex": 6,
+        "text": "Software with purpose.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 779.171875,
+          "width": 306.125,
+          "height": 44
+        },
+        "minimumContrast": 16.58,
+        "background": [
+          7,
+          18,
+          28
+        ],
+        "location": {
+          "x": 295,
+          "y": 820
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 7,
+        "text": "I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 837.328125,
+          "width": 314.875,
+          "height": 18
+        },
+        "minimumContrast": 13.88,
+        "background": [
+          6,
+          18,
+          27
+        ],
+        "location": {
+          "x": 243,
+          "y": 838
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 7,
+        "text": "I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 860.890625,
+          "width": 348.5,
+          "height": 18
+        },
+        "minimumContrast": 13.77,
+        "background": [
+          7,
+          19,
+          28
+        ],
+        "location": {
+          "x": 367,
+          "y": 870
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "P",
+        "elementIndex": 7,
+        "text": "I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 884.453125,
+          "width": 34.90625,
+          "height": 18
+        },
+        "minimumContrast": 13.99,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 23,
+          "y": 886
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 8,
+        "text": "Engineering",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 933.609375,
+          "width": 76.890625,
+          "height": 17
+        },
+        "minimumContrast": 13.98,
+        "background": [
+          5,
+          17,
+          27
+        ],
+        "location": {
+          "x": 23,
+          "y": 934
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 9,
+        "text": "React · Next.js · Java · Spring Boot",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 955.421875,
+          "width": 222.703125,
+          "height": 17
+        },
+        "minimumContrast": 10.01,
+        "background": [
+          6,
+          18,
+          28
+        ],
+        "location": {
+          "x": 119,
+          "y": 958
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 10,
+        "text": "Machine learning & data",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 997.421875,
+          "width": 156.9375,
+          "height": 17
+        },
+        "minimumContrast": 13.87,
+        "background": [
+          6,
+          18,
+          28
+        ],
+        "location": {
+          "x": 107,
+          "y": 998
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 11,
+        "text": "Python · Flask · Process mining",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 1019.234375,
+          "width": 201.671875,
+          "height": 17
+        },
+        "minimumContrast": 9.94,
+        "background": [
+          6,
+          19,
+          29
+        ],
+        "location": {
+          "x": 211,
+          "y": 1034
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DT",
+        "elementIndex": 12,
+        "text": "Databases",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 1061.234375,
+          "width": 68.6875,
+          "height": 17
+        },
+        "minimumContrast": 13.9,
+        "background": [
+          5,
+          18,
+          27
+        ],
+        "location": {
+          "x": 35,
+          "y": 1062
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "about",
+        "element": "DD",
+        "elementIndex": 13,
+        "text": "PostgreSQL · MySQL · MongoDB",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 14.08,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 1083.046875,
+          "width": 211.796875,
+          "height": 17
+        },
+        "minimumContrast": 9.94,
+        "background": [
+          6,
+          19,
+          29
+        ],
+        "location": {
+          "x": 199,
+          "y": 1097
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 14,
+        "text": "04 / Explorations",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 9.92,
+        "fontWeight": 550,
+        "rect": {
+          "x": 20,
+          "y": 3041.5625,
+          "width": 125.703125,
+          "height": 12
+        },
+        "minimumContrast": 12.02,
+        "background": [
+          9,
+          22,
+          33
+        ],
+        "location": {
+          "x": 88,
+          "y": 3045
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "H2",
+        "elementIndex": 15,
+        "text": "Beneath the surface.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 32,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3064.734375,
+          "width": 266.625,
+          "height": 44
+        },
+        "minimumContrast": 15.3,
+        "background": [
+          16,
+          27,
+          37
+        ],
+        "location": {
+          "x": 269,
+          "y": 3084
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 16,
+        "text": "Machine learning, process mining,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3122.890625,
+          "width": 236.1875,
+          "height": 18
+        },
+        "minimumContrast": 13.24,
+        "background": [
+          8,
+          24,
+          34
+        ],
+        "location": {
+          "x": 245,
+          "y": 3124
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 16,
+        "text": "and oceanography as a personal interest.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 256.1875,
+          "y": 3122.890625,
+          "width": 29.875,
+          "height": 18
+        },
+        "minimumContrast": 12.99,
+        "background": [
+          10,
+          26,
+          36
+        ],
+        "location": {
+          "x": 285,
+          "y": 3126
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "P",
+        "elementIndex": 16,
+        "text": "and oceanography as a personal interest.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 15.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3146.453125,
+          "width": 255.40625,
+          "height": 18
+        },
+        "minimumContrast": 13.11,
+        "background": [
+          9,
+          25,
+          35
+        ],
+        "location": {
+          "x": 273,
+          "y": 3148
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "A",
+        "elementIndex": 17,
+        "text": "Process Mining Exploration",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3196.84375,
+          "width": 178.984375,
+          "height": 17
+        },
+        "minimumContrast": 16.11,
+        "background": [
+          6,
+          22,
+          33
+        ],
+        "location": {
+          "x": 197,
+          "y": 3208
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "explorations",
+        "element": "A",
+        "elementIndex": 18,
+        "text": "Spring Lab",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3240.84375,
+          "width": 71.375,
+          "height": 17
+        },
+        "minimumContrast": 16.39,
+        "background": [
+          5,
+          20,
+          30
+        ],
+        "location": {
+          "x": 89,
+          "y": 3244
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 19,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3948.296875,
+          "width": 312.25,
+          "height": 48
+        },
+        "minimumContrast": 7.66,
+        "background": [
+          64,
+          77,
+          84
+        ],
+        "location": {
+          "x": 331,
+          "y": 3979
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "H2",
+        "elementIndex": 19,
+        "text": "Let's build something meaningful.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 35.2,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 3988.0625,
+          "width": 173.265625,
+          "height": 48
+        },
+        "minimumContrast": 15.41,
+        "background": [
+          7,
+          27,
+          40
+        ],
+        "location": {
+          "x": 191,
+          "y": 3989
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 20,
+        "text": "dickymujantara@gmail.com",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 14.4,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4056.046875,
+          "width": 181.90625,
+          "height": 17
+        },
+        "minimumContrast": 15.4,
+        "background": [
+          8,
+          27,
+          40
+        ],
+        "location": {
+          "x": 198,
+          "y": 4057
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 21,
+        "text": "GitHub",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4100.921875,
+          "width": 43.21875,
+          "height": 16
+        },
+        "minimumContrast": 16.7,
+        "background": [
+          5,
+          17,
+          29
+        ],
+        "location": {
+          "x": 61,
+          "y": 4107
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 22,
+        "text": "LinkedIn",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 105.265625,
+          "y": 4100.921875,
+          "width": 51.75,
+          "height": 16
+        },
+        "minimumContrast": 16.11,
+        "background": [
+          6,
+          22,
+          33
+        ],
+        "location": {
+          "x": 153,
+          "y": 4103
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "A",
+        "elementIndex": 23,
+        "text": "Medium",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 13.28,
+        "fontWeight": 400,
+        "rect": {
+          "x": 199.0625,
+          "y": 4100.921875,
+          "width": 49.375,
+          "height": 16
+        },
+        "minimumContrast": 15.41,
+        "background": [
+          5,
+          27,
+          42
+        ],
+        "location": {
+          "x": 247,
+          "y": 4115
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "contact",
+        "element": "P",
+        "elementIndex": 24,
+        "text": "Dicky Mujantara",
+        "color": "rgb(173, 191, 206)",
+        "fontSize": 11.52,
+        "fontWeight": 400,
+        "rect": {
+          "x": 20,
+          "y": 4179.796875,
+          "width": 87.90625,
+          "height": 13
+        },
+        "minimumContrast": 9.8,
+        "background": [
+          5,
+          21,
+          32
+        ],
+        "location": {
+          "x": 105,
+          "y": 4183
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "home": {
+        "minimumHeading": 9.91,
+        "minimumOtherText": 12.42,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 0,
+        "text": "Software engineer / Bandung, Indonesia",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 11.04,
+        "fontWeight": 550,
+        "rect": {
+          "x": 56.328125,
+          "y": 199.125,
+          "width": 319.890625,
+          "height": 13
+        },
+        "minimumContrast": 12.42,
+        "background": [
+          5,
+          18,
+          29
+        ],
+        "location": {
+          "x": 371,
+          "y": 201
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Building systems.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 53.76,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.328125,
+          "y": 233.03125,
+          "width": 381.1875,
+          "height": 74
+        },
+        "minimumContrast": 9.91,
+        "background": [
+          47,
+          60,
+          72
+        ],
+        "location": {
+          "x": 424,
+          "y": 291
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Exploring deeper.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 53.76,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.328125,
+          "y": 287.859375,
+          "width": 378.375,
+          "height": 74
+        },
+        "minimumContrast": 9.91,
+        "background": [
+          47,
+          60,
+          72
+        ],
+        "location": {
+          "x": 424,
+          "y": 291
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "Full-stack software, machine learning exploration,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.328125,
+          "y": 379.6875,
+          "width": 360.15625,
+          "height": 18
+        },
+        "minimumContrast": 13.78,
+        "background": [
+          5,
+          19,
+          30
+        ],
+        "location": {
+          "x": 409,
+          "y": 395
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "and a curiosity for the ocean.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 56.328125,
+          "y": 404.484375,
+          "width": 210.375,
+          "height": 18
+        },
+        "minimumContrast": 13.99,
+        "background": [
+          5,
+          17,
+          26
+        ],
+        "location": {
+          "x": 203,
+          "y": 405
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "View selected work",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16.8,
+        "fontWeight": 400,
+        "rect": {
+          "x": 81.328125,
+          "y": 474.65625,
+          "width": 144.734375,
+          "height": 23
+        },
+        "minimumContrast": 16.72,
+        "background": [
+          6,
+          17,
+          26
+        ],
+        "location": {
+          "x": 82,
+          "y": 475
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Get in touch",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 325.453125,
+          "y": 477.265625,
+          "width": 88.296875,
+          "height": 18
+        },
+        "minimumContrast": 16.6,
+        "background": [
+          5,
+          18,
+          29
+        ],
+        "location": {
+          "x": 391,
+          "y": 479
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "state": "Reduced-motion still frame, all relevant text hidden without layout changes; fixed header and motion control hidden for background measurement",
+    "sections": {
+      "home": {
+        "minimumHeading": 13.84,
+        "minimumOtherText": 8.5,
+        "failingLines": []
+      }
+    },
+    "samples": [
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 0,
+        "text": "Software engineer / Bandung, Indonesia",
+        "color": "rgb(194, 212, 225)",
+        "fontSize": 11.04,
+        "fontWeight": 550,
+        "rect": {
+          "x": 42.25,
+          "y": 139,
+          "width": 319.890625,
+          "height": 13
+        },
+        "minimumContrast": 8.5,
+        "background": [
+          25,
+          52,
+          71
+        ],
+        "location": {
+          "x": 352,
+          "y": 139
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Building systems.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 48,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.25,
+          "y": 173.90625,
+          "width": 340.34375,
+          "height": 66
+        },
+        "minimumContrast": 13.84,
+        "background": [
+          10,
+          37,
+          55
+        ],
+        "location": {
+          "x": 379,
+          "y": 203
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "H1",
+        "elementIndex": 1,
+        "text": "Exploring deeper.",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 48,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.25,
+          "y": 222.859375,
+          "width": 337.84375,
+          "height": 66
+        },
+        "minimumContrast": 14.14,
+        "background": [
+          8,
+          35,
+          54
+        ],
+        "location": {
+          "x": 379,
+          "y": 223
+        },
+        "threshold": 3,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "Full-stack software, machine learning exploration,",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.25,
+          "y": 307.8125,
+          "width": 360.15625,
+          "height": 18
+        },
+        "minimumContrast": 11.67,
+        "background": [
+          11,
+          36,
+          54
+        ],
+        "location": {
+          "x": 401,
+          "y": 319
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "P",
+        "elementIndex": 2,
+        "text": "and a curiosity for the ocean.",
+        "color": "rgb(213, 222, 229)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 42.25,
+          "y": 332.609375,
+          "width": 210.375,
+          "height": 18
+        },
+        "minimumContrast": 9.22,
+        "background": [
+          39,
+          53,
+          65
+        ],
+        "location": {
+          "x": 167,
+          "y": 345
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 3,
+        "text": "View selected work",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16.8,
+        "fontWeight": 400,
+        "rect": {
+          "x": 67.25,
+          "y": 391.59375,
+          "width": 144.734375,
+          "height": 23
+        },
+        "minimumContrast": 14.72,
+        "background": [
+          14,
+          31,
+          45
+        ],
+        "location": {
+          "x": 203,
+          "y": 394
+        },
+        "threshold": 4.5,
+        "pass": true
+      },
+      {
+        "section": "home",
+        "element": "A",
+        "elementIndex": 4,
+        "text": "Get in touch",
+        "color": "rgb(243, 240, 232)",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "rect": {
+          "x": 301.78125,
+          "y": 394.203125,
+          "width": 88.296875,
+          "height": 18
+        },
+        "minimumContrast": 14.05,
+        "background": [
+          10,
+          35,
+          57
+        ],
+        "location": {
+          "x": 386,
+          "y": 395
+        },
+        "threshold": 4.5,
+        "pass": true
+      }
+    ]
+  }
+]
