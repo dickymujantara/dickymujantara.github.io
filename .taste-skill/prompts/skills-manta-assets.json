@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-27",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "Dedicated Skills manta layer on the left and unique sand-bank/seamount background, with plain skills on the right.",
+  "assets": [
+    {
+      "name": "skills-manta",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a17d45-7d9b-7e83-b1ec-ad40c5225453/exec-8e553dd9-7eb5-46ab-9d67-b0d795de4de1.png",
+      "transparent": true,
+      "delivery": "img/ocean/skills-manta.webp",
+      "initialSource": "/Users/dickymujantara/.codex/generated_images/01a17d45-7d9b-7e83-b1ec-ad40c5225453/exec-e774dcdb-8e70-497f-9916-54ded23457f7.png",
+      "references": [
+        {
+          "path": "img/ocean/whale.webp",
+          "role": "Painted illustration style and cool navy/slate/ivory palette; no subject reuse."
+        },
+        {
+          "path": "img/ocean/turtle.webp",
+          "role": "Supporting painted marine style and palette; no subject reuse."
+        }
+      ],
+      "prompt": "Use case: illustration-story. Asset type: separate transparent marine animal layer for an existing illustrated ocean portfolio. The first image (whale) and second image (turtle) are STYLE AND PALETTE references only: refined painted 2D natural-history illustration with delicate ink contours, subtle grouped brush texture, cool navy/slate forms and selective icy edge highlights. Do not reproduce those animals. Create exactly ONE adult oceanic manta ray, whole animal visible, in an elegant three-quarter view from slightly above and in front, gently banking as it glides. Broad recognizably triangular pectoral wings, one gracefully lifted and the other extended; dark navy/slate dorsal body; a narrow restrained pale underside/leading edge; two naturally curled cephalic fins at the front, tiny lateral eyes, and one long thin whip tail. Coherent manta anatomy, no human expression. Landscape 2:1 composition with at least 8 percent clear transparent margins around every wing tip and the entire tail. Main body substantial and readable against navy water. Matte painted detail and refined contour language must match the whale, not a photograph, glossy 3D, flat vector, plush mascot or children's cartoon. Palette strictly #06141f #0b2637 #1d4b66 #709bb4 with only selective muted ivory. True native TRANSPARENT ALPHA everywhere outside the manta, including open areas around fins and tail. Animal alone: no backdrop, water, wake, shadow, halo, glow, checkerboard, other animal, text, UI, frame or watermark.",
+      "targetedEdit": {
+        "prompt": "Use case: precise-object-edit. The attached manta illustration is the exact edit target. Change ONLY its framing: retain the identical manta drawing, anatomy, pose, paint detail, palette, contour edges and alpha. Uniformly scale the whole existing animal DOWN, centered on the same wide 2:1 transparent canvas, until every wing tip, both cephalic fins and the entire tail have at least 10 percent of canvas width/height in completely clear transparent margin. Do not redraw the animal, do not crop any part, do not change its proportions or expression, and do not add elements. Output the identical complete manta with generous actual transparent alpha padding, no background, shadow, haze, glow, checkerboard, text, UI or watermark.",
+        "reference": "Initial manta source, exact edit target; add transparent framing only."
+      },
+      "conversion": "cwebp -q 84 -m 6 -alpha_q 100 -metadata none -exact -resize 1200 0 SOURCE -o img/ocean/skills-manta.webp"
+    },
+    {
+      "name": "skills-sandscape",
+      "source": "/Users/dickymujantara/.codex/generated_images/01a17d45-7d9b-7e83-b1ec-ad40c5225453/exec-22768c54-423a-4b0e-a13f-fe465391eec7.png",
+      "transparent": false,
+      "delivery": "img/ocean/skills-sandscape.webp",
+      "references": [
+        {
+          "path": "img/ocean/about-depth.webp",
+          "role": "Atmospheric painting style and palette only; not composition."
+        },
+        {
+          "path": "img/ocean/whale.webp",
+          "role": "Marine painted rendering language only; no animal included."
+        }
+      ],
+      "prompt": "Use case: illustration-story. Asset type: dedicated wide 16:9 underwater background for the Skills section of an existing marine portfolio. The first image supplies ONLY atmospheric navy/slate painting style and palette, not composition; the second whale image supplies ONLY subtle painted marine rendering style, not an animal to include. Create a NEW scene recognizably different from a bright ocean-surface hero, plain midwater, coral reef cliff or abyssal canyon. A quiet submerged SAND-DUNE AND SEAMOUNT environment: broad, low, softly sweeping blue sand banks and fine current-rippled sand across the lower LEFT, a few low rounded dark basalt ledges at the far LEFT edge, filtered soft slate-blue light descending from upper LEFT, hazy deep open water beyond. Leave generous middle-water space on the left for a separately placed manta layer. The RIGHT 55 percent stays very quiet, dark near-black navy open water for later website typography. Elegant atmospheric depth with soft brushed transitions and a few selective crisp sand-ripple marks, refined naturalistic 2D digital painting matching the references, not photography, 3D, vector or chunky angular gouache. Cool navy, petrol and muted slate-blue only; no warm beige sand, gold, neon or brilliant white shafts. No visible water surface, high cliffs, coral reef, kelp forest, animals of any kind, manta rays, fish silhouettes, whales, people, bubbles, text, UI, frames or watermark. Full-bleed single landscape scene. The scene itself must contain no interface or words.",
+      "conversion": "cwebp -q 82 -m 6 -metadata none -resize 1536 0 SOURCE -o img/ocean/skills-sandscape.webp"
+    }
+  ]
+}

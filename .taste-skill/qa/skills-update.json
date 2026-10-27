@@ -1,0 +1,1446 @@
+{
+  "checks": [
+    {
+      "name": "chromium About skills fit at 1440x900",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "about": {
+          "left": 0,
+          "top": 96,
+          "right": 1440,
+          "bottom": 924,
+          "width": 1440,
+          "height": 828
+        },
+        "work": {
+          "left": 0,
+          "top": 1419,
+          "right": 1440,
+          "bottom": 2051.09375,
+          "width": 1440,
+          "height": 632.09375
+        },
+        "skills": {
+          "left": 86.40625,
+          "top": 341.703125,
+          "right": 502.40625,
+          "bottom": 854.015625,
+          "width": 416,
+          "height": 512.3125
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 86.40625,
+              "top": 341.703125,
+              "right": 502.40625,
+              "bottom": 411.703125,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 376.203125,
+              "right": 502.40625,
+              "bottom": 399.515625,
+              "width": 416,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 86.40625,
+              "top": 411.703125,
+              "right": 502.40625,
+              "bottom": 481.703125,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 446.203125,
+              "right": 502.40625,
+              "bottom": 469.515625,
+              "width": 416,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 86.40625,
+              "top": 481.703125,
+              "right": 502.40625,
+              "bottom": 551.703125,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 516.203125,
+              "right": 502.40625,
+              "bottom": 539.515625,
+              "width": 416,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 86.40625,
+              "top": 551.703125,
+              "right": 502.40625,
+              "bottom": 621.703125,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 586.203125,
+              "right": 502.40625,
+              "bottom": 609.515625,
+              "width": 416,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 86.40625,
+              "top": 621.703125,
+              "right": 502.40625,
+              "bottom": 691.703125,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 656.203125,
+              "right": 502.40625,
+              "bottom": 679.515625,
+              "width": 416,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 86.40625,
+              "top": 691.703125,
+              "right": 502.40625,
+              "bottom": 785.015625,
+              "width": 416,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 726.203125,
+              "right": 502.40625,
+              "bottom": 772.828125,
+              "width": 416,
+              "height": 46.625
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 86.40625,
+              "top": 785.015625,
+              "right": 502.40625,
+              "bottom": 854.015625,
+              "width": 416,
+              "height": 69
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 819.515625,
+              "right": 502.40625,
+              "bottom": 842.828125,
+              "width": 416,
+              "height": 23.3125
+            }
+          }
+        ],
+        "scrollStatic": false,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-chromium-1440.png"
+      }
+    },
+    {
+      "name": "chromium About skills fit at 768x1024",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 768,
+          "bottom": 1041,
+          "width": 768,
+          "height": 1025
+        },
+        "work": {
+          "left": 0,
+          "top": 1430,
+          "right": 768,
+          "bottom": 2158.078125,
+          "width": 768,
+          "height": 728.078125
+        },
+        "skills": {
+          "left": 42.234375,
+          "top": 373.359375,
+          "right": 383.984375,
+          "bottom": 908.984375,
+          "width": 341.75,
+          "height": 535.625
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 42.234375,
+              "top": 373.359375,
+              "right": 383.984375,
+              "bottom": 443.359375,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 407.859375,
+              "right": 383.984375,
+              "bottom": 431.171875,
+              "width": 341.75,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 42.234375,
+              "top": 443.359375,
+              "right": 383.984375,
+              "bottom": 536.671875,
+              "width": 341.75,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 477.859375,
+              "right": 383.984375,
+              "bottom": 524.484375,
+              "width": 341.75,
+              "height": 46.625
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 42.234375,
+              "top": 536.671875,
+              "right": 383.984375,
+              "bottom": 606.671875,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 571.171875,
+              "right": 383.984375,
+              "bottom": 594.484375,
+              "width": 341.75,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 42.234375,
+              "top": 606.671875,
+              "right": 383.984375,
+              "bottom": 676.671875,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 641.171875,
+              "right": 383.984375,
+              "bottom": 664.484375,
+              "width": 341.75,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 42.234375,
+              "top": 676.671875,
+              "right": 383.984375,
+              "bottom": 746.671875,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 711.171875,
+              "right": 383.984375,
+              "bottom": 734.484375,
+              "width": 341.75,
+              "height": 23.3125
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 42.234375,
+              "top": 746.671875,
+              "right": 383.984375,
+              "bottom": 839.984375,
+              "width": 341.75,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 781.171875,
+              "right": 383.984375,
+              "bottom": 827.796875,
+              "width": 341.75,
+              "height": 46.625
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 42.234375,
+              "top": 839.984375,
+              "right": 383.984375,
+              "bottom": 908.984375,
+              "width": 341.75,
+              "height": 69
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 874.484375,
+              "right": 383.984375,
+              "bottom": 897.796875,
+              "width": 341.75,
+              "height": 23.3125
+            }
+          }
+        ],
+        "scrollStatic": false,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-chromium-768.png"
+      }
+    },
+    {
+      "name": "chromium About skills fit at 390x844",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 390,
+          "bottom": 1021.125,
+          "width": 390,
+          "height": 1005.125
+        },
+        "work": {
+          "left": 0,
+          "top": 1021.125,
+          "right": 390,
+          "bottom": 2064.84375,
+          "width": 390,
+          "height": 1043.71875
+        },
+        "skills": {
+          "left": 20,
+          "top": 223.015625,
+          "right": 370,
+          "bottom": 712.328125,
+          "width": 350,
+          "height": 489.3125
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 20,
+              "top": 223.015625,
+              "right": 370,
+              "bottom": 286.828125,
+              "width": 350,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 254.421875,
+              "right": 370,
+              "bottom": 276.234375,
+              "width": 350,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 20,
+              "top": 286.828125,
+              "right": 370,
+              "bottom": 372.453125,
+              "width": 350,
+              "height": 85.625
+            },
+            "value": {
+              "left": 20,
+              "top": 318.234375,
+              "right": 370,
+              "bottom": 361.859375,
+              "width": 350,
+              "height": 43.625
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 20,
+              "top": 372.453125,
+              "right": 370,
+              "bottom": 436.265625,
+              "width": 350,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 403.859375,
+              "right": 370,
+              "bottom": 425.671875,
+              "width": 350,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 20,
+              "top": 436.265625,
+              "right": 370,
+              "bottom": 500.078125,
+              "width": 350,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 467.671875,
+              "right": 370,
+              "bottom": 489.484375,
+              "width": 350,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 20,
+              "top": 500.078125,
+              "right": 370,
+              "bottom": 563.890625,
+              "width": 350,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 531.484375,
+              "right": 370,
+              "bottom": 553.296875,
+              "width": 350,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 20,
+              "top": 563.890625,
+              "right": 370,
+              "bottom": 649.515625,
+              "width": 350,
+              "height": 85.625
+            },
+            "value": {
+              "left": 20,
+              "top": 595.296875,
+              "right": 370,
+              "bottom": 638.921875,
+              "width": 350,
+              "height": 43.625
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 20,
+              "top": 649.515625,
+              "right": 370,
+              "bottom": 712.328125,
+              "width": 350,
+              "height": 62.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 680.921875,
+              "right": 370,
+              "bottom": 702.734375,
+              "width": 350,
+              "height": 21.8125
+            }
+          }
+        ],
+        "scrollStatic": true,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-chromium-390.png"
+      }
+    },
+    {
+      "name": "chromium About skills fit at 320x568",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "about": {
+          "left": 0,
+          "top": 16.046875,
+          "right": 320,
+          "bottom": 1057.328125,
+          "width": 320,
+          "height": 1041.28125
+        },
+        "work": {
+          "left": 0,
+          "top": 1057.328125,
+          "right": 320,
+          "bottom": 2124.421875,
+          "width": 320,
+          "height": 1067.09375
+        },
+        "skills": {
+          "left": 20,
+          "top": 259.21875,
+          "right": 300,
+          "bottom": 748.53125,
+          "width": 280,
+          "height": 489.3125
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 20,
+              "top": 259.21875,
+              "right": 300,
+              "bottom": 323.03125,
+              "width": 280,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 290.625,
+              "right": 300,
+              "bottom": 312.4375,
+              "width": 280,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 20,
+              "top": 323.03125,
+              "right": 300,
+              "bottom": 408.65625,
+              "width": 280,
+              "height": 85.625
+            },
+            "value": {
+              "left": 20,
+              "top": 354.4375,
+              "right": 300,
+              "bottom": 398.0625,
+              "width": 280,
+              "height": 43.625
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 20,
+              "top": 408.65625,
+              "right": 300,
+              "bottom": 472.46875,
+              "width": 280,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 440.0625,
+              "right": 300,
+              "bottom": 461.875,
+              "width": 280,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 20,
+              "top": 472.46875,
+              "right": 300,
+              "bottom": 536.28125,
+              "width": 280,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 503.875,
+              "right": 300,
+              "bottom": 525.6875,
+              "width": 280,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 20,
+              "top": 536.28125,
+              "right": 300,
+              "bottom": 600.09375,
+              "width": 280,
+              "height": 63.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 567.6875,
+              "right": 300,
+              "bottom": 589.5,
+              "width": 280,
+              "height": 21.8125
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 20,
+              "top": 600.09375,
+              "right": 300,
+              "bottom": 685.71875,
+              "width": 280,
+              "height": 85.625
+            },
+            "value": {
+              "left": 20,
+              "top": 631.5,
+              "right": 300,
+              "bottom": 675.125,
+              "width": 280,
+              "height": 43.625
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 20,
+              "top": 685.71875,
+              "right": 300,
+              "bottom": 748.53125,
+              "width": 280,
+              "height": 62.8125
+            },
+            "value": {
+              "left": 20,
+              "top": 717.125,
+              "right": 300,
+              "bottom": 738.9375,
+              "width": 280,
+              "height": 21.8125
+            }
+          }
+        ],
+        "scrollStatic": true,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-chromium-320.png"
+      }
+    },
+    {
+      "name": "webkit About skills fit at 1440x900",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "about": {
+          "left": 0,
+          "top": 96,
+          "right": 1440,
+          "bottom": 924,
+          "width": 1440,
+          "height": 828
+        },
+        "work": {
+          "left": 0,
+          "top": 1419,
+          "right": 1440,
+          "bottom": 2049.75,
+          "width": 1440,
+          "height": 630.75
+        },
+        "skills": {
+          "left": 86.40625,
+          "top": 343.1875,
+          "right": 502.40625,
+          "bottom": 850.8125,
+          "width": 416,
+          "height": 507.625
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 86.40625,
+              "top": 343.1875,
+              "right": 502.40625,
+              "bottom": 412.5625,
+              "width": 416,
+              "height": 69.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 377.375,
+              "right": 502.40625,
+              "bottom": 400.375,
+              "width": 416,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 86.40625,
+              "top": 412.5625,
+              "right": 502.40625,
+              "bottom": 481.9375,
+              "width": 416,
+              "height": 69.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 446.75,
+              "right": 502.40625,
+              "bottom": 469.75,
+              "width": 416,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 86.40625,
+              "top": 481.9375,
+              "right": 502.40625,
+              "bottom": 551.3125,
+              "width": 416,
+              "height": 69.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 516.125,
+              "right": 502.40625,
+              "bottom": 539.125,
+              "width": 416,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 86.40625,
+              "top": 551.3125,
+              "right": 502.40625,
+              "bottom": 620.6875,
+              "width": 416,
+              "height": 69.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 585.5,
+              "right": 502.40625,
+              "bottom": 608.5,
+              "width": 416,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 86.40625,
+              "top": 620.6875,
+              "right": 502.40625,
+              "bottom": 690.0625,
+              "width": 416,
+              "height": 69.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 654.875,
+              "right": 502.40625,
+              "bottom": 677.875,
+              "width": 416,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 86.40625,
+              "top": 690.0625,
+              "right": 502.40625,
+              "bottom": 782.4375,
+              "width": 416,
+              "height": 92.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 724.25,
+              "right": 502.40625,
+              "bottom": 770.25,
+              "width": 416,
+              "height": 46
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 86.40625,
+              "top": 782.4375,
+              "right": 502.40625,
+              "bottom": 850.8125,
+              "width": 416,
+              "height": 68.375
+            },
+            "value": {
+              "left": 86.40625,
+              "top": 816.625,
+              "right": 502.40625,
+              "bottom": 839.625,
+              "width": 416,
+              "height": 23
+            }
+          }
+        ],
+        "scrollStatic": false,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-webkit-1440.png"
+      }
+    },
+    {
+      "name": "webkit About skills fit at 768x1024",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 768,
+          "bottom": 1041,
+          "width": 768,
+          "height": 1025
+        },
+        "work": {
+          "left": 0,
+          "top": 1430,
+          "right": 768,
+          "bottom": 2155.734375,
+          "width": 768,
+          "height": 725.734375
+        },
+        "skills": {
+          "left": 42.234375,
+          "top": 373.6875,
+          "right": 383.984375,
+          "bottom": 904.3125,
+          "width": 341.75,
+          "height": 530.625
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 42.234375,
+              "top": 373.6875,
+              "right": 383.984375,
+              "bottom": 443.0625,
+              "width": 341.75,
+              "height": 69.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 407.875,
+              "right": 383.984375,
+              "bottom": 430.875,
+              "width": 341.75,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 42.234375,
+              "top": 443.0625,
+              "right": 383.984375,
+              "bottom": 535.4375,
+              "width": 341.75,
+              "height": 92.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 477.25,
+              "right": 383.984375,
+              "bottom": 523.25,
+              "width": 341.75,
+              "height": 46
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 42.234375,
+              "top": 535.4375,
+              "right": 383.984375,
+              "bottom": 604.8125,
+              "width": 341.75,
+              "height": 69.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 569.625,
+              "right": 383.984375,
+              "bottom": 592.625,
+              "width": 341.75,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 42.234375,
+              "top": 604.8125,
+              "right": 383.984375,
+              "bottom": 674.1875,
+              "width": 341.75,
+              "height": 69.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 639,
+              "right": 383.984375,
+              "bottom": 662,
+              "width": 341.75,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 42.234375,
+              "top": 674.1875,
+              "right": 383.984375,
+              "bottom": 743.5625,
+              "width": 341.75,
+              "height": 69.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 708.375,
+              "right": 383.984375,
+              "bottom": 731.375,
+              "width": 341.75,
+              "height": 23
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 42.234375,
+              "top": 743.5625,
+              "right": 383.984375,
+              "bottom": 835.9375,
+              "width": 341.75,
+              "height": 92.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 777.75,
+              "right": 383.984375,
+              "bottom": 823.75,
+              "width": 341.75,
+              "height": 46
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 42.234375,
+              "top": 835.9375,
+              "right": 383.984375,
+              "bottom": 904.3125,
+              "width": 341.75,
+              "height": 68.375
+            },
+            "value": {
+              "left": 42.234375,
+              "top": 870.125,
+              "right": 383.984375,
+              "bottom": 893.125,
+              "width": 341.75,
+              "height": 23
+            }
+          }
+        ],
+        "scrollStatic": false,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-webkit-768.png"
+      }
+    },
+    {
+      "name": "webkit About skills fit at 390x844",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 390,
+          "bottom": 1005.90625,
+          "width": 390,
+          "height": 989.90625
+        },
+        "work": {
+          "left": 0,
+          "top": 1005.90625,
+          "right": 390,
+          "bottom": 2045.625,
+          "width": 390,
+          "height": 1039.71875
+        },
+        "skills": {
+          "left": 20,
+          "top": 220.796875,
+          "right": 370,
+          "bottom": 697.109375,
+          "width": 350,
+          "height": 476.3125
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 20,
+              "top": 220.796875,
+              "right": 370,
+              "bottom": 282.984375,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 251.390625,
+              "right": 370,
+              "bottom": 272.390625,
+              "width": 350,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 20,
+              "top": 282.984375,
+              "right": 370,
+              "bottom": 366.171875,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 313.578125,
+              "right": 370,
+              "bottom": 355.578125,
+              "width": 350,
+              "height": 42
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 20,
+              "top": 366.171875,
+              "right": 370,
+              "bottom": 428.359375,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 396.765625,
+              "right": 370,
+              "bottom": 417.765625,
+              "width": 350,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 20,
+              "top": 428.359375,
+              "right": 370,
+              "bottom": 490.546875,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 458.953125,
+              "right": 370,
+              "bottom": 479.953125,
+              "width": 350,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 20,
+              "top": 490.546875,
+              "right": 370,
+              "bottom": 552.734375,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 521.140625,
+              "right": 370,
+              "bottom": 542.140625,
+              "width": 350,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 20,
+              "top": 552.734375,
+              "right": 370,
+              "bottom": 635.921875,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 583.328125,
+              "right": 370,
+              "bottom": 625.328125,
+              "width": 350,
+              "height": 42
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 20,
+              "top": 635.921875,
+              "right": 370,
+              "bottom": 697.109375,
+              "width": 350,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 666.515625,
+              "right": 370,
+              "bottom": 687.515625,
+              "width": 350,
+              "height": 21
+            }
+          }
+        ],
+        "scrollStatic": true,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-webkit-390.png"
+      }
+    },
+    {
+      "name": "webkit About skills fit at 320x568",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "about": {
+          "left": 0,
+          "top": 15.78125,
+          "right": 320,
+          "bottom": 1064.6875,
+          "width": 320,
+          "height": 1048.90625
+        },
+        "work": {
+          "left": 0,
+          "top": 1064.6875,
+          "right": 320,
+          "bottom": 2127.40625,
+          "width": 320,
+          "height": 1062.71875
+        },
+        "skills": {
+          "left": 20,
+          "top": 279.578125,
+          "right": 300,
+          "bottom": 755.890625,
+          "width": 280,
+          "height": 476.3125
+        },
+        "rows": [
+          {
+            "heading": "Languages",
+            "text": "JavaScript · TypeScript",
+            "row": {
+              "left": 20,
+              "top": 279.578125,
+              "right": 300,
+              "bottom": 341.765625,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 310.171875,
+              "right": 300,
+              "bottom": 331.171875,
+              "width": 280,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Engineering",
+            "text": "React · Next.js · Java · Spring Boot · ElysiaJS · Tailwind CSS",
+            "row": {
+              "left": 20,
+              "top": 341.765625,
+              "right": 300,
+              "bottom": 424.953125,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 372.359375,
+              "right": 300,
+              "bottom": 414.359375,
+              "width": 280,
+              "height": 42
+            }
+          },
+          {
+            "heading": "Mobile",
+            "text": "React Native · Flutter",
+            "row": {
+              "left": 20,
+              "top": 424.953125,
+              "right": 300,
+              "bottom": 487.140625,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 455.546875,
+              "right": 300,
+              "bottom": 476.546875,
+              "width": 280,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Machine learning & data",
+            "text": "Python · Flask · Process mining",
+            "row": {
+              "left": 20,
+              "top": 487.140625,
+              "right": 300,
+              "bottom": 549.328125,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 517.734375,
+              "right": 300,
+              "bottom": 538.734375,
+              "width": 280,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Databases & caching",
+            "text": "PostgreSQL · MySQL · MongoDB · Redis",
+            "row": {
+              "left": 20,
+              "top": 549.328125,
+              "right": 300,
+              "bottom": 611.515625,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 579.921875,
+              "right": 300,
+              "bottom": 600.921875,
+              "width": 280,
+              "height": 21
+            }
+          },
+          {
+            "heading": "Infrastructure & delivery",
+            "text": "Docker · Git · GitHub Actions · Nginx · Apache2 · Linux (Ubuntu)",
+            "row": {
+              "left": 20,
+              "top": 611.515625,
+              "right": 300,
+              "bottom": 694.703125,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 642.109375,
+              "right": 300,
+              "bottom": 684.109375,
+              "width": 280,
+              "height": 42
+            }
+          },
+          {
+            "heading": "Integrations",
+            "text": "Stripe · PayPal · Traccar",
+            "row": {
+              "left": 20,
+              "top": 694.703125,
+              "right": 300,
+              "bottom": 755.890625,
+              "width": 280,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "top": 725.296875,
+              "right": 300,
+              "bottom": 746.296875,
+              "width": 280,
+              "height": 21
+            }
+          }
+        ],
+        "scrollStatic": true,
+        "openingHidden": true,
+        "screenshot": ".taste-skill/previews/skills-update-webkit-320.png"
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Focused content and About-section layout checks in desktop Chromium and emulated touch WebKit. No physical-device or full-site motion audit."
+}

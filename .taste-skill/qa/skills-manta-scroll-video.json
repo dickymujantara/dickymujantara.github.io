@@ -1,0 +1,68 @@
+{
+  "engine": "Chromium",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "output": ".taste-skill/previews/skills-manta-scroll.mp4",
+  "frames": 139,
+  "encodedFPS": 15,
+  "method": "Actual browser JPEG captures of native wheel scrolling the final Skills chapter forward and back. The manta and both outer detail-frame wrappers respond to scroll while the background and heading remain fixed. Existing inner detail-window ambience continues independently. Initial setup positions the chapter at phase0; all recorded scroll movement uses native wheel events. Encoded FPS is an artifact setting, not measured rendering performance.",
+  "geometry": {
+    "chapterTop": 2943,
+    "header": 73,
+    "frameHeight": 827,
+    "chapterHeight": 1322,
+    "travel": 495
+  },
+  "initial": {
+    "scrollY": 2870,
+    "progress": 0,
+    "manta": "matrix(0.959415, -0.0335035, 0.0335035, 0.959415, -30, 34)",
+    "detail": "matrix(0.99863, -0.052336, 0.052336, 0.99863, -8, 22)",
+    "mosaic": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 10, -12)",
+    "water": "none",
+    "heading": "none"
+  },
+  "forward": {
+    "scrollY": 3365,
+    "progress": 1,
+    "manta": "matrix(1.04436, 0.03647, -0.03647, 1.04436, 24, -36)",
+    "detail": "matrix(0.999657, 0.0261769, -0.0261769, 0.999657, 10, -22)",
+    "mosaic": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, -8, 0)",
+    "water": "none",
+    "heading": "none"
+  },
+  "final": {
+    "scrollY": 2870,
+    "progress": 0,
+    "manta": "matrix(0.959415, -0.0335035, 0.0335035, 0.959415, -30, 34)",
+    "detail": "matrix(0.99863, -0.052336, 0.052336, 0.99863, -8, 22)",
+    "mosaic": "matrix(0.99863, 0.052336, -0.052336, 0.99863, 10, -12)",
+    "water": "none",
+    "heading": "none"
+  },
+  "nativeWheel": {
+    "forwardPixels": 495,
+    "reversePixels": 495
+  },
+  "errors": [],
+  "fixedLayers": {
+    "water": true,
+    "heading": true
+  },
+  "reverseRestoredForegroundTransforms": {
+    "manta": true,
+    "detail": true,
+    "mosaic": true
+  },
+  "encoder": "H.264 MP4: 139 browser frames, 1440x900, encoded at 15 fps",
+  "bytes": 3620533,
+  "webkitPlayback": {
+    "width": 1440,
+    "height": 900,
+    "duration": 9.266666666666667,
+    "readyState": 4,
+    "error": null
+  }
+}

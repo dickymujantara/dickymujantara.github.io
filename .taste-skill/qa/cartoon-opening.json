@@ -1,0 +1,616 @@
+{
+  "checks": [
+    {
+      "name": "chromium1440: cartoon otter and anchored Seal caption",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'matrix(0.985316, -0.0236504, 0.0236504, 0.985316, -15.4697, 15.0944)'\n- 'matrix(0.979664, -0.0256534, 0.0256534, 0.979664, -20, 18)'\n\n    at run (/private/tmp/portfolio-browser-qa/cartoon-otter-opening.cjs:6:5381)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:453:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async /private/tmp/portfolio-browser-qa/cartoon-otter-opening.cjs:7:733"
+    },
+    {
+      "name": "webkit390: cartoon otter and anchored Seal caption",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 844,
+        "phase": "waiting",
+        "scrollY": 0,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 328.140625,
+              "right": 361.765625,
+              "top": 364.3125,
+              "bottom": 380.3125,
+              "width": 33.625,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 272.734375,
+              "right": 347.109375,
+              "top": 642.328125,
+              "bottom": 658.328125,
+              "width": 74.375,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 253.625,
+              "right": 319.8125,
+              "top": 185.671875,
+              "bottom": 201.671875,
+              "width": 66.1875,
+              "height": 16
+            },
+            "visible": true
+          }
+        ],
+        "sealCaption": {
+          "anchored": true,
+          "box": {
+            "left": 328.140625,
+            "right": 361.765625,
+            "top": 364.3125,
+            "bottom": 380.3125,
+            "width": 33.625,
+            "height": 16
+          },
+          "wrapper": {
+            "left": 288.59375,
+            "right": 401.6875,
+            "top": 295.390625,
+            "bottom": 370.78125,
+            "width": 113.09375,
+            "height": 75.390625
+          },
+          "visibleBottom": 358.49569618701935,
+          "gap": 5.816803812980652,
+          "centerError": 0.1875
+        },
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "box": {
+            "left": 22.54293441772461,
+            "right": 389.4996910095215,
+            "top": 462.6875305175781,
+            "bottom": 646.7115478515625,
+            "width": 366.9567565917969,
+            "height": 184.02401733398438
+          },
+          "transform": "matrix(0.999998, -0.001984, 0.001984, 0.999998, -0.6821, -1.1368)"
+        },
+        "images": [
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp"
+          }
+        ],
+        "controls": [
+          {
+            "left": 12,
+            "right": 56,
+            "top": 788,
+            "bottom": 832,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 64,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "copy": [
+          {
+            "left": 19.5,
+            "right": 370.5,
+            "top": 211,
+            "bottom": 255,
+            "width": 351,
+            "height": 44
+          },
+          {
+            "left": 129.734375,
+            "right": 260.265625,
+            "top": 714.203125,
+            "bottom": 731.203125,
+            "width": 130.53125,
+            "height": 17
+          },
+          {
+            "left": 183,
+            "right": 207,
+            "top": 740,
+            "bottom": 764,
+            "width": 24,
+            "height": 24
+          }
+        ],
+        "screenshot": ".taste-skill/previews/cartoon-opening-webkit-390.png",
+        "entry": {
+          "completed": true,
+          "heroPoseUnchanged": true,
+          "scrollY": 0
+        },
+        "ambient": {
+          "changed": true,
+          "pauseFreezes": true
+        }
+      }
+    },
+    {
+      "name": "chromium768: cartoon otter and anchored Seal caption",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "height": 1024,
+        "phase": "waiting",
+        "scrollY": 0,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 693.578125,
+              "right": 727.203125,
+              "top": 303.953125,
+              "bottom": 320.078125,
+              "width": 33.625,
+              "height": 16.125
+            },
+            "visible": true
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 601.46875,
+              "right": 675.84375,
+              "top": 803.078125,
+              "bottom": 819.203125,
+              "width": 74.375,
+              "height": 16.125
+            },
+            "visible": true
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 594.296875,
+              "right": 660.484375,
+              "top": 40.953125,
+              "bottom": 57.078125,
+              "width": 66.1875,
+              "height": 16.125
+            },
+            "visible": true
+          }
+        ],
+        "sealCaption": {
+          "anchored": true,
+          "box": {
+            "left": 693.578125,
+            "right": 727.203125,
+            "top": 303.953125,
+            "bottom": 320.078125,
+            "width": 33.625,
+            "height": 16.125
+          },
+          "wrapper": {
+            "left": 645.125,
+            "right": 775.671875,
+            "top": 225.265625,
+            "bottom": 312.296875,
+            "width": 130.546875,
+            "height": 87.03125
+          },
+          "visibleBottom": 298.1506945490837,
+          "gap": 5.80243045091629,
+          "centerError": 0.0078125
+        },
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "box": {
+            "left": 398.5152893066406,
+            "right": 759.8251953125,
+            "top": 387.6165466308594,
+            "bottom": 568.7999267578125,
+            "width": 361.3099060058594,
+            "height": 181.18338012695312
+          },
+          "transform": "matrix(0.999998, -0.00198095, 0.00198095, 0.999998, -0.6813, -1.1355)"
+        },
+        "images": [
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp"
+          }
+        ],
+        "controls": [
+          {
+            "left": 20,
+            "right": 64,
+            "top": 964,
+            "bottom": 1008,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 72,
+            "right": 116,
+            "top": 964,
+            "bottom": 1008,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "copy": [
+          {
+            "left": 65.265625,
+            "right": 433.890625,
+            "top": 399.359375,
+            "bottom": 456.984375,
+            "width": 368.625,
+            "height": 57.625
+          },
+          {
+            "left": 318.765625,
+            "right": 449.234375,
+            "top": 941.734375,
+            "bottom": 959.203125,
+            "width": 130.46875,
+            "height": 17.46875
+          },
+          {
+            "left": 372,
+            "right": 396,
+            "top": 968,
+            "bottom": 992,
+            "width": 24,
+            "height": 24
+          }
+        ],
+        "screenshot": ".taste-skill/previews/cartoon-opening-chromium-768.png"
+      }
+    },
+    {
+      "name": "webkit320: cartoon otter and anchored Seal caption",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "height": 568,
+        "phase": "waiting",
+        "scrollY": 0,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 266.1875,
+              "right": 299.8125,
+              "top": 256.34375,
+              "bottom": 272.34375,
+              "width": 33.625,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 25.59375,
+              "right": 99.96875,
+              "top": 295.359375,
+              "bottom": 311.359375,
+              "width": 74.375,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 196.21875,
+              "right": 262.40625,
+              "top": 124.953125,
+              "bottom": 140.953125,
+              "width": 66.1875,
+              "height": 16
+            },
+            "visible": true
+          }
+        ],
+        "sealCaption": {
+          "anchored": true,
+          "box": {
+            "left": 266.1875,
+            "right": 299.8125,
+            "top": 256.34375,
+            "bottom": 272.34375,
+            "width": 33.625,
+            "height": 16
+          },
+          "wrapper": {
+            "left": 236.796875,
+            "right": 329.59375,
+            "top": 198.796875,
+            "bottom": 260.65625,
+            "width": 92.796875,
+            "height": 61.859375
+          },
+          "visibleBottom": 250.53283309936523,
+          "gap": 5.810916900634766,
+          "centerError": 0.1953125
+        },
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "box": {
+            "left": 18.369667053222656,
+            "right": 319.4654312133789,
+            "top": 310.95086669921875,
+            "bottom": 461.9402160644531,
+            "width": 301.09576416015625,
+            "height": 150.98934936523438
+          },
+          "transform": "matrix(0.999998, -0.001991, 0.001991, 0.999998, -0.6844, -1.1406)"
+        },
+        "images": [
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp"
+          }
+        ],
+        "controls": [
+          {
+            "left": 12,
+            "right": 56,
+            "top": 512,
+            "bottom": 556,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 64,
+            "right": 108,
+            "top": 512,
+            "bottom": 556,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "copy": [
+          {
+            "left": 16,
+            "right": 304,
+            "top": 142,
+            "bottom": 185,
+            "width": 288,
+            "height": 43
+          },
+          {
+            "left": 94.734375,
+            "right": 225.265625,
+            "top": 454.203125,
+            "bottom": 471.203125,
+            "width": 130.53125,
+            "height": 17
+          },
+          {
+            "left": 148,
+            "right": 172,
+            "top": 480,
+            "bottom": 504,
+            "width": 24,
+            "height": 24
+          }
+        ],
+        "screenshot": ".taste-skill/previews/cartoon-opening-webkit-320.png"
+      }
+    },
+    {
+      "name": "webkit640: cartoon otter and anchored Seal caption",
+      "passed": true,
+      "details": {
+        "width": 640,
+        "height": 360,
+        "phase": "waiting",
+        "scrollY": 0,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 581.390625,
+              "right": 615.015625,
+              "top": 127.734375,
+              "bottom": 143.734375,
+              "width": 33.625,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 488.828125,
+              "right": 563.203125,
+              "top": 272,
+              "bottom": 288,
+              "width": 74.375,
+              "height": 16
+            },
+            "visible": true
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 484.21875,
+              "right": 550.40625,
+              "top": 14.390625,
+              "bottom": 30.390625,
+              "width": 66.1875,
+              "height": 16
+            },
+            "visible": true
+          }
+        ],
+        "sealCaption": {
+          "anchored": true,
+          "box": {
+            "left": 581.390625,
+            "right": 615.015625,
+            "top": 127.734375,
+            "bottom": 143.734375,
+            "width": 33.625,
+            "height": 16
+          },
+          "wrapper": {
+            "left": 550.390625,
+            "right": 646.390625,
+            "top": 68.390625,
+            "bottom": 132.390625,
+            "width": 96,
+            "height": 64
+          },
+          "visibleBottom": 121.9252992272377,
+          "gap": 5.809075772762299,
+          "centerError": 0.1875
+        },
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512,
+          "box": {
+            "left": 351.19482421875,
+            "right": 626.655517578125,
+            "top": 128.18023681640625,
+            "bottom": 266.3212585449219,
+            "width": 275.460693359375,
+            "height": 138.14102172851562
+          },
+          "transform": "matrix(0.999998, -0.00199, 0.00199, 0.999998, -0.6838, -1.1397)"
+        },
+        "images": [
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seal-rock.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/seabird.webp"
+          },
+          {
+            "loaded": true,
+            "src": "http://127.0.0.1:4173/img/ocean/otter-cartoon.webp"
+          }
+        ],
+        "controls": [
+          {
+            "left": 20,
+            "right": 64,
+            "top": 300,
+            "bottom": 344,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 72,
+            "right": 116,
+            "top": 300,
+            "bottom": 344,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "copy": [
+          {
+            "left": 54.390625,
+            "right": 361.578125,
+            "top": 126,
+            "bottom": 174,
+            "width": 307.1875,
+            "height": 48
+          },
+          {
+            "left": 262.28125,
+            "right": 377.703125,
+            "top": 307.421875,
+            "bottom": 322.421875,
+            "width": 115.421875,
+            "height": 15
+          },
+          {
+            "left": 310,
+            "right": 330,
+            "top": 325.609375,
+            "bottom": 345.609375,
+            "width": 20,
+            "height": 20
+          }
+        ],
+        "screenshot": ".taste-skill/previews/cartoon-opening-webkit-640.png"
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "Five opening viewports for the cartoon otter asset and wrapper-anchored Seal caption. Entry once per engine. Prior unchanged control/audio/transition suites are not repeated. Actual browser rendering; synthetic WebKit swipe, no physical iOS claim."
+}

@@ -1,0 +1,2431 @@
+{
+  "checks": [
+    {
+      "name": "chromium: skill grid and reachability 1440x900",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "scrollWidth": 1440,
+        "about": {
+          "left": 0,
+          "top": 96,
+          "right": 1440,
+          "bottom": 923,
+          "width": 1440,
+          "height": 827
+        },
+        "intro": {
+          "left": 86.40625,
+          "top": 96,
+          "right": 1353.59375,
+          "bottom": 476,
+          "width": 1267.1875,
+          "height": 380
+        },
+        "band": {
+          "left": 0,
+          "top": 476,
+          "right": 1440,
+          "bottom": 922,
+          "width": 1440,
+          "height": 446
+        },
+        "list": {
+          "left": 86.40625,
+          "top": 508,
+          "right": 1353.59375,
+          "bottom": 758.234375,
+          "width": 1267.1875,
+          "height": 250.234375
+        },
+        "work": {
+          "left": 0,
+          "top": 1418,
+          "right": 1440,
+          "bottom": 2050.09375,
+          "width": 1440,
+          "height": 632.09375
+        },
+        "static": false,
+        "columns": "390.391px 390.391px 390.406px",
+        "groups": [
+          {
+            "heading": "Engineering",
+            "box": {
+              "left": 86.40625,
+              "top": 508,
+              "right": 915.1875,
+              "bottom": 570.078125,
+              "width": 828.78125,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "React",
+                "box": {
+                  "left": 86.40625,
+                  "top": 545.265625,
+                  "right": 125.75,
+                  "bottom": 570.078125,
+                  "width": 39.34375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Next.js",
+                "box": {
+                  "left": 144.140625,
+                  "top": 545.265625,
+                  "right": 191.34375,
+                  "bottom": 570.078125,
+                  "width": 47.203125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Java",
+                "box": {
+                  "left": 209.734375,
+                  "top": 545.265625,
+                  "right": 241.046875,
+                  "bottom": 570.078125,
+                  "width": 31.3125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Spring Boot",
+                "box": {
+                  "left": 259.4375,
+                  "top": 545.265625,
+                  "right": 340.328125,
+                  "bottom": 570.078125,
+                  "width": 80.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "ElysiaJS",
+                "box": {
+                  "left": 358.71875,
+                  "top": 545.265625,
+                  "right": 415.09375,
+                  "bottom": 570.078125,
+                  "width": 56.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Tailwind CSS",
+                "box": {
+                  "left": 433.484375,
+                  "top": 545.265625,
+                  "right": 522,
+                  "bottom": 570.078125,
+                  "width": 88.515625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Languages",
+            "box": {
+              "left": 963.1875,
+              "top": 508,
+              "right": 1353.59375,
+              "bottom": 570.078125,
+              "width": 390.40625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "JavaScript",
+                "box": {
+                  "left": 963.1875,
+                  "top": 545.265625,
+                  "right": 1035.15625,
+                  "bottom": 570.078125,
+                  "width": 71.96875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "TypeScript",
+                "box": {
+                  "left": 1053.546875,
+                  "top": 545.265625,
+                  "right": 1127.78125,
+                  "bottom": 570.078125,
+                  "width": 74.234375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Mobile",
+            "box": {
+              "left": 86.40625,
+              "top": 602.078125,
+              "right": 476.796875,
+              "bottom": 664.15625,
+              "width": 390.390625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "React Native",
+                "box": {
+                  "left": 86.40625,
+                  "top": 639.34375,
+                  "right": 173.40625,
+                  "bottom": 664.15625,
+                  "width": 87,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flutter",
+                "box": {
+                  "left": 191.796875,
+                  "top": 639.34375,
+                  "right": 236.46875,
+                  "bottom": 664.15625,
+                  "width": 44.671875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Data & ML",
+            "box": {
+              "left": 524.796875,
+              "top": 602.078125,
+              "right": 915.1875,
+              "bottom": 664.15625,
+              "width": 390.390625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Python",
+                "box": {
+                  "left": 524.796875,
+                  "top": 639.34375,
+                  "right": 573.375,
+                  "bottom": 664.15625,
+                  "width": 48.578125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flask",
+                "box": {
+                  "left": 591.765625,
+                  "top": 639.34375,
+                  "right": 627.328125,
+                  "bottom": 664.15625,
+                  "width": 35.5625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Process mining",
+                "box": {
+                  "left": 645.71875,
+                  "top": 639.34375,
+                  "right": 750.421875,
+                  "bottom": 664.15625,
+                  "width": 104.703125,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Databases",
+            "box": {
+              "left": 963.1875,
+              "top": 602.078125,
+              "right": 1353.59375,
+              "bottom": 664.15625,
+              "width": 390.40625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "PostgreSQL",
+                "box": {
+                  "left": 963.1875,
+                  "top": 639.34375,
+                  "right": 1045.1875,
+                  "bottom": 664.15625,
+                  "width": 82,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MySQL",
+                "box": {
+                  "left": 1063.578125,
+                  "top": 639.34375,
+                  "right": 1113.4375,
+                  "bottom": 664.15625,
+                  "width": 49.859375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MongoDB",
+                "box": {
+                  "left": 1131.828125,
+                  "top": 639.34375,
+                  "right": 1199.84375,
+                  "bottom": 664.15625,
+                  "width": 68.015625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Redis",
+                "box": {
+                  "left": 1218.234375,
+                  "top": 639.34375,
+                  "right": 1256.078125,
+                  "bottom": 664.15625,
+                  "width": 37.84375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Tools & infrastructure",
+            "box": {
+              "left": 86.40625,
+              "top": 696.15625,
+              "right": 915.1875,
+              "bottom": 758.234375,
+              "width": 828.78125,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Docker",
+                "box": {
+                  "left": 86.40625,
+                  "top": 733.421875,
+                  "right": 135.34375,
+                  "bottom": 758.234375,
+                  "width": 48.9375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Git",
+                "box": {
+                  "left": 153.734375,
+                  "top": 733.421875,
+                  "right": 173.4375,
+                  "bottom": 758.234375,
+                  "width": 19.703125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "GitHub Actions",
+                "box": {
+                  "left": 191.828125,
+                  "top": 733.421875,
+                  "right": 295.296875,
+                  "bottom": 758.234375,
+                  "width": 103.46875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Nginx",
+                "box": {
+                  "left": 313.6875,
+                  "top": 733.421875,
+                  "right": 353.21875,
+                  "bottom": 758.234375,
+                  "width": 39.53125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Apache2",
+                "box": {
+                  "left": 371.609375,
+                  "top": 733.421875,
+                  "right": 432.5,
+                  "bottom": 758.234375,
+                  "width": 60.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Linux (Ubuntu)",
+                "box": {
+                  "left": 450.890625,
+                  "top": 733.421875,
+                  "right": 553.109375,
+                  "bottom": 758.234375,
+                  "width": 102.21875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "left": 963.1875,
+              "top": 696.15625,
+              "right": 1353.59375,
+              "bottom": 758.234375,
+              "width": 390.40625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Stripe",
+                "box": {
+                  "left": 963.1875,
+                  "top": 733.421875,
+                  "right": 1004.03125,
+                  "bottom": 758.234375,
+                  "width": 40.84375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "PayPal",
+                "box": {
+                  "left": 1022.421875,
+                  "top": 733.421875,
+                  "right": 1067.796875,
+                  "bottom": 758.234375,
+                  "width": 45.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Traccar",
+                "box": {
+                  "left": 1086.1875,
+                  "top": 733.421875,
+                  "right": 1137.84375,
+                  "bottom": 758.234375,
+                  "width": 51.65625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 450.090576171875,
+              "top": 150.9452667236328,
+              "right": 890.6613159179688,
+              "bottom": 395.2406921386719,
+              "width": 440.57073974609375,
+              "height": 244.29542541503906
+            },
+            "transform": "matrix(0.999737, -0.0229229, 0.0229229, 0.999737, -30.0235, -10.3206)"
+          },
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 792.48291015625,
+              "top": 134.4447784423828,
+              "right": 1106.137451171875,
+              "bottom": 291.48956298828125,
+              "width": 313.654541015625,
+              "height": 157.04478454589844
+            },
+            "transform": "matrix(1, 0.00095644, -0.00095644, 1, 1.2525, 0.4305)"
+          },
+          {
+            "type": "orca",
+            "box": {
+              "left": 574.1358642578125,
+              "top": 104.81000518798828,
+              "right": 1333.21240234375,
+              "bottom": 501.01953887939453,
+              "width": 759.0765380859375,
+              "height": 396.20953369140625
+            },
+            "transform": "matrix(0.999987, 0.0051836, -0.0051836, 0.999987, 7.426, 3.0249)"
+          }
+        ],
+        "openingHidden": true,
+        "reachableItems": 26,
+        "nativeWheel": {
+          "before": 1546,
+          "after": 1726
+        },
+        "screenshot": ".taste-skill/previews/skills-layout-chromium-1440.png",
+        "bandScreenshot": ".taste-skill/previews/skills-layout-band-chromium-1440.png"
+      }
+    },
+    {
+      "name": "chromium: skill grid and reachability 768x1024",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 768,
+          "bottom": 1040,
+          "width": 768,
+          "height": 1024
+        },
+        "intro": {
+          "left": 42.234375,
+          "top": 16,
+          "right": 725.75,
+          "bottom": 396,
+          "width": 683.515625,
+          "height": 380
+        },
+        "band": {
+          "left": 0,
+          "top": 396,
+          "right": 768,
+          "bottom": 1039,
+          "width": 768,
+          "height": 643
+        },
+        "list": {
+          "left": 42.234375,
+          "top": 428,
+          "right": 725.75,
+          "bottom": 847.140625,
+          "width": 683.515625,
+          "height": 419.140625
+        },
+        "work": {
+          "left": 0,
+          "top": 1429,
+          "right": 768,
+          "bottom": 2157.078125,
+          "width": 768,
+          "height": 728.078125
+        },
+        "static": false,
+        "columns": "325.75px 325.766px",
+        "groups": [
+          {
+            "heading": "Engineering",
+            "box": {
+              "left": 42.234375,
+              "top": 428,
+              "right": 725.75,
+              "bottom": 490.078125,
+              "width": 683.515625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "React",
+                "box": {
+                  "left": 42.234375,
+                  "top": 465.265625,
+                  "right": 81.578125,
+                  "bottom": 490.078125,
+                  "width": 39.34375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Next.js",
+                "box": {
+                  "left": 99.96875,
+                  "top": 465.265625,
+                  "right": 147.171875,
+                  "bottom": 490.078125,
+                  "width": 47.203125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Java",
+                "box": {
+                  "left": 165.5625,
+                  "top": 465.265625,
+                  "right": 196.875,
+                  "bottom": 490.078125,
+                  "width": 31.3125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Spring Boot",
+                "box": {
+                  "left": 215.265625,
+                  "top": 465.265625,
+                  "right": 296.15625,
+                  "bottom": 490.078125,
+                  "width": 80.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "ElysiaJS",
+                "box": {
+                  "left": 314.546875,
+                  "top": 465.265625,
+                  "right": 370.921875,
+                  "bottom": 490.078125,
+                  "width": 56.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Tailwind CSS",
+                "box": {
+                  "left": 389.3125,
+                  "top": 465.265625,
+                  "right": 477.828125,
+                  "bottom": 490.078125,
+                  "width": 88.515625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Languages",
+            "box": {
+              "left": 42.234375,
+              "top": 517.265625,
+              "right": 367.984375,
+              "bottom": 579.34375,
+              "width": 325.75,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "JavaScript",
+                "box": {
+                  "left": 42.234375,
+                  "top": 554.53125,
+                  "right": 114.203125,
+                  "bottom": 579.34375,
+                  "width": 71.96875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "TypeScript",
+                "box": {
+                  "left": 132.59375,
+                  "top": 554.53125,
+                  "right": 206.828125,
+                  "bottom": 579.34375,
+                  "width": 74.234375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Mobile",
+            "box": {
+              "left": 399.984375,
+              "top": 517.265625,
+              "right": 725.75,
+              "bottom": 579.34375,
+              "width": 325.765625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "React Native",
+                "box": {
+                  "left": 399.984375,
+                  "top": 554.53125,
+                  "right": 486.984375,
+                  "bottom": 579.34375,
+                  "width": 87,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flutter",
+                "box": {
+                  "left": 505.375,
+                  "top": 554.53125,
+                  "right": 550.046875,
+                  "bottom": 579.34375,
+                  "width": 44.671875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Data & ML",
+            "box": {
+              "left": 42.234375,
+              "top": 606.53125,
+              "right": 367.984375,
+              "bottom": 668.609375,
+              "width": 325.75,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Python",
+                "box": {
+                  "left": 42.234375,
+                  "top": 643.796875,
+                  "right": 90.8125,
+                  "bottom": 668.609375,
+                  "width": 48.578125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flask",
+                "box": {
+                  "left": 109.203125,
+                  "top": 643.796875,
+                  "right": 144.765625,
+                  "bottom": 668.609375,
+                  "width": 35.5625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Process mining",
+                "box": {
+                  "left": 163.15625,
+                  "top": 643.796875,
+                  "right": 267.859375,
+                  "bottom": 668.609375,
+                  "width": 104.703125,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Databases",
+            "box": {
+              "left": 399.984375,
+              "top": 606.53125,
+              "right": 725.75,
+              "bottom": 668.609375,
+              "width": 325.765625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "PostgreSQL",
+                "box": {
+                  "left": 399.984375,
+                  "top": 643.796875,
+                  "right": 481.984375,
+                  "bottom": 668.609375,
+                  "width": 82,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MySQL",
+                "box": {
+                  "left": 500.375,
+                  "top": 643.796875,
+                  "right": 550.234375,
+                  "bottom": 668.609375,
+                  "width": 49.859375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MongoDB",
+                "box": {
+                  "left": 568.625,
+                  "top": 643.796875,
+                  "right": 636.640625,
+                  "bottom": 668.609375,
+                  "width": 68.015625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Redis",
+                "box": {
+                  "left": 655.03125,
+                  "top": 643.796875,
+                  "right": 692.875,
+                  "bottom": 668.609375,
+                  "width": 37.84375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Tools & infrastructure",
+            "box": {
+              "left": 42.234375,
+              "top": 695.796875,
+              "right": 725.75,
+              "bottom": 757.875,
+              "width": 683.515625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Docker",
+                "box": {
+                  "left": 42.234375,
+                  "top": 733.0625,
+                  "right": 91.171875,
+                  "bottom": 757.875,
+                  "width": 48.9375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Git",
+                "box": {
+                  "left": 109.5625,
+                  "top": 733.0625,
+                  "right": 129.265625,
+                  "bottom": 757.875,
+                  "width": 19.703125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "GitHub Actions",
+                "box": {
+                  "left": 147.65625,
+                  "top": 733.0625,
+                  "right": 251.125,
+                  "bottom": 757.875,
+                  "width": 103.46875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Nginx",
+                "box": {
+                  "left": 269.515625,
+                  "top": 733.0625,
+                  "right": 309.046875,
+                  "bottom": 757.875,
+                  "width": 39.53125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Apache2",
+                "box": {
+                  "left": 327.4375,
+                  "top": 733.0625,
+                  "right": 388.328125,
+                  "bottom": 757.875,
+                  "width": 60.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Linux (Ubuntu)",
+                "box": {
+                  "left": 406.71875,
+                  "top": 733.0625,
+                  "right": 508.9375,
+                  "bottom": 757.875,
+                  "width": 102.21875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "left": 42.234375,
+              "top": 785.0625,
+              "right": 725.75,
+              "bottom": 847.140625,
+              "width": 683.515625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Stripe",
+                "box": {
+                  "left": 42.234375,
+                  "top": 822.328125,
+                  "right": 83.078125,
+                  "bottom": 847.140625,
+                  "width": 40.84375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "PayPal",
+                "box": {
+                  "left": 101.46875,
+                  "top": 822.328125,
+                  "right": 146.84375,
+                  "bottom": 847.140625,
+                  "width": 45.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Traccar",
+                "box": {
+                  "left": 165.234375,
+                  "top": 822.328125,
+                  "right": 216.890625,
+                  "bottom": 847.140625,
+                  "width": 51.65625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 295.565185546875,
+              "top": 137.63845825195312,
+              "right": 557.270751953125,
+              "bottom": 276.9534606933594,
+              "width": 261.70556640625,
+              "height": 139.31500244140625
+            },
+            "transform": "matrix(0.999884, -0.0152361, 0.0152361, 0.999884, -19.9553, -6.8596)"
+          },
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 468.92193603515625,
+              "top": 88.76435089111328,
+              "right": 671.9638671875,
+              "bottom": 190.34585571289062,
+              "width": 203.04193115234375,
+              "height": 101.58150482177734
+            },
+            "transform": "matrix(1, -0.00044855, 0.00044855, 1, -0.5864, -0.2016)"
+          },
+          {
+            "type": "orca",
+            "box": {
+              "left": 261.31048583984375,
+              "top": 106.3180923461914,
+              "right": 755.856201171875,
+              "bottom": 359.6137466430664,
+              "width": 494.54571533203125,
+              "height": 253.295654296875
+            },
+            "transform": "matrix(0.999996, 0.00280823, -0.00280823, 0.999996, 4.0218, 1.6924)"
+          }
+        ],
+        "openingHidden": true,
+        "reachableItems": 26,
+        "nativeWheel": {
+          "before": 1583,
+          "after": 1763
+        },
+        "screenshot": ".taste-skill/previews/skills-layout-chromium-768.png",
+        "bandScreenshot": ".taste-skill/previews/skills-layout-band-chromium-768.png"
+      }
+    },
+    {
+      "name": "chromium: skill grid and reachability 390x844",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "about": {
+          "left": 0,
+          "top": 16,
+          "right": 390,
+          "bottom": 981.65625,
+          "width": 390,
+          "height": 965.65625
+        },
+        "intro": {
+          "left": 20,
+          "top": 16,
+          "right": 370,
+          "bottom": 449.8125,
+          "width": 350,
+          "height": 433.8125
+        },
+        "band": {
+          "left": 0,
+          "top": 449.8125,
+          "right": 390,
+          "bottom": 980.65625,
+          "width": 390,
+          "height": 530.84375
+        },
+        "list": {
+          "left": 20,
+          "top": 478.609375,
+          "right": 370,
+          "bottom": 940.65625,
+          "width": 350,
+          "height": 462.046875
+        },
+        "work": {
+          "left": 0,
+          "top": 981.65625,
+          "right": 390,
+          "bottom": 2025.375,
+          "width": 390,
+          "height": 1043.71875
+        },
+        "static": true,
+        "columns": "167px 167px",
+        "groups": [
+          {
+            "heading": "Engineering",
+            "box": {
+              "left": 20,
+              "top": 478.609375,
+              "right": 370,
+              "bottom": 561.96875,
+              "width": 350,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "React",
+                "box": {
+                  "left": 20,
+                  "top": 509.640625,
+                  "right": 57.890625,
+                  "bottom": 533.40625,
+                  "width": 37.890625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Next.js",
+                "box": {
+                  "left": 72.28125,
+                  "top": 509.640625,
+                  "right": 117.78125,
+                  "bottom": 533.40625,
+                  "width": 45.5,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Java",
+                "box": {
+                  "left": 132.171875,
+                  "top": 509.640625,
+                  "right": 162.328125,
+                  "bottom": 533.40625,
+                  "width": 30.15625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Spring Boot",
+                "box": {
+                  "left": 176.71875,
+                  "top": 509.640625,
+                  "right": 254.65625,
+                  "bottom": 533.40625,
+                  "width": 77.9375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "ElysiaJS",
+                "box": {
+                  "left": 269.046875,
+                  "top": 509.640625,
+                  "right": 323.390625,
+                  "bottom": 533.40625,
+                  "width": 54.34375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Tailwind CSS",
+                "box": {
+                  "left": 20,
+                  "top": 538.203125,
+                  "right": 105.28125,
+                  "bottom": 561.96875,
+                  "width": 85.28125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Languages",
+            "box": {
+              "left": 20,
+              "top": 587.5625,
+              "right": 187,
+              "bottom": 642.359375,
+              "width": 167,
+              "height": 54.796875
+            },
+            "items": [
+              {
+                "text": "JavaScript",
+                "box": {
+                  "left": 20,
+                  "top": 618.59375,
+                  "right": 89.359375,
+                  "bottom": 642.359375,
+                  "width": 69.359375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "TypeScript",
+                "box": {
+                  "left": 103.75,
+                  "top": 618.59375,
+                  "right": 175.265625,
+                  "bottom": 642.359375,
+                  "width": 71.515625,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Mobile",
+            "box": {
+              "left": 203,
+              "top": 587.5625,
+              "right": 370,
+              "bottom": 642.359375,
+              "width": 167,
+              "height": 54.796875
+            },
+            "items": [
+              {
+                "text": "React Native",
+                "box": {
+                  "left": 203,
+                  "top": 618.59375,
+                  "right": 286.828125,
+                  "bottom": 642.359375,
+                  "width": 83.828125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Flutter",
+                "box": {
+                  "left": 301.21875,
+                  "top": 618.59375,
+                  "right": 344.296875,
+                  "bottom": 642.359375,
+                  "width": 43.078125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Data & ML",
+            "box": {
+              "left": 20,
+              "top": 667.953125,
+              "right": 187,
+              "bottom": 751.3125,
+              "width": 167,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "Python",
+                "box": {
+                  "left": 20,
+                  "top": 698.984375,
+                  "right": 66.765625,
+                  "bottom": 722.75,
+                  "width": 46.765625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Flask",
+                "box": {
+                  "left": 81.15625,
+                  "top": 698.984375,
+                  "right": 115.4375,
+                  "bottom": 722.75,
+                  "width": 34.28125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Process mining",
+                "box": {
+                  "left": 20,
+                  "top": 727.546875,
+                  "right": 120.875,
+                  "bottom": 751.3125,
+                  "width": 100.875,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Databases",
+            "box": {
+              "left": 203,
+              "top": 667.953125,
+              "right": 370,
+              "bottom": 751.3125,
+              "width": 167,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "PostgreSQL",
+                "box": {
+                  "left": 203,
+                  "top": 698.984375,
+                  "right": 281.953125,
+                  "bottom": 722.75,
+                  "width": 78.953125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "MySQL",
+                "box": {
+                  "left": 296.34375,
+                  "top": 698.984375,
+                  "right": 344.296875,
+                  "bottom": 722.75,
+                  "width": 47.953125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "MongoDB",
+                "box": {
+                  "left": 203,
+                  "top": 727.546875,
+                  "right": 268.4375,
+                  "bottom": 751.3125,
+                  "width": 65.4375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Redis",
+                "box": {
+                  "left": 282.828125,
+                  "top": 727.546875,
+                  "right": 319.28125,
+                  "bottom": 751.3125,
+                  "width": 36.453125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Tools & infrastructure",
+            "box": {
+              "left": 20,
+              "top": 776.90625,
+              "right": 370,
+              "bottom": 860.265625,
+              "width": 350,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "Docker",
+                "box": {
+                  "left": 20,
+                  "top": 807.9375,
+                  "right": 67.109375,
+                  "bottom": 831.703125,
+                  "width": 47.109375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Git",
+                "box": {
+                  "left": 81.5,
+                  "top": 807.9375,
+                  "right": 100.5,
+                  "bottom": 831.703125,
+                  "width": 19,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "GitHub Actions",
+                "box": {
+                  "left": 114.890625,
+                  "top": 807.9375,
+                  "right": 214.578125,
+                  "bottom": 831.703125,
+                  "width": 99.6875,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Nginx",
+                "box": {
+                  "left": 228.96875,
+                  "top": 807.9375,
+                  "right": 267.03125,
+                  "bottom": 831.703125,
+                  "width": 38.0625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Apache2",
+                "box": {
+                  "left": 281.421875,
+                  "top": 807.9375,
+                  "right": 340.03125,
+                  "bottom": 831.703125,
+                  "width": 58.609375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Linux (Ubuntu)",
+                "box": {
+                  "left": 20,
+                  "top": 836.5,
+                  "right": 118.484375,
+                  "bottom": 860.265625,
+                  "width": 98.484375,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "left": 20,
+              "top": 885.859375,
+              "right": 370,
+              "bottom": 940.65625,
+              "width": 350,
+              "height": 54.796875
+            },
+            "items": [
+              {
+                "text": "Stripe",
+                "box": {
+                  "left": 20,
+                  "top": 916.890625,
+                  "right": 59.375,
+                  "bottom": 940.65625,
+                  "width": 39.375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "PayPal",
+                "box": {
+                  "left": 73.765625,
+                  "top": 916.890625,
+                  "right": 117.484375,
+                  "bottom": 940.65625,
+                  "width": 43.71875,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Traccar",
+                "box": {
+                  "left": 131.875,
+                  "top": 916.890625,
+                  "right": 181.65625,
+                  "bottom": 940.65625,
+                  "width": 49.78125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "dolphin",
+            "box": {
+              "left": -8.103466033935547,
+              "top": 219.1264190673828,
+              "right": 210.6438331604004,
+              "bottom": 331.1646423339844,
+              "width": 218.74729919433594,
+              "height": 112.03822326660156
+            },
+            "transform": "matrix(0.999885, -0.0151663, 0.0151663, 0.999885, -19.8632, -6.828)"
+          },
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 143.38323974609375,
+              "top": 212.6129608154297,
+              "right": 313.09735107421875,
+              "bottom": 297.49603271484375,
+              "width": 169.714111328125,
+              "height": 84.88307189941406
+            },
+            "transform": "matrix(1, -0.000204204, 0.000204204, 1, -0.2681, -0.0922)"
+          },
+          {
+            "type": "orca",
+            "box": {
+              "left": 16.327831268310547,
+              "top": 247.88182067871094,
+              "right": 409.88508224487305,
+              "bottom": 446.3704833984375,
+              "width": 393.5572509765625,
+              "height": 198.48866271972656
+            },
+            "transform": "matrix(0.999996, 0.00293564, -0.00293564, 0.999996, 4.2058, 1.755)"
+          }
+        ],
+        "openingHidden": true,
+        "reachableItems": 26,
+        "nativeWheel": {
+          "before": 1429,
+          "after": 1609
+        },
+        "screenshot": ".taste-skill/previews/skills-layout-chromium-390.png",
+        "bandScreenshot": ".taste-skill/previews/skills-layout-band-chromium-390.png"
+      }
+    },
+    {
+      "name": "chromium: skill grid and reachability 320x568",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollWidth": 320,
+        "about": {
+          "left": 0,
+          "top": 16.046875,
+          "right": 320,
+          "bottom": 1074.984375,
+          "width": 320,
+          "height": 1058.9375
+        },
+        "intro": {
+          "left": 20,
+          "top": 16.046875,
+          "right": 300,
+          "bottom": 486.015625,
+          "width": 280,
+          "height": 469.96875
+        },
+        "band": {
+          "left": 0,
+          "top": 486.015625,
+          "right": 320,
+          "bottom": 1073.984375,
+          "width": 320,
+          "height": 587.96875
+        },
+        "list": {
+          "left": 20,
+          "top": 514.8125,
+          "right": 300,
+          "bottom": 1033.984375,
+          "width": 280,
+          "height": 519.171875
+        },
+        "work": {
+          "left": 0,
+          "top": 1074.984375,
+          "right": 320,
+          "bottom": 2142.078125,
+          "width": 320,
+          "height": 1067.09375
+        },
+        "static": true,
+        "columns": "132px 132px",
+        "groups": [
+          {
+            "heading": "Engineering",
+            "box": {
+              "left": 20,
+              "top": 514.8125,
+              "right": 300,
+              "bottom": 598.171875,
+              "width": 280,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "React",
+                "box": {
+                  "left": 20,
+                  "top": 545.84375,
+                  "right": 57.890625,
+                  "bottom": 569.609375,
+                  "width": 37.890625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Next.js",
+                "box": {
+                  "left": 72.28125,
+                  "top": 545.84375,
+                  "right": 117.78125,
+                  "bottom": 569.609375,
+                  "width": 45.5,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Java",
+                "box": {
+                  "left": 132.171875,
+                  "top": 545.84375,
+                  "right": 162.328125,
+                  "bottom": 569.609375,
+                  "width": 30.15625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Spring Boot",
+                "box": {
+                  "left": 176.71875,
+                  "top": 545.84375,
+                  "right": 254.65625,
+                  "bottom": 569.609375,
+                  "width": 77.9375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "ElysiaJS",
+                "box": {
+                  "left": 20,
+                  "top": 574.40625,
+                  "right": 74.34375,
+                  "bottom": 598.171875,
+                  "width": 54.34375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Tailwind CSS",
+                "box": {
+                  "left": 88.734375,
+                  "top": 574.40625,
+                  "right": 174.015625,
+                  "bottom": 598.171875,
+                  "width": 85.28125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Languages",
+            "box": {
+              "left": 20,
+              "top": 623.765625,
+              "right": 152,
+              "bottom": 707.125,
+              "width": 132,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "JavaScript",
+                "box": {
+                  "left": 20,
+                  "top": 654.796875,
+                  "right": 89.359375,
+                  "bottom": 678.5625,
+                  "width": 69.359375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "TypeScript",
+                "box": {
+                  "left": 20,
+                  "top": 683.359375,
+                  "right": 91.515625,
+                  "bottom": 707.125,
+                  "width": 71.515625,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Mobile",
+            "box": {
+              "left": 168,
+              "top": 623.765625,
+              "right": 300,
+              "bottom": 707.125,
+              "width": 132,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "React Native",
+                "box": {
+                  "left": 168,
+                  "top": 654.796875,
+                  "right": 251.828125,
+                  "bottom": 678.5625,
+                  "width": 83.828125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Flutter",
+                "box": {
+                  "left": 168,
+                  "top": 683.359375,
+                  "right": 211.078125,
+                  "bottom": 707.125,
+                  "width": 43.078125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Data & ML",
+            "box": {
+              "left": 20,
+              "top": 732.71875,
+              "right": 152,
+              "bottom": 844.640625,
+              "width": 132,
+              "height": 111.921875
+            },
+            "items": [
+              {
+                "text": "Python",
+                "box": {
+                  "left": 20,
+                  "top": 763.75,
+                  "right": 66.765625,
+                  "bottom": 787.515625,
+                  "width": 46.765625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Flask",
+                "box": {
+                  "left": 81.15625,
+                  "top": 763.75,
+                  "right": 115.4375,
+                  "bottom": 787.515625,
+                  "width": 34.28125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Process mining",
+                "box": {
+                  "left": 20,
+                  "top": 792.3125,
+                  "right": 120.875,
+                  "bottom": 816.078125,
+                  "width": 100.875,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Databases",
+            "box": {
+              "left": 168,
+              "top": 732.71875,
+              "right": 300,
+              "bottom": 844.640625,
+              "width": 132,
+              "height": 111.921875
+            },
+            "items": [
+              {
+                "text": "PostgreSQL",
+                "box": {
+                  "left": 168,
+                  "top": 763.75,
+                  "right": 246.953125,
+                  "bottom": 787.515625,
+                  "width": 78.953125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "MySQL",
+                "box": {
+                  "left": 168,
+                  "top": 792.3125,
+                  "right": 215.953125,
+                  "bottom": 816.078125,
+                  "width": 47.953125,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "MongoDB",
+                "box": {
+                  "left": 230.34375,
+                  "top": 792.3125,
+                  "right": 295.78125,
+                  "bottom": 816.078125,
+                  "width": 65.4375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Redis",
+                "box": {
+                  "left": 168,
+                  "top": 820.875,
+                  "right": 204.453125,
+                  "bottom": 844.640625,
+                  "width": 36.453125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Tools & infrastructure",
+            "box": {
+              "left": 20,
+              "top": 870.234375,
+              "right": 300,
+              "bottom": 953.59375,
+              "width": 280,
+              "height": 83.359375
+            },
+            "items": [
+              {
+                "text": "Docker",
+                "box": {
+                  "left": 20,
+                  "top": 901.265625,
+                  "right": 67.109375,
+                  "bottom": 925.03125,
+                  "width": 47.109375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Git",
+                "box": {
+                  "left": 81.5,
+                  "top": 901.265625,
+                  "right": 100.5,
+                  "bottom": 925.03125,
+                  "width": 19,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "GitHub Actions",
+                "box": {
+                  "left": 114.890625,
+                  "top": 901.265625,
+                  "right": 214.578125,
+                  "bottom": 925.03125,
+                  "width": 99.6875,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Nginx",
+                "box": {
+                  "left": 228.96875,
+                  "top": 901.265625,
+                  "right": 267.03125,
+                  "bottom": 925.03125,
+                  "width": 38.0625,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Apache2",
+                "box": {
+                  "left": 20,
+                  "top": 929.828125,
+                  "right": 78.609375,
+                  "bottom": 953.59375,
+                  "width": 58.609375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Linux (Ubuntu)",
+                "box": {
+                  "left": 93,
+                  "top": 929.828125,
+                  "right": 191.484375,
+                  "bottom": 953.59375,
+                  "width": 98.484375,
+                  "height": 23.765625
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "left": 20,
+              "top": 979.1875,
+              "right": 300,
+              "bottom": 1033.984375,
+              "width": 280,
+              "height": 54.796875
+            },
+            "items": [
+              {
+                "text": "Stripe",
+                "box": {
+                  "left": 20,
+                  "top": 1010.21875,
+                  "right": 59.375,
+                  "bottom": 1033.984375,
+                  "width": 39.375,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "PayPal",
+                "box": {
+                  "left": 73.765625,
+                  "top": 1010.21875,
+                  "right": 117.484375,
+                  "bottom": 1033.984375,
+                  "width": 43.71875,
+                  "height": 23.765625
+                }
+              },
+              {
+                "text": "Traccar",
+                "box": {
+                  "left": 131.875,
+                  "top": 1010.21875,
+                  "right": 181.65625,
+                  "bottom": 1033.984375,
+                  "width": 49.78125,
+                  "height": 23.765625
+                }
+              }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "dolphin",
+            "box": {
+              "left": -20.24368667602539,
+              "top": 263.72662353515625,
+              "right": 155.52158737182617,
+              "bottom": 354.952392578125,
+              "width": 175.76527404785156,
+              "height": 91.22576904296875
+            },
+            "transform": "matrix(0.999886, -0.0151053, 0.0151053, 0.999886, -19.782, -6.8001)"
+          },
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 110.55105590820312,
+              "top": 254.69639587402344,
+              "right": 245.38516235351562,
+              "bottom": 322.1055908203125,
+              "width": 134.8341064453125,
+              "height": 67.40919494628906
+            },
+            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "type": "orca",
+            "box": {
+              "left": 8.506575584411621,
+              "top": 331.8029479980469,
+              "right": 320.5744161605835,
+              "bottom": 488.1976013183594,
+              "width": 312.0678405761719,
+              "height": 156.3946533203125
+            },
+            "transform": "matrix(0.999995, 0.00304385, -0.00304385, 0.999995, 4.3603, 1.8075)"
+          }
+        ],
+        "openingHidden": true,
+        "reachableItems": 26,
+        "nativeWheel": {
+          "before": 1264,
+          "after": 1444
+        },
+        "screenshot": ".taste-skill/previews/skills-layout-chromium-320.png",
+        "bandScreenshot": ".taste-skill/previews/skills-layout-band-chromium-320.png"
+      }
+    },
+    {
+      "name": "chromium: skill grid and reachability 1024x768",
+      "passed": true,
+      "details": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "about": {
+          "left": 0,
+          "top": 96,
+          "right": 1024,
+          "bottom": 845.640625,
+          "width": 1024,
+          "height": 749.640625
+        },
+        "intro": {
+          "left": 56.3125,
+          "top": 96,
+          "right": 967.671875,
+          "bottom": 476,
+          "width": 911.359375,
+          "height": 380
+        },
+        "band": {
+          "left": 0,
+          "top": 476,
+          "right": 1024,
+          "bottom": 844.640625,
+          "width": 1024,
+          "height": 368.640625
+        },
+        "list": {
+          "left": 56.3125,
+          "top": 508,
+          "right": 967.671875,
+          "bottom": 788.640625,
+          "width": 911.359375,
+          "height": 280.640625
+        },
+        "work": {
+          "left": 0,
+          "top": 1268,
+          "right": 1024,
+          "bottom": 1841.390625,
+          "width": 1024,
+          "height": 573.390625
+        },
+        "static": false,
+        "columns": "271.781px 271.781px 271.797px",
+        "groups": [
+          {
+            "heading": "Engineering",
+            "box": {
+              "left": 56.3125,
+              "top": 508,
+              "right": 647.875,
+              "bottom": 570.078125,
+              "width": 591.5625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "React",
+                "box": {
+                  "left": 56.3125,
+                  "top": 545.265625,
+                  "right": 95.65625,
+                  "bottom": 570.078125,
+                  "width": 39.34375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Next.js",
+                "box": {
+                  "left": 114.046875,
+                  "top": 545.265625,
+                  "right": 161.25,
+                  "bottom": 570.078125,
+                  "width": 47.203125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Java",
+                "box": {
+                  "left": 179.640625,
+                  "top": 545.265625,
+                  "right": 210.953125,
+                  "bottom": 570.078125,
+                  "width": 31.3125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Spring Boot",
+                "box": {
+                  "left": 229.34375,
+                  "top": 545.265625,
+                  "right": 310.234375,
+                  "bottom": 570.078125,
+                  "width": 80.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "ElysiaJS",
+                "box": {
+                  "left": 328.625,
+                  "top": 545.265625,
+                  "right": 385,
+                  "bottom": 570.078125,
+                  "width": 56.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Tailwind CSS",
+                "box": {
+                  "left": 403.390625,
+                  "top": 545.265625,
+                  "right": 491.90625,
+                  "bottom": 570.078125,
+                  "width": 88.515625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Languages",
+            "box": {
+              "left": 695.875,
+              "top": 508,
+              "right": 967.671875,
+              "bottom": 570.078125,
+              "width": 271.796875,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "JavaScript",
+                "box": {
+                  "left": 695.875,
+                  "top": 545.265625,
+                  "right": 767.84375,
+                  "bottom": 570.078125,
+                  "width": 71.96875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "TypeScript",
+                "box": {
+                  "left": 786.234375,
+                  "top": 545.265625,
+                  "right": 860.46875,
+                  "bottom": 570.078125,
+                  "width": 74.234375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Mobile",
+            "box": {
+              "left": 56.3125,
+              "top": 602.078125,
+              "right": 328.09375,
+              "bottom": 694.5625,
+              "width": 271.78125,
+              "height": 92.484375
+            },
+            "items": [
+              {
+                "text": "React Native",
+                "box": {
+                  "left": 56.3125,
+                  "top": 639.34375,
+                  "right": 143.3125,
+                  "bottom": 664.15625,
+                  "width": 87,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flutter",
+                "box": {
+                  "left": 161.703125,
+                  "top": 639.34375,
+                  "right": 206.375,
+                  "bottom": 664.15625,
+                  "width": 44.671875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Data & ML",
+            "box": {
+              "left": 376.09375,
+              "top": 602.078125,
+              "right": 647.875,
+              "bottom": 694.5625,
+              "width": 271.78125,
+              "height": 92.484375
+            },
+            "items": [
+              {
+                "text": "Python",
+                "box": {
+                  "left": 376.09375,
+                  "top": 639.34375,
+                  "right": 424.671875,
+                  "bottom": 664.15625,
+                  "width": 48.578125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Flask",
+                "box": {
+                  "left": 443.0625,
+                  "top": 639.34375,
+                  "right": 478.625,
+                  "bottom": 664.15625,
+                  "width": 35.5625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Process mining",
+                "box": {
+                  "left": 497.015625,
+                  "top": 639.34375,
+                  "right": 601.71875,
+                  "bottom": 664.15625,
+                  "width": 104.703125,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Databases",
+            "box": {
+              "left": 695.875,
+              "top": 602.078125,
+              "right": 967.671875,
+              "bottom": 694.5625,
+              "width": 271.796875,
+              "height": 92.484375
+            },
+            "items": [
+              {
+                "text": "PostgreSQL",
+                "box": {
+                  "left": 695.875,
+                  "top": 639.34375,
+                  "right": 777.875,
+                  "bottom": 664.15625,
+                  "width": 82,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MySQL",
+                "box": {
+                  "left": 796.265625,
+                  "top": 639.34375,
+                  "right": 846.125,
+                  "bottom": 664.15625,
+                  "width": 49.859375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "MongoDB",
+                "box": {
+                  "left": 864.515625,
+                  "top": 639.34375,
+                  "right": 932.53125,
+                  "bottom": 664.15625,
+                  "width": 68.015625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Redis",
+                "box": {
+                  "left": 695.875,
+                  "top": 669.75,
+                  "right": 733.71875,
+                  "bottom": 694.5625,
+                  "width": 37.84375,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Tools & infrastructure",
+            "box": {
+              "left": 56.3125,
+              "top": 726.5625,
+              "right": 647.875,
+              "bottom": 788.640625,
+              "width": 591.5625,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Docker",
+                "box": {
+                  "left": 56.3125,
+                  "top": 763.828125,
+                  "right": 105.25,
+                  "bottom": 788.640625,
+                  "width": 48.9375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Git",
+                "box": {
+                  "left": 123.640625,
+                  "top": 763.828125,
+                  "right": 143.34375,
+                  "bottom": 788.640625,
+                  "width": 19.703125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "GitHub Actions",
+                "box": {
+                  "left": 161.734375,
+                  "top": 763.828125,
+                  "right": 265.203125,
+                  "bottom": 788.640625,
+                  "width": 103.46875,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Nginx",
+                "box": {
+                  "left": 283.59375,
+                  "top": 763.828125,
+                  "right": 323.125,
+                  "bottom": 788.640625,
+                  "width": 39.53125,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Apache2",
+                "box": {
+                  "left": 341.515625,
+                  "top": 763.828125,
+                  "right": 402.40625,
+                  "bottom": 788.640625,
+                  "width": 60.890625,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Linux (Ubuntu)",
+                "box": {
+                  "left": 420.796875,
+                  "top": 763.828125,
+                  "right": 523.015625,
+                  "bottom": 788.640625,
+                  "width": 102.21875,
+                  "height": 24.8125
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "left": 695.875,
+              "top": 726.5625,
+              "right": 967.671875,
+              "bottom": 788.640625,
+              "width": 271.796875,
+              "height": 62.078125
+            },
+            "items": [
+              {
+                "text": "Stripe",
+                "box": {
+                  "left": 695.875,
+                  "top": 763.828125,
+                  "right": 736.71875,
+                  "bottom": 788.640625,
+                  "width": 40.84375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "PayPal",
+                "box": {
+                  "left": 755.109375,
+                  "top": 763.828125,
+                  "right": 800.484375,
+                  "bottom": 788.640625,
+                  "width": 45.375,
+                  "height": 24.8125
+                }
+              },
+              {
+                "text": "Traccar",
+                "box": {
+                  "left": 818.875,
+                  "top": 763.828125,
+                  "right": 870.53125,
+                  "bottom": 788.640625,
+                  "width": 51.65625,
+                  "height": 24.8125
+                }
+              }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 354.0381774902344,
+              "top": 184.43988037109375,
+              "right": 707.69091796875,
+              "bottom": 380.5431823730469,
+              "width": 353.6527404785156,
+              "height": 196.10330200195312
+            },
+            "transform": "matrix(0.999737, -0.0229438, 0.0229438, 0.999737, -30.0501, -10.3297)"
+          },
+          {
+            "type": "dolphin",
+            "box": {
+              "left": 617.936767578125,
+              "top": 152.5531005859375,
+              "right": 875.0538330078125,
+              "bottom": 281.2845458984375,
+              "width": 257.1170654296875,
+              "height": 128.7314453125
+            },
+            "transform": "matrix(1, 0.000897099, -0.000897099, 1, 1.1752, 0.404)"
+          },
+          {
+            "type": "orca",
+            "box": {
+              "left": 382.7035827636719,
+              "top": 159.38449096679688,
+              "right": 971.1536560058594,
+              "bottom": 466.54449462890625,
+              "width": 588.4500732421875,
+              "height": 307.1600036621094
+            },
+            "transform": "matrix(0.999987, 0.00515393, -0.00515393, 0.999987, 7.3819, 3.0099)"
+          }
+        ],
+        "openingHidden": true,
+        "reachableItems": 26,
+        "nativeWheel": {
+          "before": 1363,
+          "after": 1543
+        },
+        "screenshot": ".taste-skill/previews/skills-layout-chromium-1024.png",
+        "bandScreenshot": ".taste-skill/previews/skills-layout-band-chromium-1024.png"
+      }
+    },
+    {
+      "name": "chromium: About ambient motion and Pause after layout change",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999737, -0.0229403, 0.0229403, 0.999737, -30.0448, -10.3279)",
+        "moving": "matrix(0.999797, -0.0201485, 0.0201485, 0.999797, -26.3881, -9.0709)",
+        "frozen": "matrix(0.999801, -0.0199251, 0.0199251, 0.999801, -26.096, -8.9705)",
+        "resumed": "matrix(0.999845, -0.017599, 0.017599, 0.999845, -23.0499, -7.9234)"
+      }
+    },
+    {
+      "name": "webkit: skill grid and reachability 390x844",
+      "passed": false,
+      "error": "mouse.wheel: Mouse wheel is not supported in mobile WebKit\n    at /private/tmp/portfolio-browser-qa/skills-layout.cjs:56:69\n    at async visit (/private/tmp/portfolio-browser-qa/skills-layout.cjs:21:12)\n    at async check (/private/tmp/portfolio-browser-qa/skills-layout.cjs:10:58)\n    at async /private/tmp/portfolio-browser-qa/skills-layout.cjs:36:35"
+    },
+    {
+      "name": "webkit: skill grid and reachability 320x568",
+      "passed": false,
+      "error": "mouse.wheel: Mouse wheel is not supported in mobile WebKit\n    at /private/tmp/portfolio-browser-qa/skills-layout.cjs:56:69\n    at async visit (/private/tmp/portfolio-browser-qa/skills-layout.cjs:21:12)\n    at async check (/private/tmp/portfolio-browser-qa/skills-layout.cjs:10:58)\n    at async /private/tmp/portfolio-browser-qa/skills-layout.cjs:36:35"
+    },
+    {
+      "name": "webkit: skill grid and reachability 768x1024",
+      "passed": false,
+      "error": "mouse.wheel: Mouse wheel is not supported in mobile WebKit\n    at /private/tmp/portfolio-browser-qa/skills-layout.cjs:56:69\n    at async visit (/private/tmp/portfolio-browser-qa/skills-layout.cjs:21:12)\n    at async check (/private/tmp/portfolio-browser-qa/skills-layout.cjs:10:58)\n    at async /private/tmp/portfolio-browser-qa/skills-layout.cjs:36:35"
+    },
+    {
+      "name": "webkit: About ambient motion and Pause after layout change",
+      "passed": true,
+      "details": {
+        "before": "matrix(0.999888, -0.014971, 0.014971, 0.999888, -19.606899, -6.7399)",
+        "moving": "matrix(0.999908, -0.013556, 0.013556, 0.999908, -17.752399, -6.1024)",
+        "frozen": "matrix(0.99991, -0.013437, 0.013437, 0.99991, -17.597799, -6.0493)",
+        "resumed": "matrix(0.999925, -0.012233, 0.012233, 0.999925, -16.021299, -5.5073)"
+      }
+    }
+  ],
+  "errors": [],
+  "limits": "Focused About/skills redesign checks only. Actual Chromium/WebKit; emulated mobile viewports. Item reachability uses DOM scrolling, native wheel tests cover ordinary page scrolling; no physical touch/performance or full-site audit."
+}

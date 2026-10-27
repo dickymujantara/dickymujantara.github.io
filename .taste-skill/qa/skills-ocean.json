@@ -1,0 +1,1146 @@
+{
+  "checks": [
+    {
+      "name": "Chromium: Skills marine layout at 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "section": {
+          "left": 0,
+          "right": 1440,
+          "top": 96,
+          "bottom": 810.359375,
+          "width": 1440,
+          "height": 714.359375
+        },
+        "content": {
+          "left": 86.40625,
+          "right": 654.109375,
+          "top": 153.59375,
+          "bottom": 751.765625,
+          "width": 567.703125,
+          "height": 598.171875
+        },
+        "list": {
+          "left": 86.40625,
+          "right": 654.109375,
+          "top": 262.765625,
+          "bottom": 751.765625,
+          "width": 567.703125,
+          "height": 489
+        },
+        "animals": {
+          "left": 726.109375,
+          "right": 1353.578125,
+          "top": 153.59375,
+          "bottom": 751.765625,
+          "width": 627.46875,
+          "height": 598.171875
+        },
+        "work": {
+          "left": 0,
+          "right": 1440,
+          "top": 810.359375,
+          "bottom": 1442.453125,
+          "width": 1440,
+          "height": 632.09375
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 262.765625,
+              "bottom": 332.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 297.265625,
+              "bottom": 320.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 332.765625,
+              "bottom": 402.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 367.265625,
+              "bottom": 390.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 402.765625,
+              "bottom": 472.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 437.265625,
+              "bottom": 460.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 472.765625,
+              "bottom": 542.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 507.265625,
+              "bottom": 530.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 542.765625,
+              "bottom": 612.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 577.265625,
+              "bottom": 600.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 612.765625,
+              "bottom": 682.765625,
+              "width": 567.703125,
+              "height": 70
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 647.265625,
+              "bottom": 670.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 682.765625,
+              "bottom": 751.765625,
+              "width": 567.703125,
+              "height": 69
+            },
+            "value": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 717.265625,
+              "bottom": 740.578125,
+              "width": 567.703125,
+              "height": 23.3125
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 781.505859375,
+              "right": 1089.80322265625,
+              "top": 214.11038208007812,
+              "bottom": 669.5989990234375,
+              "width": 308.29736328125,
+              "height": 455.4886169433594
+            },
+            "opacity": "0.76",
+            "transform": "matrix(0.999828, -0.0185535, 0.0185535, 0.999828, -3.1892, -8.5047)"
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 1198.986083984375,
+              "right": 1355.157958984375,
+              "top": 343.6899108886719,
+              "bottom": 572.756591796875,
+              "width": 156.171875,
+              "height": 229.06668090820312
+            },
+            "opacity": "0.42",
+            "transform": "matrix(0.999617, 0.0276861, -0.0276861, 0.999617, 4.7595, 12.692)"
+          }
+        ],
+        "decorative": "true",
+        "scene": "skills",
+        "screenshot": ".taste-skill/previews/skills-ocean-chromium-1440.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: Skills marine layout at 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "section": {
+          "left": 0,
+          "right": 390,
+          "top": 16,
+          "bottom": 963.890625,
+          "width": 390,
+          "height": 947.890625
+        },
+        "content": {
+          "left": 20,
+          "right": 370,
+          "top": 52.796875,
+          "bottom": 612.09375,
+          "width": 350,
+          "height": 559.296875
+        },
+        "list": {
+          "left": 20,
+          "right": 370,
+          "top": 135.78125,
+          "bottom": 612.09375,
+          "width": 350,
+          "height": 476.3125
+        },
+        "animals": {
+          "left": 20,
+          "right": 370,
+          "top": 636.09375,
+          "bottom": 926.09375,
+          "width": 350,
+          "height": 290
+        },
+        "work": {
+          "left": 0,
+          "right": 390,
+          "top": 963.890625,
+          "bottom": 2003.609375,
+          "width": 390,
+          "height": 1039.71875
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 135.78125,
+              "bottom": 218.96875,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 166.375,
+              "bottom": 208.375,
+              "width": 350,
+              "height": 42
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 218.96875,
+              "bottom": 281.15625,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 249.5625,
+              "bottom": 270.5625,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 281.15625,
+              "bottom": 343.34375,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 311.75,
+              "bottom": 332.75,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 343.34375,
+              "bottom": 405.53125,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 373.9375,
+              "bottom": 394.9375,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 405.53125,
+              "bottom": 467.71875,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 436.125,
+              "bottom": 457.125,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 467.71875,
+              "bottom": 550.90625,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 498.3125,
+              "bottom": 540.3125,
+              "width": 350,
+              "height": 42
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 550.90625,
+              "bottom": 612.09375,
+              "width": 350,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 581.5,
+              "bottom": 602.5,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 64.62947082519531,
+              "right": 248.46432495117188,
+              "top": 628.281494140625,
+              "bottom": 900.822998046875,
+              "width": 183.83485412597656,
+              "height": 272.54150390625
+            },
+            "opacity": "0.76",
+            "transform": "matrix(0.999898, -0.014271, 0.014271, 0.999898, -2.4531, -6.5415)"
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 274.6988830566406,
+              "right": 366.8763122558594,
+              "top": 700.806396484375,
+              "bottom": 837.248291015625,
+              "width": 92.17742919921875,
+              "height": 136.44189453125
+            },
+            "opacity": "0.42",
+            "transform": "matrix(0.999868, 0.016217, -0.016217, 0.999868, 2.7876, 7.4336)"
+          }
+        ],
+        "decorative": "true",
+        "scene": "skills",
+        "screenshot": ".taste-skill/previews/skills-ocean-webkit-390.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: Skills marine layout at 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "section": {
+          "left": 0,
+          "right": 768,
+          "top": 16,
+          "bottom": 730.875,
+          "width": 768,
+          "height": 714.875
+        },
+        "content": {
+          "left": 42.234375,
+          "right": 348.65625,
+          "top": 57.59375,
+          "bottom": 688.28125,
+          "width": 306.421875,
+          "height": 630.6875
+        },
+        "list": {
+          "left": 42.234375,
+          "right": 348.65625,
+          "top": 152.65625,
+          "bottom": 688.28125,
+          "width": 306.421875,
+          "height": 535.625
+        },
+        "animals": {
+          "left": 387.046875,
+          "right": 725.734375,
+          "top": 57.59375,
+          "bottom": 688.28125,
+          "width": 338.6875,
+          "height": 630.6875
+        },
+        "work": {
+          "left": 0,
+          "right": 768,
+          "top": 730.875,
+          "bottom": 1458.953125,
+          "width": 768,
+          "height": 728.078125
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 152.65625,
+              "bottom": 245.96875,
+              "width": 306.421875,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 187.15625,
+              "bottom": 233.78125,
+              "width": 306.421875,
+              "height": 46.625
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 245.96875,
+              "bottom": 315.96875,
+              "width": 306.421875,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 280.46875,
+              "bottom": 303.78125,
+              "width": 306.421875,
+              "height": 23.3125
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 315.96875,
+              "bottom": 385.96875,
+              "width": 306.421875,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 350.46875,
+              "bottom": 373.78125,
+              "width": 306.421875,
+              "height": 23.3125
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 385.96875,
+              "bottom": 455.96875,
+              "width": 306.421875,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 420.46875,
+              "bottom": 443.78125,
+              "width": 306.421875,
+              "height": 23.3125
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 455.96875,
+              "bottom": 525.96875,
+              "width": 306.421875,
+              "height": 70
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 490.46875,
+              "bottom": 513.78125,
+              "width": 306.421875,
+              "height": 23.3125
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 525.96875,
+              "bottom": 619.28125,
+              "width": 306.421875,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 560.46875,
+              "bottom": 607.09375,
+              "width": 306.421875,
+              "height": 46.625
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 619.28125,
+              "bottom": 688.28125,
+              "width": 306.421875,
+              "height": 69
+            },
+            "value": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 653.78125,
+              "bottom": 677.09375,
+              "width": 306.421875,
+              "height": 23.3125
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 416.4660949707031,
+              "right": 658.0501098632812,
+              "top": 125.93903350830078,
+              "bottom": 484.53641510009766,
+              "width": 241.58401489257812,
+              "height": 358.5973815917969
+            },
+            "opacity": "0.76",
+            "transform": "matrix(0.999919, -0.0127249, 0.0127249, 0.999919, -2.1872, -5.8326)"
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 615.5787963867188,
+              "right": 726.7825317382812,
+              "top": 253.88427734375,
+              "bottom": 418.31878662109375,
+              "width": 111.2037353515625,
+              "height": 164.43450927734375
+            },
+            "opacity": "0.42",
+            "transform": "matrix(0.999847, 0.017503, -0.017503, 0.999847, 3.0088, 8.0234)"
+          }
+        ],
+        "decorative": "true",
+        "scene": "skills",
+        "screenshot": ".taste-skill/previews/skills-ocean-chromium-768.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: Skills marine layout at 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "height": 568,
+        "scrollWidth": 320,
+        "section": {
+          "left": 0,
+          "right": 320,
+          "top": 16.375,
+          "bottom": 1000.265625,
+          "width": 320,
+          "height": 983.890625
+        },
+        "content": {
+          "left": 20,
+          "right": 300,
+          "top": 53.171875,
+          "bottom": 648.46875,
+          "width": 280,
+          "height": 595.296875
+        },
+        "list": {
+          "left": 20,
+          "right": 300,
+          "top": 172.15625,
+          "bottom": 648.46875,
+          "width": 280,
+          "height": 476.3125
+        },
+        "animals": {
+          "left": 20,
+          "right": 300,
+          "top": 672.46875,
+          "bottom": 962.46875,
+          "width": 280,
+          "height": 290
+        },
+        "work": {
+          "left": 0,
+          "right": 320,
+          "top": 1000.265625,
+          "bottom": 2062.984375,
+          "width": 320,
+          "height": 1062.71875
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 172.15625,
+              "bottom": 255.34375,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 202.75,
+              "bottom": 244.75,
+              "width": 280,
+              "height": 42
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 255.34375,
+              "bottom": 317.53125,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 285.9375,
+              "bottom": 306.9375,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 317.53125,
+              "bottom": 379.71875,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 348.125,
+              "bottom": 369.125,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 379.71875,
+              "bottom": 441.90625,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 410.3125,
+              "bottom": 431.3125,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 441.90625,
+              "bottom": 504.09375,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 472.5,
+              "bottom": 493.5,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 504.09375,
+              "bottom": 587.28125,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 534.6875,
+              "bottom": 576.6875,
+              "width": 280,
+              "height": 42
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 587.28125,
+              "bottom": 648.46875,
+              "width": 280,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 617.875,
+              "bottom": 638.875,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 54.8192024230957,
+              "right": 238.65219497680664,
+              "top": 664.66064453125,
+              "bottom": 937.20068359375,
+              "width": 183.83299255371094,
+              "height": 272.5400390625
+            },
+            "opacity": "0.76",
+            "transform": "matrix(0.999898, -0.014264, 0.014264, 0.999898, -2.4518, -6.5381)"
+          },
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/jellyfish.webp",
+            "width": 512,
+            "height": 768,
+            "complete": true,
+            "alt": "",
+            "box": {
+              "left": 206.1057586669922,
+              "right": 298.2841491699219,
+              "top": 737.184326171875,
+              "bottom": 873.626708984375,
+              "width": 92.17839050292969,
+              "height": 136.4423828125
+            },
+            "opacity": "0.42",
+            "transform": "matrix(0.999868, 0.016224, -0.016224, 0.999868, 2.7887, 7.4367)"
+          }
+        ],
+        "decorative": "true",
+        "scene": "skills",
+        "screenshot": ".taste-skill/previews/skills-ocean-webkit-320.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: water and jellyfish obey Pause/resume",
+      "passed": true,
+      "details": {
+        "before": [
+          "matrix(1.0357, 0, 0, 1.0357, 0.3566, 0.1783)",
+          "matrix(0.999808, -0.0195761, 0.0195761, 0.999808, -3.365, -8.9732)",
+          "matrix(0.999637, 0.0269272, -0.0269272, 0.999637, 4.6289, 12.3437)"
+        ],
+        "moving": [
+          "matrix(1.0376, 0, 0, 1.0376, 1.4034, 0.7017)",
+          "matrix(0.999958, -0.00917681, 0.00917681, 0.999958, -1.5774, -4.2063)",
+          "matrix(0.999467, 0.0326598, -0.0326598, 0.999467, 5.6148, 14.9728)"
+        ],
+        "frozen": [
+          "matrix(1.0377, 0, 0, 1.0377, 1.456, 0.728)",
+          "matrix(0.999963, -0.00861309, 0.00861309, 0.999963, -1.4804, -3.9476)",
+          "matrix(0.99946, 0.0328604, -0.0328604, 0.99946, 5.6494, 15.065)"
+        ],
+        "resumed": [
+          "matrix(1.0388, 0, 0, 1.0388, 2.0193, 1.0097)",
+          "matrix(0.999997, -0.00240332, 0.00240332, 0.999997, -0.4131, -1.1017)",
+          "matrix(0.999407, 0.0344355, -0.0344355, 0.999407, 5.9203, 15.7875)"
+        ]
+      }
+    },
+    {
+      "name": "WebKit: water and jellyfish obey Pause/resume",
+      "passed": true,
+      "details": {
+        "before": [
+          "matrix(1, 0, 0, 1, -0.0033, -0.0013)",
+          "matrix(0.999893, -0.014618, 0.014618, 0.999893, -2.5128, -6.7007)",
+          "matrix(0.999874, 0.015899, -0.015899, 0.999874, 2.7329, 7.2878)"
+        ],
+        "moving": [
+          "matrix(1, 0, 0, 1, 0.5331, 0.2132)",
+          "matrix(0.999956, -0.009369, 0.009369, 0.999956, -1.6103, -4.2942)",
+          "matrix(0.999806, 0.01969, -0.01969, 0.999806, 3.3847, 9.0259)"
+        ],
+        "frozen": [
+          "matrix(1, 0, 0, 1, 0.561, 0.2244)",
+          "matrix(0.999959, -0.00907, 0.00907, 0.999959, -1.5591, -4.1577)",
+          "matrix(0.999803, 0.01985, -0.01985, 0.999803, 3.4122, 9.0992)"
+        ],
+        "resumed": [
+          "matrix(1, 0, 0, 1, 0.8515, 0.3406)",
+          "matrix(0.999983, -0.005863, 0.005863, 0.999983, -1.0078, -2.6875)",
+          "matrix(0.999774, 0.021269, -0.021269, 0.999774, 3.656, 9.7493)"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Focused Skills marine scene in actual Chromium and emulated touch WebKit. Content reachability uses DOM scrolling; no physical-device, performance, assistive-technology or full-site audit."
+}

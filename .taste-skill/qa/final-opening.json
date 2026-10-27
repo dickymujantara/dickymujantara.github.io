@@ -1,0 +1,243 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "height": 900,
+      "passed": true,
+      "details": {
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512
+        },
+        "seal": {
+          "loaded": true,
+          "captionAnchored": true,
+          "gap": 5.922496199607849,
+          "centerError": 0.0078125,
+          "caption": {
+            "left": 1315.171875,
+            "right": 1348.796875,
+            "top": 340.65625,
+            "bottom": 356.78125,
+            "width": 33.625,
+            "height": 16.125
+          }
+        },
+        "controls": [
+          {
+            "left": 20,
+            "right": 64,
+            "top": 840,
+            "bottom": 884,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 72,
+            "right": 116,
+            "top": 840,
+            "bottom": 884,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 1315.171875,
+              "right": 1348.796875,
+              "top": 340.65625,
+              "bottom": 356.78125,
+              "width": 33.625,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 1192.828125,
+              "right": 1267.203125,
+              "top": 703.875,
+              "bottom": 720,
+              "width": 74.375,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 1172.21875,
+              "right": 1238.40625,
+              "top": 36,
+              "bottom": 52.125,
+              "width": 66.1875,
+              "height": 16.125
+            }
+          }
+        ],
+        "overflow": false,
+        "scrollY": 0,
+        "phase": "waiting",
+        "screenshot": ".taste-skill/previews/final-opening-chromium-1440.png",
+        "entry": {
+          "before": {
+            "scrollY": 0,
+            "hero": {
+              "x": 0,
+              "y": 73,
+              "width": 1440,
+              "height": 827,
+              "top": 73,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "whale": "matrix(0.979664, -0.0256534, 0.0256534, 0.979664, -20, 18)"
+          },
+          "after": {
+            "scrollY": 0,
+            "hero": {
+              "x": 0,
+              "y": 73,
+              "width": 1440,
+              "height": 827,
+              "top": 73,
+              "right": 1440,
+              "bottom": 900,
+              "left": 0
+            },
+            "whale": "matrix(0.979664, -0.0256534, 0.0256534, 0.979664, -20, 18)",
+            "phase": "done",
+            "controls": "flex",
+            "inert": false,
+            "navigations": 1
+          }
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "height": 844,
+      "passed": true,
+      "details": {
+        "otter": {
+          "src": "http://127.0.0.1:4173/img/ocean/otter.webp",
+          "loaded": true,
+          "naturalWidth": 1024,
+          "naturalHeight": 512
+        },
+        "seal": {
+          "loaded": true,
+          "captionAnchored": true,
+          "gap": 5.816895365715027,
+          "centerError": 0.1875,
+          "caption": {
+            "left": 328.140625,
+            "right": 361.765625,
+            "top": 364.3125,
+            "bottom": 380.3125,
+            "width": 33.625,
+            "height": 16
+          }
+        },
+        "controls": [
+          {
+            "left": 12,
+            "right": 56,
+            "top": 788,
+            "bottom": 832,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 64,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "labels": [
+          {
+            "text": "Seal",
+            "box": {
+              "left": 328.140625,
+              "right": 361.765625,
+              "top": 364.3125,
+              "bottom": 380.3125,
+              "width": 33.625,
+              "height": 16
+            }
+          },
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 272.734375,
+              "right": 347.109375,
+              "top": 642.328125,
+              "bottom": 658.328125,
+              "width": 74.375,
+              "height": 16
+            }
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 253.625,
+              "right": 319.8125,
+              "top": 185.671875,
+              "bottom": 201.671875,
+              "width": 66.1875,
+              "height": 16
+            }
+          }
+        ],
+        "overflow": false,
+        "scrollY": 0,
+        "phase": "waiting",
+        "screenshot": ".taste-skill/previews/final-opening-webkit-390.png",
+        "entry": {
+          "before": {
+            "scrollY": 0,
+            "hero": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 843.984375,
+              "top": 0,
+              "right": 390,
+              "bottom": 843.984375,
+              "left": 0
+            },
+            "whale": "matrix(0.999896, -0.014398, 0.014398, 0.999896, -9, 11.7)"
+          },
+          "after": {
+            "scrollY": 0,
+            "hero": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 843.984375,
+              "top": 0,
+              "right": 390,
+              "bottom": 843.984375,
+              "left": 0
+            },
+            "whale": "matrix(0.999896, -0.014398, 0.014398, 0.999896, -9, 11.7)",
+            "phase": "done",
+            "controls": "flex",
+            "inert": false,
+            "navigations": 1
+          }
+        }
+      }
+    }
+  ],
+  "scope": "Final original-otter restoration and anchored Seal caption, two viewports only. Prior five-width original-asset coverage retained. Native Chromium wheel and synthetic WebKit touch entry; no physical iOS claim."
+}

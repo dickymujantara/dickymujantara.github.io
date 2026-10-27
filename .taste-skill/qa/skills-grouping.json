@@ -1,0 +1,926 @@
+{
+  "checks": [
+    {
+      "name": "chromium: plain skill grouping 1440x900",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "about": {
+          "top": 96,
+          "bottom": 924,
+          "left": 0,
+          "right": 1440,
+          "width": 1440,
+          "height": 828
+        },
+        "copy": {
+          "top": 108.96875,
+          "bottom": 910.015625,
+          "left": 86.40625,
+          "right": 643.96875,
+          "width": 557.5625,
+          "height": 801.046875
+        },
+        "list": {
+          "top": 341.703125,
+          "bottom": 854.015625,
+          "left": 86.40625,
+          "right": 502.40625,
+          "width": 416,
+          "height": 512.3125
+        },
+        "work": {
+          "top": 1419,
+          "bottom": 2051.09375,
+          "left": 0,
+          "right": 1440,
+          "width": 1440,
+          "height": 632.09375
+        },
+        "insideCopy": true,
+        "hasChips": false,
+        "hasBand": false,
+        "static": false,
+        "rows": [
+          {
+            "heading": "Web development",
+            "box": {
+              "top": 341.703125,
+              "bottom": 411.703125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "top": 376.203125,
+              "bottom": 399.515625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "box": {
+              "top": 411.703125,
+              "bottom": 481.703125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "top": 446.203125,
+              "bottom": 469.515625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "box": {
+              "top": 481.703125,
+              "bottom": 551.703125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "top": 516.203125,
+              "bottom": 539.515625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "box": {
+              "top": 551.703125,
+              "bottom": 621.703125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "top": 586.203125,
+              "bottom": 609.515625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "box": {
+              "top": 621.703125,
+              "bottom": 691.703125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 70
+            },
+            "value": {
+              "top": 656.203125,
+              "bottom": 679.515625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "box": {
+              "top": 691.703125,
+              "bottom": 785.015625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 93.3125
+            },
+            "value": {
+              "top": 726.203125,
+              "bottom": 772.828125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 46.625
+            },
+            "plain": true,
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "top": 785.015625,
+              "bottom": 854.015625,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 69
+            },
+            "value": {
+              "top": 819.515625,
+              "bottom": 842.828125,
+              "left": 86.40625,
+              "right": 502.40625,
+              "width": 416,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "reachableRows": 7,
+        "screenshot": ".taste-skill/previews/skills-grouping-chromium-1440.png",
+        "detail": ".taste-skill/previews/skills-grouping-detail-chromium-1440.png"
+      }
+    },
+    {
+      "name": "chromium: plain skill grouping 768x1024",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "about": {
+          "top": 16,
+          "bottom": 1041,
+          "left": 0,
+          "right": 768,
+          "width": 768,
+          "height": 1025
+        },
+        "copy": {
+          "top": 99,
+          "bottom": 956.984375,
+          "left": 42.234375,
+          "right": 383.984375,
+          "width": 341.75,
+          "height": 857.984375
+        },
+        "list": {
+          "top": 373.359375,
+          "bottom": 908.984375,
+          "left": 42.234375,
+          "right": 383.984375,
+          "width": 341.75,
+          "height": 535.625
+        },
+        "work": {
+          "top": 1430,
+          "bottom": 2158.078125,
+          "left": 0,
+          "right": 768,
+          "width": 768,
+          "height": 728.078125
+        },
+        "insideCopy": true,
+        "hasChips": false,
+        "hasBand": false,
+        "static": false,
+        "rows": [
+          {
+            "heading": "Web development",
+            "box": {
+              "top": 373.359375,
+              "bottom": 466.671875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 93.3125
+            },
+            "value": {
+              "top": 407.859375,
+              "bottom": 454.484375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 46.625
+            },
+            "plain": true,
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "box": {
+              "top": 466.671875,
+              "bottom": 536.671875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "top": 501.171875,
+              "bottom": 524.484375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "box": {
+              "top": 536.671875,
+              "bottom": 606.671875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "top": 571.171875,
+              "bottom": 594.484375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "box": {
+              "top": 606.671875,
+              "bottom": 676.671875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "top": 641.171875,
+              "bottom": 664.484375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "box": {
+              "top": 676.671875,
+              "bottom": 746.671875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 70
+            },
+            "value": {
+              "top": 711.171875,
+              "bottom": 734.484375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "box": {
+              "top": 746.671875,
+              "bottom": 839.984375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 93.3125
+            },
+            "value": {
+              "top": 781.171875,
+              "bottom": 827.796875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 46.625
+            },
+            "plain": true,
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "top": 839.984375,
+              "bottom": 908.984375,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 69
+            },
+            "value": {
+              "top": 874.484375,
+              "bottom": 897.796875,
+              "left": 42.234375,
+              "right": 383.984375,
+              "width": 341.75,
+              "height": 23.3125
+            },
+            "plain": true,
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "reachableRows": 7,
+        "screenshot": ".taste-skill/previews/skills-grouping-chromium-768.png",
+        "detail": null
+      }
+    },
+    {
+      "name": "webkit: plain skill grouping 390x844",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "about": {
+          "top": 16,
+          "bottom": 1005.90625,
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "height": 989.90625
+        },
+        "copy": {
+          "top": 16,
+          "bottom": 697.109375,
+          "left": 20,
+          "right": 370,
+          "width": 350,
+          "height": 681.109375
+        },
+        "list": {
+          "top": 220.796875,
+          "bottom": 697.109375,
+          "left": 20,
+          "right": 370,
+          "width": 350,
+          "height": 476.3125
+        },
+        "work": {
+          "top": 1005.90625,
+          "bottom": 2045.625,
+          "left": 0,
+          "right": 390,
+          "width": 390,
+          "height": 1039.71875
+        },
+        "insideCopy": true,
+        "hasChips": false,
+        "hasBand": false,
+        "static": true,
+        "rows": [
+          {
+            "heading": "Web development",
+            "box": {
+              "top": 220.796875,
+              "bottom": 303.984375,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "top": 251.390625,
+              "bottom": 293.390625,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 42
+            },
+            "plain": true,
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "box": {
+              "top": 303.984375,
+              "bottom": 366.171875,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 334.578125,
+              "bottom": 355.578125,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "box": {
+              "top": 366.171875,
+              "bottom": 428.359375,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 396.765625,
+              "bottom": 417.765625,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "box": {
+              "top": 428.359375,
+              "bottom": 490.546875,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 458.953125,
+              "bottom": 479.953125,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "box": {
+              "top": 490.546875,
+              "bottom": 552.734375,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 521.140625,
+              "bottom": 542.140625,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "box": {
+              "top": 552.734375,
+              "bottom": 635.921875,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "top": 583.328125,
+              "bottom": 625.328125,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 42
+            },
+            "plain": true,
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "top": 635.921875,
+              "bottom": 697.109375,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 61.1875
+            },
+            "value": {
+              "top": 666.515625,
+              "bottom": 687.515625,
+              "left": 20,
+              "right": 370,
+              "width": 350,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "reachableRows": 7,
+        "screenshot": ".taste-skill/previews/skills-grouping-webkit-390.png",
+        "detail": ".taste-skill/previews/skills-grouping-detail-webkit-390.png"
+      }
+    },
+    {
+      "name": "webkit: plain skill grouping 320x568",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "height": 568,
+        "scrollWidth": 320,
+        "about": {
+          "top": 15.78125,
+          "bottom": 1064.6875,
+          "left": 0,
+          "right": 320,
+          "width": 320,
+          "height": 1048.90625
+        },
+        "copy": {
+          "top": 15.78125,
+          "bottom": 755.890625,
+          "left": 20,
+          "right": 300,
+          "width": 280,
+          "height": 740.109375
+        },
+        "list": {
+          "top": 279.578125,
+          "bottom": 755.890625,
+          "left": 20,
+          "right": 300,
+          "width": 280,
+          "height": 476.3125
+        },
+        "work": {
+          "top": 1064.6875,
+          "bottom": 2127.40625,
+          "left": 0,
+          "right": 320,
+          "width": 320,
+          "height": 1062.71875
+        },
+        "insideCopy": true,
+        "hasChips": false,
+        "hasBand": false,
+        "static": true,
+        "rows": [
+          {
+            "heading": "Web development",
+            "box": {
+              "top": 279.578125,
+              "bottom": 362.765625,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "top": 310.171875,
+              "bottom": 352.171875,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 42
+            },
+            "plain": true,
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "box": {
+              "top": 362.765625,
+              "bottom": 424.953125,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 393.359375,
+              "bottom": 414.359375,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "box": {
+              "top": 424.953125,
+              "bottom": 487.140625,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 455.546875,
+              "bottom": 476.546875,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "box": {
+              "top": 487.140625,
+              "bottom": 549.328125,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 517.734375,
+              "bottom": 538.734375,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "box": {
+              "top": 549.328125,
+              "bottom": 611.515625,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "top": 579.921875,
+              "bottom": 600.921875,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "box": {
+              "top": 611.515625,
+              "bottom": 694.703125,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "top": 642.109375,
+              "bottom": 684.109375,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 42
+            },
+            "plain": true,
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "box": {
+              "top": 694.703125,
+              "bottom": 755.890625,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 61.1875
+            },
+            "value": {
+              "top": 725.296875,
+              "bottom": 746.296875,
+              "left": 20,
+              "right": 300,
+              "width": 280,
+              "height": 21
+            },
+            "plain": true,
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "reachableRows": 7,
+        "screenshot": ".taste-skill/previews/skills-grouping-webkit-320.png",
+        "detail": null
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Four focused content/fit checks for plain grouping-only HTML change. Actual Chromium and mobile-emulated WebKit; reachability uses DOM scrolling. No motion, fallback, performance or physical-device audit."
+}

@@ -1,0 +1,537 @@
+{
+  "checks": [
+    {
+      "name": "chromium silent introduction",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "waiting",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": null,
+        "rms": 0
+      }
+    },
+    {
+      "name": "chromium enable prepares sound without playing",
+      "pass": true,
+      "detail": {
+        "state": "ready",
+        "phase": "waiting",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 0,
+        "labels": [
+          {
+            "label": "Disable ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Disable ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0
+      }
+    },
+    {
+      "name": "chromium opening keyboard cycles two controls",
+      "pass": true,
+      "detail": {
+        "a": "opening-motion-toggle",
+        "z": "sound-toggle opening-sound-toggle"
+      }
+    },
+    {
+      "name": "chromium sound starts after entry",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.0036732796694073575
+      }
+    },
+    {
+      "name": "chromium mute persists and suspends",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "suspended",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0.0001068154936045563
+      }
+    },
+    {
+      "name": "chromium enable click plays once without duplicate sources",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.001650258374354755
+      }
+    },
+    {
+      "name": "chromium saved mute survives entry and reload",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0
+      }
+    },
+    {
+      "name": "chromium deep link silent until enabled",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0
+      }
+    },
+    {
+      "name": "chromium deep link explicit sound works",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.0024585856467509467
+      }
+    },
+    {
+      "name": "chromium hidden page suspends",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "suspended",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.00011725513895239926
+      }
+    },
+    {
+      "name": "chromium explicit audio resumes on visible",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.0014418945996854992
+      }
+    },
+    {
+      "name": "chromium no page exceptions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "chromium unsupported audio fallback",
+      "pass": true,
+      "detail": {
+        "state": "unavailable",
+        "disabled": true
+      }
+    },
+    {
+      "name": "webkit silent introduction",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "waiting",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": null,
+        "rms": 0
+      }
+    },
+    {
+      "name": "webkit enable prepares sound without playing",
+      "pass": true,
+      "detail": {
+        "state": "ready",
+        "phase": "waiting",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 0,
+        "labels": [
+          {
+            "label": "Disable ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Disable ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0
+      }
+    },
+    {
+      "name": "webkit opening keyboard cycles two controls",
+      "pass": true,
+      "detail": {
+        "a": "opening-motion-toggle",
+        "z": "sound-toggle opening-sound-toggle"
+      }
+    },
+    {
+      "name": "webkit sound starts after entry",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.003258041182946955
+      }
+    },
+    {
+      "name": "webkit mute persists and suspends",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "suspended",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0.00006566149548411139
+      }
+    },
+    {
+      "name": "webkit enable click plays once without duplicate sources",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.001534899486154869
+      }
+    },
+    {
+      "name": "webkit saved mute survives entry and reload",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0
+      }
+    },
+    {
+      "name": "webkit deep link silent until enabled",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 0,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "off",
+        "rms": 0
+      }
+    },
+    {
+      "name": "webkit deep link explicit sound works",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.002287493103426844
+      }
+    },
+    {
+      "name": "webkit hidden page suspends",
+      "pass": true,
+      "detail": {
+        "state": "off",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "suspended",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          },
+          {
+            "label": "Enable ocean sound",
+            "pressed": "false",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.00006775154176018189
+      }
+    },
+    {
+      "name": "webkit explicit audio resumes on visible",
+      "pass": true,
+      "detail": {
+        "state": "playing",
+        "phase": "done",
+        "contexts": 1,
+        "contextState": "running",
+        "sources": 3,
+        "labels": [
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          },
+          {
+            "label": "Mute ocean sound",
+            "pressed": "true",
+            "disabled": false
+          }
+        ],
+        "preference": "on",
+        "rms": 0.0013336360732883275
+      }
+    },
+    {
+      "name": "webkit no page exceptions",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "webkit unsupported audio fallback",
+      "pass": true,
+      "detail": {
+        "state": "unavailable",
+        "disabled": true
+      }
+    }
+  ],
+  "passed": 26,
+  "total": 26,
+  "scope": "Native Chromium and WebKit audio contexts, emulated phone viewport; visibility events simulated; actual sound quality and physical iOS are not asserted."
+}

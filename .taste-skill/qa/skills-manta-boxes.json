@@ -1,0 +1,1673 @@
+{
+  "checks": [
+    {
+      "name": "Chromium: manta and treatment boxes at 1440",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "height": 900,
+        "scrollWidth": 1440,
+        "section": {
+          "left": 0,
+          "right": 1440,
+          "top": 96,
+          "bottom": 810.359375,
+          "width": 1440,
+          "height": 714.359375
+        },
+        "content": {
+          "left": 726.109375,
+          "right": 1353.578125,
+          "top": 153.59375,
+          "bottom": 751.765625,
+          "width": 627.46875,
+          "height": 598.171875
+        },
+        "list": {
+          "left": 726.109375,
+          "right": 1353.578125,
+          "top": 262.765625,
+          "bottom": 751.765625,
+          "width": 627.46875,
+          "height": 489
+        },
+        "animals": {
+          "left": 86.40625,
+          "right": 654.109375,
+          "top": 153.59375,
+          "bottom": 751.765625,
+          "width": 567.703125,
+          "height": 598.171875
+        },
+        "work": {
+          "left": 0,
+          "right": 1440,
+          "top": 810.359375,
+          "bottom": 1442.453125,
+          "width": 1440,
+          "height": 632.09375
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-sandscape.webp\")",
+        "otherBackgrounds": [
+          "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+        ],
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 262.765625,
+              "bottom": 332.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 297.265625,
+              "bottom": 320.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 332.765625,
+              "bottom": 402.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 367.265625,
+              "bottom": 390.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 402.765625,
+              "bottom": 472.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 437.265625,
+              "bottom": 460.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 472.765625,
+              "bottom": 542.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 507.265625,
+              "bottom": 530.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 542.765625,
+              "bottom": 612.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 577.265625,
+              "bottom": 600.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 612.765625,
+              "bottom": 682.765625,
+              "width": 627.46875,
+              "height": 70
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 647.265625,
+              "bottom": 670.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 682.765625,
+              "bottom": 751.765625,
+              "width": 627.46875,
+              "height": 69
+            },
+            "value": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 717.265625,
+              "bottom": 740.578125,
+              "width": 627.46875,
+              "height": 23.3125
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp",
+            "width": 1200,
+            "height": 600,
+            "complete": true,
+            "alt": "",
+            "type": "manta",
+            "box": {
+              "left": -24.242401123046875,
+              "right": 748.7300109863281,
+              "top": 272.1715393066406,
+              "bottom": 668.6985473632812,
+              "width": 772.972412109375,
+              "height": 396.5270080566406
+            },
+            "transform": "matrix(0.999847, -0.0174821, 0.0174821, 0.999847, -8.014, -6.3462)"
+          }
+        ],
+        "alpha": {
+          "width": 1200,
+          "height": 600,
+          "transparentRatio": 0.8365,
+          "maxAlpha": 254,
+          "edgeMax": 1,
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "left": 197,
+            "top": 96,
+            "right": 1013,
+            "bottom": 508
+          },
+          "visible": {
+            "left": 102.65390319824218,
+            "right": 628.919287109375,
+            "top": 335.6158605957031,
+            "bottom": 608.5586178080241
+          }
+        },
+        "decorative": "true",
+        "scene": "skills",
+        "bio": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "bioCount": 1,
+        "bioSentenceCount": 5,
+        "skillsHasBio": false,
+        "hasJellyfish": false,
+        "motionState": "playing",
+        "frames": [
+          {
+            "box": {
+              "left": 81.67047882080078,
+              "right": 264.1005325317383,
+              "top": 214.70217895507812,
+              "bottom": 350.29559326171875,
+              "width": 182.4300537109375,
+              "height": 135.59341430664062
+            },
+            "corners": 4,
+            "kind": "halftone",
+            "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-manta.webp\")",
+            "transform": "matrix(0.999983, 0.00577352, -0.00577352, 0.999983, 1.323, 1.8192)"
+          },
+          {
+            "box": {
+              "left": 472.6474304199219,
+              "right": 647.2426147460938,
+              "top": 573.87890625,
+              "bottom": 705.8856811523438,
+              "width": 174.59518432617188,
+              "height": 132.00677490234375
+            },
+            "corners": 4,
+            "kind": "mosaic",
+            "background": "none",
+            "transform": "matrix(0.999391, 0.0348978, -0.0348978, 0.999391, 7.9997, 10.9995)"
+          }
+        ],
+        "mosaic": {
+          "width": 195,
+          "height": 144,
+          "colors": 283,
+          "nonzeroRatio": 0.6509971509971509,
+          "maxAlpha": 254,
+          "populated": true,
+          "src": "img/ocean/skills-manta.webp",
+          "zoom": "4.5",
+          "x": "0.65",
+          "y": "0.75"
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-chromium-1440.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: manta and treatment boxes at 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "section": {
+          "left": 0,
+          "right": 390,
+          "top": 16,
+          "bottom": 923.890625,
+          "width": 390,
+          "height": 907.890625
+        },
+        "content": {
+          "left": 20,
+          "right": 370,
+          "top": 52.796875,
+          "bottom": 612.09375,
+          "width": 350,
+          "height": 559.296875
+        },
+        "list": {
+          "left": 20,
+          "right": 370,
+          "top": 135.78125,
+          "bottom": 612.09375,
+          "width": 350,
+          "height": 476.3125
+        },
+        "animals": {
+          "left": 20,
+          "right": 370,
+          "top": 636.09375,
+          "bottom": 886.09375,
+          "width": 350,
+          "height": 250
+        },
+        "work": {
+          "left": 0,
+          "right": 390,
+          "top": 923.890625,
+          "bottom": 1963.609375,
+          "width": 390,
+          "height": 1039.71875
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-sandscape.webp\")",
+        "otherBackgrounds": [
+          "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+        ],
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 135.78125,
+              "bottom": 218.96875,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 166.375,
+              "bottom": 208.375,
+              "width": 350,
+              "height": 42
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 218.96875,
+              "bottom": 281.15625,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 249.5625,
+              "bottom": 270.5625,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 281.15625,
+              "bottom": 343.34375,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 311.75,
+              "bottom": 332.75,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 343.34375,
+              "bottom": 405.53125,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 373.9375,
+              "bottom": 394.9375,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 405.53125,
+              "bottom": 467.71875,
+              "width": 350,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 436.125,
+              "bottom": 457.125,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 467.71875,
+              "bottom": 550.90625,
+              "width": 350,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 498.3125,
+              "bottom": 540.3125,
+              "width": 350,
+              "height": 42
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 370,
+              "top": 550.90625,
+              "bottom": 612.09375,
+              "width": 350,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 370,
+              "top": 581.5,
+              "bottom": 602.5,
+              "width": 350,
+              "height": 21
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp",
+            "width": 1200,
+            "height": 600,
+            "complete": true,
+            "alt": "",
+            "type": "manta",
+            "box": {
+              "left": -48.53116226196289,
+              "right": 426.923152923584,
+              "top": 628.4423828125,
+              "bottom": 870.657958984375,
+              "width": 475.4543151855469,
+              "height": 242.215576171875
+            },
+            "transform": "matrix(0.99992, -0.012666, 0.012666, 0.99992, -5.8056, -4.6718)"
+          }
+        ],
+        "alpha": {
+          "width": 1200,
+          "height": 600,
+          "transparentRatio": 0.8365,
+          "maxAlpha": 254,
+          "edgeMax": 1,
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "left": 197,
+            "top": 96,
+            "right": 1013,
+            "bottom": 508
+          },
+          "visible": {
+            "left": 29.522587814331047,
+            "right": 353.2277340698242,
+            "top": 667.196875,
+            "bottom": 833.9219299316406
+          }
+        },
+        "decorative": "true",
+        "scene": "skills",
+        "bio": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "bioCount": 1,
+        "bioSentenceCount": 5,
+        "skillsHasBio": false,
+        "hasJellyfish": false,
+        "motionState": "playing",
+        "frames": [
+          {
+            "box": {
+              "left": 23.372587203979492,
+              "right": 121.40740776062012,
+              "top": 640.9189453125,
+              "bottom": 713.544189453125,
+              "width": 98.03482055664062,
+              "height": 72.625244140625
+            },
+            "corners": 4,
+            "kind": "halftone",
+            "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-manta.webp\")",
+            "transform": "matrix(1, -0.00048, 0.00048, 1, -0.1099, -0.1512)"
+          },
+          {
+            "box": {
+              "left": 269.26513671875,
+              "right": 375.9753112792969,
+              "top": 809.202392578125,
+              "bottom": 889.29296875,
+              "width": 106.71017456054688,
+              "height": 80.090576171875
+            },
+            "corners": 4,
+            "kind": "mosaic",
+            "background": "none",
+            "transform": "matrix(0.999751, 0.022328, -0.022328, 0.999751, 5.1176, 7.0367)"
+          }
+        ],
+        "mosaic": {
+          "width": 119,
+          "height": 88,
+          "colors": 103,
+          "nonzeroRatio": 0.6302521008403361,
+          "maxAlpha": 254,
+          "populated": true,
+          "src": "img/ocean/skills-manta.webp",
+          "zoom": "4.5",
+          "x": "0.65",
+          "y": "0.75"
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-webkit-390.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: manta and treatment boxes at 768",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "height": 1024,
+        "scrollWidth": 768,
+        "section": {
+          "left": 0,
+          "right": 768,
+          "top": 16,
+          "bottom": 730.875,
+          "width": 768,
+          "height": 714.875
+        },
+        "content": {
+          "left": 387.046875,
+          "right": 725.734375,
+          "top": 57.59375,
+          "bottom": 688.28125,
+          "width": 338.6875,
+          "height": 630.6875
+        },
+        "list": {
+          "left": 387.046875,
+          "right": 725.734375,
+          "top": 152.65625,
+          "bottom": 688.28125,
+          "width": 338.6875,
+          "height": 535.625
+        },
+        "animals": {
+          "left": 42.234375,
+          "right": 348.65625,
+          "top": 57.59375,
+          "bottom": 688.28125,
+          "width": 306.421875,
+          "height": 630.6875
+        },
+        "work": {
+          "left": 0,
+          "right": 768,
+          "top": 730.875,
+          "bottom": 1458.953125,
+          "width": 768,
+          "height": 728.078125
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-sandscape.webp\")",
+        "otherBackgrounds": [
+          "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+        ],
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 152.65625,
+              "bottom": 245.96875,
+              "width": 338.6875,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 187.15625,
+              "bottom": 233.78125,
+              "width": 338.6875,
+              "height": 46.625
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 245.96875,
+              "bottom": 315.96875,
+              "width": 338.6875,
+              "height": 70
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 280.46875,
+              "bottom": 303.78125,
+              "width": 338.6875,
+              "height": 23.3125
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 315.96875,
+              "bottom": 385.96875,
+              "width": 338.6875,
+              "height": 70
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 350.46875,
+              "bottom": 373.78125,
+              "width": 338.6875,
+              "height": 23.3125
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 385.96875,
+              "bottom": 455.96875,
+              "width": 338.6875,
+              "height": 70
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 420.46875,
+              "bottom": 443.78125,
+              "width": 338.6875,
+              "height": 23.3125
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 455.96875,
+              "bottom": 525.96875,
+              "width": 338.6875,
+              "height": 70
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 490.46875,
+              "bottom": 513.78125,
+              "width": 338.6875,
+              "height": 23.3125
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 525.96875,
+              "bottom": 619.28125,
+              "width": 338.6875,
+              "height": 93.3125
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 560.46875,
+              "bottom": 607.09375,
+              "width": 338.6875,
+              "height": 46.625
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 619.28125,
+              "bottom": 688.28125,
+              "width": 338.6875,
+              "height": 69
+            },
+            "value": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 653.78125,
+              "bottom": 677.09375,
+              "width": 338.6875,
+              "height": 23.3125
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp",
+            "width": 1200,
+            "height": 600,
+            "complete": true,
+            "alt": "",
+            "type": "manta",
+            "box": {
+              "left": -18.05888557434082,
+              "right": 398.0341625213623,
+              "top": 189.52491760253906,
+              "bottom": 401.27069091796875,
+              "width": 416.0930480957031,
+              "height": 211.7457733154297
+            },
+            "transform": "matrix(0.999929, -0.0119238, 0.0119238, 0.999929, -5.4655, -4.36)"
+          }
+        ],
+        "alpha": {
+          "width": 1200,
+          "height": 600,
+          "transparentRatio": 0.8365,
+          "maxAlpha": 254,
+          "edgeMax": 1,
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "left": 197,
+            "top": 96,
+            "right": 1013,
+            "bottom": 508
+          },
+          "visible": {
+            "left": 50.24972315470377,
+            "right": 333.5397400665283,
+            "top": 223.4042413330078,
+            "bottom": 369.15591529846193
+          }
+        },
+        "decorative": "true",
+        "scene": "skills",
+        "bio": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "bioCount": 1,
+        "bioSentenceCount": 5,
+        "skillsHasBio": false,
+        "hasJellyfish": false,
+        "motionState": "playing",
+        "frames": [
+          {
+            "box": {
+              "left": 39.55706787109375,
+              "right": 137.74874877929688,
+              "top": 121.18753814697266,
+              "bottom": 194.00816345214844,
+              "width": 98.19168090820312,
+              "height": 72.82062530517578
+            },
+            "corners": 4,
+            "kind": "halftone",
+            "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-manta.webp\")",
+            "transform": "matrix(0.999998, 0.00199666, -0.00199666, 0.999998, 0.4576, 0.6291)"
+          },
+          {
+            "box": {
+              "left": 251.975830078125,
+              "right": 345.41497802734375,
+              "top": 563.2421264648438,
+              "bottom": 633.38330078125,
+              "width": 93.43914794921875,
+              "height": 70.14117431640625
+            },
+            "corners": 4,
+            "kind": "mosaic",
+            "background": "none",
+            "transform": "matrix(0.999744, 0.0226332, -0.0226332, 0.999744, 5.1876, 7.133)"
+          }
+        ],
+        "mosaic": {
+          "width": 104,
+          "height": 77,
+          "colors": 85,
+          "nonzeroRatio": 0.6713286713286714,
+          "maxAlpha": 254,
+          "populated": true,
+          "src": "img/ocean/skills-manta.webp",
+          "zoom": "4.5",
+          "x": "0.65",
+          "y": "0.75"
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-chromium-768.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: manta and treatment boxes at 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "height": 568,
+        "scrollWidth": 320,
+        "section": {
+          "left": 0,
+          "right": 320,
+          "top": 16.375,
+          "bottom": 960.265625,
+          "width": 320,
+          "height": 943.890625
+        },
+        "content": {
+          "left": 20,
+          "right": 300,
+          "top": 53.171875,
+          "bottom": 648.46875,
+          "width": 280,
+          "height": 595.296875
+        },
+        "list": {
+          "left": 20,
+          "right": 300,
+          "top": 172.15625,
+          "bottom": 648.46875,
+          "width": 280,
+          "height": 476.3125
+        },
+        "animals": {
+          "left": 20,
+          "right": 300,
+          "top": 672.46875,
+          "bottom": 922.46875,
+          "width": 280,
+          "height": 250
+        },
+        "work": {
+          "left": 0,
+          "right": 320,
+          "top": 960.265625,
+          "bottom": 2022.984375,
+          "width": 320,
+          "height": 1062.71875
+        },
+        "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-sandscape.webp\")",
+        "otherBackgrounds": [
+          "url(\"http://127.0.0.1:4173/img/ocean/water.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/about-depth.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/exploration-reef.webp\")",
+          "url(\"http://127.0.0.1:4173/img/ocean/abyss.webp\")"
+        ],
+        "rows": [
+          {
+            "heading": "Web development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 172.15625,
+              "bottom": 255.34375,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 202.75,
+              "bottom": 244.75,
+              "width": 280,
+              "height": 42
+            },
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "heading": "Backend development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 255.34375,
+              "bottom": 317.53125,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 285.9375,
+              "bottom": 306.9375,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS"
+            ]
+          },
+          {
+            "heading": "Mobile development",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 317.53125,
+              "bottom": 379.71875,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 348.125,
+              "bottom": 369.125,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "React Native",
+              "Flutter"
+            ]
+          },
+          {
+            "heading": "Data & analysis",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 379.71875,
+              "bottom": 441.90625,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 410.3125,
+              "bottom": 431.3125,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Python",
+              "Process mining"
+            ]
+          },
+          {
+            "heading": "Databases & caching",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 441.90625,
+              "bottom": 504.09375,
+              "width": 280,
+              "height": 62.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 472.5,
+              "bottom": 493.5,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          {
+            "heading": "DevOps & infrastructure",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 504.09375,
+              "bottom": 587.28125,
+              "width": 280,
+              "height": 83.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 534.6875,
+              "bottom": 576.6875,
+              "width": 280,
+              "height": 42
+            },
+            "values": [
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)"
+            ]
+          },
+          {
+            "heading": "Integrations",
+            "plain": true,
+            "box": {
+              "left": 20,
+              "right": 300,
+              "top": 587.28125,
+              "bottom": 648.46875,
+              "width": 280,
+              "height": 61.1875
+            },
+            "value": {
+              "left": 20,
+              "right": 300,
+              "top": 617.875,
+              "bottom": 638.875,
+              "width": 280,
+              "height": 21
+            },
+            "values": [
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ]
+          }
+        ],
+        "images": [
+          {
+            "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp",
+            "width": 1200,
+            "height": 600,
+            "complete": true,
+            "alt": "",
+            "type": "manta",
+            "box": {
+              "left": -35.96917724609375,
+              "right": 344.38818359375,
+              "top": 665.430908203125,
+              "bottom": 859.19091796875,
+              "width": 380.35736083984375,
+              "height": 193.760009765625
+            },
+            "transform": "matrix(0.99992, -0.012632, 0.012632, 0.99992, -5.7905, -4.6579)"
+          }
+        ],
+        "alpha": {
+          "width": 1200,
+          "height": 600,
+          "transparentRatio": 0.8365,
+          "maxAlpha": 254,
+          "edgeMax": 1,
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "left": 197,
+            "top": 96,
+            "right": 1013,
+            "bottom": 508
+          },
+          "visible": {
+            "left": 26.47282282511393,
+            "right": 285.4327926635742,
+            "top": 696.432509765625,
+            "bottom": 829.8039831542969
+          }
+        },
+        "decorative": "true",
+        "scene": "skills",
+        "bio": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "bioCount": 1,
+        "bioSentenceCount": 5,
+        "skillsHasBio": false,
+        "hasJellyfish": false,
+        "motionState": "playing",
+        "frames": [
+          {
+            "box": {
+              "left": 22.702499389648438,
+              "right": 101.11429595947266,
+              "top": 677.339111328125,
+              "bottom": 735.43017578125,
+              "width": 78.41179656982422,
+              "height": 58.091064453125
+            },
+            "corners": 4,
+            "kind": "halftone",
+            "background": "url(\"http://127.0.0.1:4173/img/ocean/skills-manta.webp\")",
+            "transform": "matrix(1, -0.000365, 0.000365, 1, -0.0838, -0.1152)"
+          },
+          {
+            "box": {
+              "left": 220.4349822998047,
+              "right": 305.8045349121094,
+              "top": 861.362060546875,
+              "bottom": 925.442626953125,
+              "width": 85.36955261230469,
+              "height": 64.08056640625
+            },
+            "corners": 4,
+            "kind": "mosaic",
+            "background": "none",
+            "transform": "matrix(0.99975, 0.022349, -0.022349, 0.99975, 5.1222, 7.043)"
+          }
+        ],
+        "mosaic": {
+          "width": 95,
+          "height": 70,
+          "colors": 66,
+          "nonzeroRatio": 0.6234586466165414,
+          "maxAlpha": 254,
+          "populated": true,
+          "src": "img/ocean/skills-manta.webp",
+          "zoom": "4.5",
+          "x": "0.65",
+          "y": "0.75"
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-webkit-320.png",
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: all six marine layers obey Pause/resume",
+      "passed": true,
+      "details": {
+        "before": [
+          "matrix(1.0357, 0, 0, 1.0357, 0.355, 0.1775)",
+          "matrix(0.99984, -0.0178939, 0.0178939, 0.99984, -8.2023, -6.5188)",
+          "matrix(0.99999, 0.00450119, -0.00450119, 0.99999, 1.0314, 1.4182)",
+          "matrix(1, 0, 0, 1, -4.6427, -2.9017)",
+          "matrix(0.999391, 0.0348855, -0.0348855, 0.999391, 7.9969, 10.9958)",
+          "matrix(1, 0, 0, 1, 6.515, 4.0719)"
+        ],
+        "moving": [
+          "matrix(1.0376, 0, 0, 1.0376, 1.4018, 0.7009)",
+          "matrix(0.999914, -0.0131367, 0.0131367, 0.999914, -6.0218, -4.5199)",
+          "matrix(0.999849, 0.0174035, -0.0174035, 0.999849, 3.9888, 5.4846)",
+          "matrix(1, 0, 0, 1, -2.4022, -1.5014)",
+          "matrix(0.999468, 0.0326022, -0.0326022, 0.999468, 7.4733, 10.2757)",
+          "matrix(1, 0, 0, 1, 7.6308, 4.7693)"
+        ],
+        "frozen": [
+          "matrix(1.0377, 0, 0, 1.0377, 1.456, 0.728)",
+          "matrix(0.999917, -0.012868, 0.012868, 0.999917, -5.8981, -4.4066)",
+          "matrix(0.999838, 0.0180213, -0.0180213, 0.999838, 4.1304, 5.6793)",
+          "matrix(1, 0, 0, 1, -2.2764, -1.4228)",
+          "matrix(0.999477, 0.0323405, -0.0323405, 0.999477, 7.413, 10.1929)",
+          "matrix(1, 0, 0, 1, 7.6693, 4.7933)"
+        ],
+        "resumed": [
+          "matrix(1.0388, 0, 0, 1.0388, 2.0256, 1.0128)",
+          "matrix(0.999951, -0.00990807, 0.00990807, 0.999951, -4.5418, -3.1634)",
+          "matrix(0.999711, 0.0240466, -0.0240466, 0.999711, 5.5115, 7.5783)",
+          "matrix(1, 0, 0, 1, -0.9144, -0.5715)",
+          "matrix(0.999587, 0.0287468, -0.0287468, 0.999587, 6.5894, 9.0604)",
+          "matrix(1, 0, 0, 1, 7.9476, 4.9672)"
+        ]
+      }
+    },
+    {
+      "name": "WebKit: all six marine layers obey Pause/resume",
+      "passed": true,
+      "details": {
+        "before": [
+          "matrix(1, 0, 0, 1, -0.0587, -0.0235)",
+          "matrix(0.999919, -0.012714, 0.012714, 0.999919, -5.8283, -4.6926)",
+          "matrix(1, -0.000651, 0.000651, 1, -0.1492, -0.2052)",
+          "matrix(1, 0, 0, 1, -3.5275, -2.2047)",
+          "matrix(0.999751, 0.022296, -0.022296, 0.999751, 5.1105, 7.027)",
+          "matrix(1, 0, 0, 1, 3.8206, 2.3879)"
+        ],
+        "moving": [
+          "matrix(1, 0, 0, 1, 0.4771, 0.1909)",
+          "matrix(0.999946, -0.010367, 0.010367, 0.999946, -4.7519, -3.7059)",
+          "matrix(0.999978, 0.006664, -0.006664, 0.999978, 1.527, 2.0996)",
+          "matrix(1, 0, 0, 1, -2.4203, -1.5127)",
+          "matrix(0.999748, 0.022462, -0.022462, 0.999748, 5.1484, 7.0791)",
+          "matrix(1, 0, 0, 1, 4.6024, 2.8765)"
+        ],
+        "frozen": [
+          "matrix(1, 0, 0, 1, 0.5051, 0.202)",
+          "matrix(0.999948, -0.010233, 0.010233, 0.999948, -4.6905, -3.6497)",
+          "matrix(0.999975, 0.007034, -0.007034, 0.999975, 1.6119, 2.2163)",
+          "matrix(1, 0, 0, 1, -2.357, -1.4731)",
+          "matrix(0.999749, 0.022405, -0.022405, 0.999749, 5.1352, 7.0608)",
+          "matrix(1, 0, 0, 1, 4.6351, 2.897)"
+        ],
+        "resumed": [
+          "matrix(1, 0, 0, 1, 0.7993, 0.3197)",
+          "matrix(0.999962, -0.00876, 0.00876, 0.999962, -4.0154, -3.0307)",
+          "matrix(0.999942, 0.010796, -0.010796, 0.999942, 2.4743, 3.4022)",
+          "matrix(1, 0, 0, 1, -1.6645, -1.0403)",
+          "matrix(0.999771, 0.021398, -0.021398, 0.999771, 4.9044, 6.7435)",
+          "matrix(1, 0, 0, 1, 4.9264, 3.079)"
+        ]
+      }
+    },
+    {
+      "name": "WebKit: reduced motion keeps content visible and art still",
+      "passed": true,
+      "details": {
+        "before": [
+          "matrix(1, 0, 0, 1, -0.7822, -0.3129)",
+          "matrix(0.999885, -0.015161, 0.015161, 0.999885, -6.9499, -5.7207)",
+          "matrix(0.999947, -0.010301, 0.010301, 0.999947, -2.3608, -3.246)",
+          "matrix(1, 0, 0, 1, -4.6332, -2.8958)",
+          "matrix(0.999832, 0.018355, -0.018355, 0.999832, 4.2069, 5.7845)",
+          "matrix(1, 0, 0, 1, 2.3608, 1.4755)"
+        ],
+        "moving": [
+          "matrix(1, 0, 0, 1, -0.7822, -0.3129)",
+          "matrix(0.999885, -0.015161, 0.015161, 0.999885, -6.9499, -5.7207)",
+          "matrix(0.999947, -0.010301, 0.010301, 0.999947, -2.3608, -3.246)",
+          "matrix(1, 0, 0, 1, -4.6332, -2.8958)",
+          "matrix(0.999832, 0.018355, -0.018355, 0.999832, 4.2069, 5.7845)",
+          "matrix(1, 0, 0, 1, 2.3608, 1.4755)"
+        ],
+        "reduced": true
+      }
+    },
+    {
+      "name": "WebKit: existing turtle mosaic retains default crop and paints",
+      "passed": true,
+      "details": {
+        "hasCanvas": true,
+        "populated": true,
+        "width": 99,
+        "height": 73,
+        "colors": 129,
+        "nonzeroRatio": 1,
+        "source": "img/ocean/turtle.webp",
+        "zoom": null,
+        "x": null,
+        "y": null
+      }
+    },
+    {
+      "name": "WebKit: refreshed mobile mosaic position 390",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "section": {
+          "left": 0,
+          "right": 390,
+          "top": 16,
+          "bottom": 923.890625,
+          "width": 390,
+          "height": 907.890625
+        },
+        "art": {
+          "left": 20,
+          "right": 370,
+          "top": 636.09375,
+          "bottom": 886.09375,
+          "width": 350,
+          "height": 250
+        },
+        "list": {
+          "left": 20,
+          "right": 370,
+          "top": 135.78125,
+          "bottom": 612.09375,
+          "width": 350,
+          "height": 476.3125
+        },
+        "mosaic": {
+          "left": 213.25921630859375,
+          "right": 319.9670104980469,
+          "top": 809.1943359375,
+          "bottom": 889.28173828125,
+          "width": 106.70779418945312,
+          "height": 80.08740234375
+        },
+        "mosaicRight": "56px",
+        "frames": [
+          {
+            "left": 23.327049255371094,
+            "right": 121.37427520751953,
+            "top": 640.856689453125,
+            "bottom": 713.49853515625,
+            "width": 98.04722595214844,
+            "height": 72.641845703125
+          },
+          {
+            "left": 213.25921630859375,
+            "right": 319.9670104980469,
+            "top": 809.1943359375,
+            "bottom": 889.28173828125,
+            "width": 106.70779418945312,
+            "height": 80.08740234375
+          }
+        ],
+        "frameCorners": [
+          4,
+          4
+        ],
+        "values": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Java",
+          "Spring Boot",
+          "Flask",
+          "ElysiaJS",
+          "React Native",
+          "Flutter",
+          "Python",
+          "Process mining",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Redis",
+          "Docker",
+          "Git",
+          "GitHub Actions",
+          "Nginx",
+          "Apache2",
+          "Linux (Ubuntu)",
+          "Stripe",
+          "PayPal",
+          "Traccar"
+        ],
+        "plain": true,
+        "canvas": {
+          "width": 119,
+          "height": 88,
+          "colors": 103,
+          "populated": true
+        },
+        "pause": {
+          "left": 334,
+          "right": 378,
+          "top": 788,
+          "bottom": 832,
+          "width": 44,
+          "height": 44
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-webkit-390.png",
+        "scope": "Only refreshed mobile geometry and populated canvas after right changed to 16%; desktop/asset/motion/default-Turtle evidence is unchanged."
+      }
+    },
+    {
+      "name": "WebKit: refreshed mobile mosaic position 320",
+      "passed": true,
+      "details": {
+        "width": 320,
+        "scrollWidth": 320,
+        "section": {
+          "left": 0,
+          "right": 320,
+          "top": 16.375,
+          "bottom": 960.265625,
+          "width": 320,
+          "height": 943.890625
+        },
+        "art": {
+          "left": 20,
+          "right": 300,
+          "top": 672.46875,
+          "bottom": 922.46875,
+          "width": 280,
+          "height": 250
+        },
+        "list": {
+          "left": 20,
+          "right": 300,
+          "top": 172.15625,
+          "bottom": 648.46875,
+          "width": 280,
+          "height": 476.3125
+        },
+        "mosaic": {
+          "left": 175.65115356445312,
+          "right": 261.02459716796875,
+          "top": 861.380126953125,
+          "bottom": 925.466064453125,
+          "width": 85.37344360351562,
+          "height": 64.0859375
+        },
+        "mosaicRight": "44.796875px",
+        "frames": [
+          {
+            "left": 22.803760528564453,
+            "right": 101.19641494750977,
+            "top": 677.478271484375,
+            "bottom": 735.54345703125,
+            "width": 78.39265441894531,
+            "height": 58.065185546875
+          },
+          {
+            "left": 175.65115356445312,
+            "right": 261.02459716796875,
+            "top": 861.380126953125,
+            "bottom": 925.466064453125,
+            "width": 85.37344360351562,
+            "height": 64.0859375
+          }
+        ],
+        "frameCorners": [
+          4,
+          4
+        ],
+        "values": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+          "Java",
+          "Spring Boot",
+          "Flask",
+          "ElysiaJS",
+          "React Native",
+          "Flutter",
+          "Python",
+          "Process mining",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Redis",
+          "Docker",
+          "Git",
+          "GitHub Actions",
+          "Nginx",
+          "Apache2",
+          "Linux (Ubuntu)",
+          "Stripe",
+          "PayPal",
+          "Traccar"
+        ],
+        "plain": true,
+        "canvas": {
+          "width": 95,
+          "height": 70,
+          "colors": 66,
+          "populated": true
+        },
+        "pause": {
+          "left": 264,
+          "right": 308,
+          "top": 512,
+          "bottom": 556,
+          "width": 44,
+          "height": 44
+        },
+        "screenshot": ".taste-skill/previews/skills-manta-boxes-webkit-320.png",
+        "scope": "Only refreshed mobile geometry and populated canvas after right changed to 16%; desktop/asset/motion/default-Turtle evidence is unchanged."
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Focused final manta Skills scene in actual Chromium and emulated-touch WebKit. Canvas alpha is native decoded RGBA; visible layout bounds map alpha >=16 into rendered image bounds and are supplemented by visual inspection for small rotations. DOM/programmatic scrolling tests reachability. No physical-device, frame-performance, assistive-technology or full-site audit."
+}

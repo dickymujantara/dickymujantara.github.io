@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-27",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "Second cartoon otter revision after rejection of giant hind feet and toy-like face; original reclining pose with naturally small partly submerged feet.",
+  "transparent": true,
+  "source": "/Users/dickymujantara/.codex/generated_images/01a17d45-7d9b-7e83-b1ec-ad40c5225453/exec-bb1248dd-0e31-4908-991d-3c7fab98218f.png",
+  "delivery": "img/ocean/otter-cartoon-v2.webp",
+  "references": [
+    {
+      "path": "img/ocean/otter.webp",
+      "role": "Original pose/anatomy reference and edit target, with explicit correction of foot size and body submersion."
+    },
+    {
+      "path": "img/ocean/whale.webp",
+      "role": "Supporting illustrated marine style and navy/slate/ivory palette only."
+    }
+  ],
+  "excludedReference": "The rejected otter-cartoon.webp was not supplied as an edit target or reference.",
+  "prompt": "Use case: style-transfer. Asset type: transparent editorial-cartoon sea otter layer for an ocean website. Image 1 is the original sea otter POSE/ANATOMY reference: one adult floating calmly on its back diagonally, head at upper RIGHT, elongated body extending to lower LEFT, forepaws relaxed near its upper chest, holding nothing. Image 2 is the whale STYLE AND PALETTE reference only, not a subject to include. Redraw the otter as an anatomically credible adult in a clean hand-drawn 2D editorial cartoon/gouache style: smooth broad navy/slate fur masses, two or three restrained painted shading values, clean controlled ink contours, no individual hair or photoreal fur. IMPORTANT ANATOMY CORRECTION: the body is partly submerged and elongated, not a chubby human-shaped loaf. Hind feet are SMALL, relaxed and mostly under water: show only modest webbed hind-toe tips just breaking the waterline at the far left. NEVER show huge raised foot soles, boot-like paws, large paw pads or feet presented toward the camera. The small natural forepaws rest loosely near the upper chest, not clasped like human hands. The head is modestly proportioned to the adult body and shown in a gentle three-quarter angle rather than a symmetrical front-facing toy face. Small dark almond eyes with only a tiny catchlight, small rounded ears, a modest short muzzle with restrained slate-silver/ivory accents and a quiet friendly expression. No oversized round glossy eyes, inflated cheeks, plush mascot head, broad cartoon grin, teeth or chalk-white belly panel. Body stays predominantly dark navy/slate, matching the whale's cool palette with sparse muted ivory accents. Keep the whole reclining animal inside a wide 2:1 canvas with generous padding. Thin muted waterline ripples hug the partly submerged body; no broad water patch. Genuine TRANSPARENT ALPHA outside the animal and those few close ripple strokes. No background, rectangle, opaque matte, halo, glow, cast shadow, checkerboard, shell, prop, extra animal, text, UI, frame or watermark. Calm natural marine illustration, not 3D, photograph, stuffed toy, emoji or children's mascot.",
+  "conversion": "cwebp -q 84 -m 6 -alpha_q 100 -metadata none -exact -resize 1024 0 SOURCE -o img/ocean/otter-cartoon-v2.webp"
+}

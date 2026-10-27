@@ -1,0 +1,3166 @@
+{
+  "checks": [
+    {
+      "name": "chromium 1440: labels and grouped control states",
+      "passed": true,
+      "details": {
+        "profile": {
+          "engine": "chromium",
+          "width": 1440,
+          "height": 900,
+          "coarse": false
+        },
+        "opening": {
+          "box": {
+            "left": 20,
+            "right": 116,
+            "top": 840,
+            "bottom": 884,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "opening-motion-toggle",
+              "label": "Pause opening motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 20,
+                "right": 64,
+                "top": 840,
+                "bottom": 884,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [],
+              "outline": "none"
+            },
+            {
+              "id": "",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 72,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 93.5,
+                    "right": 94.5,
+                    "top": 861.5,
+                    "bottom": 862.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 1440,
+          "height": 900,
+          "overflow": false
+        },
+        "openingLabels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 1192.828125,
+              "right": 1267.203125,
+              "top": 703.875,
+              "bottom": 720,
+              "width": 74.375,
+              "height": 16.125
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 1334.375,
+              "right": 1368,
+              "top": 360,
+              "bottom": 376.125,
+              "width": 33.625,
+              "height": 16.125
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 1172.21875,
+              "right": 1238.40625,
+              "top": 36,
+              "bottom": 52.125,
+              "width": 66.1875,
+              "height": 16.125
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          }
+        ],
+        "openingScreenshot": ".taste-skill/previews/animal-controls-chromium-1440-opening.png",
+        "main": {
+          "box": {
+            "left": 20,
+            "right": 116,
+            "top": 840,
+            "bottom": 884,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "motion-toggle",
+              "label": "Pause all ocean motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 20,
+                "right": 64,
+                "top": 840,
+                "bottom": 884,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 41.5,
+                    "right": 42.5,
+                    "top": 861.5,
+                    "bottom": 862.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            },
+            {
+              "id": "sound-toggle",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 72,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 93.5,
+                    "right": 94.5,
+                    "top": 861.5,
+                    "bottom": 862.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 1440,
+          "height": 900,
+          "overflow": false
+        },
+        "inputs": {
+          "motionFocus": {
+            "box": {
+              "left": 20,
+              "right": 116,
+              "top": 840,
+              "bottom": 884,
+              "width": 96,
+              "height": 44
+            },
+            "display": "flex",
+            "inert": false,
+            "visible": true,
+            "buttons": [
+              {
+                "id": "opening-motion-toggle",
+                "label": "Pause opening motion",
+                "pressed": "false",
+                "disabled": false,
+                "box": {
+                  "left": 20,
+                  "right": 64,
+                  "top": 840,
+                  "bottom": 884,
+                  "width": 44,
+                  "height": 44
+                },
+                "icon": "pause",
+                "svg": true,
+                "labels": [],
+                "outline": "solid"
+              },
+              {
+                "id": "",
+                "label": "Enable ocean sound",
+                "pressed": "false",
+                "disabled": false,
+                "box": {
+                  "left": 72,
+                  "right": 116,
+                  "top": 840,
+                  "bottom": 884,
+                  "width": 44,
+                  "height": 44
+                },
+                "icon": "off",
+                "svg": true,
+                "labels": [
+                  {
+                    "box": {
+                      "left": 93.5,
+                      "right": 94.5,
+                      "top": 861.5,
+                      "bottom": 862.5,
+                      "width": 1,
+                      "height": 1
+                    },
+                    "clip": "inset(50%)"
+                  }
+                ],
+                "outline": "none"
+              }
+            ],
+            "width": 1440,
+            "height": 900,
+            "overflow": false
+          },
+          "openingSound": {
+            "before": "false",
+            "after": "true",
+            "label": "Mute ocean sound"
+          },
+          "openingSoundOff": {
+            "before": "true",
+            "after": "false",
+            "label": "Enable ocean sound"
+          },
+          "openingMotion": {
+            "before": "false",
+            "after": "true",
+            "label": "Play opening motion"
+          },
+          "mainSound": {
+            "before": "false",
+            "after": "true",
+            "label": "Mute ocean sound"
+          },
+          "mainSoundOff": {
+            "before": "true",
+            "after": "false",
+            "label": "Enable ocean sound"
+          }
+        },
+        "sections": [
+          {
+            "id": "home",
+            "labels": [
+              {
+                "text": "Humpback whale",
+                "box": {
+                  "left": 1184.140625,
+                  "right": 1310.40625,
+                  "top": 767.25,
+                  "bottom": 783.375,
+                  "width": 126.265625,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-1440-home.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "solid"
+                }
+              ],
+              "width": 1440,
+              "height": 900,
+              "overflow": false
+            }
+          },
+          {
+            "id": "about",
+            "labels": [
+              {
+                "text": "Dolphins",
+                "box": {
+                  "left": 707.828125,
+                  "right": 776.53125,
+                  "top": 246.640625,
+                  "bottom": 262.765625,
+                  "width": 68.703125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              },
+              {
+                "text": "Orca",
+                "box": {
+                  "left": 1224.390625,
+                  "right": 1261.34375,
+                  "top": 757.03125,
+                  "bottom": 773.15625,
+                  "width": 36.953125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-1440-about.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "solid"
+                }
+              ],
+              "width": 1440,
+              "height": 900,
+              "overflow": false
+            }
+          },
+          {
+            "id": "skills",
+            "labels": [
+              {
+                "text": "Manta ray",
+                "box": {
+                  "left": 97.75,
+                  "right": 174.8125,
+                  "top": 718.609375,
+                  "bottom": 734.734375,
+                  "width": 77.0625,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-1440-skills.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "solid"
+                }
+              ],
+              "width": 1440,
+              "height": 900,
+              "overflow": false
+            }
+          },
+          {
+            "id": "explorations",
+            "labels": [
+              {
+                "text": "Sea turtle",
+                "box": {
+                  "left": 1036.390625,
+                  "right": 1118.59375,
+                  "top": 720.375,
+                  "bottom": 736.5,
+                  "width": 82.203125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-1440-explorations.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 840,
+                "bottom": 884,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 840,
+                    "bottom": 884,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 861.5,
+                        "bottom": 862.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "solid"
+                }
+              ],
+              "width": 1440,
+              "height": 900,
+              "overflow": false
+            }
+          }
+        ],
+        "footerCaptionCount": 0
+      }
+    },
+    {
+      "name": "chromium 768: labels and grouped control states",
+      "passed": true,
+      "details": {
+        "profile": {
+          "engine": "chromium",
+          "width": 768,
+          "height": 1024,
+          "coarse": true
+        },
+        "opening": {
+          "box": {
+            "left": 20,
+            "right": 116,
+            "top": 964,
+            "bottom": 1008,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "opening-motion-toggle",
+              "label": "Pause opening motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 20,
+                "right": 64,
+                "top": 964,
+                "bottom": 1008,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [],
+              "outline": "none"
+            },
+            {
+              "id": "",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 72,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 93.5,
+                    "right": 94.5,
+                    "top": 985.5,
+                    "bottom": 986.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 768,
+          "height": 1024,
+          "overflow": false
+        },
+        "openingLabels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 601.46875,
+              "right": 675.84375,
+              "top": 803.078125,
+              "bottom": 819.203125,
+              "width": 74.375,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 695.984375,
+              "right": 729.609375,
+              "top": 313.59375,
+              "bottom": 329.71875,
+              "width": 33.625,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 594.296875,
+              "right": 660.484375,
+              "top": 40.953125,
+              "bottom": 57.078125,
+              "width": 66.1875,
+              "height": 16.125
+            }
+          }
+        ],
+        "openingScreenshot": ".taste-skill/previews/animal-controls-chromium-768-opening.png",
+        "main": {
+          "box": {
+            "left": 20,
+            "right": 116,
+            "top": 964,
+            "bottom": 1008,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "motion-toggle",
+              "label": "Pause all ocean motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 20,
+                "right": 64,
+                "top": 964,
+                "bottom": 1008,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 41.5,
+                    "right": 42.5,
+                    "top": 985.5,
+                    "bottom": 986.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            },
+            {
+              "id": "sound-toggle",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 72,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 93.5,
+                    "right": 94.5,
+                    "top": 985.5,
+                    "bottom": 986.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 768,
+          "height": 1024,
+          "overflow": false
+        },
+        "inputs": {},
+        "sections": [
+          {
+            "id": "home",
+            "labels": [
+              {
+                "text": "Humpback whale",
+                "box": {
+                  "left": 572.625,
+                  "right": 698.890625,
+                  "top": 863.65625,
+                  "bottom": 879.78125,
+                  "width": 126.265625,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-768-home.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "overflow": false
+            }
+          },
+          {
+            "id": "about",
+            "labels": [
+              {
+                "text": "Dolphins",
+                "box": {
+                  "left": 414.734375,
+                  "right": 483.4375,
+                  "top": 266,
+                  "bottom": 282.125,
+                  "width": 68.703125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              },
+              {
+                "text": "Orca",
+                "box": {
+                  "left": 644.375,
+                  "right": 681.328125,
+                  "top": 789.875,
+                  "bottom": 806,
+                  "width": 36.953125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-768-about.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "overflow": false
+            }
+          },
+          {
+            "id": "skills",
+            "labels": [
+              {
+                "text": "Manta ray",
+                "box": {
+                  "left": 48.359375,
+                  "right": 125.421875,
+                  "top": 662.453125,
+                  "bottom": 678.578125,
+                  "width": 77.0625,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-768-skills.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "overflow": false
+            }
+          },
+          {
+            "id": "explorations",
+            "labels": [
+              {
+                "text": "Sea turtle",
+                "box": {
+                  "left": 527.359375,
+                  "right": 609.5625,
+                  "top": 745.875,
+                  "bottom": 762,
+                  "width": 82.203125,
+                  "height": 16.125
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-chromium-768-explorations.png",
+            "controls": {
+              "box": {
+                "left": 20,
+                "right": 116,
+                "top": 964,
+                "bottom": 1008,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 20,
+                    "right": 64,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 41.5,
+                        "right": 42.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 72,
+                    "right": 116,
+                    "top": 964,
+                    "bottom": 1008,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 93.5,
+                        "right": 94.5,
+                        "top": 985.5,
+                        "bottom": 986.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "overflow": false
+            }
+          }
+        ],
+        "footerCaptionCount": 0
+      }
+    },
+    {
+      "name": "webkit 390: labels and grouped control states",
+      "passed": true,
+      "details": {
+        "profile": {
+          "engine": "webkit",
+          "width": 390,
+          "height": 844,
+          "coarse": true
+        },
+        "opening": {
+          "box": {
+            "left": 12,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "opening-motion-toggle",
+              "label": "Pause opening motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 12,
+                "right": 56,
+                "top": 788,
+                "bottom": 832,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [],
+              "outline": "none"
+            },
+            {
+              "id": "",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 64,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 85.5,
+                    "right": 86.5,
+                    "top": 809.5,
+                    "bottom": 810.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 390,
+          "height": 844,
+          "overflow": false
+        },
+        "openingLabels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 272.734375,
+              "right": 347.109375,
+              "top": 642.328125,
+              "bottom": 658.328125,
+              "width": 74.375,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 344.6875,
+              "right": 378.3125,
+              "top": 396.671875,
+              "bottom": 412.671875,
+              "width": 33.625,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 253.625,
+              "right": 319.8125,
+              "top": 185.671875,
+              "bottom": 201.671875,
+              "width": 66.1875,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          }
+        ],
+        "openingScreenshot": ".taste-skill/previews/animal-controls-webkit-390-opening.png",
+        "main": {
+          "box": {
+            "left": 12,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "motion-toggle",
+              "label": "Pause all ocean motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 12,
+                "right": 56,
+                "top": 788,
+                "bottom": 832,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 33.5,
+                    "right": 34.5,
+                    "top": 809.5,
+                    "bottom": 810.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            },
+            {
+              "id": "sound-toggle",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 64,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 85.5,
+                    "right": 86.5,
+                    "top": 809.5,
+                    "bottom": 810.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 390,
+          "height": 844,
+          "overflow": false
+        },
+        "inputs": {
+          "motionFocus": {
+            "box": {
+              "left": 12,
+              "right": 108,
+              "top": 788,
+              "bottom": 832,
+              "width": 96,
+              "height": 44
+            },
+            "display": "flex",
+            "inert": false,
+            "visible": true,
+            "buttons": [
+              {
+                "id": "opening-motion-toggle",
+                "label": "Pause opening motion",
+                "pressed": "false",
+                "disabled": false,
+                "box": {
+                  "left": 12,
+                  "right": 56,
+                  "top": 788,
+                  "bottom": 832,
+                  "width": 44,
+                  "height": 44
+                },
+                "icon": "pause",
+                "svg": true,
+                "labels": [],
+                "outline": "solid"
+              },
+              {
+                "id": "",
+                "label": "Enable ocean sound",
+                "pressed": "false",
+                "disabled": false,
+                "box": {
+                  "left": 64,
+                  "right": 108,
+                  "top": 788,
+                  "bottom": 832,
+                  "width": 44,
+                  "height": 44
+                },
+                "icon": "off",
+                "svg": true,
+                "labels": [
+                  {
+                    "box": {
+                      "left": 85.5,
+                      "right": 86.5,
+                      "top": 809.5,
+                      "bottom": 810.5,
+                      "width": 1,
+                      "height": 1
+                    },
+                    "clip": "inset(50%)"
+                  }
+                ],
+                "outline": "none"
+              }
+            ],
+            "width": 390,
+            "height": 844,
+            "overflow": false
+          },
+          "openingSound": {
+            "before": "false",
+            "after": "true",
+            "label": "Mute ocean sound"
+          },
+          "openingSoundOff": {
+            "before": "true",
+            "after": "false",
+            "label": "Enable ocean sound"
+          },
+          "openingMotion": {
+            "before": "false",
+            "after": "true",
+            "label": "Play opening motion"
+          },
+          "nativeMainTabTarget": "",
+          "mainSound": {
+            "before": "false",
+            "after": "true",
+            "label": "Mute ocean sound"
+          },
+          "mainSoundOff": {
+            "before": "true",
+            "after": "false",
+            "label": "Enable ocean sound"
+          }
+        },
+        "sections": [
+          {
+            "id": "home",
+            "labels": [
+              {
+                "text": "Humpback whale",
+                "box": {
+                  "left": 240.359375,
+                  "right": 366.609375,
+                  "top": 751.125,
+                  "bottom": 767.125,
+                  "width": 126.25,
+                  "height": 16
+                },
+                "position": {
+                  "top": "751.125px",
+                  "bottom": "75.859375px"
+                }
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-390-home.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 390,
+              "height": 844,
+              "overflow": false
+            }
+          },
+          {
+            "id": "about",
+            "labels": [
+              {
+                "text": "Dolphins",
+                "box": {
+                  "left": 51.5,
+                  "right": 120.1875,
+                  "top": 390.171875,
+                  "bottom": 406.171875,
+                  "width": 68.6875,
+                  "height": 16
+                },
+                "position": {
+                  "top": "4.578125px",
+                  "bottom": "437.8125px"
+                }
+              },
+              {
+                "text": "Orca",
+                "box": {
+                  "left": 298.046875,
+                  "right": 335,
+                  "top": 827.984375,
+                  "bottom": 843.984375,
+                  "width": 36.953125,
+                  "height": 16
+                },
+                "position": {
+                  "top": "442.390625px",
+                  "bottom": "0px"
+                }
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-390-about.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 390,
+              "height": 844,
+              "overflow": false
+            }
+          },
+          {
+            "id": "skills",
+            "labels": [
+              {
+                "text": "Manta ray",
+                "box": {
+                  "left": 27,
+                  "right": 104.0625,
+                  "top": 421.9375,
+                  "bottom": 437.9375,
+                  "width": 77.0625,
+                  "height": 16
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-390-skills.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 390,
+              "height": 844,
+              "overflow": false
+            }
+          },
+          {
+            "id": "explorations",
+            "labels": [
+              {
+                "text": "Sea turtle",
+                "box": {
+                  "left": 175.8125,
+                  "right": 258,
+                  "top": 551.953125,
+                  "bottom": 567.953125,
+                  "width": 82.1875,
+                  "height": 16
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-390-explorations.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 788,
+                "bottom": 832,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 788,
+                    "bottom": 832,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 809.5,
+                        "bottom": 810.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 390,
+              "height": 844,
+              "overflow": false
+            }
+          }
+        ],
+        "footerCaptionCount": 0
+      }
+    },
+    {
+      "name": "webkit 320: labels and grouped control states",
+      "passed": true,
+      "details": {
+        "profile": {
+          "engine": "webkit",
+          "width": 320,
+          "height": 568,
+          "coarse": true
+        },
+        "opening": {
+          "box": {
+            "left": 12,
+            "right": 108,
+            "top": 512,
+            "bottom": 556,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "opening-motion-toggle",
+              "label": "Pause opening motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 12,
+                "right": 56,
+                "top": 512,
+                "bottom": 556,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [],
+              "outline": "none"
+            },
+            {
+              "id": "",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 64,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 85.5,
+                    "right": 86.5,
+                    "top": 533.5,
+                    "bottom": 534.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 320,
+          "height": 568,
+          "overflow": false
+        },
+        "openingLabels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 25.59375,
+              "right": 99.96875,
+              "top": 295.359375,
+              "bottom": 311.359375,
+              "width": 74.375,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 276.78125,
+              "right": 310.40625,
+              "top": 266.953125,
+              "bottom": 282.953125,
+              "width": 33.625,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 196.21875,
+              "right": 262.40625,
+              "top": 124.953125,
+              "bottom": 140.953125,
+              "width": 66.1875,
+              "height": 16
+            },
+            "visibility": true,
+            "pointer": "none",
+            "font": "10.4px",
+            "color": "rgb(217, 231, 237)",
+            "shadow": "none"
+          }
+        ],
+        "openingScreenshot": ".taste-skill/previews/animal-controls-webkit-320-opening.png",
+        "main": {
+          "box": {
+            "left": 12,
+            "right": 108,
+            "top": 512,
+            "bottom": 556,
+            "width": 96,
+            "height": 44
+          },
+          "display": "flex",
+          "inert": false,
+          "visible": true,
+          "buttons": [
+            {
+              "id": "motion-toggle",
+              "label": "Pause all ocean motion",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 12,
+                "right": 56,
+                "top": 512,
+                "bottom": 556,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "pause",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 33.5,
+                    "right": 34.5,
+                    "top": 533.5,
+                    "bottom": 534.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            },
+            {
+              "id": "sound-toggle",
+              "label": "Enable ocean sound",
+              "pressed": "false",
+              "disabled": false,
+              "box": {
+                "left": 64,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 44,
+                "height": 44
+              },
+              "icon": "off",
+              "svg": true,
+              "labels": [
+                {
+                  "box": {
+                    "left": 85.5,
+                    "right": 86.5,
+                    "top": 533.5,
+                    "bottom": 534.5,
+                    "width": 1,
+                    "height": 1
+                  },
+                  "clip": "inset(50%)"
+                }
+              ],
+              "outline": "none"
+            }
+          ],
+          "width": 320,
+          "height": 568,
+          "overflow": false
+        },
+        "inputs": {},
+        "sections": [
+          {
+            "id": "home",
+            "labels": [
+              {
+                "text": "Humpback whale",
+                "box": {
+                  "left": 174.5625,
+                  "right": 300.8125,
+                  "top": 283.890625,
+                  "bottom": 299.890625,
+                  "width": 126.25,
+                  "height": 16
+                },
+                "position": {
+                  "top": "700.890625px",
+                  "bottom": "70.890625px"
+                }
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-320-home.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 320,
+              "height": 568,
+              "overflow": false
+            }
+          },
+          {
+            "id": "about",
+            "labels": [
+              {
+                "text": "Dolphins",
+                "box": {
+                  "left": 45.1875,
+                  "right": 113.875,
+                  "top": 284.3125,
+                  "bottom": 300.3125,
+                  "width": 68.6875,
+                  "height": 16
+                },
+                "position": {
+                  "top": "2.9375px",
+                  "bottom": "276.0625px"
+                }
+              },
+              {
+                "text": "Orca",
+                "box": {
+                  "left": 235.046875,
+                  "right": 272,
+                  "top": 560.375,
+                  "bottom": 576.375,
+                  "width": 36.953125,
+                  "height": 16
+                },
+                "position": {
+                  "top": "279px",
+                  "bottom": "0px"
+                }
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-320-about.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 320,
+              "height": 568,
+              "overflow": false
+            }
+          },
+          {
+            "id": "skills",
+            "labels": [
+              {
+                "text": "Manta ray",
+                "box": {
+                  "left": 25.59375,
+                  "right": 102.65625,
+                  "top": 283.546875,
+                  "bottom": 299.546875,
+                  "width": 77.0625,
+                  "height": 16
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-320-skills.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 320,
+              "height": 568,
+              "overflow": false
+            }
+          },
+          {
+            "id": "explorations",
+            "labels": [
+              {
+                "text": "Sea turtle",
+                "box": {
+                  "left": 128.21875,
+                  "right": 210.40625,
+                  "top": 551.953125,
+                  "bottom": 567.953125,
+                  "width": 82.1875,
+                  "height": 16
+                },
+                "visibility": true,
+                "pointer": "none",
+                "font": "10.4px",
+                "color": "rgb(217, 231, 237)",
+                "shadow": "none"
+              }
+            ],
+            "screenshot": ".taste-skill/previews/animal-controls-webkit-320-explorations.png",
+            "controls": {
+              "box": {
+                "left": 12,
+                "right": 108,
+                "top": 512,
+                "bottom": 556,
+                "width": 96,
+                "height": 44
+              },
+              "display": "flex",
+              "inert": false,
+              "visible": true,
+              "buttons": [
+                {
+                  "id": "motion-toggle",
+                  "label": "Pause all ocean motion",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 12,
+                    "right": 56,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "pause",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 33.5,
+                        "right": 34.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                },
+                {
+                  "id": "sound-toggle",
+                  "label": "Enable ocean sound",
+                  "pressed": "false",
+                  "disabled": false,
+                  "box": {
+                    "left": 64,
+                    "right": 108,
+                    "top": 512,
+                    "bottom": 556,
+                    "width": 44,
+                    "height": 44
+                  },
+                  "icon": "off",
+                  "svg": true,
+                  "labels": [
+                    {
+                      "box": {
+                        "left": 85.5,
+                        "right": 86.5,
+                        "top": 533.5,
+                        "bottom": 534.5,
+                        "width": 1,
+                        "height": 1
+                      },
+                      "clip": "inset(50%)"
+                    }
+                  ],
+                  "outline": "none"
+                }
+              ],
+              "width": 320,
+              "height": 568,
+              "overflow": false
+            }
+          }
+        ],
+        "footerCaptionCount": 0
+      }
+    },
+    {
+      "name": "WebKit640×360: landscape caption/control separation",
+      "passed": true,
+      "details": {
+        "width": 640,
+        "height": 360,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 488.828125,
+              "right": 563.203125,
+              "top": 272,
+              "bottom": 288,
+              "width": 74.375,
+              "height": 16
+            }
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 574.375,
+              "right": 608,
+              "top": 122.390625,
+              "bottom": 138.390625,
+              "width": 33.625,
+              "height": 16
+            }
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 484.21875,
+              "right": 550.40625,
+              "top": 14.390625,
+              "bottom": 30.390625,
+              "width": 66.1875,
+              "height": 16
+            }
+          }
+        ],
+        "controls": [
+          {
+            "left": 20,
+            "right": 64,
+            "top": 300,
+            "bottom": 344,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 72,
+            "right": 116,
+            "top": 300,
+            "bottom": 344,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "cue": [
+          {
+            "left": 262.28125,
+            "right": 377.703125,
+            "top": 307.421875,
+            "bottom": 322.421875,
+            "width": 115.421875,
+            "height": 15
+          },
+          {
+            "left": 310,
+            "right": 330,
+            "top": 325.609375,
+            "bottom": 345.609375,
+            "width": 20,
+            "height": 20
+          },
+          {
+            "left": 319.5,
+            "right": 320.5,
+            "top": 307.421875,
+            "bottom": 308.421875,
+            "width": 1,
+            "height": 1
+          }
+        ],
+        "screenshot": ".taste-skill/previews/animal-controls-webkit-640-opening.png"
+      }
+    },
+    {
+      "name": "WebKit390/320: final phone whale and dolphin caption placement",
+      "passed": true,
+      "details": [
+        {
+          "width": 390,
+          "height": 844,
+          "id": "home",
+          "overflow": false,
+          "labels": [
+            {
+              "text": "Humpback whale",
+              "box": {
+                "left": 240.359375,
+                "right": 366.609375,
+                "top": 751.125,
+                "bottom": 767.125,
+                "width": 126.25,
+                "height": 16
+              },
+              "position": {
+                "top": "751.125px",
+                "bottom": "75.859375px"
+              }
+            }
+          ],
+          "copy": [
+            {
+              "left": 20,
+              "right": 340,
+              "top": 48,
+              "bottom": 62,
+              "width": 320,
+              "height": 14
+            },
+            {
+              "left": 20,
+              "right": 363,
+              "top": 76.39688110351562,
+              "bottom": 154.796875,
+              "width": 343,
+              "height": 78.39999389648438
+            },
+            {
+              "left": 20,
+              "right": 370,
+              "top": 174.99063110351562,
+              "bottom": 220.99063110351562,
+              "width": 350,
+              "height": 46
+            },
+            {
+              "left": 20,
+              "right": 215.65625,
+              "top": 246.34063720703125,
+              "bottom": 294.34063720703125,
+              "width": 195.65625,
+              "height": 48
+            },
+            {
+              "left": 238.046875,
+              "right": 317.234375,
+              "top": 248.34063720703125,
+              "bottom": 292.34063720703125,
+              "width": 79.1875,
+              "height": 44
+            },
+            {
+              "left": 127.5,
+              "right": 262.421875,
+              "top": 774.984375,
+              "bottom": 818.984375,
+              "width": 134.921875,
+              "height": 44
+            }
+          ],
+          "controls": {
+            "left": 12,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 96,
+            "height": 44
+          },
+          "screenshot": ".taste-skill/previews/animal-controls-webkit-390-home.png"
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "id": "about",
+          "overflow": false,
+          "labels": [
+            {
+              "text": "Dolphins",
+              "box": {
+                "left": 51.5,
+                "right": 120.1875,
+                "top": 390.171875,
+                "bottom": 406.171875,
+                "width": 68.6875,
+                "height": 16
+              },
+              "position": {
+                "top": "4.578125px",
+                "bottom": "437.8125px"
+              }
+            },
+            {
+              "text": "Orca",
+              "box": {
+                "left": 298.046875,
+                "right": 335,
+                "top": 827.984375,
+                "bottom": 843.984375,
+                "width": 36.953125,
+                "height": 16
+              },
+              "position": {
+                "top": "442.390625px",
+                "bottom": "0px"
+              }
+            }
+          ],
+          "copy": [
+            {
+              "left": 20,
+              "right": 370,
+              "top": 40,
+              "bottom": 55,
+              "width": 350,
+              "height": 15
+            },
+            {
+              "left": 20,
+              "right": 370,
+              "top": 71.0772705078125,
+              "bottom": 107.0772705078125,
+              "width": 350,
+              "height": 36
+            },
+            {
+              "left": 20,
+              "right": 370,
+              "top": 119.796875,
+              "bottom": 372.796875,
+              "width": 350,
+              "height": 253
+            }
+          ],
+          "controls": {
+            "left": 12,
+            "right": 108,
+            "top": 788,
+            "bottom": 832,
+            "width": 96,
+            "height": 44
+          },
+          "screenshot": ".taste-skill/previews/animal-controls-webkit-390-about.png"
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "id": "home",
+          "overflow": false,
+          "labels": [
+            {
+              "text": "Humpback whale",
+              "box": {
+                "left": 174.5625,
+                "right": 300.8125,
+                "top": 283.890625,
+                "bottom": 299.890625,
+                "width": 126.25,
+                "height": 16
+              },
+              "position": {
+                "top": "700.890625px",
+                "bottom": "70.890625px"
+              }
+            }
+          ],
+          "copy": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": -133,
+              "bottom": -119,
+              "width": 280,
+              "height": 14
+            },
+            {
+              "left": 20,
+              "right": 292.2439880371094,
+              "top": -105.95032501220703,
+              "bottom": 49.61766815185547,
+              "width": 272.2439880371094,
+              "height": 155.5679931640625
+            },
+            {
+              "left": 20,
+              "right": 300,
+              "top": 71.91822814941406,
+              "bottom": 140.918212890625,
+              "width": 280,
+              "height": 68.99998474121094
+            },
+            {
+              "left": 20,
+              "right": 215.65625,
+              "top": 166.78631591796875,
+              "bottom": 214.78631591796875,
+              "width": 195.65625,
+              "height": 48
+            },
+            {
+              "left": 20,
+              "right": 99.1875,
+              "top": 237.17694091796875,
+              "bottom": 281.17694091796875,
+              "width": 79.1875,
+              "height": 44
+            },
+            {
+              "left": 92.5,
+              "right": 227.421875,
+              "top": 538.78125,
+              "bottom": 582.78125,
+              "width": 134.921875,
+              "height": 44
+            }
+          ],
+          "controls": {
+            "left": 12,
+            "right": 108,
+            "top": 512,
+            "bottom": 556,
+            "width": 96,
+            "height": 44
+          },
+          "screenshot": ".taste-skill/previews/animal-controls-webkit-320-home.png"
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "id": "about",
+          "overflow": false,
+          "labels": [
+            {
+              "text": "Dolphins",
+              "box": {
+                "left": 45.1875,
+                "right": 113.875,
+                "top": 284.3125,
+                "bottom": 300.3125,
+                "width": 68.6875,
+                "height": 16
+              },
+              "position": {
+                "top": "2.9375px",
+                "bottom": "276.0625px"
+              }
+            },
+            {
+              "text": "Orca",
+              "box": {
+                "left": 235.046875,
+                "right": 272,
+                "top": 560.375,
+                "bottom": 576.375,
+                "width": 36.953125,
+                "height": 16
+              },
+              "position": {
+                "top": "279px",
+                "bottom": "0px"
+              }
+            }
+          ],
+          "copy": [
+            {
+              "left": 20,
+              "right": 300,
+              "top": -169.21875,
+              "bottom": -154.21875,
+              "width": 280,
+              "height": 15
+            },
+            {
+              "left": 20,
+              "right": 300,
+              "top": -142.51666259765625,
+              "bottom": -70.51666259765625,
+              "width": 280,
+              "height": 72
+            },
+            {
+              "left": 20,
+              "right": 300,
+              "top": -53.421875,
+              "bottom": 268.578125,
+              "width": 280,
+              "height": 322
+            }
+          ],
+          "controls": {
+            "left": 12,
+            "right": 108,
+            "top": 512,
+            "bottom": 556,
+            "width": 96,
+            "height": 44
+          },
+          "screenshot": ".taste-skill/previews/animal-controls-webkit-320-about.png"
+        }
+      ]
+    },
+    {
+      "name": "Chromium768: final asset-relative seal caption",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "height": 1024,
+        "overflow": false,
+        "labels": [
+          {
+            "text": "Sea otter",
+            "box": {
+              "left": 601.46875,
+              "right": 675.84375,
+              "top": 803.078125,
+              "bottom": 819.203125,
+              "width": 74.375,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Seal",
+            "box": {
+              "left": 695.984375,
+              "right": 729.609375,
+              "top": 313.59375,
+              "bottom": 329.71875,
+              "width": 33.625,
+              "height": 16.125
+            }
+          },
+          {
+            "text": "Seabirds",
+            "box": {
+              "left": 594.296875,
+              "right": 660.484375,
+              "top": 40.953125,
+              "bottom": 57.078125,
+              "width": 66.1875,
+              "height": 16.125
+            }
+          }
+        ],
+        "seal": {
+          "left": 645.125,
+          "right": 775.671875,
+          "top": 225.265625,
+          "bottom": 312.296875,
+          "width": 130.546875,
+          "height": 87.03125
+        },
+        "otter": {
+          "left": 399.375,
+          "right": 760.328125,
+          "top": 389.109375,
+          "bottom": 569.578125,
+          "width": 360.953125,
+          "height": 180.46875
+        },
+        "controls": [
+          {
+            "left": 20,
+            "right": 64,
+            "top": 964,
+            "bottom": 1008,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "left": 72,
+            "right": 116,
+            "top": 964,
+            "bottom": 1008,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "screenshot": ".taste-skill/previews/animal-controls-chromium-768-opening.png"
+      }
+    }
+  ],
+  "errors": [],
+  "scope": "Changed animal captions and grouped icon controls only. Actual Chromium and WebKit with emulated touch where noted. Physical iOS safe-area insets, assistive-technology output, audio rendering, animation performance and full-site regressions are excluded.",
+  "methodNotes": [
+    "Desktop opening bird label refreshed after moving to dark sky. Narrow320 opening/cue and640×360 seal label verified after CSS fixes. Phone whale/dolphin captions refreshed after final positioning adjustment. Native WebKit Tab preference skips ordinary page buttons; activation tested after programmatic focus, while opening focus trap was tested with Tab/Shift+Tab.",
+    "Tablet768 opening Seal caption refreshed after asset-relative positioning. Other opening caption overrides are unchanged. All browser contexts were closed."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27",
+  "tool": "Built-in image_gen.imagegen",
+  "intent": "Cartoon-style revision of the existing reclining otter; preserve pose and original asset for reversion.",
+  "transparent": true,
+  "source": "/Users/dickymujantara/.codex/generated_images/01a17d45-7d9b-7e83-b1ec-ad40c5225453/exec-fbc28f04-863d-4585-8f75-667b2683e052.png",
+  "delivery": "img/ocean/otter-cartoon.webp",
+  "references": [
+    {
+      "path": "img/ocean/otter.webp",
+      "role": "Exact edit target: full-body reclining pose, head upper right, hind feet lower left, paws on chest and empty hands."
+    },
+    {
+      "path": "img/ocean/whale.webp",
+      "role": "Supporting marine illustration palette and contour treatment; no whale subject reused."
+    },
+    {
+      "path": "img/ocean/seal-rock.webp",
+      "role": "Supporting cool painted marine palette and natural expression; no seal or rock reused."
+    }
+  ],
+  "prompt": "Use case: style-transfer. Asset type: replacement transparent cartoon marine animal layer for an existing ocean portfolio. IMAGE 1 is the exact EDIT TARGET: preserve its reclining sea otter pose and orientation, whole body floating on its back diagonally from two hind feet at lower LEFT to head at upper RIGHT, forepaws relaxed on the chest and holding nothing. Images 2 and 3 are STYLE/PALETTE references only: the portfolio's whale and seal establish cool navy/slate/ivory marine illustration and calm natural expression, not their species or detailed texture. Change the otter's rendering decisively into a hand-drawn 2D CARTOON illustration. Remove ALL individual fur hairs and photoreal hair detail. Use broad simplified fur masses, confident clean dark ink contours, and only two or three matte cel/gouache shading tones per form. A few broad brush accents are enough; no dense hatching, stippled fur or sparkling wet highlights. Keep adult sea-otter proportions, rounded small ears, normal-size dark eyes with one subtle catchlight, a simple navy nose, a soft ivory/slate muzzle and a gentle friendly natural expression. Simplify the hind feet into believable relaxed webbed feet; no huge circular plush paw pads. Forepaws rest naturally on the chest. Match the existing marine animals' navy/slate/icy-ivory palette, avoiding warm brown or orange, neon cyan, glossy 3D, photographic realism, toy/plush mascot features, giant eyes or human smile/teeth. Wide 2:1 canvas with generous clear padding around the entire head, feet, whiskers and body. Genuine transparent alpha outside the complete animal, with only a few thin muted waterline strokes touching its underside. No broad water patch, background, rectangle, floor, cast shadow, halo, glow, checkerboard, prop, shell, extra animal, text, UI, frame or watermark.",
+  "conversion": "cwebp -q 84 -m 6 -alpha_q 100 -metadata none -exact -resize 1024 0 SOURCE -o img/ocean/otter-cartoon.webp"
+}

@@ -1,0 +1,243 @@
+{
+  "visualReview": {
+    "passed": true,
+    "desktop1440": "Previously inspected clear after 24rem paragraph width; final tablet-only media query does not apply.",
+    "tablet768": "Rechecked after final stacking/scrim fix. Every paragraph line is readable above subdued animals; no letters are covered.",
+    "phone390": "Previously inspected clear; final tablet-only media query does not apply."
+  },
+  "checks": [
+    {
+      "name": "chromium: revised biography in About 1440x900",
+      "passed": true,
+      "details": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "currentBiography": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "sentenceCount": 5,
+        "newBioCount": 1,
+        "bioInsideAbout": true,
+        "oldBioCount": 0,
+        "skillsHasBio": false,
+        "skillsBodyParagraphs": 0,
+        "paragraph": {
+          "left": 86.40625,
+          "right": 470.40625,
+          "top": 431.171875,
+          "bottom": 688.984375,
+          "width": 384,
+          "height": 257.8125
+        },
+        "copy": {
+          "left": 86.40625,
+          "right": 643.96875,
+          "top": 274,
+          "bottom": 744.984375,
+          "width": 557.5625,
+          "height": 470.984375
+        },
+        "about": {
+          "left": 0,
+          "right": 1440,
+          "top": 96,
+          "bottom": 924,
+          "width": 1440,
+          "height": 828
+        },
+        "skillsHasList": true,
+        "aboutHasList": false,
+        "tokens": [
+          "Apache2",
+          "Docker",
+          "ElysiaJS",
+          "Flask",
+          "Flutter",
+          "Git",
+          "GitHub Actions",
+          "Java",
+          "JavaScript",
+          "Linux (Ubuntu)",
+          "MongoDB",
+          "MySQL",
+          "Next.js",
+          "Nginx",
+          "PayPal",
+          "PostgreSQL",
+          "Process mining",
+          "Python",
+          "React",
+          "React Native",
+          "Redis",
+          "Spring Boot",
+          "Stripe",
+          "Tailwind CSS",
+          "Traccar",
+          "TypeScript"
+        ],
+        "groups": 7,
+        "order": [
+          "about",
+          "skills",
+          "work",
+          "experience"
+        ],
+        "screenshot": ".taste-skill/previews/about-copy-chromium-1440.png"
+      }
+    },
+    {
+      "name": "webkit: revised biography in About 390x844",
+      "passed": true,
+      "details": {
+        "width": 390,
+        "scrollWidth": 390,
+        "currentBiography": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "sentenceCount": 5,
+        "newBioCount": 1,
+        "bioInsideAbout": true,
+        "oldBioCount": 0,
+        "skillsHasBio": false,
+        "skillsBodyParagraphs": 0,
+        "paragraph": {
+          "left": 20,
+          "right": 370,
+          "top": 135.796875,
+          "bottom": 365.796875,
+          "width": 350,
+          "height": 230
+        },
+        "copy": {
+          "left": 20,
+          "right": 370,
+          "top": 16,
+          "bottom": 365.796875,
+          "width": 350,
+          "height": 349.796875
+        },
+        "about": {
+          "left": 0,
+          "right": 390,
+          "top": 16,
+          "bottom": 860.984375,
+          "width": 390,
+          "height": 844.984375
+        },
+        "skillsHasList": true,
+        "aboutHasList": false,
+        "tokens": [
+          "Apache2",
+          "Docker",
+          "ElysiaJS",
+          "Flask",
+          "Flutter",
+          "Git",
+          "GitHub Actions",
+          "Java",
+          "JavaScript",
+          "Linux (Ubuntu)",
+          "MongoDB",
+          "MySQL",
+          "Next.js",
+          "Nginx",
+          "PayPal",
+          "PostgreSQL",
+          "Process mining",
+          "Python",
+          "React",
+          "React Native",
+          "Redis",
+          "Spring Boot",
+          "Stripe",
+          "Tailwind CSS",
+          "Traccar",
+          "TypeScript"
+        ],
+        "groups": 7,
+        "order": [
+          "about",
+          "skills",
+          "work",
+          "experience"
+        ],
+        "screenshot": ".taste-skill/previews/about-copy-webkit-390.png"
+      }
+    },
+    {
+      "name": "chromium: revised biography in About 768x1024",
+      "passed": true,
+      "details": {
+        "width": 768,
+        "scrollWidth": 768,
+        "currentBiography": "I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia. I build full-stack applications, from user interfaces to the services and databases behind them. I work with web and mobile technologies, service integrations, and deployment tools. I also explore machine learning and process mining to understand how systems and processes behave. Outside software, I'm curious about oceanography and marine life, which inspired this portfolio's ocean theme.",
+        "sentenceCount": 5,
+        "newBioCount": 1,
+        "bioInsideAbout": true,
+        "oldBioCount": 0,
+        "skillsHasBio": false,
+        "skillsBodyParagraphs": 0,
+        "paragraph": {
+          "left": 42.234375,
+          "right": 383.984375,
+          "top": 448.703125,
+          "bottom": 732.296875,
+          "width": 341.75,
+          "height": 283.59375
+        },
+        "copy": {
+          "left": 42.234375,
+          "right": 383.984375,
+          "top": 275.6875,
+          "bottom": 780.296875,
+          "width": 341.75,
+          "height": 504.609375
+        },
+        "about": {
+          "left": 0,
+          "right": 768,
+          "top": 16,
+          "bottom": 1041,
+          "width": 768,
+          "height": 1025
+        },
+        "skillsHasList": true,
+        "aboutHasList": false,
+        "tokens": [
+          "Apache2",
+          "Docker",
+          "ElysiaJS",
+          "Flask",
+          "Flutter",
+          "Git",
+          "GitHub Actions",
+          "Java",
+          "JavaScript",
+          "Linux (Ubuntu)",
+          "MongoDB",
+          "MySQL",
+          "Next.js",
+          "Nginx",
+          "PayPal",
+          "PostgreSQL",
+          "Process mining",
+          "Python",
+          "React",
+          "React Native",
+          "Redis",
+          "Spring Boot",
+          "Stripe",
+          "Tailwind CSS",
+          "Traccar",
+          "TypeScript"
+        ],
+        "groups": 7,
+        "order": [
+          "about",
+          "skills",
+          "work",
+          "experience"
+        ],
+        "screenshot": ".taste-skill/previews/about-copy-chromium-768.png"
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Focused About copy-location and layout checks. After the final tablet-only scrim/stacking change, only Chromium768 was rerun; prior1440desktop/390phone checks are retained because the601–1100mediaquery excludes those widths. Visual review is separate from bounds. No Skills-layout, motion, performance or full-site rerun."
+}

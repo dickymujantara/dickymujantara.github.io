@@ -1,0 +1,32 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "asset": "img/ocean/otter-cartoon.webp",
+  "checks": [
+    {
+      "name": "Asset verification",
+      "passed": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert(delivered.corners.every(a=>a===0))\n"
+    }
+  ],
+  "method": "Actual Chromium Image.decode and native RGBA canvas inspection. No pixel editing or alpha synthesis.",
+  "delivered": {
+    "width": 1024,
+    "height": 512,
+    "fullyTransparent": 301984,
+    "transparentRatio": 0.57598876953125,
+    "maxAlpha": 254,
+    "edgeMax": 1,
+    "corners": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "visibleBounds": {
+      "left": 26,
+      "top": 44,
+      "right": 1003,
+      "bottom": 467
+    }
+  }
+}

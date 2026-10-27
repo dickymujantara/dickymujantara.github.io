@@ -1,0 +1,87 @@
+{
+  "checks": [
+    {
+      "name": "Delivered manta has native transparency and no visibly clipped image boundaries",
+      "passed": true,
+      "details": {
+        "width": 1200,
+        "height": 600,
+        "fullyTransparent": 602280,
+        "fullyTransparentRatio": 0.8365,
+        "fullyOpaque": 0,
+        "maxAlpha": 254,
+        "edgeMax": 1,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "visibleBounds": {
+          "left": 197,
+          "top": 96,
+          "right": 1013,
+          "bottom": 508
+        },
+        "margins": {
+          "left": 0.16416666666666666,
+          "right": 0.155,
+          "top": 0.16,
+          "bottom": 0.15166666666666667
+        }
+      }
+    },
+    {
+      "name": "Visible manta, wings, cephalic fins and entire tail keep at least 8% clear margins",
+      "passed": true,
+      "details": {
+        "left": 0.16416666666666666,
+        "right": 0.155,
+        "top": 0.16,
+        "bottom": 0.15166666666666667
+      }
+    },
+    {
+      "name": "Mechanical proportional WebP conversion retains source aspect ratio",
+      "passed": true,
+      "details": {
+        "sourceWidth": 1774,
+        "sourceHeight": 887,
+        "deliveredWidth": 1200,
+        "deliveredHeight": 600
+      }
+    },
+    {
+      "name": "Dedicated sand-bank background is fully opaque",
+      "passed": true,
+      "details": {
+        "width": 1536,
+        "height": 865,
+        "fullyTransparent": 0,
+        "fullyTransparentRatio": 0,
+        "fullyOpaque": 1328640,
+        "maxAlpha": 255,
+        "edgeMax": 255,
+        "corners": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "visibleBounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1535,
+          "bottom": 864
+        },
+        "margins": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 0
+        }
+      }
+    }
+  ],
+  "method": "Actual Chromium Image.decode and native RGBA canvas inspection. No image pixels were modified."
+}

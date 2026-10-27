@@ -51,7 +51,7 @@
 
   function signal(isActive) {
     root.dataset.opening = isActive ? 'playing' : 'done';
-    window.dispatchEvent(new CustomEvent('portfolio:opening-change', { detail: { active: isActive } }));
+    window.dispatchEvent(new CustomEvent('portfolio:opening-change', { detail: { active: isActive, entered: !isActive && entering } }));
   }
 
   function syncAmbient() {
@@ -154,6 +154,8 @@
 
   function loadArt() {
     const pending = [loadBackground()];
+    const heroImage = document.querySelector('.hero-whale img');
+    if (heroImage?.decode) pending.push(heroImage.decode().catch(() => {}));
     let bird = 0;
     opening.querySelectorAll('img[data-opening-src]').forEach(image => {
       const index = image.dataset.openingAmbient === 'bird' ? bird++ : 0;
@@ -169,6 +171,7 @@
     clearTimeout(revealTimer);
     loadingAnimation?.cancel();
     opening.dataset.phase = 'waiting';
+    window.dispatchEvent(new CustomEvent('portfolio:opening-ready'));
     opening.setAttribute('aria-busy', 'false');
     opening.setAttribute('aria-describedby', 'opening-instructions');
     readyArt.forEach((index, element) => stageArt(element, index));
@@ -262,18 +265,19 @@
     if (!active || !ready || entering) return;
     entering = true;
     opening.dataset.phase = 'entering';
+    const duration = compact ? 1450 : 1650;
+    window.dispatchEvent(new CustomEvent('portfolio:opening-enter', { detail: { duration } }));
     timeline?.pause();
     syncAmbient();
-    const rise = compact ? 650 : 800;
-    fallback = setTimeout(() => finish(focusHero), 1800);
+    fallback = setTimeout(() => finish(focusHero), duration + 1000);
     try {
       const exit = own(library.createTimeline({ autoplay: false, onComplete: () => finish(focusHero) }));
-      exit.add('.opening-content', { y: -28, opacity: 0, duration: 350, ease: 'inOutSine' }, 0);
-      exit.add(cue, { opacity: 0, y: -8, duration: 250, ease: 'outSine' }, 0);
-      if (motionButton) exit.add(motionButton, { opacity: 0, duration: 250, ease: 'outSine' }, 0);
-      exit.add(scene, { scale: 1.1, y: -window.innerHeight * .08, duration: rise, ease: 'inOutSine' }, 0);
-      exit.add('.opening-dive', { y: [window.innerHeight + 80, 0], duration: rise, ease: 'inOutSine' }, 0);
-      exit.add(opening, { opacity: 0, duration: 320, ease: 'inOutSine' }, rise - 70);
+      exit.add('.opening-content', { y: -20, opacity: 0, duration: 650, ease: 'inOutSine' }, 0);
+      exit.add(cue, { opacity: 0, y: -6, duration: 450, ease: 'inOutSine' }, 0);
+      exit.add(opening.querySelector('.opening-controls'), { opacity: 0, duration: 450, ease: 'inOutSine' }, 0);
+      exit.add(scene, { scale: 1.045, y: -window.innerHeight * .055, duration, ease: 'inOutSine' }, 0);
+      exit.add('.opening-dive', { y: [window.innerHeight + 80, -80], duration: duration * .88, ease: 'inOutSine' }, 0);
+      exit.add(opening, { opacity: [1, 0], duration: duration - 120, ease: 'inOutSine' }, 120);
       exit.play();
     } catch {
       finish(focusHero);
@@ -323,10 +327,13 @@
     }
     if (event.key === 'Tab') {
       event.preventDefault();
-      (ready ? motionButton : opening)?.focus({ preventScroll: true });
+      const controls = ready ? [...opening.querySelectorAll('button:not(:disabled)')] : [];
+      const current = controls.indexOf(document.activeElement);
+      const next = current < 0 ? (event.shiftKey ? controls.length - 1 : 0) : (current + (event.shiftKey ? -1 : 1) + controls.length) % controls.length;
+      (controls[next] || opening).focus({ preventScroll: true });
       return;
     }
-    if (event.target === motionButton && ['Enter', ' '].includes(event.key)) return;
+    if (event.target.closest('button') && ['Enter', ' '].includes(event.key)) return;
     if (event.key === ' ' && event.shiftKey) return;
     if (['Enter', ' ', 'ArrowDown', 'PageDown', 'End'].includes(event.key)) {
       event.preventDefault();
@@ -363,14 +370,14 @@
   function start() {
     stopWaiting();
     if (!eligible()) {
-      root.dataset.opening = 'done';
+      signal(false);
       return;
     }
 
     active = true;
     opening.hidden = false;
     opening.dataset.phase = 'loading';
-    covered = [...document.querySelectorAll('.site-header, main, #motion-toggle')]
+    covered = [...document.querySelectorAll('.site-header, main, #portfolio-controls')]
       .map(element => ({ element, wasInert: element.hasAttribute('inert') }));
     covered.forEach(({ element }) => element.setAttribute('inert', ''));
     signal(true);

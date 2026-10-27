@@ -1,0 +1,4001 @@
+{
+  "checks": [
+    {
+      "name": "Chromium: collage fit, unobstructed manta and scroll reverse at 1440",
+      "passed": true,
+      "details": {
+        "states": [
+          {
+            "width": 1440,
+            "height": 900,
+            "scrollY": 2870,
+            "scrollWidth": 1440,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "header": 73,
+            "static": false,
+            "progress": 0,
+            "section": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "art": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 567.703125,
+              "height": 598.171875
+            },
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(0.959415, -0.0335035, 0.0335035, 0.959415, -30, 34)",
+              "frame": "matrix(1, 0, 0, 1, -5, 10)",
+              "crop": "matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 8, 18)",
+              "outline": "matrix(1, 0, 0, 1, -6, -12)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 149.515625,
+                  "right": 609.34375,
+                  "top": 206.390625,
+                  "bottom": 637.0625,
+                  "width": 459.828125,
+                  "height": 430.671875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 92.9158706665039,
+                  "right": 402.44351959228516,
+                  "top": 522.7913818359375,
+                  "bottom": 701.5836791992188,
+                  "width": 309.52764892578125,
+                  "height": 178.79229736328125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 483.484375,
+                  "right": 642.4375,
+                  "top": 549.296875,
+                  "bottom": 680.890625,
+                  "width": 158.953125,
+                  "height": 131.59375
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 58.59767266458317,
+                "right": 601.4351872536088,
+                "top": 230.67780545821324,
+                "bottom": 493.7443363004932
+              },
+              "cropQuad": [
+                {
+                  "x": 92.9158706665039,
+                  "y": 528.1492686359375
+                },
+                {
+                  "x": 399.8692066665039,
+                  "y": 522.7913818359375
+                },
+                {
+                  "x": 402.8884718665039,
+                  "y": 695.7650858359375
+                },
+                {
+                  "x": 95.93513586650391,
+                  "y": 701.1229726359375
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-1440-start.png"
+          },
+          {
+            "width": 1440,
+            "height": 900,
+            "scrollY": 3118,
+            "scrollWidth": 1440,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "header": 73,
+            "static": false,
+            "progress": 0.501,
+            "section": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "art": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 567.703125,
+              "height": 598.171875
+            },
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+              "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+              "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+              "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 154.52572631835938,
+                  "right": 614.3538818359375,
+                  "top": 196.37042236328125,
+                  "bottom": 627.0422973632812,
+                  "width": 459.8281555175781,
+                  "height": 430.671875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 86.38701629638672,
+                  "right": 392.93993377685547,
+                  "top": 507.411376953125,
+                  "bottom": 680.8908081054688,
+                  "width": 306.55291748046875,
+                  "height": 173.47943115234375
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 489.4964599609375,
+                  "right": 648.4495849609375,
+                  "top": 561.321044921875,
+                  "bottom": 692.914794921875,
+                  "width": 158.953125,
+                  "height": 131.59375
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 80.38803658492273,
+                "right": 642.959190065294,
+                "top": 181.96372062477187,
+                "bottom": 463.64879984556
+              },
+              "cropQuad": [
+                {
+                  "x": 86.39305513818672,
+                  "y": 507.411376953125
+                },
+                {
+                  "x": 393.3930551381867,
+                  "y": 507.422093279325
+                },
+                {
+                  "x": 393.3870162963867,
+                  "y": 680.422093279325
+                },
+                {
+                  "x": 86.38701629638672,
+                  "y": 680.411376953125
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-1440-mid.png"
+          },
+          {
+            "width": 1440,
+            "height": 900,
+            "scrollY": 3365,
+            "scrollWidth": 1440,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "header": 73,
+            "static": false,
+            "progress": 1,
+            "section": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "art": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 567.703125,
+              "height": 598.171875
+            },
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.04436, 0.03647, -0.03647, 1.04436, 24, -36)",
+              "frame": "matrix(1, 0, 0, 1, 5, -10)",
+              "crop": "matrix(0.999848, 0.0174524, -0.0174524, 0.999848, -8, -18)",
+              "outline": "matrix(1, 0, 0, 1, 6, 12)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 159.515625,
+                  "right": 619.34375,
+                  "top": 186.390625,
+                  "bottom": 617.0625,
+                  "width": 459.828125,
+                  "height": 430.671875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 76.9158706665039,
+                  "right": 386.44351959228516,
+                  "top": 486.7913513183594,
+                  "bottom": 665.5836791992188,
+                  "width": 309.52764892578125,
+                  "height": 178.79232788085938
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 495.484375,
+                  "right": 654.4375,
+                  "top": 573.296875,
+                  "bottom": 704.890625,
+                  "width": 158.953125,
+                  "height": 131.59375
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 103.60656898992278,
+                "right": 684.7339442016063,
+                "top": 133.49530267644252,
+                "bottom": 434.3064418868287
+              },
+              "cropQuad": [
+                {
+                  "x": 79.93513586650391,
+                  "y": 486.7913513183594
+                },
+                {
+                  "x": 386.8884718665039,
+                  "y": 492.1492381183594
+                },
+                {
+                  "x": 383.8692066665039,
+                  "y": 665.1229421183593
+                },
+                {
+                  "x": 76.9158706665039,
+                  "y": 659.7650553183594
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-1440-end.png"
+          },
+          {
+            "width": 1440,
+            "height": 900,
+            "scrollY": 3118,
+            "scrollWidth": 1440,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "header": 73,
+            "static": false,
+            "progress": 0.501,
+            "section": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "art": {
+              "left": 86.40625,
+              "right": 654.109375,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 567.703125,
+              "height": 598.171875
+            },
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+              "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+              "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+              "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 154.52572631835938,
+                  "right": 614.3538818359375,
+                  "top": 196.37042236328125,
+                  "bottom": 627.0422973632812,
+                  "width": 459.8281555175781,
+                  "height": 430.671875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 86.38701629638672,
+                  "right": 392.93993377685547,
+                  "top": 507.411376953125,
+                  "bottom": 680.8908081054688,
+                  "width": 306.55291748046875,
+                  "height": 173.47943115234375
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 489.4964599609375,
+                  "right": 648.4495849609375,
+                  "top": 561.321044921875,
+                  "bottom": 692.914794921875,
+                  "width": 158.953125,
+                  "height": 131.59375
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 90.08925769077396,
+                "right": 650.6292896566207,
+                "top": 184.98376660495228,
+                "bottom": 469.4744731457176
+              },
+              "cropQuad": [
+                {
+                  "x": 86.39305513818672,
+                  "y": 507.411376953125
+                },
+                {
+                  "x": 393.3930551381867,
+                  "y": 507.422093279325
+                },
+                {
+                  "x": 393.3870162963867,
+                  "y": 680.422093279325
+                },
+                {
+                  "x": 86.38701629638672,
+                  "y": 680.411376953125
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-1440-reverse.png"
+          }
+        ],
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: collage fit, unobstructed manta and scroll reverse at 390",
+      "passed": true,
+      "details": {
+        "states": [
+          {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2513,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.5836,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -39,
+              "bottom": 1003.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 581.09375,
+              "bottom": 966.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -2.203125,
+              "bottom": 557.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.004595, 0.003223, -0.003223, 1.004595, 0.6803, -4.4516)",
+              "frame": "matrix(1, 0, 0, 1, 0.5431, -1.0862)",
+              "crop": "matrix(0.999999, 0.001604, -0.001604, 0.999999, -0.8689, -1.9551)",
+              "outline": "matrix(1, 0, 0, 1, 0.6517, 1.3034)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 62.54309844970703,
+                  "right": 346.04309844970703,
+                  "top": 622.351318359375,
+                  "bottom": 899.538818359375,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 19.041976928710938,
+                  "right": 208.22079467773438,
+                  "top": 821.549560546875,
+                  "bottom": 933.4931640625,
+                  "width": 189.17881774902344,
+                  "height": 111.943603515625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 269.1517028808594,
+                  "right": 367.1517028808594,
+                  "top": 859.615966796875,
+                  "bottom": 944.303466796875,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 16.98841744507574,
+                "right": 364.6380343011722,
+                "top": 606.2418444948972,
+                "bottom": 780.6445069770971
+              },
+              "cropQuad": [
+                {
+                  "x": 19.221624928710938,
+                  "y": 821.549560546875
+                },
+                {
+                  "x": 208.22143592871095,
+                  "y": 821.852716546875
+                },
+                {
+                  "x": 208.04178792871096,
+                  "y": 933.852604546875
+                },
+                {
+                  "x": 19.041976928710938,
+                  "y": 933.549448546875
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-390-start.png"
+          },
+          {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2673,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.707,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -199,
+              "bottom": 843.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 421.09375,
+              "bottom": 806.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -162.203125,
+              "bottom": 397.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.007668, 0.008009, -0.008009, 1.007668, 3.6798, -10.068)",
+              "frame": "matrix(1, 0, 0, 1, 1.3454, -2.6909)",
+              "crop": "matrix(0.999992, 0.003974, -0.003974, 0.999992, -2.1527, -4.8436)",
+              "outline": "matrix(1, 0, 0, 1, 1.6145, 3.229)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 63.345401763916016,
+                  "right": 346.845401763916,
+                  "top": 460.74658203125,
+                  "bottom": 737.93408203125,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 17.626924514770508,
+                  "right": 207.0691089630127,
+                  "top": 658.4375,
+                  "bottom": 770.828369140625,
+                  "width": 189.4421844482422,
+                  "height": 112.390869140625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 270.114501953125,
+                  "right": 368.114501953125,
+                  "top": 701.54150390625,
+                  "bottom": 786.22900390625,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 20.705915879331982,
+                "right": 368.9382028294645,
+                "top": 440.09682587879337,
+                "bottom": 615.6832622372457
+              },
+              "cropQuad": [
+                {
+                  "x": 18.072012514770506,
+                  "y": 658.4375
+                },
+                {
+                  "x": 207.07050051477052,
+                  "y": 659.188586
+                },
+                {
+                  "x": 206.62541251477052,
+                  "y": 771.18769
+                },
+                {
+                  "x": 17.626924514770508,
+                  "y": 770.436604
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-390-mid.png"
+          },
+          {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2833,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.8304,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -359,
+              "bottom": 683.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 261.09375,
+              "bottom": 646.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -322.203125,
+              "bottom": 237.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.010719, 0.012823, -0.012823, 1.010719, 6.6794, -15.6844)",
+              "frame": "matrix(1, 0, 0, 1, 2.1478, -4.2956)",
+              "crop": "matrix(0.99998, 0.006344, -0.006344, 0.99998, -3.4364, -7.732)",
+              "outline": "matrix(1, 0, 0, 1, 2.5773, 5.1547)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 64.14779663085938,
+                  "right": 347.6477966308594,
+                  "top": 299.141845703125,
+                  "bottom": 576.329345703125,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 16.212505340576172,
+                  "right": 205.91697311401367,
+                  "top": 495.325927734375,
+                  "bottom": 608.163330078125,
+                  "width": 189.7044677734375,
+                  "height": 112.83740234375
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 271.0773010253906,
+                  "right": 369.0773010253906,
+                  "top": 543.46728515625,
+                  "bottom": 628.15478515625,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 24.542291732407037,
+                "right": 373.3713938073669,
+                "top": 274.0309744544346,
+                "bottom": 450.85098488023095
+              },
+              "cropQuad": [
+                {
+                  "x": 16.923033340576172,
+                  "y": 495.325927734375
+                },
+                {
+                  "x": 205.91925334057618,
+                  "y": 496.524943734375
+                },
+                {
+                  "x": 205.20872534057617,
+                  "y": 608.522703734375
+                },
+                {
+                  "x": 16.212505340576172,
+                  "y": 607.323687734375
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-390-end.png"
+          },
+          {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2673,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.707,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -199,
+              "bottom": 843.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 421.09375,
+              "bottom": 806.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -162.203125,
+              "bottom": 397.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.007668, 0.008009, -0.008009, 1.007668, 3.6798, -10.068)",
+              "frame": "matrix(1, 0, 0, 1, 1.3454, -2.6909)",
+              "crop": "matrix(0.999992, 0.003974, -0.003974, 0.999992, -2.1527, -4.8436)",
+              "outline": "matrix(1, 0, 0, 1, 1.6145, 3.229)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 63.345401763916016,
+                  "right": 346.845401763916,
+                  "top": 460.74658203125,
+                  "bottom": 737.93408203125,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 17.626924514770508,
+                  "right": 207.0691089630127,
+                  "top": 658.4375,
+                  "bottom": 770.828369140625,
+                  "width": 189.4421844482422,
+                  "height": 112.390869140625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 270.114501953125,
+                  "right": 368.114501953125,
+                  "top": 701.54150390625,
+                  "bottom": 786.22900390625,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 22.941363868378012,
+                "right": 370.87028024281886,
+                "top": 441.27709829601775,
+                "bottom": 617.2976090513424
+              },
+              "cropQuad": [
+                {
+                  "x": 18.072012514770506,
+                  "y": 658.4375
+                },
+                {
+                  "x": 207.07050051477052,
+                  "y": 659.188586
+                },
+                {
+                  "x": 206.62541251477052,
+                  "y": 771.18769
+                },
+                {
+                  "x": 17.626924514770508,
+                  "y": 770.436604
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-390-reverse.png"
+          }
+        ],
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: collage fit, unobstructed manta and scroll reverse at 768",
+      "passed": true,
+      "details": {
+        "states": [
+          {
+            "width": 768,
+            "height": 1024,
+            "scrollY": 2998,
+            "scrollWidth": 768,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "header": 0,
+            "static": false,
+            "progress": 0,
+            "section": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "art": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 306.421875,
+              "height": 630.6875
+            },
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(0.989818, -0.0190055, 0.0190055, 0.989818, -13.5, 22.1)",
+              "frame": "matrix(1, 0, 0, 1, -3.25, 6.5)",
+              "crop": "matrix(0.999954, -0.00959916, 0.00959916, 0.999954, 5.2, 11.7)",
+              "outline": "matrix(1, 0, 0, 1, -3.9, -7.8)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 75.75,
+                  "right": 323.9375,
+                  "top": 117.46875,
+                  "bottom": 571.5625,
+                  "width": 248.1875,
+                  "height": 454.09375
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 46.560386657714844,
+                  "right": 213.7614974975586,
+                  "top": 449.84759521484375,
+                  "bottom": 634.3179931640625,
+                  "width": 167.20111083984375,
+                  "height": 184.47039794921875
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 255.89688110351562,
+                  "right": 341.6937561035156,
+                  "top": 487.90313720703125,
+                  "bottom": 626.6531372070312,
+                  "width": 85.796875,
+                  "height": 138.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 24.735490893437444,
+                "right": 325.61819926854827,
+                "top": 86.81491195521208,
+                "bottom": 234.91544135546053
+              },
+              "cropQuad": [
+                {
+                  "x": 46.560386657714844,
+                  "y": 451.43145661484374
+                },
+                {
+                  "x": 211.55279665771485,
+                  "y": 449.84759521484375
+                },
+                {
+                  "x": 213.30944293771486,
+                  "y": 632.8391772148437
+                },
+                {
+                  "x": 48.31703293771484,
+                  "y": 634.4230386148438
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-768-start.png"
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "scrollY": 3193,
+            "scrollWidth": 768,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "header": 0,
+            "static": false,
+            "progress": 0.5013,
+            "section": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "art": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 306.421875,
+              "height": 630.6875
+            },
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.0025, 4.89914e-05, -4.89914e-05, 1.0025, -1.3188, -0.7085)",
+              "frame": "matrix(1, 0, 0, 1, 0.0084, -0.0167)",
+              "crop": "matrix(1, 2.44346e-05, -2.44346e-05, 1, -0.0134, -0.0301)",
+              "outline": "matrix(1, 0, 0, 1, 0.01, 0.0201)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 79.0083999633789,
+                  "right": 327.1958999633789,
+                  "top": 110.9520492553711,
+                  "bottom": 565.045768737793,
+                  "width": 248.1875,
+                  "height": 454.0937194824219
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 42.21874237060547,
+                  "right": 207.67632293701172,
+                  "top": 438.9053955078125,
+                  "bottom": 621.800048828125,
+                  "width": 165.45758056640625,
+                  "height": 182.8946533203125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 259.806884765625,
+                  "right": 345.603759765625,
+                  "top": 495.7232360839844,
+                  "bottom": 634.4732666015625,
+                  "width": 85.796875,
+                  "height": 138.75003051757812
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 37.123541737676575,
+                "right": 340.5310714051981,
+                "top": 60.967764556568994,
+                "bottom": 212.8197066237984
+              },
+              "cropQuad": [
+                {
+                  "x": 42.22321390240547,
+                  "y": 438.9053955078125
+                },
+                {
+                  "x": 207.22321390240546,
+                  "y": 438.9094272168125
+                },
+                {
+                  "x": 207.21874237060547,
+                  "y": 621.9094272168124
+                },
+                {
+                  "x": 42.21874237060547,
+                  "y": 621.9053955078125
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-768-mid.png"
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "scrollY": 3387,
+            "scrollWidth": 768,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "header": 0,
+            "static": false,
+            "progress": 1,
+            "section": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "art": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 306.421875,
+              "height": 630.6875
+            },
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.01481, 0.0194854, -0.0194854, 1.01481, 10.8, -23.4)",
+              "frame": "matrix(1, 0, 0, 1, 3.25, -6.5)",
+              "crop": "matrix(0.999954, 0.00959916, -0.00959916, 0.999954, -5.2, -11.7)",
+              "outline": "matrix(1, 0, 0, 1, 3.9, 7.8)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 82.25,
+                  "right": 330.4375,
+                  "top": 104.46875,
+                  "bottom": 558.5625,
+                  "width": 248.1875,
+                  "height": 454.09375
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 36.16039276123047,
+                  "right": 203.36150360107422,
+                  "top": 426.4476013183594,
+                  "bottom": 610.9180297851562,
+                  "width": 167.20111083984375,
+                  "height": 184.47042846679688
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 263.6968688964844,
+                  "right": 349.4937438964844,
+                  "top": 503.50311279296875,
+                  "bottom": 642.2531127929688,
+                  "width": 85.796875,
+                  "height": 138.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 49.79626415219868,
+                "right": 355.6133936606952,
+                "top": 35.44387580459309,
+                "bottom": 191.11741942747648
+              },
+              "cropQuad": [
+                {
+                  "x": 37.91703904123047,
+                  "y": 426.4476013183594
+                },
+                {
+                  "x": 202.90944904123046,
+                  "y": 428.03146271835936
+                },
+                {
+                  "x": 201.15280276123048,
+                  "y": 611.0230447183594
+                },
+                {
+                  "x": 36.16039276123047,
+                  "y": 609.4391833183594
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-768-end.png"
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "scrollY": 3193,
+            "scrollWidth": 768,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "header": 0,
+            "static": false,
+            "progress": 0.5013,
+            "section": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "art": {
+              "left": 42.234375,
+              "right": 348.65625,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 306.421875,
+              "height": 630.6875
+            },
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "50% 50%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.0025, 4.89914e-05, -4.89914e-05, 1.0025, -1.3188, -0.7085)",
+              "frame": "matrix(1, 0, 0, 1, 0.0084, -0.0167)",
+              "crop": "matrix(1, 2.44346e-05, -2.44346e-05, 1, -0.0134, -0.0301)",
+              "outline": "matrix(1, 0, 0, 1, 0.01, 0.0201)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 79.0083999633789,
+                  "right": 327.1958999633789,
+                  "top": 110.9520492553711,
+                  "bottom": 565.045768737793,
+                  "width": 248.1875,
+                  "height": 454.0937194824219
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 42.21874237060547,
+                  "right": 207.67632293701172,
+                  "top": 438.9053955078125,
+                  "bottom": 621.800048828125,
+                  "width": 165.45758056640625,
+                  "height": 182.8946533203125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 259.806884765625,
+                  "right": 345.603759765625,
+                  "top": 495.7232360839844,
+                  "bottom": 634.4732666015625,
+                  "width": 85.796875,
+                  "height": 138.75003051757812
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 40.22568000659663,
+                "right": 343.24709508160583,
+                "top": 62.711656253784284,
+                "bottom": 215.08332241849203
+              },
+              "cropQuad": [
+                {
+                  "x": 42.22321390240547,
+                  "y": 438.9053955078125
+                },
+                {
+                  "x": 207.22321390240546,
+                  "y": 438.9094272168125
+                },
+                {
+                  "x": 207.21874237060547,
+                  "y": 621.9094272168124
+                },
+                {
+                  "x": 42.21874237060547,
+                  "y": 621.9053955078125
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-chromium-768-reverse.png"
+          }
+        ],
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "WebKit: collage fit, unobstructed manta and scroll reverse at 320",
+      "passed": true,
+      "details": {
+        "states": [
+          {
+            "width": 320,
+            "height": 568,
+            "scrollY": 1827,
+            "scrollWidth": 320,
+            "chapterTop": 1552.375,
+            "chapterHeight": 1001.890625,
+            "frameHeight": 1001.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.646,
+            "section": {
+              "left": 0,
+              "right": 320,
+              "top": -274.625,
+              "bottom": 727.265625,
+              "width": 320,
+              "height": 1001.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 300,
+              "top": 381.46875,
+              "bottom": 689.46875,
+              "width": 280,
+              "height": 308
+            },
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -237.828125,
+              "bottom": 357.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.006184, 0.005642, -0.005642, 1.006184, 2.1989, -7.2951)",
+              "frame": "matrix(1, 0, 0, 1, 0.9493, -1.8986)",
+              "crop": "matrix(0.999996, 0.002805, -0.002805, 0.999996, -1.5189, -3.4175)",
+              "outline": "matrix(1, 0, 0, 1, 1.1392, 2.2783)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 54.54304885864258,
+                  "right": 281.33993911743164,
+                  "top": 413.445068359375,
+                  "bottom": 635.195068359375,
+                  "width": 226.79689025878906,
+                  "height": 221.75
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 18.355709075927734,
+                  "right": 169.7931022644043,
+                  "top": 571.902099609375,
+                  "bottom": 661.638427734375,
+                  "width": 151.43739318847656,
+                  "height": 89.736328125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 219.9517059326172,
+                  "right": 298.34234619140625,
+                  "top": 605.5283203125,
+                  "bottom": 673.2783203125,
+                  "width": 78.39064025878906,
+                  "height": 67.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 18.36883168264538,
+                "right": 296.4763142282714,
+                "top": 396.7445259751902,
+                "bottom": 536.5925162314074
+              },
+              "cropQuad": [
+                {
+                  "x": 18.605354075927735,
+                  "y": 571.902099609375
+                },
+                {
+                  "x": 169.6047500759277,
+                  "y": 572.325654609375
+                },
+                {
+                  "x": 169.35510507592772,
+                  "y": 661.325298609375
+                },
+                {
+                  "x": 18.355709075927734,
+                  "y": 660.901743609375
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-320-start.png"
+          },
+          {
+            "width": 320,
+            "height": 568,
+            "scrollY": 1951,
+            "scrollWidth": 320,
+            "chapterTop": 1552.375,
+            "chapterHeight": 1001.890625,
+            "frameHeight": 1001.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.7518,
+            "section": {
+              "left": 0,
+              "right": 320,
+              "top": -398.625,
+              "bottom": 603.265625,
+              "width": 320,
+              "height": 1001.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 300,
+              "top": 257.46875,
+              "bottom": 565.46875,
+              "width": 280,
+              "height": 308
+            },
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -361.828125,
+              "bottom": 233.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.008753, 0.009754, -0.009754, 1.008753, 4.769, -12.1075)",
+              "frame": "matrix(1, 0, 0, 1, 1.6368, -3.2736)",
+              "crop": "matrix(0.999988, 0.004835, -0.004835, 0.999988, -2.6189, -5.8924)",
+              "outline": "matrix(1, 0, 0, 1, 1.9641, 3.9283)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 55.23054885864258,
+                  "right": 282.02743911743164,
+                  "top": 288.070068359375,
+                  "bottom": 509.820068359375,
+                  "width": 226.79689025878906,
+                  "height": 221.75
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 17.165334701538086,
+                  "right": 168.78285789489746,
+                  "top": 445.2744140625,
+                  "bottom": 535.316650390625,
+                  "width": 151.61752319335938,
+                  "height": 90.042236328125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 220.77659606933594,
+                  "right": 299.167236328125,
+                  "top": 483.17822265625,
+                  "bottom": 550.92822265625,
+                  "width": 78.39064025878906,
+                  "height": 67.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 21.757769223274757,
+                "right": 300.22897263620865,
+                "top": 267.8129801973612,
+                "bottom": 408.4925845643626
+              },
+              "cropQuad": [
+                {
+                  "x": 17.595649701538086,
+                  "y": 445.2744140625
+                },
+                {
+                  "x": 168.5938377015381,
+                  "y": 446.0044990625
+                },
+                {
+                  "x": 168.16352270153808,
+                  "y": 535.0034310625
+                },
+                {
+                  "x": 17.165334701538086,
+                  "y": 534.2733460625
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-320-mid.png"
+          },
+          {
+            "width": 320,
+            "height": 568,
+            "scrollY": 2075,
+            "scrollWidth": 320,
+            "chapterTop": 1552.375,
+            "chapterHeight": 1001.890625,
+            "frameHeight": 1001.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.8576,
+            "section": {
+              "left": 0,
+              "right": 320,
+              "top": -522.625,
+              "bottom": 479.265625,
+              "width": 320,
+              "height": 1001.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 300,
+              "top": 133.46875,
+              "bottom": 441.46875,
+              "width": 280,
+              "height": 308
+            },
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -485.828125,
+              "bottom": 109.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.011305, 0.013887, -0.013887, 1.011305, 7.3392, -16.9198)",
+              "frame": "matrix(1, 0, 0, 1, 2.3243, -4.6485)",
+              "crop": "matrix(0.999976, 0.006864, -0.006864, 0.999976, -3.7188, -8.3673)",
+              "outline": "matrix(1, 0, 0, 1, 2.7891, 5.5782)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 55.91804885864258,
+                  "right": 282.71493911743164,
+                  "top": 162.6953125,
+                  "bottom": 384.4453125,
+                  "width": 226.79689025878906,
+                  "height": 221.75
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 15.975371360778809,
+                  "right": 167.77238368988037,
+                  "top": 318.646728515625,
+                  "bottom": 408.994873046875,
+                  "width": 151.79701232910156,
+                  "height": 90.34814453125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 221.60159301757812,
+                  "right": 299.9922180175781,
+                  "top": 360.828125,
+                  "bottom": 428.578125,
+                  "width": 78.390625,
+                  "height": 67.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 25.220425441082426,
+                "right": 304.0771681806977,
+                "top": 138.94235329112755,
+                "bottom": 280.4888813894676
+              },
+              "cropQuad": [
+                {
+                  "x": 16.58626736077881,
+                  "y": 318.646728515625
+                },
+                {
+                  "x": 167.5826433607788,
+                  "y": 319.683192515625
+                },
+                {
+                  "x": 166.9717473607788,
+                  "y": 408.68105651562496
+                },
+                {
+                  "x": 15.975371360778809,
+                  "y": 407.644592515625
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-320-end.png"
+          },
+          {
+            "width": 320,
+            "height": 568,
+            "scrollY": 1951,
+            "scrollWidth": 320,
+            "chapterTop": 1552.375,
+            "chapterHeight": 1001.890625,
+            "frameHeight": 1001.890625,
+            "header": 0,
+            "static": true,
+            "progress": 0.7518,
+            "section": {
+              "left": 0,
+              "right": 320,
+              "top": -398.625,
+              "bottom": 603.265625,
+              "width": 320,
+              "height": 1001.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 300,
+              "top": 257.46875,
+              "bottom": 565.46875,
+              "width": 280,
+              "height": 308
+            },
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -361.828125,
+              "bottom": 233.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "matrix(1.008753, 0.009754, -0.009754, 1.008753, 4.769, -12.1075)",
+              "frame": "matrix(1, 0, 0, 1, 1.6368, -3.2736)",
+              "crop": "matrix(0.999988, 0.004835, -0.004835, 0.999988, -2.6189, -5.8924)",
+              "outline": "matrix(1, 0, 0, 1, 1.9641, 3.9283)"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 55.23054885864258,
+                  "right": 282.02743911743164,
+                  "top": 288.070068359375,
+                  "bottom": 509.820068359375,
+                  "width": 226.79689025878906,
+                  "height": 221.75
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 17.165334701538086,
+                  "right": 168.78285789489746,
+                  "top": 445.2744140625,
+                  "bottom": 535.316650390625,
+                  "width": 151.61752319335938,
+                  "height": 90.042236328125
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 220.77659606933594,
+                  "right": 299.167236328125,
+                  "top": 483.17822265625,
+                  "bottom": 550.92822265625,
+                  "width": 78.39064025878906,
+                  "height": 67.75
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 23.953376132963243,
+                "right": 302.19146673983886,
+                "top": 269.1428576330804,
+                "bottom": 410.1787124756077
+              },
+              "cropQuad": [
+                {
+                  "x": 17.595649701538086,
+                  "y": 445.2744140625
+                },
+                {
+                  "x": 168.5938377015381,
+                  "y": 446.0044990625
+                },
+                {
+                  "x": 168.16352270153808,
+                  "y": 535.0034310625
+                },
+                {
+                  "x": 17.165334701538086,
+                  "y": 534.2733460625
+                }
+              ]
+            },
+            "motionState": "playing",
+            "scrollMotion": "enabled",
+            "screenshot": ".taste-skill/previews/skills-collage-webkit-320-reverse.png"
+          }
+        ],
+        "reachableRows": 7
+      }
+    },
+    {
+      "name": "Chromium: collage Pause freezes scroll and background stays still over time",
+      "passed": true,
+      "details": {
+        "mid": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 3118,
+          "scrollWidth": 1440,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "header": 73,
+          "static": false,
+          "progress": 0.501,
+          "section": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "art": {
+            "left": 86.40625,
+            "right": 654.109375,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 567.703125,
+            "height": 598.171875
+          },
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "background": {
+            "transform": "none",
+            "inline": null,
+            "position": "50% 50%",
+            "motion": null
+          },
+          "heading": "none",
+          "outer": {
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+            "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+            "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+          },
+          "collage": [
+            {
+              "class": "skills-collage-frame",
+              "box": {
+                "left": 154.52572631835938,
+                "right": 614.3538818359375,
+                "top": 196.37042236328125,
+                "bottom": 627.0422973632812,
+                "width": 459.8281555175781,
+                "height": 430.671875
+              }
+            },
+            {
+              "class": "skills-collage-crop",
+              "box": {
+                "left": 86.38701629638672,
+                "right": 392.93993377685547,
+                "top": 507.411376953125,
+                "bottom": 680.8908081054688,
+                "width": 306.55291748046875,
+                "height": 173.47943115234375
+              }
+            },
+            {
+              "class": "skills-collage-outline",
+              "box": {
+                "left": 489.4964599609375,
+                "right": 648.4495849609375,
+                "top": 561.321044921875,
+                "bottom": 692.914794921875,
+                "width": 158.953125,
+                "height": 131.59375
+              }
+            }
+          ],
+          "removedPlate": true,
+          "removedVector": true,
+          "registration": true,
+          "images": [
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            },
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioSentences": 5,
+          "occlusion": {
+            "testedPixels": 112307,
+            "occludedPixels": 0,
+            "visibleBounds": {
+              "left": 78.8215544298065,
+              "right": 641.7186688386768,
+              "top": 181.4774015478636,
+              "bottom": 462.7085564952416
+            },
+            "cropQuad": [
+              {
+                "x": 86.39305513818672,
+                "y": 507.411376953125
+              },
+              {
+                "x": 393.3930551381867,
+                "y": 507.422093279325
+              },
+              {
+                "x": 393.3870162963867,
+                "y": 680.422093279325
+              },
+              {
+                "x": 86.38701629638672,
+                "y": 680.411376953125
+              }
+            ]
+          },
+          "motionState": "playing",
+          "scrollMotion": "enabled"
+        },
+        "later": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 3118,
+          "scrollWidth": 1440,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "header": 73,
+          "static": false,
+          "progress": 0.501,
+          "section": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "art": {
+            "left": 86.40625,
+            "right": 654.109375,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 567.703125,
+            "height": 598.171875
+          },
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "background": {
+            "transform": "none",
+            "inline": null,
+            "position": "50% 50%",
+            "motion": null
+          },
+          "heading": "none",
+          "outer": {
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+            "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+            "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+          },
+          "collage": [
+            {
+              "class": "skills-collage-frame",
+              "box": {
+                "left": 154.52572631835938,
+                "right": 614.3538818359375,
+                "top": 196.37042236328125,
+                "bottom": 627.0422973632812,
+                "width": 459.8281555175781,
+                "height": 430.671875
+              }
+            },
+            {
+              "class": "skills-collage-crop",
+              "box": {
+                "left": 86.38701629638672,
+                "right": 392.93993377685547,
+                "top": 507.411376953125,
+                "bottom": 680.8908081054688,
+                "width": 306.55291748046875,
+                "height": 173.47943115234375
+              }
+            },
+            {
+              "class": "skills-collage-outline",
+              "box": {
+                "left": 489.4964599609375,
+                "right": 648.4495849609375,
+                "top": 561.321044921875,
+                "bottom": 692.914794921875,
+                "width": 158.953125,
+                "height": 131.59375
+              }
+            }
+          ],
+          "removedPlate": true,
+          "removedVector": true,
+          "registration": true,
+          "images": [
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            },
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioSentences": 5,
+          "occlusion": {
+            "testedPixels": 112307,
+            "occludedPixels": 0,
+            "visibleBounds": {
+              "left": 81.05866880632715,
+              "right": 643.4893362516003,
+              "top": 182.17156934233037,
+              "bottom": 464.0504805485838
+            },
+            "cropQuad": [
+              {
+                "x": 86.39305513818672,
+                "y": 507.411376953125
+              },
+              {
+                "x": 393.3930551381867,
+                "y": 507.422093279325
+              },
+              {
+                "x": 393.3870162963867,
+                "y": 680.422093279325
+              },
+              {
+                "x": 86.38701629638672,
+                "y": 680.411376953125
+              }
+            ]
+          },
+          "motionState": "playing",
+          "scrollMotion": "enabled"
+        },
+        "paused": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 3118,
+          "scrollWidth": 1440,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "header": 73,
+          "static": false,
+          "progress": 0.501,
+          "section": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "art": {
+            "left": 86.40625,
+            "right": 654.109375,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 567.703125,
+            "height": 598.171875
+          },
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "background": {
+            "transform": "none",
+            "inline": null,
+            "position": "50% 50%",
+            "motion": null
+          },
+          "heading": "none",
+          "outer": {
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+            "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+            "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+          },
+          "collage": [
+            {
+              "class": "skills-collage-frame",
+              "box": {
+                "left": 154.52572631835938,
+                "right": 614.3538818359375,
+                "top": 196.37042236328125,
+                "bottom": 627.0422973632812,
+                "width": 459.8281555175781,
+                "height": 430.671875
+              }
+            },
+            {
+              "class": "skills-collage-crop",
+              "box": {
+                "left": 86.38701629638672,
+                "right": 392.93993377685547,
+                "top": 507.411376953125,
+                "bottom": 680.8908081054688,
+                "width": 306.55291748046875,
+                "height": 173.47943115234375
+              }
+            },
+            {
+              "class": "skills-collage-outline",
+              "box": {
+                "left": 489.4964599609375,
+                "right": 648.4495849609375,
+                "top": 561.321044921875,
+                "bottom": 692.914794921875,
+                "width": 158.953125,
+                "height": 131.59375
+              }
+            }
+          ],
+          "removedPlate": true,
+          "removedVector": true,
+          "registration": true,
+          "images": [
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            },
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioSentences": 5,
+          "occlusion": {
+            "testedPixels": 112307,
+            "occludedPixels": 0,
+            "visibleBounds": {
+              "left": 81.44433294207471,
+              "right": 643.7933646206812,
+              "top": 182.2912805302071,
+              "bottom": 464.28111357049374
+            },
+            "cropQuad": [
+              {
+                "x": 86.39305513818672,
+                "y": 507.411376953125
+              },
+              {
+                "x": 393.3930551381867,
+                "y": 507.422093279325
+              },
+              {
+                "x": 393.3870162963867,
+                "y": 680.422093279325
+              },
+              {
+                "x": 86.38701629638672,
+                "y": 680.411376953125
+              }
+            ]
+          },
+          "motionState": "paused",
+          "scrollMotion": "enabled"
+        },
+        "held": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 3365,
+          "scrollWidth": 1440,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "header": 73,
+          "static": false,
+          "progress": 0.501,
+          "section": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "art": {
+            "left": 86.40625,
+            "right": 654.109375,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 567.703125,
+            "height": 598.171875
+          },
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "background": {
+            "transform": "none",
+            "inline": null,
+            "position": "50% 50%",
+            "motion": null
+          },
+          "heading": "none",
+          "outer": {
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "frame": "matrix(1, 0, 0, 1, 0.0101, -0.0202)",
+            "crop": "matrix(1, 3.49066e-05, -3.49066e-05, 1, -0.0162, -0.0364)",
+            "outline": "matrix(1, 0, 0, 1, 0.0121, 0.0242)"
+          },
+          "collage": [
+            {
+              "class": "skills-collage-frame",
+              "box": {
+                "left": 154.52572631835938,
+                "right": 614.3538818359375,
+                "top": 196.37042236328125,
+                "bottom": 627.0422973632812,
+                "width": 459.8281555175781,
+                "height": 430.671875
+              }
+            },
+            {
+              "class": "skills-collage-crop",
+              "box": {
+                "left": 86.38701629638672,
+                "right": 392.93993377685547,
+                "top": 507.411376953125,
+                "bottom": 680.8908081054688,
+                "width": 306.55291748046875,
+                "height": 173.47943115234375
+              }
+            },
+            {
+              "class": "skills-collage-outline",
+              "box": {
+                "left": 489.4964599609375,
+                "right": 648.4495849609375,
+                "top": 561.321044921875,
+                "bottom": 692.914794921875,
+                "width": 158.953125,
+                "height": 131.59375
+              }
+            }
+          ],
+          "removedPlate": true,
+          "removedVector": true,
+          "registration": true,
+          "images": [
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            },
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioSentences": 5,
+          "occlusion": {
+            "testedPixels": 112307,
+            "occludedPixels": 0,
+            "visibleBounds": {
+              "left": 81.44433294207471,
+              "right": 643.7933646206812,
+              "top": 182.2912805302071,
+              "bottom": 464.28111357049374
+            },
+            "cropQuad": [
+              {
+                "x": 86.39305513818672,
+                "y": 507.411376953125
+              },
+              {
+                "x": 393.3930551381867,
+                "y": 507.422093279325
+              },
+              {
+                "x": 393.3870162963867,
+                "y": 680.422093279325
+              },
+              {
+                "x": 86.38701629638672,
+                "y": 680.411376953125
+              }
+            ]
+          },
+          "motionState": "paused",
+          "scrollMotion": "enabled"
+        },
+        "resumed": {
+          "width": 1440,
+          "height": 900,
+          "scrollY": 3365,
+          "scrollWidth": 1440,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "header": 73,
+          "static": false,
+          "progress": 1,
+          "section": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "art": {
+            "left": 86.40625,
+            "right": 654.109375,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 567.703125,
+            "height": 598.171875
+          },
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "background": {
+            "transform": "none",
+            "inline": null,
+            "position": "50% 50%",
+            "motion": null
+          },
+          "heading": "none",
+          "outer": {
+            "manta": "matrix(1.04436, 0.03647, -0.03647, 1.04436, 24, -36)",
+            "frame": "matrix(1, 0, 0, 1, 5, -10)",
+            "crop": "matrix(0.999848, 0.0174524, -0.0174524, 0.999848, -8, -18)",
+            "outline": "matrix(1, 0, 0, 1, 6, 12)"
+          },
+          "collage": [
+            {
+              "class": "skills-collage-frame",
+              "box": {
+                "left": 159.515625,
+                "right": 619.34375,
+                "top": 186.390625,
+                "bottom": 617.0625,
+                "width": 459.828125,
+                "height": 430.671875
+              }
+            },
+            {
+              "class": "skills-collage-crop",
+              "box": {
+                "left": 76.9158706665039,
+                "right": 386.44351959228516,
+                "top": 486.7913513183594,
+                "bottom": 665.5836791992188,
+                "width": 309.52764892578125,
+                "height": 178.79232788085938
+              }
+            },
+            {
+              "class": "skills-collage-outline",
+              "box": {
+                "left": 495.484375,
+                "right": 654.4375,
+                "top": 573.296875,
+                "bottom": 704.890625,
+                "width": 158.953125,
+                "height": 131.59375
+              }
+            }
+          ],
+          "removedPlate": true,
+          "removedVector": true,
+          "registration": true,
+          "images": [
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            },
+            {
+              "loaded": true,
+              "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioSentences": 5,
+          "occlusion": {
+            "testedPixels": 112307,
+            "occludedPixels": 0,
+            "visibleBounds": {
+              "left": 103.91812385625764,
+              "right": 684.9742675098898,
+              "top": 133.60480941972025,
+              "bottom": 434.5059495402725
+            },
+            "cropQuad": [
+              {
+                "x": 79.93513586650391,
+                "y": 486.7913513183594
+              },
+              {
+                "x": 386.8884718665039,
+                "y": 492.1492381183594
+              },
+              {
+                "x": 383.8692066665039,
+                "y": 665.1229421183593
+              },
+              {
+                "x": 76.9158706665039,
+                "y": 659.7650553183594
+              }
+            ]
+          },
+          "motionState": "playing",
+          "scrollMotion": "enabled"
+        }
+      }
+    },
+    {
+      "name": "WebKit: reduced motion and saved pause keep collage and content static",
+      "passed": true,
+      "details": [
+        {
+          "mode": "reduced",
+          "before": {
+            "width": 390,
+            "height": 844,
+            "scrollY": 1293,
+            "scrollWidth": 390,
+            "chapterTop": 1308.59375,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": false,
+            "progress": null,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": 15.59375,
+              "bottom": 1058.484375,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 635.6875,
+              "bottom": 1020.6875,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": 52.390625,
+              "bottom": 611.6875,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "none",
+              "frame": "none",
+              "crop": "none",
+              "outline": "none"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 62,
+                  "right": 345.5,
+                  "top": 678.03125,
+                  "bottom": 955.21875,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 20,
+                  "right": 209,
+                  "top": 878.25,
+                  "bottom": 989.890625,
+                  "width": 189,
+                  "height": 111.640625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 268.5,
+                  "right": 366.5,
+                  "top": 912.90625,
+                  "bottom": 997.59375,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 15.067812598600256,
+                "right": 361.6105188852669,
+                "top": 665.2537364801042,
+                "bottom": 838.1900907167708
+              },
+              "cropQuad": [
+                {
+                  "x": 20,
+                  "y": 878.25
+                },
+                {
+                  "x": 209,
+                  "y": 878.25
+                },
+                {
+                  "x": 209,
+                  "y": 990.25
+                },
+                {
+                  "x": 20,
+                  "y": 990.25
+                }
+              ]
+            },
+            "motionState": "paused",
+            "scrollMotion": "reduced"
+          },
+          "after": {
+            "width": 390,
+            "height": 844,
+            "scrollY": 1453,
+            "scrollWidth": 390,
+            "chapterTop": 1308.59375,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": false,
+            "progress": null,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -144.40625,
+              "bottom": 898.484375,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 475.6875,
+              "bottom": 860.6875,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -107.609375,
+              "bottom": 451.6875,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "none",
+              "frame": "none",
+              "crop": "none",
+              "outline": "none"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 62,
+                  "right": 345.5,
+                  "top": 518.03125,
+                  "bottom": 795.21875,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 20,
+                  "right": 209,
+                  "top": 718.25,
+                  "bottom": 829.890625,
+                  "width": 189,
+                  "height": 111.640625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 268.5,
+                  "right": 366.5,
+                  "top": 752.90625,
+                  "bottom": 837.59375,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 15.067812598600256,
+                "right": 361.6105188852669,
+                "top": 505.2537364801042,
+                "bottom": 678.1900907167709
+              },
+              "cropQuad": [
+                {
+                  "x": 20,
+                  "y": 718.25
+                },
+                {
+                  "x": 209,
+                  "y": 718.25
+                },
+                {
+                  "x": 209,
+                  "y": 830.25
+                },
+                {
+                  "x": 20,
+                  "y": 830.25
+                }
+              ]
+            },
+            "motionState": "paused",
+            "scrollMotion": "reduced"
+          }
+        },
+        {
+          "mode": "saved",
+          "before": {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2458,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": null,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": 16,
+              "bottom": 1058.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 636.09375,
+              "bottom": 1021.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": 52.796875,
+              "bottom": 612.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "none",
+              "frame": "none",
+              "crop": "none",
+              "outline": "none"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 62,
+                  "right": 345.5,
+                  "top": 678.4375,
+                  "bottom": 955.625,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 20,
+                  "right": 209,
+                  "top": 878.65625,
+                  "bottom": 990.296875,
+                  "width": 189,
+                  "height": 111.640625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 268.5,
+                  "right": 366.5,
+                  "top": 913.3125,
+                  "bottom": 998,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 15.067812598600256,
+                "right": 361.6105188852669,
+                "top": 665.6598644097917,
+                "bottom": 838.5962186464583
+              },
+              "cropQuad": [
+                {
+                  "x": 20,
+                  "y": 878.65625
+                },
+                {
+                  "x": 209,
+                  "y": 878.65625
+                },
+                {
+                  "x": 209,
+                  "y": 990.65625
+                },
+                {
+                  "x": 20,
+                  "y": 990.65625
+                }
+              ]
+            },
+            "motionState": "paused",
+            "scrollMotion": "enabled"
+          },
+          "after": {
+            "width": 390,
+            "height": 844,
+            "scrollY": 2618,
+            "scrollWidth": 390,
+            "chapterTop": 2474,
+            "chapterHeight": 1042.890625,
+            "frameHeight": 1042.890625,
+            "header": 0,
+            "static": true,
+            "progress": null,
+            "section": {
+              "left": 0,
+              "right": 390,
+              "top": -144,
+              "bottom": 898.890625,
+              "width": 390,
+              "height": 1042.890625
+            },
+            "art": {
+              "left": 20,
+              "right": 370,
+              "top": 476.09375,
+              "bottom": 861.09375,
+              "width": 350,
+              "height": 385
+            },
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -107.203125,
+              "bottom": 452.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "background": {
+              "transform": "none",
+              "inline": null,
+              "position": "25% 65%",
+              "motion": null
+            },
+            "heading": "none",
+            "outer": {
+              "manta": "none",
+              "frame": "none",
+              "crop": "none",
+              "outline": "none"
+            },
+            "collage": [
+              {
+                "class": "skills-collage-frame",
+                "box": {
+                  "left": 62,
+                  "right": 345.5,
+                  "top": 518.4375,
+                  "bottom": 795.625,
+                  "width": 283.5,
+                  "height": 277.1875
+                }
+              },
+              {
+                "class": "skills-collage-crop",
+                "box": {
+                  "left": 20,
+                  "right": 209,
+                  "top": 718.65625,
+                  "bottom": 830.296875,
+                  "width": 189,
+                  "height": 111.640625
+                }
+              },
+              {
+                "class": "skills-collage-outline",
+                "box": {
+                  "left": 268.5,
+                  "right": 366.5,
+                  "top": 753.3125,
+                  "bottom": 838,
+                  "width": 98,
+                  "height": 84.6875
+                }
+              }
+            ],
+            "removedPlate": true,
+            "removedVector": true,
+            "registration": true,
+            "images": [
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              },
+              {
+                "loaded": true,
+                "src": "http://127.0.0.1:4173/img/ocean/skills-manta.webp"
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioSentences": 5,
+            "occlusion": {
+              "testedPixels": 112307,
+              "occludedPixels": 0,
+              "visibleBounds": {
+                "left": 15.067812598600256,
+                "right": 361.6105188852669,
+                "top": 505.6598644097917,
+                "bottom": 678.5962186464584
+              },
+              "cropQuad": [
+                {
+                  "x": 20,
+                  "y": 718.65625
+                },
+                {
+                  "x": 209,
+                  "y": 718.65625
+                },
+                {
+                  "x": 209,
+                  "y": 830.65625
+                },
+                {
+                  "x": 20,
+                  "y": 830.65625
+                }
+              ]
+            },
+            "motionState": "paused",
+            "scrollMotion": "enabled"
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": "Final Skills collage only; audio excluded while delivered separately. Actual Chromium and emulated-touch WebKit. Scroll and reachability are programmatic. No physical-device, frame-performance, assistive-technology or full-site audit. Occlusion samples every native manta pixel with alpha>=32 against the transformed crop polygon."
+}

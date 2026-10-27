@@ -177,6 +177,7 @@ async function initializeOceanMotion() {
         orca: { x: [-25, 25], y: [-8, 9], rotate: [-1, 1], duration: 8500 },
         dolphin: { x: [-32, 32], y: [-11, 11], rotate: [-1.4, 1.4], duration: 6500 },
         turtle: { x: [-18, 18], y: [-9, 9], rotate: [-1.5, 1.5], duration: 9500 },
+        manta: { x: [-12, 12], y: [-10, 12], rotate: [-1.5, 1.5], duration: 9000 },
         water: { x: [-8, 8], y: [-4, 4], scale: [1.02, 1.05], duration: 15500 },
         light: { x: [-12, 12], rotate: [-1, 1], duration: 14000 },
         jellyfish: { x: [-6, 6], y: [-16, 16], rotate: [-2, 2], duration: 6200 },
@@ -353,6 +354,16 @@ function initializeScrollMotion({ createTimeline }) {
                 add(animation, frame.querySelector('.dolphin-two'), { x: [-40 * distance, 105 * distance], y: [18 * vertical, -25 * vertical], scale: compact ? [.99, 1.025] : [.94, 1.04] });
                 add(animation, frame.querySelector('.orca-detail'), { y: [30 * vertical, -24 * vertical], rotate: [-3 * rotation, 2 * rotation] });
                 add(animation, frame.querySelector('h2'), { y: [20 * vertical, -10 * vertical] });
+            } else if (type === 'skills') {
+                const mantaX = [-30 * distance, 24 * distance];
+                const mantaY = [34 * vertical, -36 * vertical];
+                add(animation, frame.querySelector('.skills-manta'), {
+                    x: mantaX, y: mantaY,
+                    rotate: [-2 * rotation, 2 * rotation], scale: compact ? [.99, 1.015] : [.96, 1.045],
+                });
+                add(animation, frame.querySelector('.skills-collage-frame'), { x: [-5 * vertical, 5 * vertical], y: [10 * vertical, -10 * vertical] });
+                add(animation, frame.querySelector('.skills-collage-crop'), { x: [8 * vertical, -8 * vertical], y: [18 * vertical, -18 * vertical], rotate: [-1 * rotation, 1 * rotation] });
+                add(animation, frame.querySelector('.skills-collage-outline'), { x: [-6 * vertical, 6 * vertical], y: [-12 * vertical, 12 * vertical] });
             } else {
                 add(animation, frame.querySelector('.exploration-turtle'), { x: [-65 * distance, 55 * distance], y: [35 * vertical, -45 * vertical], rotate: [-4 * rotation, 4 * rotation], scale: compact ? [.98, 1.025] : [.93, 1.06] });
                 add(animation, frame.querySelector('.turtle-detail'), { x: [-14 * vertical, 12 * vertical], y: [35 * vertical, -24 * vertical], rotate: [-4 * rotation, 2 * rotation] });
@@ -416,7 +427,8 @@ function initializeScrollMotion({ createTimeline }) {
         const frameHeights = chapterRecords.map(record => record.frame.offsetHeight);
         chapterRecords.forEach((record, index) => {
             const frameHeight = frameHeights[index];
-            const tallContent = frameHeight > available + 80;
+            const overflowAllowance = record.chapter.dataset.scrollChapter === 'skills' ? 1 : 80;
+            const tallContent = frameHeight > available + overflowAllowance;
             record.chapter.toggleAttribute('data-scroll-static', tallContent);
             const ratio = record.chapter.dataset.scrollChapter === 'hero' ? (compact ? .55 : .8) : (compact ? .38 : .55);
             record.travel = tallContent ? 0 : Math.round(Math.min(viewportHeight * ratio, compact ? 560 : 800));
@@ -469,7 +481,8 @@ function initializeScrollMotion({ createTimeline }) {
             progressBar.style.transform = `scaleX(${pageProgress})`;
             progressValue = pageProgress;
         }
-        if (!enabled || motionPaused || openingActive || document.hidden) {
+        // Set the covered hero's scroll pose before the opening begins to fade.
+        if (!enabled || motionPaused || document.hidden) {
             lastTick = 0;
             return;
         }

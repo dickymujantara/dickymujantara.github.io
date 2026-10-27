@@ -1,0 +1,3517 @@
+{
+  "checks": [
+    {
+      "name": "Chromium: manta-only pinned scroll and reverse at 1440",
+      "passed": true,
+      "details": {
+        "travel": 495,
+        "points": [
+          {
+            "scrollY": 2870,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "header": 73,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "frame": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(0.959415, -0.0335035, 0.0335035, 0.959415, -30, 34)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.99979, -0.0204818, 0.0204818, 0.99979, -9.3887, -7.6063)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999991, -0.00429175, 0.00429175, 0.999991, -0.9835, -1.3523)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -5.8555, -3.6597)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999437, 0.0335372, -0.0335372, 0.999437, 7.6877, 10.5706)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.451, 3.4068)"
+              }
+            ],
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "visibleManta": {
+              "left": 77.45057779947916,
+              "right": 591.4606292724609,
+              "top": 342.06896240234374,
+              "bottom": 622.927699991862
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 280.8587375895183,
+            "frames": [
+              {
+                "box": {
+                  "left": 79.4629898071289,
+                  "right": 261.6950149536133,
+                  "top": 188.6647491455078,
+                  "bottom": 323.9900207519531,
+                  "width": 182.23202514648438,
+                  "height": 135.3252716064453
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 472.4172668457031,
+                  "right": 646.8487548828125,
+                  "top": 550.5629272460938,
+                  "bottom": 682.3438720703125,
+                  "width": 174.43148803710938,
+                  "height": 131.78094482421875
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 1440,
+              "top": 1395,
+              "bottom": 2027.09375,
+              "width": 1440,
+              "height": 632.09375
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-1440-0.png"
+          },
+          {
+            "scrollY": 3118,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "header": 73,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "frame": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0.501,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.9999, -0.0141733, 0.0141733, 0.9999, -6.497, -4.9556)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999889, 0.0149185, -0.0149185, 0.999889, 3.4193, 4.7016)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -2.8874, -1.8046)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999439, 0.0334971, -0.0334971, 0.999439, 7.6783, 10.5577)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 7.4608, 4.663)"
+              }
+            ],
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "visibleManta": {
+              "left": 100.956075592041,
+              "right": 627.7339544677734,
+              "top": 313.44757873535156,
+              "bottom": 585.3271878051758
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 271.8796090698242,
+            "frames": [
+              {
+                "box": {
+                  "left": 83.16015625,
+                  "right": 266.8034362792969,
+                  "top": 193.76031494140625,
+                  "bottom": 331.00225830078125,
+                  "width": 183.64328002929688,
+                  "height": 137.241943359375
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 472.4102783203125,
+                  "right": 646.8369140625,
+                  "top": 550.5533447265625,
+                  "bottom": 682.32763671875,
+                  "width": 174.4266357421875,
+                  "height": 131.7742919921875
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 1440,
+              "top": 1147,
+              "bottom": 1779.09375,
+              "width": 1440,
+              "height": 632.09375
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-1440-50.png"
+          },
+          {
+            "scrollY": 3365,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "header": 73,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "frame": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 1,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.04436, 0.03647, -0.03647, 1.04436, 24, -36)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999982, -0.00593408, 0.00593408, 0.999982, -2.7198, -1.4932)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999549, 0.0300309, -0.0300309, 0.999549, 6.8835, 9.4648)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 0.849, 0.5307)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999752, 0.0222651, -0.0222651, 0.999752, 5.1031, 7.0168)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 7.9548, 4.9718)"
+              }
+            ],
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "visibleManta": {
+              "left": 118.72749333699542,
+              "right": 671.6607748413086,
+              "top": 272.14518005371093,
+              "bottom": 563.6288871256511
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 291.48370707194016,
+            "frames": [
+              {
+                "box": {
+                  "left": 85.63856506347656,
+                  "right": 271.25341796875,
+                  "top": 197.17373657226562,
+                  "bottom": 337.115234375,
+                  "width": 185.61485290527344,
+                  "height": 139.94149780273438
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 470.5168151855469,
+                  "right": 643.5800170898438,
+                  "top": 547.9490966796875,
+                  "bottom": 677.85009765625,
+                  "width": 173.06320190429688,
+                  "height": 129.9010009765625
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 1440,
+              "top": 900,
+              "bottom": 1532.09375,
+              "width": 1440,
+              "height": 632.09375
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-1440-100.png"
+          },
+          {
+            "scrollY": 3118,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "header": 73,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "frame": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0.501,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999996, 0.00299149, -0.00299149, 0.999996, 1.3709, 2.2567)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999393, 0.0348384, -0.0348384, 0.999393, 7.986, 10.9807)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.3938, 2.7461)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999994, 0.00341037, -0.00341037, 0.999994, 0.7817, 1.0749)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 6.6854, 4.1784)"
+              }
+            ],
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "visibleManta": {
+              "left": 110.24417114257811,
+              "right": 634.1833190917969,
+              "top": 323.55158447265626,
+              "bottom": 589.6159448242188
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 266.0643603515625,
+            "frames": [
+              {
+                "box": {
+                  "left": 86.43180847167969,
+                  "right": 272.6651916503906,
+                  "top": 198.2634735107422,
+                  "bottom": 339.05731201171875,
+                  "width": 186.23338317871094,
+                  "height": 140.79383850097656
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 467.3639831542969,
+                  "right": 638.0900268554688,
+                  "top": 543.5973510742188,
+                  "bottom": 670.3180541992188,
+                  "width": 170.72604370117188,
+                  "height": 126.720703125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 1440,
+              "top": 1147,
+              "bottom": 1779.09375,
+              "width": 1440,
+              "height": 632.09375
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-1440-reverse50.png"
+          },
+          {
+            "scrollY": 2870,
+            "width": 1440,
+            "height": 900,
+            "scrollWidth": 1440,
+            "header": 73,
+            "chapterTop": 2943,
+            "chapterHeight": 1322,
+            "frameHeight": 827,
+            "frame": {
+              "left": 0,
+              "right": 1440,
+              "top": 73,
+              "bottom": 900,
+              "width": 1440,
+              "height": 827
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(0.959415, -0.0335035, 0.0335035, 0.959415, -30, 34)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999933, 0.0115591, -0.0115591, 0.999933, 5.2981, 5.8566)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999615, 0.0277332, -0.0277332, 0.999615, 6.3566, 8.7404)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 6.9634, 4.3521)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999862, -0.0165938, 0.0165938, 0.999862, -3.8031, -5.2293)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 3.9385, 2.4615)"
+              }
+            ],
+            "content": {
+              "left": 726.109375,
+              "right": 1353.578125,
+              "top": 130.59375,
+              "bottom": 728.765625,
+              "width": 627.46875,
+              "height": 598.171875
+            },
+            "visibleManta": {
+              "left": 95.63605784098307,
+              "right": 602.2592504882813,
+              "top": 362.3445703125,
+              "bottom": 627.3085384114584
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 264.96396809895833,
+            "frames": [
+              {
+                "box": {
+                  "left": 85.26020050048828,
+                  "right": 270.57801055908203,
+                  "top": 196.653564453125,
+                  "bottom": 336.18658447265625,
+                  "width": 185.31781005859375,
+                  "height": 139.53302001953125
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 461.95892333984375,
+                  "right": 634.3255004882812,
+                  "top": 536.178955078125,
+                  "bottom": 665.1280517578125,
+                  "width": 172.3665771484375,
+                  "height": 128.9490966796875
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 1440,
+              "top": 1395,
+              "bottom": 2027.09375,
+              "width": 1440,
+              "height": 632.09375
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-1440-reverse0.png"
+          }
+        ],
+        "reachable": {
+          "rows": 7,
+          "frames": 2
+        }
+      }
+    },
+    {
+      "name": "WebKit: static background and visible manta scroll at 390",
+      "passed": true,
+      "details": {
+        "denominator": 1161.090625,
+        "first": 38.11560546875023,
+        "step": 121.67250585937491,
+        "phases": [
+          {
+            "scrollY": 2512,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "header": 0,
+            "chapterTop": 2474,
+            "chapterHeight": 907.890625,
+            "frameHeight": 907.890625,
+            "frame": {
+              "left": 0,
+              "right": 390,
+              "top": -38,
+              "bottom": 869.890625,
+              "width": 390,
+              "height": 907.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.6505,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.006283, 0.005817, -0.005817, 1.006283, 2.308, -7.4993)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999932, -0.011688, 0.011688, 0.999932, -5.3576, -4.2612)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999996, 0.002745, -0.002745, 0.999996, 0.6294, 0.8654)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -3.0446, -1.9029)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999743, 0.022673, -0.022673, 0.999743, 5.1967, 7.1454)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.2155, 2.6347)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -1.203125,
+              "bottom": 558.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "visibleManta": {
+              "left": 31.79085230509439,
+              "right": 356.46187683105467,
+              "top": 606.6178125,
+              "bottom": 772.1918920898438
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 165.5740795898438,
+            "frames": [
+              {
+                "box": {
+                  "left": 24.030536651611328,
+                  "right": 122.22941970825195,
+                  "top": 587.82470703125,
+                  "bottom": 660.671630859375,
+                  "width": 98.19888305664062,
+                  "height": 72.846923828125
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 213.3312530517578,
+                  "right": 320.0674743652344,
+                  "top": 755.293212890625,
+                  "bottom": 835.41943359375,
+                  "width": 106.73622131347656,
+                  "height": 80.126220703125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 390,
+              "top": 869.890625,
+              "bottom": 1909.609375,
+              "width": 390,
+              "height": 1039.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-390-visible-start.png"
+          },
+          {
+            "scrollY": 2633,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "header": 0,
+            "chapterTop": 2474,
+            "chapterHeight": 907.890625,
+            "frameHeight": 907.890625,
+            "frame": {
+              "left": 0,
+              "right": 390,
+              "top": -159,
+              "bottom": 748.890625,
+              "width": 390,
+              "height": 907.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.7547,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.008852, 0.009868, -0.009868, 1.008852, 4.8401, -12.2405)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999951, -0.009906, 0.009906, 0.999951, -4.5406, -3.5122)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999969, 0.007917, -0.007917, 0.999969, 1.8145, 2.495)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -2.2027, -1.3767)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999753, 0.022237, -0.022237, 0.999753, 5.097, 7.0084)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.7104, 2.944)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -122.203125,
+              "bottom": 437.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "visibleManta": {
+              "left": 35.18818468729654,
+              "right": 359.7653993225098,
+              "top": 482.33107421875,
+              "bottom": 646.4384122721355
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 164.10733805338543,
+            "frames": [
+              {
+                "box": {
+                  "left": 25.030414581298828,
+                  "right": 123.60193252563477,
+                  "top": 468.201904296875,
+                  "bottom": 541.5537109375,
+                  "width": 98.57151794433594,
+                  "height": 73.351806640625
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 213.24794006347656,
+                  "right": 319.9512634277344,
+                  "top": 634.1787109375,
+                  "bottom": 714.260009765625,
+                  "width": 106.70332336425781,
+                  "height": 80.081298828125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 390,
+              "top": 748.890625,
+              "bottom": 1788.609375,
+              "width": 390,
+              "height": 1039.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-390-visible-mid.png"
+          },
+          {
+            "scrollY": 2755,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "header": 0,
+            "chapterTop": 2474,
+            "chapterHeight": 907.890625,
+            "frameHeight": 907.890625,
+            "frame": {
+              "left": 0,
+              "right": 390,
+              "top": -281,
+              "bottom": 626.890625,
+              "width": 390,
+              "height": 907.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.8598,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.011403, 0.013974, -0.013974, 1.011403, 7.3931, -17.020901)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999969, -0.007936, 0.007936, 0.999969, -3.6378, -2.6847)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.99992, 0.012662, -0.012662, 0.99992, 2.902, 3.9903)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -1.281, -0.8006)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999788, 0.020574, -0.020574, 0.999788, 4.7157, 6.4842)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.0397, 3.1498)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -244.203125,
+              "bottom": 315.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "visibleManta": {
+              "left": 37.77252286275227,
+              "right": 364.1167709350586,
+              "top": 355.228837890625,
+              "bottom": 521.6492179361979
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 166.42038004557293,
+            "frames": [
+              {
+                "box": {
+                  "left": 25.949106216430664,
+                  "right": 124.86023902893066,
+                  "top": 347.466552734375,
+                  "bottom": 421.27978515625,
+                  "width": 98.9111328125,
+                  "height": 73.813232421875
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 212.9292449951172,
+                  "right": 319.5069885253906,
+                  "top": 511.740478515625,
+                  "bottom": 591.64990234375,
+                  "width": 106.57774353027344,
+                  "height": 79.909423828125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 390,
+              "top": 626.890625,
+              "bottom": 1666.609375,
+              "width": 390,
+              "height": 1039.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-390-visible-end.png"
+          },
+          {
+            "scrollY": 2633,
+            "width": 390,
+            "height": 844,
+            "scrollWidth": 390,
+            "header": 0,
+            "chapterTop": 2474,
+            "chapterHeight": 907.890625,
+            "frameHeight": 907.890625,
+            "frame": {
+              "left": 0,
+              "right": 390,
+              "top": -159,
+              "bottom": 748.890625,
+              "width": 390,
+              "height": 907.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.7547,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.008852, 0.009868, -0.009868, 1.008852, 4.8401, -12.2405)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999983, -0.005751, 0.005751, 0.999983, -2.6358, -1.7661)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999858, 0.016822, -0.016822, 0.999858, 3.8556, 5.3014)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -0.2826, -0.1766)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999844, 0.017667, -0.017667, 0.999844, 4.0494, 5.5679)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.1923, 3.2452)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 370,
+              "top": -122.203125,
+              "bottom": 437.09375,
+              "width": 350,
+              "height": 559.296875
+            },
+            "visibleManta": {
+              "left": 36.78086654663085,
+              "right": 361.9890280151367,
+              "top": 483.47814453125,
+              "bottom": 648.8651843261719
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 165.38703979492186,
+            "frames": [
+              {
+                "box": {
+                  "left": 26.755611419677734,
+                  "right": 125.96268844604492,
+                  "top": 470.575927734375,
+                  "bottom": 544.79248046875,
+                  "width": 99.20707702636719,
+                  "height": 74.216552734375
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 212.3727264404297,
+                  "right": 318.730224609375,
+                  "top": 632.974609375,
+                  "bottom": 712.5830078125,
+                  "width": 106.35749816894531,
+                  "height": 79.6083984375
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 390,
+              "top": 748.890625,
+              "bottom": 1788.609375,
+              "width": 390,
+              "height": 1039.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-390-reverse-visible-mid.png"
+          }
+        ],
+        "reachable": {
+          "rows": 7,
+          "frames": 2
+        }
+      }
+    },
+    {
+      "name": "Chromium: manta-only tablet scroll and reverse at 768",
+      "passed": true,
+      "details": {
+        "travel": 389,
+        "points": [
+          {
+            "scrollY": 2998,
+            "width": 768,
+            "height": 1024,
+            "scrollWidth": 768,
+            "header": 0,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "frame": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(0.989818, -0.0190055, 0.0190055, 0.989818, -13.5, 22.1)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999907, -0.0136515, 0.0136515, 0.999907, -6.2579, -5.0864)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999992, -0.00405613, 0.00405613, 0.999992, -0.9296, -1.2782)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -3.9623, -2.4764)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999771, 0.0214136, -0.0214136, 0.999771, 4.9078, 6.7483)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 3.3676, 2.1047)"
+              }
+            ],
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "visibleManta": {
+              "left": 35.94754473368326,
+              "right": 319.1905632019043,
+              "top": 226.78816772460937,
+              "bottom": 376.9136089070638
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 150.12544118245444,
+            "frames": [
+              {
+                "box": {
+                  "left": 38.09539031982422,
+                  "right": 136.43603515625,
+                  "top": 103.17950439453125,
+                  "bottom": 176.20159912109375,
+                  "width": 98.34064483642578,
+                  "height": 73.0220947265625
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 251.73631286621094,
+                  "right": 345.09490966796875,
+                  "top": 546.9125366210938,
+                  "bottom": 616.9434204101562,
+                  "width": 93.35859680175781,
+                  "height": 70.0308837890625
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 768,
+              "top": 1413,
+              "bottom": 2141.078125,
+              "width": 768,
+              "height": 728.078125
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-768-0.png"
+          },
+          {
+            "scrollY": 3193,
+            "width": 768,
+            "height": 1024,
+            "scrollWidth": 768,
+            "header": 0,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "frame": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0.5013,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.0025, 4.89914e-05, -4.89914e-05, 1.0025, -1.3188, -0.7085)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999935, -0.0114369, 0.0114369, 0.999935, -5.2428, -4.1559)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999994, 0.0035273, -0.0035273, 0.999994, 0.8083, 1.1114)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -2.9263, -1.8289)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999743, 0.0226873, -0.0226873, 0.999743, 5.2, 7.15)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.2985, 2.6865)"
+              }
+            ],
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "visibleManta": {
+              "left": 48.82780192057291,
+              "right": 332.75217315673825,
+              "top": 206.78431579589844,
+              "bottom": 352.7483211008708
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 145.96400530497235,
+            "frames": [
+              {
+                "box": {
+                  "left": 39.852394104003906,
+                  "right": 138.1548309326172,
+                  "top": 105.59495544433594,
+                  "bottom": 178.56533813476562,
+                  "width": 98.30243682861328,
+                  "height": 72.97038269042969
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 251.9864501953125,
+                  "right": 345.4291687011719,
+                  "top": 547.2566528320312,
+                  "bottom": 617.4027099609375,
+                  "width": 93.44271850585938,
+                  "height": 70.14605712890625
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 768,
+              "top": 1218,
+              "bottom": 1946.078125,
+              "width": 768,
+              "height": 728.078125
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-768-50.png"
+          },
+          {
+            "scrollY": 3387,
+            "width": 768,
+            "height": 1024,
+            "scrollWidth": 768,
+            "header": 0,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "frame": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 1,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.01481, 0.0194854, -0.0194854, 1.01481, 10.8, -23.4)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999962, -0.00872654, 0.00872654, 0.999962, -3.9998, -3.0165)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999941, 0.0108767, -0.0108767, 0.999941, 2.4927, 3.4275)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -1.6487, -1.0304)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999772, 0.0213664, -0.0213664, 0.999772, 4.8974, 6.7339)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.9317, 3.0823)"
+              }
+            ],
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "visibleManta": {
+              "left": 60.51895988464355,
+              "right": 347.85541397094727,
+              "top": 184.35133911132812,
+              "bottom": 331.8720032755534
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 147.5206641642253,
+            "frames": [
+              {
+                "box": {
+                  "left": 41.27251434326172,
+                  "right": 140.103515625,
+                  "top": 107.55268859863281,
+                  "bottom": 181.23980712890625,
+                  "width": 98.83100128173828,
+                  "height": 73.68711853027344
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 251.72747802734375,
+                  "right": 345.08294677734375,
+                  "top": 546.9002685546875,
+                  "bottom": 616.9268798828125,
+                  "width": 93.35546875,
+                  "height": 70.026611328125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 768,
+              "top": 1024,
+              "bottom": 1752.078125,
+              "width": 768,
+              "height": 728.078125
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-768-100.png"
+          },
+          {
+            "scrollY": 3193,
+            "width": 768,
+            "height": 1024,
+            "scrollWidth": 768,
+            "header": 0,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "frame": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0.5013,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.0025, 4.89914e-05, -4.89914e-05, 1.0025, -1.3188, -0.7085)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999984, -0.00559201, 0.00559201, 0.999984, -2.563, -1.6994)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999854, 0.0170807, -0.0170807, 0.999854, 3.9147, 5.3828)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -0.2115, -0.1322)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999848, 0.017421, -0.017421, 0.999848, 3.993, 5.4903)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.1957, 3.2473)"
+              }
+            ],
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "visibleManta": {
+              "left": 51.91427907307943,
+              "right": 335.02750122070313,
+              "top": 210.06769165039063,
+              "bottom": 354.37038487752284
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 144.3026932271322,
+            "frames": [
+              {
+                "box": {
+                  "left": 42.47348403930664,
+                  "right": 141.74655532836914,
+                  "top": 109.20699310302734,
+                  "bottom": 183.49610900878906,
+                  "width": 99.2730712890625,
+                  "height": 74.28911590576172
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 250.953857421875,
+                  "right": 344.0477600097656,
+                  "top": 545.8353881835938,
+                  "bottom": 615.5045776367188,
+                  "width": 93.09390258789062,
+                  "height": 69.669189453125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 768,
+              "top": 1218,
+              "bottom": 1946.078125,
+              "width": 768,
+              "height": 728.078125
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-768-reverse50.png"
+          },
+          {
+            "scrollY": 2998,
+            "width": 768,
+            "height": 1024,
+            "scrollWidth": 768,
+            "header": 0,
+            "chapterTop": 2998,
+            "chapterHeight": 1413,
+            "frameHeight": 1024,
+            "frame": {
+              "left": 0,
+              "right": 768,
+              "top": 0,
+              "bottom": 1024,
+              "width": 768,
+              "height": 1024
+            },
+            "position": "sticky",
+            "static": false,
+            "progress": 0,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(0.989818, -0.0190055, 0.0190055, 0.989818, -13.5, 22.1)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "50% 50%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999997, -0.00230907, 0.00230907, 0.999997, -1.0586, -0.3204)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999777, 0.0211152, -0.0211152, 0.999777, 4.8394, 6.6542)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 1.2078, 0.7549)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999934, 0.0115015, -0.0115015, 0.999934, 2.6362, 3.6248)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.0578, 3.1611)"
+              }
+            ],
+            "content": {
+              "left": 387.046875,
+              "right": 725.734375,
+              "top": 41.59375,
+              "bottom": 672.28125,
+              "width": 338.6875,
+              "height": 630.6875
+            },
+            "visibleManta": {
+              "left": 41.921801198323564,
+              "right": 323.6700738525391,
+              "top": 232.96412170410156,
+              "bottom": 379.93680590311686
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 146.9726841990153,
+            "frames": [
+              {
+                "box": {
+                  "left": 43.255462646484375,
+                  "right": 142.81396484375,
+                  "top": 110.28340911865234,
+                  "bottom": 184.96249389648438,
+                  "width": 99.55850219726562,
+                  "height": 74.67908477783203
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 249.79461669921875,
+                  "right": 342.493408203125,
+                  "top": 544.2390747070312,
+                  "bottom": 613.3699340820312,
+                  "width": 92.69879150390625,
+                  "height": 69.130859375
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 768,
+              "top": 1413,
+              "bottom": 2141.078125,
+              "width": 768,
+              "height": 728.078125
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-chromium-768-reverse0.png"
+          }
+        ],
+        "reachable": {
+          "rows": 7,
+          "frames": 2
+        }
+      }
+    },
+    {
+      "name": "WebKit: static background and visible manta scroll at 320",
+      "passed": true,
+      "details": {
+        "denominator": 1114.290625,
+        "first": 273.6047851562499,
+        "step": 107.36575195312501,
+        "phases": [
+          {
+            "scrollY": 1825,
+            "width": 320,
+            "height": 568,
+            "scrollWidth": 320,
+            "header": 0,
+            "chapterTop": 1552.375,
+            "chapterHeight": 943.890625,
+            "frameHeight": 943.890625,
+            "frame": {
+              "left": 0,
+              "right": 320,
+              "top": -272.625,
+              "bottom": 671.265625,
+              "width": 320,
+              "height": 943.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.6779,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.006877, 0.006877, -0.006877, 1.006877, 2.9724, -8.7434)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999938, -0.011123, 0.011123, 0.999938, -5.0984, -4.0235)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.99999, 0.004482, -0.004482, 0.99999, 1.0273, 1.4125)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -2.7775, -1.7359)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999743, 0.022668, -0.022668, 0.999743, 5.1955, 7.1438)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.3961, 2.7476)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -235.828125,
+              "bottom": 359.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "visibleManta": {
+              "left": 29.772465159098303,
+              "right": 289.45710861206055,
+              "top": 399.8807421875,
+              "bottom": 531.9970491536458
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 132.11630696614577,
+            "frames": [
+              {
+                "box": {
+                  "left": 23.69430923461914,
+                  "right": 102.34437942504883,
+                  "top": 389.706787109375,
+                  "bottom": 448.1201171875,
+                  "width": 78.65007019042969,
+                  "height": 58.413330078125
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 175.70175170898438,
+                  "right": 261.0905456542969,
+                  "top": 572.44970703125,
+                  "bottom": 636.556640625,
+                  "width": 85.3887939453125,
+                  "height": 64.10693359375
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 320,
+              "top": 671.265625,
+              "bottom": 1733.984375,
+              "width": 320,
+              "height": 1062.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-320-visible-start.png"
+          },
+          {
+            "scrollY": 1933,
+            "width": 320,
+            "height": 568,
+            "scrollWidth": 320,
+            "header": 0,
+            "chapterTop": 1552.375,
+            "chapterHeight": 943.890625,
+            "frameHeight": 943.890625,
+            "frame": {
+              "left": 0,
+              "right": 320,
+              "top": -380.625,
+              "bottom": 563.265625,
+              "width": 320,
+              "height": 943.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.7748,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.009344, 0.010649, -0.010649, 1.009344, 5.3274, -13.1529)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999957, -0.009276, 0.009276, 0.999957, -4.252, -3.2477)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999954, 0.00954, -0.00954, 0.999954, 2.1865, 3.0065)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -1.9065, -1.1915)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999762, 0.021824, -0.021824, 0.999762, 5.0019, 6.8776)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 4.8379, 3.0237)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -343.828125,
+              "bottom": 251.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "visibleManta": {
+              "left": 32.850447463989255,
+              "right": 292.789863204956,
+              "top": 288.4633203125,
+              "bottom": 420.11564086914063
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 131.65232055664063,
+            "frames": [
+              {
+                "box": {
+                  "left": 24.70789909362793,
+                  "right": 103.64886283874512,
+                  "top": 283.1044921875,
+                  "bottom": 341.912109375,
+                  "width": 78.94096374511719,
+                  "height": 58.8076171875
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 175.53372192382812,
+                  "right": 260.8715515136719,
+                  "top": 464.218505859375,
+                  "bottom": 528.255615234375,
+                  "width": 85.33782958984375,
+                  "height": 64.037109375
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 320,
+              "top": 563.265625,
+              "bottom": 1625.984375,
+              "width": 320,
+              "height": 1062.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-320-visible-mid.png"
+          },
+          {
+            "scrollY": 2040,
+            "width": 320,
+            "height": 568,
+            "scrollWidth": 320,
+            "header": 0,
+            "chapterTop": 1552.375,
+            "chapterHeight": 943.890625,
+            "frameHeight": 943.890625,
+            "frame": {
+              "left": 0,
+              "right": 320,
+              "top": -487.625,
+              "bottom": 456.265625,
+              "width": 320,
+              "height": 943.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.8708,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.011697, 0.014406, -0.014406, 1.011697, 7.6606, -17.521601)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999974, -0.007264, 0.007264, 0.999974, -3.3293, -2.4018)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999901, 0.014063, -0.014063, 0.999901, 3.2234, 4.4322)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, -0.9703, -0.6064)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999804, 0.019784, -0.019784, 0.999804, 4.5344, 6.2348)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.1087, 3.1929)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -450.828125,
+              "bottom": 144.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "visibleManta": {
+              "left": 35.43923047383626,
+              "right": 296.7327083587646,
+              "top": 177.045595703125,
+              "bottom": 310.5086564127604
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 133.46306070963539,
+            "frames": [
+              {
+                "box": {
+                  "left": 25.615413665771484,
+                  "right": 104.81484603881836,
+                  "top": 177.355224609375,
+                  "bottom": 236.5146484375,
+                  "width": 79.19943237304688,
+                  "height": 59.159423828125
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 175.1281280517578,
+                  "right": 260.34259033203125,
+                  "top": 356.659912109375,
+                  "bottom": 420.5283203125,
+                  "width": 85.21446228027344,
+                  "height": 63.868408203125
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 320,
+              "top": 456.265625,
+              "bottom": 1518.984375,
+              "width": 320,
+              "height": 1062.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-320-visible-end.png"
+          },
+          {
+            "scrollY": 1933,
+            "width": 320,
+            "height": 568,
+            "scrollWidth": 320,
+            "header": 0,
+            "chapterTop": 1552.375,
+            "chapterHeight": 943.890625,
+            "frameHeight": 943.890625,
+            "frame": {
+              "left": 0,
+              "right": 320,
+              "top": -380.625,
+              "bottom": 563.265625,
+              "width": 320,
+              "height": 943.890625
+            },
+            "position": "relative",
+            "static": true,
+            "progress": 0.7748,
+            "scrollMotion": "enabled",
+            "motionState": "playing",
+            "outer": {
+              "background": "none",
+              "manta": "matrix(1.009344, 0.010649, -0.010649, 1.009344, 5.3274, -13.1529)",
+              "halftone": "none",
+              "mosaic": "none",
+              "heading": "none"
+            },
+            "background": {
+              "inline": null,
+              "position": "25% 65%",
+              "animation": null,
+              "scrollWrapper": false
+            },
+            "inner": [
+              {
+                "type": "manta",
+                "transform": "matrix(0.999987, -0.005117, 0.005117, 0.999987, -2.3455, -1.5)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999841, 0.017817, -0.017817, 0.999841, 4.0836, 5.615)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 0, 0)"
+              },
+              {
+                "type": "frame",
+                "transform": "matrix(0.999861, 0.01666, -0.01666, 0.999861, 3.8185, 5.2504)"
+              },
+              {
+                "type": "detail",
+                "transform": "matrix(1, 0, 0, 1, 5.2, 3.25)"
+              }
+            ],
+            "content": {
+              "left": 20,
+              "right": 300,
+              "top": -343.828125,
+              "bottom": 251.46875,
+              "width": 280,
+              "height": 595.296875
+            },
+            "visibleManta": {
+              "left": 34.49146975199381,
+              "right": 294.96748222351073,
+              "top": 289.708984375,
+              "bottom": 422.4517822265625
+            },
+            "mantaVisible": true,
+            "visibleMantaHeight": 132.7427978515625,
+            "frames": [
+              {
+                "box": {
+                  "left": 26.36885643005371,
+                  "right": 105.78154563903809,
+                  "top": 285.3935546875,
+                  "bottom": 344.843505859375,
+                  "width": 79.41268920898438,
+                  "height": 59.449951171875
+                },
+                "corners": 4
+              },
+              {
+                "box": {
+                  "left": 174.50733947753906,
+                  "right": 259.5322570800781,
+                  "top": 462.804931640625,
+                  "bottom": 526.41455078125,
+                  "width": 85.02491760253906,
+                  "height": 63.609619140625
+                },
+                "corners": 4
+              }
+            ],
+            "values": [
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "Tailwind CSS",
+              "Java",
+              "Spring Boot",
+              "Flask",
+              "ElysiaJS",
+              "React Native",
+              "Flutter",
+              "Python",
+              "Process mining",
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Redis",
+              "Docker",
+              "Git",
+              "GitHub Actions",
+              "Nginx",
+              "Apache2",
+              "Linux (Ubuntu)",
+              "Stripe",
+              "PayPal",
+              "Traccar"
+            ],
+            "plain": true,
+            "bioCount": 1,
+            "bioSentences": 5,
+            "work": {
+              "left": 0,
+              "right": 320,
+              "top": 563.265625,
+              "bottom": 1625.984375,
+              "width": 320,
+              "height": 1062.71875
+            },
+            "screenshot": ".taste-skill/previews/skills-manta-scroll-webkit-320-reverse-visible-mid.png"
+          }
+        ],
+        "reachable": {
+          "rows": 7,
+          "frames": 2
+        }
+      }
+    },
+    {
+      "name": "Chromium: stationary background over time, inner ambient and shared Pause",
+      "passed": true,
+      "details": {
+        "mid": {
+          "scrollY": 3118,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "header": 73,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "frame": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "position": "sticky",
+          "static": false,
+          "progress": 0.501,
+          "scrollMotion": "enabled",
+          "motionState": "playing",
+          "outer": {
+            "background": "none",
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "50% 50%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999883, -0.015299, 0.015299, 0.999883, -7.0127, -5.4283)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999928, 0.0120215, -0.0120215, 0.999928, 2.7553, 3.7886)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -3.4167, -2.1355)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999414, 0.0342419, -0.0342419, 0.999414, 7.8491, 10.7925)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 7.2337, 4.521)"
+            }
+          ],
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "visibleManta": {
+            "left": 100.29811503092446,
+            "right": 627.361766052246,
+            "top": 312.68170288085935,
+            "bottom": 585.1522812398275
+          },
+          "mantaVisible": true,
+          "visibleMantaHeight": 272.47057835896817,
+          "frames": [
+            {
+              "box": {
+                "left": 82.68750762939453,
+                "right": 265.9480972290039,
+                "top": 193.10781860351562,
+                "bottom": 329.8287353515625,
+                "width": 183.26058959960938,
+                "height": 136.72091674804688
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 472.5362548828125,
+                "right": 647.0525512695312,
+                "top": 550.726318359375,
+                "bottom": 682.624267578125,
+                "width": 174.51629638671875,
+                "height": 131.89794921875
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 1440,
+            "top": 1147,
+            "bottom": 1779.09375,
+            "width": 1440,
+            "height": 632.09375
+          }
+        },
+        "later": {
+          "scrollY": 3118,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "header": 73,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "frame": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "position": "sticky",
+          "static": false,
+          "progress": 0.501,
+          "scrollMotion": "enabled",
+          "motionState": "playing",
+          "outer": {
+            "background": "none",
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "50% 50%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999949, -0.010128, 0.010128, 0.999949, -4.6425, -3.2556)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.99972, 0.0236453, -0.0236453, 0.99972, 5.4197, 7.4522)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -1.0142, -0.6339)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999578, 0.0290556, -0.0290556, 0.999578, 6.6598, 9.1572)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 7.9355, 4.9597)"
+            }
+          ],
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "visibleManta": {
+            "left": 103.32463099161782,
+            "right": 629.0699569702148,
+            "top": 316.2025921630859,
+            "bottom": 585.9554848225912
+          },
+          "mantaVisible": true,
+          "visibleMantaHeight": 269.7528926595053,
+          "frames": [
+            {
+              "box": {
+                "left": 84.58877563476562,
+                "right": 269.3756103515625,
+                "top": 195.72959899902344,
+                "bottom": 334.5341796875,
+                "width": 184.78683471679688,
+                "height": 138.80458068847656
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 471.6600646972656,
+                "right": 645.5501708984375,
+                "top": 549.5222778320312,
+                "bottom": 680.5577392578125,
+                "width": 173.89010620117188,
+                "height": 131.03546142578125
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 1440,
+            "top": 1147,
+            "bottom": 1779.09375,
+            "width": 1440,
+            "height": 632.09375
+          }
+        },
+        "frozen": {
+          "scrollY": 3118,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "header": 73,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "frame": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "position": "sticky",
+          "static": false,
+          "progress": 0.501,
+          "scrollMotion": "enabled",
+          "motionState": "paused",
+          "outer": {
+            "background": "none",
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "50% 50%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999954, -0.00956949, 0.00956949, 0.999954, -4.3863, -3.0208)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999696, 0.0246503, -0.0246503, 0.999696, 5.65, 7.7688)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -0.7606, -0.4754)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999601, 0.0282618, -0.0282618, 0.999601, 6.4778, 8.907)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 7.9638, 4.9774)"
+            }
+          ],
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "visibleManta": {
+            "left": 103.65212229410807,
+            "right": 629.2542089843749,
+            "top": 316.5832159423828,
+            "bottom": 586.0421889241536
+          },
+          "mantaVisible": true,
+          "visibleMantaHeight": 269.4589729817708,
+          "frames": [
+            {
+              "box": {
+                "left": 84.75366973876953,
+                "right": 269.6713333129883,
+                "top": 195.95655822753906,
+                "bottom": 334.9404296875,
+                "width": 184.91766357421875,
+                "height": 138.98387145996094
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 471.5262145996094,
+                "right": 645.3200073242188,
+                "top": 549.3382568359375,
+                "bottom": 680.2413940429688,
+                "width": 173.79379272460938,
+                "height": 130.90313720703125
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 1440,
+            "top": 1147,
+            "bottom": 1779.09375,
+            "width": 1440,
+            "height": 632.09375
+          }
+        },
+        "held": {
+          "scrollY": 3365,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "header": 73,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "frame": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "position": "sticky",
+          "static": false,
+          "progress": 0.501,
+          "scrollMotion": "enabled",
+          "motionState": "paused",
+          "outer": {
+            "background": "none",
+            "manta": "matrix(1.0026, 6.99947e-05, -6.99947e-05, 1.0026, -2.9455, -1.0707)",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "50% 50%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999954, -0.00956949, 0.00956949, 0.999954, -4.3863, -3.0208)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999696, 0.0246503, -0.0246503, 0.999696, 5.65, 7.7688)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -0.7606, -0.4754)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999601, 0.0282618, -0.0282618, 0.999601, 6.4778, 8.907)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 7.9638, 4.9774)"
+            }
+          ],
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "visibleManta": {
+            "left": 103.65212229410807,
+            "right": 629.2542089843749,
+            "top": 316.5832159423828,
+            "bottom": 586.0421889241536
+          },
+          "mantaVisible": true,
+          "visibleMantaHeight": 269.4589729817708,
+          "frames": [
+            {
+              "box": {
+                "left": 84.75366973876953,
+                "right": 269.6713333129883,
+                "top": 195.95655822753906,
+                "bottom": 334.9404296875,
+                "width": 184.91766357421875,
+                "height": 138.98387145996094
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 471.5262145996094,
+                "right": 645.3200073242188,
+                "top": 549.3382568359375,
+                "bottom": 680.2413940429688,
+                "width": 173.79379272460938,
+                "height": 130.90313720703125
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 1440,
+            "top": 900,
+            "bottom": 1532.09375,
+            "width": 1440,
+            "height": 632.09375
+          }
+        },
+        "resumed": {
+          "scrollY": 3365,
+          "width": 1440,
+          "height": 900,
+          "scrollWidth": 1440,
+          "header": 73,
+          "chapterTop": 2943,
+          "chapterHeight": 1322,
+          "frameHeight": 827,
+          "frame": {
+            "left": 0,
+            "right": 1440,
+            "top": 73,
+            "bottom": 900,
+            "width": 1440,
+            "height": 827
+          },
+          "position": "sticky",
+          "static": false,
+          "progress": 1,
+          "scrollMotion": "enabled",
+          "motionState": "playing",
+          "outer": {
+            "background": "none",
+            "manta": "matrix(1.04436, 0.03647, -0.03647, 1.04436, 24, -36)",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "50% 50%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999997, -0.00240855, 0.00240855, 0.999997, -1.1043, -0.0123)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999444, 0.0333505, -0.0333505, 0.999444, 7.6449, 10.5118)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 2.3246, 1.4529)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999882, 0.0153757, -0.0153757, 0.999882, 3.5239, 4.8453)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 7.6548, 4.7843)"
+            }
+          ],
+          "content": {
+            "left": 726.109375,
+            "right": 1353.578125,
+            "top": 130.59375,
+            "bottom": 728.765625,
+            "width": 627.46875,
+            "height": 598.171875
+          },
+          "visibleManta": {
+            "left": 119.91589136759438,
+            "right": 673.7508282470703,
+            "top": 272.80590393066404,
+            "bottom": 566.2024416097006
+          },
+          "mantaVisible": true,
+          "visibleMantaHeight": 293.39653767903656,
+          "frames": [
+            {
+              "box": {
+                "left": 86.18619537353516,
+                "right": 272.2286148071289,
+                "top": 197.9263153076172,
+                "bottom": 338.4566650390625,
+                "width": 186.04241943359375,
+                "height": 140.5303497314453
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 469.361083984375,
+                "right": 641.5773315429688,
+                "top": 546.3560180664062,
+                "bottom": 675.1002197265625,
+                "width": 172.21624755859375,
+                "height": 128.74420166015625
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 1440,
+            "top": 900,
+            "bottom": 1532.09375,
+            "width": 1440,
+            "height": 632.09375
+          }
+        }
+      }
+    },
+    {
+      "name": "WebKit: runtime reduced motion resets outer manta and keeps background still",
+      "passed": true,
+      "details": {
+        "reduced": {
+          "scrollY": 2634,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "header": 0,
+          "chapterTop": 1308.59375,
+          "chapterHeight": 907.890625,
+          "frameHeight": 907.890625,
+          "frame": {
+            "left": 0,
+            "right": 390,
+            "top": -1325.40625,
+            "bottom": -417.515625,
+            "width": 390,
+            "height": 907.890625
+          },
+          "position": "relative",
+          "static": false,
+          "progress": null,
+          "scrollMotion": "reduced",
+          "motionState": "paused",
+          "outer": {
+            "background": "none",
+            "manta": "none",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "25% 65%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999935, -0.011383, 0.011383, 0.999935, -5.2175, -4.1327)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999993, 0.003697, -0.003697, 0.999993, 0.8471, 1.1647)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -2.9003, -1.8127)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999743, 0.022687, -0.022687, 0.999743, 5.1999, 7.1498)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 4.3161, 2.6975)"
+            }
+          ],
+          "content": {
+            "left": 20,
+            "right": 370,
+            "top": -1288.609375,
+            "bottom": -729.3125,
+            "width": 350,
+            "height": 559.296875
+          },
+          "visibleManta": {
+            "left": 30.20984934488932,
+            "right": 353.7136419677734,
+            "top": -673.4657958984375,
+            "bottom": -507.15540466308596
+          },
+          "mantaVisible": false,
+          "visibleMantaHeight": 0,
+          "frames": [
+            {
+              "box": {
+                "left": 24.214069366455078,
+                "right": 122.48169326782227,
+                "top": -699.3287353515625,
+                "bottom": -626.3887939453125,
+                "width": 98.26762390136719,
+                "height": 72.93994140625
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 213.33392333984375,
+                "right": 320.0711975097656,
+                "top": -532.109375,
+                "bottom": -451.981689453125,
+                "width": 106.73727416992188,
+                "height": 80.127685546875
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 390,
+            "top": -417.515625,
+            "bottom": 622.203125,
+            "width": 390,
+            "height": 1039.71875
+          }
+        },
+        "after": {
+          "scrollY": 2794,
+          "width": 390,
+          "height": 844,
+          "scrollWidth": 390,
+          "header": 0,
+          "chapterTop": 1308.59375,
+          "chapterHeight": 907.890625,
+          "frameHeight": 907.890625,
+          "frame": {
+            "left": 0,
+            "right": 390,
+            "top": -1485.40625,
+            "bottom": -577.515625,
+            "width": 390,
+            "height": 907.890625
+          },
+          "position": "relative",
+          "static": false,
+          "progress": null,
+          "scrollMotion": "reduced",
+          "motionState": "paused",
+          "outer": {
+            "background": "none",
+            "manta": "none",
+            "halftone": "none",
+            "mosaic": "none",
+            "heading": "none"
+          },
+          "background": {
+            "inline": null,
+            "position": "25% 65%",
+            "animation": null,
+            "scrollWrapper": false
+          },
+          "inner": [
+            {
+              "type": "manta",
+              "transform": "matrix(0.999935, -0.011383, 0.011383, 0.999935, -5.2175, -4.1327)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999993, 0.003697, -0.003697, 0.999993, 0.8471, 1.1647)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, -2.9003, -1.8127)"
+            },
+            {
+              "type": "frame",
+              "transform": "matrix(0.999743, 0.022687, -0.022687, 0.999743, 5.1999, 7.1498)"
+            },
+            {
+              "type": "detail",
+              "transform": "matrix(1, 0, 0, 1, 4.3161, 2.6975)"
+            }
+          ],
+          "content": {
+            "left": 20,
+            "right": 370,
+            "top": -1448.609375,
+            "bottom": -889.3125,
+            "width": 350,
+            "height": 559.296875
+          },
+          "visibleManta": {
+            "left": 30.20984934488932,
+            "right": 353.7136419677734,
+            "top": -833.4657958984375,
+            "bottom": -667.155404663086
+          },
+          "mantaVisible": false,
+          "visibleMantaHeight": 0,
+          "frames": [
+            {
+              "box": {
+                "left": 24.214069366455078,
+                "right": 122.48169326782227,
+                "top": -859.3287353515625,
+                "bottom": -786.3887939453125,
+                "width": 98.26762390136719,
+                "height": 72.93994140625
+              },
+              "corners": 4
+            },
+            {
+              "box": {
+                "left": 213.33392333984375,
+                "right": 320.0711975097656,
+                "top": -692.109375,
+                "bottom": -611.981689453125,
+                "width": 106.73727416992188,
+                "height": 80.127685546875
+              },
+              "corners": 4
+            }
+          ],
+          "values": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Java",
+            "Spring Boot",
+            "Flask",
+            "ElysiaJS",
+            "React Native",
+            "Flutter",
+            "Python",
+            "Process mining",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Git",
+            "GitHub Actions",
+            "Nginx",
+            "Apache2",
+            "Linux (Ubuntu)",
+            "Stripe",
+            "PayPal",
+            "Traccar"
+          ],
+          "plain": true,
+          "bioCount": 1,
+          "bioSentences": 5,
+          "work": {
+            "left": 0,
+            "right": 390,
+            "top": -577.515625,
+            "bottom": 462.203125,
+            "width": 390,
+            "height": 1039.71875
+          }
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": "Final manta-only Skills scroll chapter with stationary background. Actual Chromium and emulated-touch WebKit. Outer manta scroll transforms are sampled separately from inner ambient movement. Scrolling/reachability are programmatic. No asset suite, physical-device, performance, assistive-technology or full-site audit."
+}

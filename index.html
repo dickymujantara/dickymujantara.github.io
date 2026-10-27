@@ -18,6 +18,7 @@
   <link rel="preload" href="img/ocean/whale.webp" as="image" fetchpriority="high">
   <script defer src="js/vendor/anime.umd.min.js"></script>
   <script defer src="js/pixel-detail.js"></script>
+  <script defer src="js/ocean-audio.js"></script>
   <script defer src="js/opening.js"></script>
   <script defer src="js/main.js"></script>
 </head>
@@ -30,25 +31,32 @@
     </div>
     <div class="opening-scene" data-opening-layer="scene" aria-hidden="true">
       <div class="opening-environment"><div class="opening-water" data-opening-ambient="water"></div></div>
-      <div class="opening-creature opening-seal" data-opening-layer="seal"><img data-opening-src="img/ocean/seal-rock.webp" alt="" width="768" height="512" decoding="async" data-opening-ambient="seal"></div>
+      <div class="opening-creature opening-seal" data-opening-layer="seal"><img data-opening-src="img/ocean/seal-rock.webp" alt="" width="768" height="512" decoding="async" data-opening-ambient="seal"><span class="animal-caption opening-label opening-label--seal">Seal</span></div>
       <div class="opening-creature opening-bird-one" data-opening-layer="bird-one"><img data-opening-src="img/ocean/seabird.webp" alt="" width="512" height="256" decoding="async" data-opening-ambient="bird"></div>
       <div class="opening-creature opening-bird-two" data-opening-layer="bird-two"><img data-opening-src="img/ocean/seabird.webp" alt="" width="512" height="256" decoding="async" data-opening-ambient="bird"></div>
       <div class="opening-creature opening-otter" data-opening-layer="otter"><img data-opening-src="img/ocean/otter.webp" alt="" width="1024" height="512" decoding="async" data-opening-ambient="otter"></div>
+      <span class="animal-caption opening-label opening-label--otter">Sea otter</span>
+      <span class="animal-caption opening-label opening-label--birds">Seabirds</span>
     </div>
     <div class="opening-content">
       <p id="opening-title" class="opening-title">A little deeper.</p>
     </div>
     <p id="opening-instructions" class="opening-cue"><span class="opening-scroll-label">Scroll to enter</span><span class="opening-swipe-label">Swipe up to enter</span><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg><span class="opening-keyboard-hint">You can also press Enter, Space or Arrow Down.</span></p>
+    <div class="scene-controls opening-controls" role="group" aria-label="Opening sound and motion">
     <button id="opening-motion-toggle" class="opening-motion-toggle" type="button" aria-label="Pause opening motion" aria-pressed="false"><span data-opening-motion-icon data-state="pause" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><g class="icon-pause"><path d="M9 5v14M15 5v14"/></g><g class="icon-play"><path d="m9 5 10 7-10 7Z"/></g></svg></span></button>
+    <button class="sound-toggle opening-sound-toggle" type="button" data-sound-toggle aria-label="Enable ocean sound" aria-pressed="false"><span data-sound-icon data-state="off" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="m11 5-6 4H2v6h3l6 4V5Z"/><g class="sound-on"><path d="M15 8c2 2 2 6 0 8m3-11c4 4 4 10 0 14"/></g><path class="sound-off" d="m16 9 6 6m0-6-6 6"/></svg></span><span data-sound-label>Enable sound</span></button>
+    </div>
     <div class="opening-dive" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0 30Q360 80 720 30T1440 30V80H0Z"/></svg></div>
   </div>
   <header class="site-header">
     <nav id="site-nav" class="navigation wrap" aria-label="Main navigation">
       <div id="nav-links" class="nav-links">
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#work">Work</a>
         <a href="#experience">Experience</a>
         <a href="#explorations">Explorations</a>
+        <a href="#writing-title">Writing</a>
       </div>
       <a href="#contact" class="nav-contact">Contact</a>
     </nav>
@@ -61,6 +69,7 @@
         <div class="scroll-water" data-scroll-layer><div class="parallax-water" data-depth="8"><div class="water-layer" data-motion="water"></div></div></div>
         <div class="light-position" data-depth="16"><div class="light-rays" data-motion="light"></div></div>
         <div class="animal-position hero-whale" data-scroll-layer><div data-depth="30"><img src="img/ocean/whale.webp" alt="" width="1774" height="887" fetchpriority="high" data-motion="whale"></div></div>
+        <span class="animal-caption hero-animal-caption">Humpback whale</span>
       </div>
       <div class="wrap hero-content">
         <p class="eyebrow hero-eyebrow">Software engineer / Bandung, Indonesia</p>
@@ -76,21 +85,59 @@
     <section id="about" class="about ocean-section" data-scene="about" data-scroll-frame aria-labelledby="about-title">
       <div class="scene-art about-art" aria-hidden="true"><div class="water-layer" data-motion="water" data-phase="0.3"></div></div>
       <div class="wrap about-layout">
-        <div class="about-copy"><p class="eyebrow section-index">01 / About</p><h2 id="about-title">Software with purpose.</h2><p>I'm Dicky Mujantara, a software engineer who enjoys building dependable systems and exploring data.</p>
-          <dl class="skills-list"><div><dt>Engineering</dt><dd>React · Next.js · Java · Spring Boot</dd></div><div><dt>Machine learning &amp; data</dt><dd>Python · Flask · Process mining</dd></div><div><dt>Databases</dt><dd>PostgreSQL · MySQL · MongoDB</dd></div></dl>
+        <div class="about-copy">
+          <p class="eyebrow section-index">01 / About</p>
+          <h2 id="about-title">Software with purpose.</h2>
+          <p>
+            I'm Dicky Mujantara, a software engineer based in Bandung, Indonesia, passionate about creating meaningful digital experiences.
+            I build full-stack web and mobile applications, from intuitive interfaces to backend systems and integrations.
+            I also explore machine learning and process mining to make technology and processes smarter.
+            Beyond tech, I'm fascinated by the ocean and marine life, always curious to explore and learn more about the world beneath the waves.
+          </p>
         </div>
         <div class="about-animals" aria-hidden="true">
           <div class="animal-position dolphin-one" data-scroll-layer><img src="img/ocean/dolphin.webp" alt="" width="1774" height="887" loading="lazy" data-motion="dolphin" data-phase="0"></div>
           <div class="animal-position dolphin-two" data-scroll-layer><img src="img/ocean/dolphin.webp" alt="" width="1774" height="887" loading="lazy" data-motion="dolphin" data-phase="0.4"></div>
           <div class="animal-position about-orca" data-scroll-layer><img src="img/ocean/orca.webp" alt="" width="1774" height="887" loading="lazy" data-motion="orca"></div>
           <div class="detail-position orca-detail" data-scroll-layer><div class="detail-window halftone" data-motion="frame" data-phase="0.15"><div class="detail-clip"><div class="detail-image" data-motion="detail" data-phase="0.2"></div></div><i></i><i></i><i></i><i></i></div></div>
+          <span class="animal-caption dolphin-caption">Dolphins</span>
+          <span class="animal-caption orca-caption">Orca</span>
         </div>
       </div>
     </section>
     </div>
 
+    <div class="scroll-chapter scroll-chapter--skills" data-scroll-chapter="skills">
+    <section id="skills" class="skills section ocean-section" data-scene="skills" data-scroll-frame aria-labelledby="skills-title">
+      <div class="scene-art skills-art" aria-hidden="true"><div class="water-layer"></div></div>
+      <div class="wrap skills-layout">
+        <div class="skills-content">
+        <div class="skills-intro"><p class="eyebrow section-index">02 / Skills</p><h2 id="skills-title">Skills &amp; technologies.</h2></div>
+        <dl class="skills-list">
+          <div><dt>Web development</dt><dd>JavaScript · TypeScript · React · Next.js · Tailwind&nbsp;CSS</dd></div>
+          <div><dt>Backend development</dt><dd>Java · Spring&nbsp;Boot · Flask · ElysiaJS</dd></div>
+          <div><dt>Mobile development</dt><dd>React&nbsp;Native · Flutter</dd></div>
+          <div><dt>Data &amp; analysis</dt><dd>Python · Process&nbsp;mining</dd></div>
+          <div><dt>Databases &amp; caching</dt><dd>PostgreSQL · MySQL · MongoDB · Redis</dd></div>
+          <div><dt>DevOps &amp; infrastructure</dt><dd>Docker · Git · GitHub&nbsp;Actions · Nginx · Apache2 · Linux&nbsp;(Ubuntu)</dd></div>
+          <div><dt>Integrations</dt><dd>Stripe · PayPal · Traccar</dd></div>
+        </dl>
+        </div>
+        <div class="skills-animals" aria-hidden="true">
+          <svg class="skills-registration" viewBox="0 0 500 620" fill="none" focusable="false"><defs><pattern id="skills-crosses" width="78" height="78" patternUnits="userSpaceOnUse"><path d="M10 6v8M6 10h8" stroke="currentColor" stroke-width="1"/></pattern></defs><path fill="url(#skills-crosses)" d="M0 0h500v620H0z"/></svg>
+          <div class="skills-collage-frame" data-scroll-layer></div>
+          <div class="skills-manta" data-scroll-layer><img src="img/ocean/skills-manta.webp" alt="" width="1200" height="600" loading="lazy" data-motion="manta" data-phase="0.15"></div>
+          <div class="skills-collage-crop" data-scroll-layer><div class="skills-collage-halftone"><img src="img/ocean/skills-manta.webp" alt="" width="1200" height="600" loading="lazy"></div></div>
+          <div class="skills-collage-outline" data-scroll-layer></div>
+          <span class="animal-caption skills-collage-caption">Manta ray</span>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
     <section id="work" class="work section" aria-labelledby="work-title">
-      <div class="wrap"><p class="eyebrow section-index">02 / Selected work</p><h2 id="work-title">A system I've built.</h2>
+      <div class="wrap"><p class="eyebrow section-index">03 / Selected work</p><h2 id="work-title">A system I've built.</h2>
         <div class="work-layout">
           <figure class="graph-preview">
             <div class="process-diagrams">
@@ -137,7 +184,7 @@
 
     <section id="experience" class="experience section" aria-labelledby="experience-title">
       <div class="wrap experience-layout">
-        <div><p class="eyebrow section-index">03 / Experience</p><h2 id="experience-title">Work Experience</h2><p class="experience-intro">Building products across <br>different teams and domains.</p></div>
+        <div><p class="eyebrow section-index">04 / Experience</p><h2 id="experience-title">Work Experience</h2><p class="experience-intro">Building products across <br>different teams and domains.</p></div>
         <div class="experience-timeline"><span class="timeline-track" aria-hidden="true"><span class="timeline-progress"></span></span><ol class="experience-list">
           <li><button class="experience-entry is-selected" type="button" data-experience="dewtouch" aria-pressed="true"><span class="timeline-dot" aria-hidden="true"></span><span class="employer">Dewtouch Innovations</span><span class="role">Software Engineer</span><span class="role-description">Next.js applications and Java systems.</span></button></li>
           <li><button class="experience-entry" type="button" data-experience="simba" aria-pressed="false"><span class="timeline-dot" aria-hidden="true"></span><span class="employer">SIMBA Telecom</span><span class="role">Front-end Developer</span><span class="role-description">React and Angular portals for telecom services.</span></button></li>
@@ -150,14 +197,14 @@
     <section id="explorations" class="explorations ocean-section" data-scene="explorations" data-scroll-frame aria-labelledby="explorations-title">
       <div class="scene-art exploration-art" aria-hidden="true"><div class="water-layer" data-motion="water" data-phase="0.4"></div></div>
       <div class="wrap explorations-layout">
-        <div class="explorations-copy"><p class="eyebrow section-index">04 / Explorations</p><h2 id="explorations-title">Beneath the surface.</h2><p>Machine learning, process mining,<br class="desktop-break"> and oceanography as a personal interest.</p><div class="exploration-links"><a class="text-link" href="https://github.com/dickymujantara/process-mining-exploration" target="_blank" rel="noopener noreferrer">Process Mining Exploration <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a class="text-link" href="https://github.com/dickymujantara/spring-lab" target="_blank" rel="noopener noreferrer">Spring Lab <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div></div>
-        <div class="turtle-scene" aria-hidden="true"><div class="animal-position exploration-turtle" data-scroll-layer><img src="img/ocean/turtle.webp" alt="" width="1536" height="1024" loading="lazy" data-motion="turtle"></div><div class="detail-position turtle-detail" data-scroll-layer><div class="detail-window halftone" data-motion="frame" data-phase="0.5"><div class="detail-clip"><div class="detail-image" data-motion="detail" data-phase="0.3"></div></div><i></i><i></i><i></i><i></i></div></div><div class="detail-position turtle-mosaic" data-scroll-layer><div class="detail-window mosaic" data-motion="frame" data-phase="0.8"><div class="detail-clip"><div class="detail-image" data-motion="detail" data-phase="0.65" data-pixelate-src="img/ocean/turtle.webp"></div></div><i></i><i></i><i></i><i></i></div></div></div>
+        <div class="explorations-copy"><p class="eyebrow section-index">05 / Explorations</p><h2 id="explorations-title">Beneath the surface.</h2><p>Machine learning, process mining,<br class="desktop-break"> and oceanography as a personal interest.</p><div class="exploration-links"><a class="text-link" href="https://github.com/dickymujantara/process-mining-exploration" target="_blank" rel="noopener noreferrer">Process Mining Exploration <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a><a class="text-link" href="https://github.com/dickymujantara/spring-lab" target="_blank" rel="noopener noreferrer">Spring Lab <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div></div>
+        <div class="turtle-scene" aria-hidden="true"><div class="animal-position exploration-turtle" data-scroll-layer><img src="img/ocean/turtle.webp" alt="" width="1536" height="1024" loading="lazy" data-motion="turtle"></div><div class="detail-position turtle-detail" data-scroll-layer><div class="detail-window halftone" data-motion="frame" data-phase="0.5"><div class="detail-clip"><div class="detail-image" data-motion="detail" data-phase="0.3"></div></div><i></i><i></i><i></i><i></i></div></div><div class="detail-position turtle-mosaic" data-scroll-layer><div class="detail-window mosaic" data-motion="frame" data-phase="0.8"><div class="detail-clip"><div class="detail-image" data-motion="detail" data-phase="0.65" data-pixelate-src="img/ocean/turtle.webp"></div></div><i></i><i></i><i></i><i></i></div></div><span class="animal-caption turtle-caption">Sea turtle</span></div>
       </div>
     </section>
     </div>
 
     <section id="writing" class="writing section" data-scene="writing" aria-labelledby="writing-title">
-      <div class="wrap"><div class="writing-heading"><div><p class="eyebrow section-index">05 / Writing</p><h2 id="writing-title">Field notes.</h2></div><a class="medium-link" href="https://medium.com/@dickymujantara" target="_blank" rel="noopener noreferrer">Medium <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+      <div class="wrap"><div class="writing-heading"><div><p class="eyebrow section-index">06 / Writing</p><h2 id="writing-title">Field notes.</h2></div><a class="medium-link" href="https://medium.com/@dickymujantara" target="_blank" rel="noopener noreferrer">Medium <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
         <div class="article-list">
           <a class="article-link" href="https://medium.com/@dickymujantara/process-mining-introduction-seeing-what-really-happens-in-your-business-3a01b2944d88" target="_blank" rel="noopener noreferrer"><span class="article-ocean" data-motion="water" data-phase="0.2" aria-hidden="true"></span><span class="article-title">Process Mining: Introduction <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
           <a class="article-link" href="https://medium.com/@dickymujantara/process-mining-turning-data-into-process-insights-from-discovery-to-improvement-ba4a9bd6a1a3" target="_blank" rel="noopener noreferrer"><span class="article-ocean article-ocean-second" data-motion="water" data-phase="0.5" aria-hidden="true"></span><span class="article-title">From event logs to process insights <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
@@ -176,6 +223,9 @@
       <div class="footer-creature footer-starfish"><img src="img/ocean/starfish.webp" alt="" width="512" height="342" loading="lazy" data-motion="starfish" data-phase="0.4"></div>
     </div>
   </footer>
+  <div id="portfolio-controls" class="scene-controls" role="group" aria-label="Ocean sound and motion">
   <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="false"><span class="motion-icon" data-motion-icon data-state="pause" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><g class="icon-pause"><path d="M9 5v14M15 5v14"/></g><g class="icon-play"><path d="m9 5 10 7-10 7Z"/></g></svg></span><span data-motion-label>Pause motion</span></button>
+  <button id="sound-toggle" class="sound-toggle" type="button" data-sound-toggle aria-label="Enable ocean sound" aria-pressed="false"><span data-sound-icon data-state="off" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="m11 5-6 4H2v6h3l6 4V5Z"/><g class="sound-on"><path d="M15 8c2 2 2 6 0 8m3-11c4 4 4 10 0 14"/></g><path class="sound-off" d="m16 9 6 6m0-6-6 6"/></svg></span><span data-sound-label>Enable sound</span></button>
+  </div>
 </body>
 </html>
